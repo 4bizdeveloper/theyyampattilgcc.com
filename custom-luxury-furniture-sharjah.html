@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <title>Custom Luxury Furniture in Sharjah | Theyyampattil Furniture UAE</title>
     
     <meta name="description" content="Looking for custom luxury furniture in Sharjah? We design and craft bespoke sofas, bedrooms, dining tables & storage solutions for villas and apartments. Premium materials, expert installation & UAE-wide delivery.">
     
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/ambed.css">
     <style>
         :root {
@@ -26,18 +26,25 @@
             font-family: 'Rubik', sans-serif;
             overflow-x: hidden;
             line-height: 1.8;
+            scroll-behavior: smooth;
         }
 
-        /* Global Typography Fixes */
         h1, h2, h3, h4, h5, h6, p, li, span, a, label, .accordion-button {
             color: var(--white) !important;
-            text-decoration: none !important; /* Removes all underlines globally */
+            text-decoration: none !important;
         }
-
-        /* LUXURY BUTTON STYLING */
+        .accordion-body {
+    color: #cccccc !important; /* Change this to your desired answer text color */
+}
+.accordion-button::after {
+    filter: brightness(0) invert(1); /* This makes the arrow white. Remove 'invert(1)' to make it dark. */
+}
+.accordion-item { 
+    border: 1px solid rgba(255,255,255,0.1) !important; /* Change the RGBA or Hex here */
+}
         .btn-luxury {
             display: inline-block;
-            padding: 18px 45px;
+            padding: 15px 40px;
             background-color: var(--gold);
             color: #000 !important;
             font-weight: 700;
@@ -47,79 +54,48 @@
             border-radius: 100px;
             transition: var(--transition);
             border: 2px solid var(--gold);
-            cursor: pointer;
         }
 
         .btn-luxury:hover {
             background-color: transparent;
             color: var(--gold) !important;
             transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(176, 149, 119, 0.2);
         }
 
-        /* PILL HEADER - NO UNDERLINES */
         .header-holder {
             position: fixed;
-            top: 25px;
+            top: 20px;
             left: 0;
             right: 0;
             z-index: 1050;
-            padding: 0 20px;
+            padding: 0 15px;
         }
 
         .pill-nav {
             background: rgba(20, 20, 20, 0.95);
             backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 100px;
-            padding: 12px 40px;
-            max-width: 1300px;
+            padding: 10px 30px;
+            max-width: 1200px;
             margin: 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
         }
 
-        .nav-links-wrap {
-            display: flex;
-            gap: 30px;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .nav-links-wrap a {
-            font-size: 12px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: var(--transition);
-            opacity: 0.8;
-        }
-
-        .nav-links-wrap a:hover {
-            opacity: 1;
-            color: var(--gold) !important;
-        }
-
-        /* HERO SECTION WITH ADDED VERTICAL SPACE */
         .main-hero {
-            height: 100vh;
+            min-height: 100vh;
             display: flex;
             align-items: center;
-            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.6)), url('assets/images/backgrounds/sharja-background-image.jpeg');
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/images/backgrounds/sharja-background-image.jpeg');
             background-size: cover;
             background-position: center;
-            text-align: center;
-            padding-top: 100px; /* Vertical space between header and text */
+            padding-top: 100px;
         }
 
-        /* CONTENT CARDS */
         .card-item {
             background: #222;
             border-radius: 25px;
             overflow: hidden;
-            border: 1px solid rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.05);
             transition: var(--transition);
             height: 100%;
         }
@@ -129,265 +105,262 @@
             transform: translateY(-10px);
         }
 
-        .img-box {
-            height: 250px;
-            overflow: hidden;
-        }
-
-        .img-box img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
+        .img-box { height: 250px; overflow: hidden; }
+        .img-box img { width: 100%; height: 100%; object-fit: cover; }
         .card-text { padding: 30px; }
 
-        /* FAQ SECTION - FIXED */
-        .accordion-item {
-            background-color: transparent !important;
-            border: none !important;
-            border-bottom: 1px solid rgba(255,255,255,0.1) !important;
-        }
+        .accordion-item { background: transparent; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 10px; border-radius: 15px !important; overflow: hidden; }
+        .accordion-button { background: transparent !important; box-shadow: none !important; }
+        .accordion-button:not(.collapsed) { color: var(--gold) !important; }
 
-        .accordion-button {
-            background-color: transparent !important;
-            padding: 25px 0;
-            font-size: 18px;
-            box-shadow: none !important;
-        }
-
-        .accordion-button:not(.collapsed) {
-            color: var(--gold) !important;
-        }
-
-        .accordion-button::after {
-            filter: brightness(0) invert(1);
-        }
-
-        /* MOBILE MENU */
-        .mobile-overlay {
-            position: fixed;
-            top: 0;
-            right: -100%;
-            width: 100%;
-            height: 100%;
-            background: var(--bg-deep);
-            z-index: 2000;
-            transition: 0.6s ease;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        .mobile-overlay.active { right: 0; }
-
-        .gsap-reveal { opacity: 0; transform: translateY(40px); }
-
-        @media (max-width: 991px) {
-            .desktop-nav { display: none; }
-        }
+        .map-container { border-radius: 25px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); }
     </style>
 </head>
 
 <body>
 
-    <div class="mobile-overlay" id="mobileMenu">
-        <div style="position:absolute; top:40px; right:40px; font-size:40px; cursor:pointer;" onclick="toggleMenu()">&times;</div>
-        <a href="#about" class="h3" onclick="toggleMenu()">About</a>
-        <a href="#collections" class="h3" onclick="toggleMenu()">Collections</a>
-        <a href="#process" class="h3" onclick="toggleMenu()">Process</a>
-        <a href="#faq" class="h3" onclick="toggleMenu()">FAQs</a>
-        <a href="contact.html" class="btn-luxury mt-4">Consultation</a>
-    </div>
-
     <div class="header-holder">
-        <header class="pill-nav">
-            <div class="logo">
-                <a href="index.html"><img src="assets/images/resources/logo-1.png" alt="Theyyampattil" style="height: 40px;"></a>
+        <nav class="navbar navbar-expand-lg pill-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets/images/resources/logo-1.png" alt="Logo" style="height: 35px;"></a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link px-3" href="https://theyyampattilgcc.com/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-3" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-3" href="#collections">Collections</a></li>
+                        <li class="nav-item"><a class="nav-link px-3" href="#faq">FAQs</a></li>
+                        <li class="nav-item"><a class="nav-link px-3" href="#contact">Contact</a></li>
+                    </ul>
+                    <a href="tel:8008733" class="btn-luxury py-2 px-4" style="font-size: 11px;">800-8733</a>
+                </div>
             </div>
-            <nav class="desktop-nav">
-                <ul class="nav-links-wrap">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#collections">Collections</a></li>
-                    <li><a href="#process">Our Process</a></li>
-                    <li><a href="#faq">FAQs</a></li>
-                </ul>
-            </nav>
-            <div class="d-flex align-items-center">
-                <a href="contact.html" class="btn-luxury d-none d-md-inline-block py-2 px-4" style="font-size: 11px;">Get Quote</a>
-                <button class="ms-3 border-0 bg-transparent text-white d-lg-none" onclick="toggleMenu()"><i class="fa fa-bars" style="font-size: 28px;"></i></button>
-            </div>
-        </header>
+        </nav>
     </div>
 
-    <section class="main-hero">
+    <section class="main-hero text-center">
         <div class="container">
-            <h5 class="gsap-reveal" style="color:var(--gold) !important; letter-spacing: 5px;">BESPOKE DESIGNER FURNITURE</h5>
-            <h1 class="display-1 fw-bold gsap-reveal my-4">Custom Luxury Furniture in Sharjah</h1>
-            <p class="lead gsap-reveal mx-auto mb-5" style="max-width: 800px; opacity: 0.9;">Designed Around Your Lifestyle. We specialize in bespoke solutions tailored to your space, style, and functional needs for villas, apartments, and commercial spaces.</p>
-            <a href="#collections" class="btn-luxury gsap-reveal">Explore Collections</a>
+            <h5 class="text-gold mb-3" style="letter-spacing: 5px;">THEYYAMPATTIL FURNITURE</h5>
+            <h1 class="display-1 fw-bold mb-4">Custom Luxury Furniture in Sharjah</h1>
+            <p class="lead mb-5 mx-auto" style="max-width: 800px;">Bespoke Designer Furniture for Villas, Apartments & Commercial Spaces. Tailored to your space, style, and functional needs.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#collections" class="btn-luxury">View Collections</a>
+                <a href="tel:8008733" class="btn-luxury" style="background:transparent; color:var(--gold) !important;">Free Consultation</a>
+            </div>
         </div>
     </section>
 
-    <section id="about" class="py-5" style="padding-top: 100px !important;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 gsap-reveal">
-                    <img src="assets/images/services/kitchen-3.jpeg" alt="Sharjah Luxury Furniture" class="img-fluid rounded-5 shadow-lg">
-                </div>
-                <div class="col-lg-6 ps-lg-5 gsap-reveal">
-                    <h2 class="display-4 fw-bold">Bespoke Furniture Crafted for Sharjah Homes</h2>
-                    <p class="mt-4">Residential properties in Sharjah vary widely in layout, size, and architectural style. Our design approach focuses on maximizing space efficiency, matching interior themes, and delivering timeless aesthetics.</p>
-                    <p class="mt-3">We proudly serve key residential areas including Al Majaz, Al Nahda, Muwaileh, Al Taawun, Al Khan, and Al Qasimia.</p>
+    <section id="about" class="py-5">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+               <div class="col-lg-6">
+    <h2 class="display-5 fw-bold mb-4">Designed Around Your Lifestyle</h2>
+    <p>We specialize in custom luxury furniture, delivering bespoke solutions that enhance comfort and elegance across the UAE. While our workshop is based in Sharjah, our design and installation teams serve clients in Dubai and Abu Dhabi as well.</p>
+    
+    <h5 class="text-gold mt-4">Areas We Serve in Sharjah:</h5>
+    <ul class="list-unstyled row mb-4">
+        <li class="col-6 mb-2"><i class="fas fa-map-marker-alt text-gold me-2"></i> Al Majaz</li>
+        <li class="col-6 mb-2"><i class="fas fa-map-marker-alt text-gold me-2"></i> Al Nahda</li>
+        <li class="col-6 mb-2"><i class="fas fa-map-marker-alt text-gold me-2"></i> Muwaileh</li>
+        <li class="col-6 mb-2"><i class="fas fa-map-marker-alt text-gold me-2"></i> Al Taawun</li>
+        <li class="col-6 mb-2"><i class="fas fa-map-marker-alt text-gold me-2"></i> Al Khan</li>
+        <li class="col-6 mb-2"><i class="fas fa-map-marker-alt text-gold me-2"></i> Al Qasimia</li>
+    </ul>
+
+    <h5 class="text-gold mt-4">Our Presence Beyond Sharjah:</h5>
+    <ul class="list-unstyled row">
+        <li class="col-6 mb-2"><i class="fas fa-city text-gold me-2"></i> <strong>Dubai:</strong> Near Marhaba Mall</li>
+        <li class="col-6 mb-2"><i class="fas fa-city text-gold me-2"></i> <strong>Abu Dhabi:</strong> Bani Yas</li>
+    </ul>
+</div>
+                <div class="col-lg-6">
+                    <div class="p-4 rounded-4" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1);">
+                        <h4 class="text-gold mb-3">Premium Materials</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-check text-gold me-2"></i> Solid hardwood frames</li>
+                            <li class="mb-2"><i class="fas fa-check text-gold me-2"></i> Engineered wood & premium laminates</li>
+                            <li class="mb-2"><i class="fas fa-check text-gold me-2"></i> High-density foam cushioning</li>
+                            <li class="mb-2"><i class="fas fa-check text-gold me-2"></i> Premium fabrics and genuine leather</li>
+                            <li class="mb-2"><i class="fas fa-check text-gold me-2"></i> Durable marble and stone surfaces</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
 
-<!-- products section starts     -->
-<section id="collections" class="py-5 bg-black">
+ <!-- collection starts    -->
+  <section id="collections" class="py-5 bg-black">
     <div class="container py-5">
-        <div class="text-center mb-5 gsap-reveal">
-            <h2 class="display-4 fw-bold">Our Custom Luxury Collections</h2>
-            <p class="opacity-75">Bespoke designer solutions tailored to your space, style, and functional needs.</p>
+        <div class="text-center mb-5">
+            <h2 class="display-4 fw-bold">Custom Luxury Collections</h2>
+            <p class="opacity-75">Full range of bespoke solutions from our Sharjah workshop.</p>
         </div>
         <div class="row g-4">
-            <div class="col-lg-4 col-md-6 gsap-reveal">
+            <div class="col-lg-4 col-md-6">
                 <div class="card-item">
-                    <div class="img-box"><img src="assets/images/services/closet-1.jpeg" alt="Custom Closets"></div>
+                    <div class="img-box"><img src="assets/images/services/closet-1.jpeg" alt="Closets"></div>
                     <div class="card-text">
                         <h3>Walk-in Closets</h3>
-                        <p class="small opacity-75">Made-to-measure walk-in closet solutions and built-in wardrobes designed for optimized organization and cohesive design.</p>
+                        <p class="small opacity-75">Bespoke walk-in closet solutions and built-in wardrobes designed for optimized storage.</p>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 gsap-reveal">
-    <div class="card-item">
-        <div class="img-box"><img src="assets/images/services/kitchen-1.jpeg" alt="Bespoke Luxury Kitchens"></div>
-        <div class="card-text">
-            <h3>Bespoke Kitchens</h3>
-            <p class="small opacity-75">Custom built-in cabinets and smart storage solutions crafted from solid wood, marble, and premium laminates for maximum space efficiency</p>
-        </div>
-    </div>
-</div>
-
-            <div class="col-lg-4 col-md-6 gsap-reveal">
+            <div class="col-lg-4 col-md-6">
                 <div class="card-item">
-                    <div class="img-box"><img src="assets/images/services/tv-wall-1.jpeg" alt="TV Wall Units"></div>
+                    <div class="img-box"><img src="assets/images/services/kitchen-1.jpeg" alt="Kitchen"></div>
+                    <div class="card-text">
+                        <h3>Luxury Kitchens</h3>
+                        <p class="small opacity-75">Bespoke kitchen cabinets and dining sets crafted with solid wood or marble-top surfaces.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card-item">
+                    <div class="img-box"><img src="assets/images/services/tv-wall-1.jpeg" alt="TV Wall"></div>
                     <div class="card-text">
                         <h3>TV Wall Units</h3>
-                        <p class="small opacity-75">Custom TV wall units and built-in cabinets that enhance organization and visual appeal in apartments and villas.</p>
+                        <p class="small opacity-75">Custom-designed TV wall units and smart storage solutions that enhance room flow.</p>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 gsap-reveal">
+            <div class="col-lg-4 col-md-6">
                 <div class="card-item">
-                    <div class="img-box"><img src="assets/images/services/bed-panel-2.jpeg" alt="Bedroom Furniture"></div>
+                    <div class="img-box"><img src="assets/images/services/bed-panel-2.jpeg" alt="Bedroom"></div>
                     <div class="card-text">
-                        <h3>Bedroom Retreats</h3>
-                        <p class="small opacity-75">Custom king and queen beds with upholstered headboards created with precision and high-density foam cushioning.</p>
+                        <h3>Bedroom Furniture</h3>
+                        <p class="small opacity-75">Custom king and queen beds featuring upholstered headboards and elegant bedside tables.</p>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 gsap-reveal">
+            <div class="col-lg-4 col-md-6">
                 <div class="card-item">
                     <div class="img-box"><img src="assets/images/services/wall-panel-1.jpeg" alt="Wall Panels"></div>
                     <div class="card-text">
-                        <h3>Bespoke Wall Panels</h3>
-                        <p class="small opacity-75">Refined finishing using solid hardwood, premium laminates, and genuine leather to match your interior themes.</p>
+                        <h3>Wall Panels</h3>
+                        <p class="small opacity-75">Premium wall panels using solid hardwood, leather, and high-end finishes to match interior themes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card-item">
+                    <div class="img-box"><img src="assets/images/services/dressing-area-1.jpeg" alt="Dressing Area"></div>
+                    <div class="card-text">
+                        <h3>Dressing Areas</h3>
+                        <p class="small opacity-75">Elegant vanity units and bespoke dressing tables integrated with integrated lighting and specialized jewelry storage.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<!-- product section ends -->
+<!-- collection ends -->
 
 
 
     <section id="process" class="py-5">
-        <div class="container py-5">
-            <h2 class="display-5 fw-bold text-center mb-5 gsap-reveal">Our Custom Furniture Process</h2>
+        <div class="container py-5 text-center">
+            <h2 class="display-5 fw-bold mb-5">Our Custom Furniture Process</h2>
             <div class="row g-4">
-                <div class="col-md-4 gsap-reveal">
-                    <div class="p-4 border border-secondary rounded-4">
-                        <h4 class="text-gold">1. Consultation</h4>
-                        <p class="small opacity-75">Detailed discussion about preferences, layout, and functional needs.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 gsap-reveal">
-                    <div class="p-4 border border-secondary rounded-4">
-                        <h4 class="text-gold">2. Development</h4>
-                        <p class="small opacity-75">Designers create layout plans and material suggestions tailored to your space.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 gsap-reveal">
-                    <div class="p-4 border border-secondary rounded-4">
-                        <h4 class="text-gold">3. Selection</h4>
-                        <p class="small opacity-75">Choose from a wide range of fabrics, finishes, wood types, and color palettes.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 gsap-reveal">
-                    <div class="p-4 border border-secondary rounded-4">
-                        <h4 class="text-gold">4. Precision Manufacturing</h4>
-                        <p class="small opacity-75">Furniture is crafted by experienced artisans with attention to every detail and quality control.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 gsap-reveal">
-                    <div class="p-4 border border-secondary rounded-4">
-                        <h4 class="text-gold">5. Delivery & Installation</h4>
-                        <p class="small opacity-75">Professional installation ensuring perfect placement and finishing across Sharjah and the UAE.</p>
-                    </div>
-                </div>
+                <div class="col-md-2 col-6"><h3>01</h3><p>Consultation</p></div>
+                <div class="col-md-2 col-6"><h3>02</h3><p>Concept</p></div>
+                <div class="col-md-2 col-6"><h3>03</h3><p>Materials</p></div>
+                <div class="col-md-3 col-6"><h3>04</h3><p>Manufacturing</p></div>
+                <div class="col-md-3 col-6"><h3>05</h3><p>Installation</p></div>
             </div>
         </div>
     </section>
 
-    <section id="faq" class="py-5 bg-dark">
-        <div class="container">
-            <h2 class="display-5 fw-bold mb-5 gsap-reveal">Frequently Asked Questions</h2>
-            <div class="accordion gsap-reveal" id="luxuryFaq">
+    <section id="faq" class="py-5 bg-black">
+        <div class="container py-5">
+            <h2 class="display-5 fw-bold text-center mb-5">Frequently Asked Questions</h2>
+            <div class="accordion mx-auto" id="faqAcc" style="max-width: 800px;">
                 <div class="accordion-item">
-                    <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">Do you offer fully custom luxury furniture in Sharjah?</button></h2>
-                    <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#luxuryFaq"><div class="accordion-body">Yes. All our furniture is made-to-measure. We customize dimensions, materials, finishes, and upholstery to match your exact requirements.</div></div>
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q1">Do you offer fully custom luxury furniture in Sharjah?</button></h2>
+                    <div id="q1" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body opacity-75">Yes. All our furniture is made-to-measure. We customize dimensions, materials, finishes, and upholstery.</div></div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">How long does it take to manufacture custom furniture?</button></h2>
-                    <div id="q2" class="accordion-collapse collapse" data-bs-parent="#luxuryFaq"><div class="accordion-body">Production timelines typically range from 2 to 4 weeks, depending on design complexity and project size.</div></div>
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">How long does it take to manufacture?</button></h2>
+                    <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body opacity-75">Production timelines typically range from 2 to 4 weeks, depending on design complexity.</div></div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">Can you design furniture for small apartments?</button></h2>
-                    <div id="q3" class="accordion-collapse collapse" data-bs-parent="#luxuryFaq"><div class="accordion-body">Absolutely. We specialize in space-saving and multi-functional furniture solutions ideal for apartments in Sharjah.</div></div>
+                    <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body opacity-75">Absolutely. We specialize in space-saving and multi-functional furniture solutions ideal for Sharjah apartments.</div></div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4">What materials do you use?</button></h2>
-                    <div id="q4" class="accordion-collapse collapse" data-bs-parent="#luxuryFaq"><div class="accordion-body">We use solid wood, engineered wood, premium fabrics, leather, marble, and high-quality hardware to ensure durability and luxury appeal.</div></div>
+                    <div id="q4" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body opacity-75">We use solid wood, engineered wood, premium fabrics, leather, marble, and high-quality hardware.</div></div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5">Do you provide delivery and installation?</button></h2>
-                    <div id="q5" class="accordion-collapse collapse" data-bs-parent="#luxuryFaq"><div class="accordion-body">Yes. We offer professional delivery and installation services across Sharjah and the UAE.</div></div>
+                    <div id="q5" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body opacity-75">Yes. We offer professional delivery and installation services across Sharjah and the UAE.</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6">Can I choose my own fabric and finish?</button></h2>
+                    <div id="q6" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body opacity-75">Yes. We provide a wide selection of fabric swatches, wood finishes, and color palettes for personalization.</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q7">Do you handle villa interior furniture projects?</button></h2>
+                    <div id="q7" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body opacity-75">Yes. We design and manufacture complete furniture solutions for villas, including living rooms, bedrooms, and dining areas.</div></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-5">
-        <div class="container text-center py-5">
-            <div class="gsap-reveal" style="background:var(--gold); border-radius:50px; padding:100px 20px;">
-                <h2 class="display-3 fw-bold text-dark mb-4" style="color:#000 !important;">Start Your Custom Journey</h2>
-                <p class="lead text-dark mb-5" style="color:#000 !important; max-width: 800px; margin: 0 auto;">Contact Theyyampattil Furniture today to schedule your design consultation and transform your interiors with professionalism and care.</p>
-                <a href="contact.html" class="btn-luxury" style="background:#000; color:#fff !important; border-color:#000;">Book Consultation</a>
+
+
+
+    <section id="contact" class="py-5">
+    <div class="container py-5">
+        <h2 class="display-5 fw-bold text-center mb-5">Contact Our Experts</h2>
+        
+        <div class="row g-4 text-center mb-5">
+            <div class="col-md-4">
+                <a href="tel:8008733" class="text-decoration-none text-white d-block h-100 contact-card">
+                    <div class="p-4 bg-black rounded-4 h-100 border border-secondary shadow-sm">
+                        <i class="fas fa-phone text-gold mb-3 h3"></i>
+                        <h4 class="fw-bold">800 8733</h4>
+                        <p class="mb-0 text-secondary">Toll Free UAE</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="mailto:sales@theyyampattilgcc.com" class="text-decoration-none text-white d-block h-100 contact-card">
+                    <div class="p-4 bg-black rounded-4 h-100 border border-secondary shadow-sm">
+                        <i class="fas fa-envelope text-gold mb-3 h3"></i>
+                        <h4 class="fw-bold">Email</h4>
+                        <p class="mb-0 text-secondary">sales@theyyampattilgcc.com</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="https://www.google.com/maps/search/?api=1&query=Sharjah" target="_blank" class="text-decoration-none text-white d-block h-100 contact-card">
+                    <div class="p-4 bg-black rounded-4 h-100 border border-secondary shadow-sm">
+                        <i class="fas fa-map-marker-alt text-gold mb-3 h3"></i>
+                        <h4 class="fw-bold">Sharjah</h4>
+                        <p class="mb-0 text-secondary">06 7676 297</p>
+                    </div>
+                </a>
             </div>
         </div>
-    </section>
 
+        <div class="map-container rounded-4 overflow-hidden border border-secondary">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115408.24588730816!2d55.3216853757424!3d25.320950341595182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5f5f5f5f5f5f%3A0x5f5f5f5f5f5f5f5f!2sSharjah!5e0!3m2!1sen!2sae!4v1700000000000" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</section>
 
     <footer class="py-4 text-center border-top border-secondary">
         <p class="small opacity-50 m-0">© 2024 Theyyampattil Furniture UAE. All Rights Reserved.</p>
@@ -395,37 +368,224 @@
 
 
 
-<div class="whatsapp-container">
-    <a href="https://wa.me/+971559132200?text=I%20just%20visited%20your%20website,%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services." 
-       class="whatsapp-modern-float" 
-       target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+<!-- fixed whatsapp button      -->
+<div class="tji-whatsapp-wrapper">
+    <div class="tji-wa-label">Chat with us</div>
+    
+    <div class="tji-pulse-ring"></div>
+    
+    <a href="https://wa.me/+971559132200?text=Hello! I'd like to inquire about your services." target="_blank" class="tji-wa-btn">
+        <svg viewBox="0 0 32 32" class="tji-wa-icon">
+            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825.737 5.48 2.025 7.78l-2.025 7.395 7.58-1.99c2.35 1.4 5.08 2.215 8.02 2.215 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.355c-2.585 0-4.99-.745-7.035-2.035l-.505-.315-4.485 1.175 1.2-4.385-.35-.555c-1.425-2.275-2.18-4.91-2.18-7.64 0-7.72 6.28-14 14-14s14 6.28 14 14-6.28 14-14 14zM22.9 19.33c-.385-.195-2.275-1.12-2.625-1.245s-.605-.195-.855.195-.975 1.245-1.195 1.5-.445.285-.83.09c-.385-.195-1.63-.6-3.105-1.915-1.145-1.025-1.92-2.29-2.145-2.675s-.025-.595.17-.79c.175-.175.385-.45.58-.675.19-.22.255-.385.385-.64s.065-.48-.035-.675-.855-2.065-1.17-2.825c-.305-.745-.615-.645-.855-.655s-.485-.015-.745-.015-.675.1-1.03.495c-.35.395-1.345 1.315-1.345 3.205s1.375 3.715 1.57 3.975c.195.255 2.705 4.13 6.55 5.79.915.39 1.63.625 2.185.8 1.015.32 1.935.275 2.665.165.815-.12 2.275-.93 2.59-1.83.315-.895.315-1.66.22-1.825-.095-.175-.35-.275-.735-.47z"/>
+        </svg>
     </a>
 </div>
 
+<style>
+    .tji-whatsapp-wrapper {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 999999;
+        display: flex;
+        align-items: center;
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    /* "Wow" Stylish Button */
+    .tji-wa-btn {
+        width: 65px;
+        height: 65px;
+        background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        position: relative;
+        z-index: 10;
+    }
+
+    .tji-wa-icon {
+        width: 35px;
+        fill: white;
+        transition: transform 0.3s ease;
+    }
+
+    /* Modern Floating Label */
+    .tji-wa-label {
+        background: white;
+        padding: 8px 16px;
+        border-radius: 50px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        margin-right: 15px;
+        font-weight: 600;
+        color: #333;
+        opacity: 0;
+        transform: translateX(20px);
+        transition: all 0.3s ease;
+        pointer-events: none;
+    }
+
+    .tji-whatsapp-wrapper:hover .tji-wa-label {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .tji-whatsapp-wrapper:hover .tji-wa-btn {
+        transform: scale(1.1) rotate(5deg);
+        box-shadow: 0 15px 35px rgba(37, 211, 102, 0.5);
+    }
+
+    /* Animated Pulse Effect */
+    .tji-pulse-ring {
+        position: absolute;
+        right: 0;
+        width: 65px;
+        height: 65px;
+        background: #25D366;
+        border-radius: 50%;
+        z-index: 5;
+        animation: tji-pulse 2s infinite;
+    }
+
+    @keyframes tji-pulse {
+        0% { transform: scale(1); opacity: 0.7; }
+        100% { transform: scale(1.8); opacity: 0; }
+    }
+
+    /* Mobile View */
+    @media (max-width: 768px) {
+        .tji-wa-label { display: none; }
+        .tji-whatsapp-wrapper { bottom: 20px; right: 20px; }
+        .tji-wa-btn { width: 55px; height: 55px; }
+    }
+
+/* Custom Gold Color */
+.text-gold {
+    color: #D4AF37;
+}
+
+/* Hover Effects for Interactivity */
+.contact-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+}
+
+.contact-card:hover .bg-black {
+    border-color: #D4AF37 !important; /* Gold border on hover */
+}
+
+
+</style>
+ 
+
+
+
+<!-- fixed call button  -->
+<div class="tji-call-wrapper">
+    <a href="tel:+971559132200" class="tji-call-btn" aria-label="Call Us">
+        <svg viewBox="0 0 24 24" class="tji-call-icon">
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+        </svg>
+    </a>
     
+    <div class="tji-call-pulse-ring"></div>
+    <div class="tji-call-label">Call Us</div>
+</div>
+
+<style>
+    /* Positioned on the Left */
+    .tji-call-wrapper {
+        position: fixed;
+        bottom: 30px;
+        left: 30px; 
+        z-index: 999999;
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    /* Gradient using #a8815b */
+    .tji-call-btn {
+        width: 65px;
+        height: 65px;
+        background: linear-gradient(135deg, #a8815b 0%, #8a6a4a 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 25px rgba(168, 129, 91, 0.4);
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        position: relative;
+        z-index: 10;
+    }
+
+    .tji-call-icon {
+        width: 30px;
+        fill: white;
+    }
+
+    /* Label positioned to the right of the button */
+    .tji-call-label {
+        background: white;
+        padding: 8px 16px;
+        border-radius: 50px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        margin-left: 15px; 
+        font-weight: 600;
+        color: #333;
+        opacity: 0;
+        transform: translateX(-15px);
+        transition: all 0.3s ease;
+        pointer-events: none;
+        white-space: nowrap;
+    }
+
+    .tji-call-wrapper:hover .tji-call-label {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .tji-call-wrapper:hover .tji-call-btn {
+        transform: scale(1.1) rotate(-8deg);
+        box-shadow: 0 15px 35px rgba(168, 129, 91, 0.5);
+    }
+
+    /* Independent Pulse Animation with #a8815b */
+    .tji-call-pulse-ring {
+        position: absolute;
+        left: 0;
+        width: 65px;
+        height: 65px;
+        background: #a8815b;
+        border-radius: 50%;
+        z-index: 5;
+        animation: tji-call-pulse-effect 2s infinite;
+    }
+
+    @keyframes tji-call-pulse-effect {
+        0% { transform: scale(1); opacity: 0.7; }
+        100% { transform: scale(1.8); opacity: 0; }
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .tji-call-label { display: none; }
+        .tji-call-wrapper { bottom: 20px; left: 20px; }
+        .tji-call-btn { width: 55px; height: 55px; }
+        .tji-call-pulse-ring { width: 55px; height: 55px; }
+    }
+</style>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script>
-        gsap.registerPlugin(ScrollTrigger);
-        function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('active'); }
-
-        gsap.utils.toArray('.gsap-reveal').forEach(el => {
-            gsap.to(el, {
-                opacity: 1, y: 0, duration: 1.2, ease: "power3.out",
-                scrollTrigger: { trigger: el, start: "top 90%" }
-            });
-        });
-
-        window.addEventListener('scroll', () => {
-            const nav = document.querySelector('.pill-nav');
-            if (window.scrollY > 80) { nav.style.background = "#0d0d0d"; nav.style.padding = "10px 40px"; }
-            else { nav.style.background = "rgba(20, 20, 20, 0.95)"; nav.style.padding = "12px 40px"; }
-        });
-    </script>
+<script src="assets/js/ambed.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
