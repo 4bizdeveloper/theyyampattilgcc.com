@@ -7,7 +7,8 @@
     <title>Custom Luxury Furniture in Sharjah | Theyyampattil Furniture UAE</title>
     
     <meta name="description" content="Looking for custom luxury furniture in Sharjah? We design and craft bespoke sofas, bedrooms, dining tables & storage solutions for villas and apartments. Premium materials, expert installation & UAE-wide delivery.">
-    
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/ambed.css">
@@ -33,15 +34,32 @@
             color: var(--white) !important;
             text-decoration: none !important;
         }
+
         .accordion-body {
-    color: #cccccc !important; /* Change this to your desired answer text color */
-}
-.accordion-button::after {
-    filter: brightness(0) invert(1); /* This makes the arrow white. Remove 'invert(1)' to make it dark. */
-}
-.accordion-item { 
-    border: 1px solid rgba(255,255,255,0.1) !important; /* Change the RGBA or Hex here */
-}
+            color: #cccccc !important;
+        }
+
+        .accordion-button::after {
+            filter: brightness(0) invert(1);
+        }
+
+        .accordion-item { 
+            background: transparent;
+            border: 1px solid rgba(255,255,255,0.1) !important;
+            margin-bottom: 10px;
+            border-radius: 15px !important;
+            overflow: hidden;
+        }
+
+        .accordion-button {
+            background: transparent !important;
+            box-shadow: none !important;
+        }
+
+        .accordion-button:not(.collapsed) {
+            color: var(--gold) !important;
+        }
+
         .btn-luxury {
             display: inline-block;
             padding: 15px 40px;
@@ -54,6 +72,7 @@
             border-radius: 100px;
             transition: var(--transition);
             border: 2px solid var(--gold);
+            text-align: center;
         }
 
         .btn-luxury:hover {
@@ -89,6 +108,7 @@
             background-size: cover;
             background-position: center;
             padding-top: 100px;
+            padding-bottom: 60px;
         }
 
         .card-item {
@@ -109,11 +129,48 @@
         .img-box img { width: 100%; height: 100%; object-fit: cover; }
         .card-text { padding: 30px; }
 
-        .accordion-item { background: transparent; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 10px; border-radius: 15px !important; overflow: hidden; }
-        .accordion-button { background: transparent !important; box-shadow: none !important; }
-        .accordion-button:not(.collapsed) { color: var(--gold) !important; }
-
         .map-container { border-radius: 25px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); }
+
+        /* Mobile Optimization Media Query */
+        @media (max-width: 768px) {
+            .display-1 {
+                font-size: 2.5rem !important; /* Scale down hero title */
+            }
+            .display-4 {
+                font-size: 2rem !important;
+            }
+            .display-5 {
+                font-size: 1.8rem !important;
+            }
+            .pill-nav {
+                border-radius: 25px; /* Square off the pill slightly for better menu expansion */
+                padding: 10px 20px;
+            }
+            .header-holder {
+                top: 10px;
+            }
+            .main-hero {
+                text-align: center;
+                padding-top: 140px;
+            }
+            .btn-luxury {
+                padding: 12px 25px;
+                font-size: 11px;
+                width: 100%; /* Stack buttons on mobile */
+            }
+            .d-flex.gap-3 {
+                flex-direction: column; /* Stack Hero buttons */
+            }
+            .img-box {
+                height: 200px;
+            }
+            .card-text {
+                padding: 20px;
+            }
+            section {
+                padding: 40px 0 !important; /* Tighter section spacing */
+            }
+        }
     </style>
 </head>
 
@@ -196,7 +253,7 @@
   <section id="collections" class="py-5 bg-black">
     <div class="container py-5">
         <div class="text-center mb-5">
-            <h2 class="display-4 fw-bold">Custom Luxury Collections</h2>
+            <h2 class="display-4 fw-bold">Custom Luxury Solutions</h2>
             <p class="opacity-75">Full range of bespoke solutions from our Sharjah workshop.</p>
         </div>
         <div class="row g-4">
@@ -375,7 +432,7 @@
             </div>
 
             <div class="col-md-4">
-                <a href="https://www.google.com/maps/search/?api=1&query=Sharjah" target="_blank" class="text-decoration-none text-white d-block h-100 contact-card">
+                <a href="tel:+06 7676 297" target="_blank" class="text-decoration-none text-white d-block h-100 contact-card">
                     <div class="p-4 bg-black rounded-4 h-100 border border-secondary shadow-sm">
                         <i class="fas fa-map-marker-alt text-gold mb-3 h3"></i>
                         <h4 class="fw-bold">Sharjah</h4>
@@ -385,16 +442,17 @@
             </div>
         </div>
 
-        <div class="map-container rounded-4 overflow-hidden border border-secondary">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115408.24588730816!2d55.3216853757424!3d25.320950341595182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5f5f5f5f5f5f%3A0x5f5f5f5f5f5f5f5f!2sSharjah!5e0!3m2!1sen!2sae!4v1700000000000" 
-                width="100%" 
-                height="450" 
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy">
-            </iframe>
-        </div>
+      <div class="map-container rounded-4 overflow-hidden border border-secondary">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28868.532697141673!2d55.530221!3d25.251519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef58bdd23d1dd61%3A0x3cc186217397123e!2sTheyyampattil%20Furniture%20-Sharjah!5e0!3m2!1sen!2sin!4v1771588736868!5m2!1sen!2sin" 
+        width="100%" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
     </div>
 </section>
 
@@ -518,8 +576,7 @@
 
 
 </style>
- 
-
+<!-- fixed whatsapp button ends -->
 
 
 <!-- fixed call button  -->
@@ -618,7 +675,7 @@
         .tji-call-pulse-ring { width: 55px; height: 55px; }
     }
 </style>
-
+<!-- fixed call button ends -->
 
 
 <script src="assets/js/ambed.js" defer></script>
