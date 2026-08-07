@@ -275,12 +275,12 @@
     <div>
       <div class="footer-col-title">Explore</div>
       <nav class="footer-links" aria-label="Explore links">
-        <a href="about">About Us</a>
-        <a href="contact">Contact Us</a>
-        <a href="products">Products Catalog</a>
-        <a href="resource/gallery">Inspiration Gallery</a>
-        <a href="resource/downloads">Downloads</a>
-        <a href="blogs">Blogs</a>
+        <a href="about/">About Us</a>
+        <a href="contact/">Contact Us</a>
+        <a href="products/">Products Catalog</a>
+        <a href="resource/gallery/">Inspiration Gallery</a>
+        <a href="resource/downloads/">Downloads</a>
+        <a href="blogs/">Blogs</a>
       </nav>
     </div>
 
@@ -288,15 +288,15 @@
     <div>
       <div class="footer-col-title">Collections</div>
       <nav class="footer-links" aria-label="Collections links">
-        <a href="product/modern-doors-uae">Modern Door</a>
-        <a href="product/modern-tv-wall-unit-uae">TV Wall</a>
-        <a href="product/modern-luxury-kitchen-furniture-dubai">Kitchen</a>
-        <a href="product/custom-luxury-walk-in-closets-dubai">Closets</a>
-        <a href="product/premium-wall-partition-dubai">Partition</a>
-        <a href="product/luxury-dressing-rooms-dubai">Dressing Room</a>
-        <a href="product/luxury-bed-panels">Bed Panels</a>
-        <a href="product/premium-wall-panels-dubai">Wall Panels</a>
-        <a href="product/luxury-living-room-furniture-dubai">Welcome Unit</a>
+        <a href="product/modern-doors-uae/">Modern Door</a>
+        <a href="product/modern-tv-wall-unit-uae/">TV Wall</a>
+        <a href="product/modern-luxury-kitchen-furniture-dubai/">Kitchen</a>
+        <a href="product/custom-luxury-walk-in-closets-dubai/">Closets</a>
+        <a href="product/premium-wall-partition-dubai/">Partition</a>
+        <a href="product/luxury-dressing-rooms-dubai/">Dressing Room</a>
+        <a href="product/luxury-bed-panels/">Bed Panels</a>
+        <a href="product/premium-wall-panels-dubai/">Wall Panels</a>
+        <a href="product/luxury-living-room-furniture-dubai/">Welcome Unit</a>
       </nav>
     </div>
 
@@ -352,9 +352,9 @@
       <span>Developed by <a href="https://4bizinternational.com/" target="_blank" rel="noopener noreferrer" style="color:var(--gold);font-weight:600;">4Biz International</a></span>
     </p>
     <nav class="footer-legal" aria-label="Legal links">
-      <a href="policy/privacy-policy">Privacy Policy</a>
-      <a href="policy/refund-policy">Refund Policy</a>
-      <a href="policy/terms-and-conditions">Terms &amp; Conditions</a>
+      <a href="policy/privacy-policy/">Privacy Policy</a>
+      <a href="policy/refund-policy/">Refund Policy</a>
+      <a href="policy/terms-and-conditions/">Terms &amp; Conditions</a>
     </nav>
   </div>
 

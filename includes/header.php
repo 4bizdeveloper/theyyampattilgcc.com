@@ -267,22 +267,22 @@ header a { text-decoration: none !important; }
 
     <div class="nav-links" role="menubar">
       <div class="nav-item" role="none"><a href="https://theyyampattilgcc.com/" class="active" role="menuitem">Home</a></div>
-      <div class="nav-item" role="none"><a href="about" role="menuitem">About</a></div>
+      <div class="nav-item" role="none"><a href="about/" role="menuitem">About</a></div>
 
       <div class="nav-item" role="none">
         <a href="#" class="has-dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false">Products</a>
         <div class="dropdown" role="menu" aria-label="Products submenu">
           <div class="dropdown-inner">
-            <a href="products" role="menuitem">All Products</a>
-            <a href="product/modern-doors-uae" role="menuitem">Modern Door</a>
-            <a href="product/modern-tv-wall-unit-uae" role="menuitem">TV Wall</a>
-            <a href="product/modern-luxury-kitchen-furniture-dubai" role="menuitem">Kitchen</a>
-            <a href="product/custom-luxury-walk-in-closets-dubai" role="menuitem">Closets</a>
-            <a href="product/premium-wall-partition-dubai" role="menuitem">Wall Partition</a>
-            <a href="product/luxury-dressing-rooms-dubai" role="menuitem">Dressing Room</a>
-            <a href="product/luxury-bed-panels" role="menuitem">Bed Panels</a>
-            <a href="product/premium-wall-panels-dubai" role="menuitem">Wall Panels</a>
-            <a href="product/luxury-living-room-furniture-dubai" role="menuitem">Welcome Unit</a>
+            <a href="products/" role="menuitem">All Products</a>
+            <a href="product/modern-doors-uae/" role="menuitem">Modern Door</a>
+            <a href="product/modern-tv-wall-unit-uae/" role="menuitem">TV Wall</a>
+            <a href="product/modern-luxury-kitchen-furniture-dubai/" role="menuitem">Kitchen</a>
+            <a href="product/custom-luxury-walk-in-closets-dubai/" role="menuitem">Closets</a>
+            <a href="product/premium-wall-partition-dubai/" role="menuitem">Wall Partition</a>
+            <a href="product/luxury-dressing-rooms-dubai/" role="menuitem">Dressing Room</a>
+            <a href="product/luxury-bed-panels/" role="menuitem">Bed Panels</a>
+            <a href="product/premium-wall-panels-dubai/" role="menuitem">Wall Panels</a>
+            <a href="product/luxury-living-room-furniture-dubai/" role="menuitem">Welcome Unit</a>
           </div>
         </div>
       </div>
@@ -291,9 +291,9 @@ header a { text-decoration: none !important; }
         <a href="#" class="has-dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false">Resources</a>
         <div class="dropdown" role="menu" aria-label="Resources submenu">
           <div class="dropdown-inner">
-            <a href="resource/gallery" role="menuitem">Gallery</a>
-            <a href="resource/videos" role="menuitem">Videos</a>
-            <a href="resource/downloads" role="menuitem">Downloads</a>
+            <a href="resource/gallery/" role="menuitem">Gallery</a>
+            <a href="resource/videos/" role="menuitem">Videos</a>
+            <a href="resource/downloads/" role="menuitem">Downloads</a>
           </div>
         </div>
       </div>
@@ -302,15 +302,15 @@ header a { text-decoration: none !important; }
         <a href="#" class="has-dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false">Our Showrooms</a>
         <div class="dropdown" role="menu" aria-label="Showrooms submenu">
           <div class="dropdown-inner">
-            <a href="showroom/luxury-furniture-dubai" role="menuitem">Dubai</a>
-            <a href="showroom/custom-luxury-furniture-sharjah" role="menuitem">Sharjah</a>
-            <a href="showroom/luxury-furniture-abu-dhabi" role="menuitem">Abu Dhabi</a>
+            <a href="showroom/luxury-furniture-dubai/" role="menuitem">Dubai</a>
+            <a href="showroom/custom-luxury-furniture-sharjah/" role="menuitem">Sharjah</a>
+            <a href="showroom/luxury-furniture-abu-dhabi/" role="menuitem">Abu Dhabi</a>
           </div>
         </div>
       </div>
 
-      <div class="nav-item" role="none"><a href="blogs" role="menuitem">Blogs</a></div>
-      <div class="nav-item" role="none"><a href="contact" class="nav-cta" role="menuitem">Contact</a></div>
+      <div class="nav-item" role="none"><a href="blogs/" role="menuitem">Blogs</a></div>
+      <div class="nav-item" role="none"><a href="contact/" class="nav-cta" role="menuitem">Contact</a></div>
     </div>
 
     <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileNav">
@@ -323,34 +323,34 @@ header a { text-decoration: none !important; }
   <div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile Navigation">
     <div class="mobile-section-label" aria-hidden="true">Menu</div>
     <a href="https://theyyampattilgcc.com/">Home</a>
-    <a href="about">About</a>
+    <a href="about/">About</a>
     <div class="mobile-section-label" aria-hidden="true">Products</div>
     <div class="mobile-sub">
-      <a href="products">All Products</a>
-      <a href="product/modern-doors-uae">Modern Door</a>
-      <a href="product/modern-tv-wall-unit-uae">TV Wall</a>
-      <a href="product/modern-luxury-kitchen-furniture-dubai">Kitchen</a>
-      <a href="product/custom-luxury-walk-in-closets-dubai">Closets</a>
-      <a href="product/premium-wall-partition-dubai">Wall Partition</a>
-      <a href="product/luxury-dressing-rooms-dubai">Dressing Room</a>
-      <a href="product/luxury-bed-panels">Bed Panels</a>
-      <a href="product/premium-wall-panels-dubai">Wall Panels</a>
-      <a href="product/luxury-living-room-furniture-dubai">Welcome Unit</a>
+      <a href="products/">All Products</a>
+      <a href="product/modern-doors-uae/">Modern Door</a>
+      <a href="product/modern-tv-wall-unit-uae/">TV Wall</a>
+      <a href="product/modern-luxury-kitchen-furniture-dubai/">Kitchen</a>
+      <a href="product/custom-luxury-walk-in-closets-dubai/">Closets</a>
+      <a href="product/premium-wall-partition-dubai/">Wall Partition</a>
+      <a href="product/luxury-dressing-rooms-dubai/">Dressing Room</a>
+      <a href="product/luxury-bed-panels/">Bed Panels</a>
+      <a href="product/premium-wall-panels-dubai/">Wall Panels</a>
+      <a href="product/luxury-living-room-furniture-dubai/">Welcome Unit</a>
     </div>
     <div class="mobile-section-label" aria-hidden="true">Resources</div>
     <div class="mobile-sub">
-      <a href="resource/gallery">Gallery</a>
-      <a href="resource/videos">Videos</a>
-      <a href="resource/downloads">Downloads</a>
+      <a href="resource/gallery/">Gallery</a>
+      <a href="resource/videos/">Videos</a>
+      <a href="resource/downloads/">Downloads</a>
     </div>
     <div class="mobile-section-label" aria-hidden="true">Showrooms</div>
     <div class="mobile-sub">
-      <a href="showroom/luxury-furniture-dubai">Dubai</a>
-      <a href="showroom/custom-luxury-furniture-sharjah">Sharjah</a>
-      <a href="showroom/luxury-furniture-abu-dhabi">Abu Dhabi</a>
+      <a href="showroom/luxury-furniture-dubai/">Dubai</a>
+      <a href="showroom/custom-luxury-furniture-sharjah/">Sharjah</a>
+      <a href="showroom/luxury-furniture-abu-dhabi/">Abu Dhabi</a>
     </div>
-    <a href="blogs">Blogs</a>
-    <a href="contact" style="color:var(--gold);font-weight:700;margin-top:12px">Contact Us</a>
+    <a href="blogs/">Blogs</a>
+    <a href="contact/" style="color:var(--gold);font-weight:700;margin-top:12px">Contact Us</a>
   </div>
 
   <!-- Deferred, minimal JS — no layout/paint blocking -->
