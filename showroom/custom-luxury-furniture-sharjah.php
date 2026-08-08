@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="canonical" href="https://theyyampattilgcc.com/showroom/custom-luxury-furniture-sharjah" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/showroom/custom-luxury-furniture-sharjah/" />
     <meta name="robots" content="index, follow">
 
     <base href="../../">
@@ -43,7 +43,7 @@
           "@type": "ListItem",
           "position": 3,
           "name": "Custom Luxury Furniture Sharjah",
-          "item": "https://theyyampattilgcc.com/showroom/custom-luxury-furniture-sharjah"
+          "item": "https://theyyampattilgcc.com/showroom/custom-luxury-furniture-sharjah/"
         }
       ]
     }
@@ -56,8 +56,8 @@
       "@type": "FurnitureStore",
       "name": "Theyyampattil Furniture - Sharjah",
       "image": "https://theyyampattilgcc.com/assets/images/showrooms/sharja/SHARJAH%20SHOWROOM%20DESKTOP.jpeg",
-      "@id": "https://theyyampattilgcc.com/showroom/custom-luxury-furniture-sharjah",
-      "url": "https://theyyampattilgcc.com/showroom/custom-luxury-furniture-sharjah",
+      "@id": "https://theyyampattilgcc.com/showroom/custom-luxury-furniture-sharjah/",
+      "url": "https://theyyampattilgcc.com/showroom/custom-luxury-furniture-sharjah/",
       "telephone": "06 767 6297",
       "priceRange": "$$$",
       "address": {
@@ -695,8 +695,8 @@
         <h1 class="display-1 fw-bold mb-4">Custom Luxury Furniture in Sharjah</h1>
         <p class="lead mb-4 mx-auto" style="max-width: 800px;">Bespoke Designer Furniture for Villas, Apartments & Commercial Spaces. Tailored to your space, style, and functional needs.</p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
-            <a href="products" class="btn-luxury">View Collections</a>
-            <a href="contact" class="btn-luxury btn-luxury-outline">Free Consultation</a>
+            <a href="products/" class="btn-luxury">View Collections</a>
+            <a href="contact/" class="btn-luxury btn-luxury-outline">Free Consultation</a>
         </div>
     </div>
 </section>

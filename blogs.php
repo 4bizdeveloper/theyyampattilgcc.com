@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blogs & Interior Design Insights | Theyyampattil Furniture GCC</title>
-    <link rel="canonical" href="https://theyyampattilgcc.com/blogs" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/blogs/" />
     <meta name="robots" content="index, follow">
     <meta name="description" content="Explore expert luxury furniture tips, bespoke interior design ideas, TV wall units, custom walk-in closets, and home décor trends across Dubai, Abu Dhabi, and the UAE." />
     
@@ -35,7 +35,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/blogs#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/blogs/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -47,15 +47,15 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             }
           ]
         },
         {
           "@type": "Blog",
-          "@id": "https://theyyampattilgcc.com/blogs#blog",
+          "@id": "https://theyyampattilgcc.com/blogs/#blog",
           "name": "Theyyampattil Furniture Blogs & Design Guides",
-          "url": "https://theyyampattilgcc.com/blogs",
+          "url": "https://theyyampattilgcc.com/blogs/",
           "description": "Insights, guides, and trends on custom luxury furniture, villa interiors, walk-in closets, and modern decor solutions in the UAE.",
           "publisher": {
             "@type": "Organization",
@@ -65,7 +65,7 @@
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/blogs#faq",
+          "@id": "https://theyyampattilgcc.com/blogs/#faq",
           "mainEntity": [
             {
               "@type": "Question",
@@ -482,7 +482,7 @@
             </div>
             <div class="blog-content">
                 <h3>Luxury Custom Furniture in Dubai | Theyyampattil</h3>
-                <a href="blog/luxury-custom-furniture-in-dubai-theyyampattil" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/luxury-custom-furniture-in-dubai-theyyampattil/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -493,7 +493,7 @@
             </div>
             <div class="blog-content">
                 <h3>Luxury TV Unit Dubai: Modern TV Wall Unit Ideas & Trends</h3>
-                <a href="blog/luxury-tv-unit-dubai" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/luxury-tv-unit-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -504,7 +504,7 @@
             </div>
             <div class="blog-content">
                 <h3>Theyyampattil Furniture: UAE's Bespoke Luxury Furniture Brand</h3>
-                <a href="blog/theyyampattil-furniture-brand-story" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/theyyampattil-furniture-brand-story/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -515,7 +515,7 @@
             </div>
             <div class="blog-content">
                 <h3>Custom Walk-In Closet Dubai | Bespoke Luxury Wardrobe Design UAE | Theyyampattil</h3>
-                <a href="blog/custom-walk-in-closet-dubai-bespoke-luxury-wardrobe-design-uae" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/custom-walk-in-closet-dubai-bespoke-luxury-wardrobe-design-uae/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -526,7 +526,7 @@
             </div>
             <div class="blog-content">
                 <h3>Walk In Closet Dubai: Design, Ideas & Tips | Theyyampattil</h3>
-                <a href="blog/walk-in-closet-dubai" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/walk-in-closet-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -537,7 +537,7 @@
             </div>
             <div class="blog-content">
                 <h3>Premium Bedroom Furniture in UAE | Theyyampattil GCC</h3>
-                <a href="blog/premium-bedroom-furniture-uae-theyyampattil-gcc" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/premium-bedroom-furniture-uae-theyyampattil-gcc/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -548,7 +548,7 @@
             </div>
             <div class="blog-content">
                 <h3>High End Luxury Furniture Outlet UAE | Custom Luxury Designs</h3>
-                <a href="blog/high-end-luxury-furniture-outlet-uae" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/high-end-luxury-furniture-outlet-uae/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -559,7 +559,7 @@
             </div>
             <div class="blog-content">
                 <h3>Luxury Kitchen Furniture in UAE | Modern Elegant Homes</h3>
-                <a href="blog/luxury-kitchen-furniture-uae" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/luxury-kitchen-furniture-uae/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -570,7 +570,7 @@
             </div>
             <div class="blog-content">
                 <h3>Best Luxury Furniture Stores in Abu Dhabi | Theyyampatill GCC</h3>
-                <a href="blog/best-luxury-furniture-stores-abu-dhabi-theyyampatillgcc" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/best-luxury-furniture-stores-abu-dhabi-theyyampatillgcc/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -581,7 +581,7 @@
             </div>
             <div class="blog-content">
                 <h3>Villa Interior Design in Dubai | Luxury Interiors by Theyyampattil GCC</h3>
-                <a href="blog/villa-interior-dubai" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/villa-interior-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -592,7 +592,7 @@
             </div>
             <div class="blog-content">
                 <h3>Premium Closets in Dubai | Theyyampattil GCC Design & Installation</h3>
-                <a href="blog/premium-closets-dubai" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/premium-closets-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -603,7 +603,7 @@
             </div>
             <div class="blog-content">
                 <h3>Top 10 Modern Living Room Furniture Trends in the UAE & GCC</h3>
-                <a href="blog/modern-living-room-furniture-trends-uae-gcc" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/modern-living-room-furniture-trends-uae-gcc/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -614,7 +614,7 @@
             </div>
             <div class="blog-content">
                 <h3>Choosing the Right Luxury Furniture – Your Complete Style Guide</h3>
-                <a href="blog/choose-luxury-furniture-dubai" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/choose-luxury-furniture-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -625,7 +625,7 @@
             </div>
             <div class="blog-content">
                 <h3>Custom Luxury Furniture in Dubai – Handcrafted for Lasting Sophistication</h3>
-                <a href="blog/custom-luxury-furniture-dubai" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/custom-luxury-furniture-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -636,7 +636,7 @@
             </div>
             <div class="blog-content">
                 <h3>Customized Luxury Furniture in Dubai | Bespoke Modern Interiors by Theyyampattil</h3>
-                <a href="blog/customized-furniture-in-dubai" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/customized-furniture-in-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -647,7 +647,7 @@
             </div>
             <div class="blog-content">
                 <h3>Modern Furniture in Dubai – Redefining Luxury with Theyyampattil</h3>
-                <a href="blog/modern-furniture-in-dubai" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/modern-furniture-in-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -658,7 +658,7 @@
             </div>
             <div class="blog-content">
                 <h3>Luxury Furniture Outlet in Dubai - Redefining Elegance</h3>
-                <a href="blog/luxury-furniture-outlet-in-dubai" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/luxury-furniture-outlet-in-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -669,7 +669,7 @@
             </div>
             <div class="blog-content">
                 <h3>Upgrade Your Home with Sleek TV Wall Solutions by Theyyampattil GCC</h3>
-                <a href="blog/tv-wall-design-ideas-uae" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/tv-wall-design-ideas-uae/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -680,7 +680,7 @@
             </div>
             <div class="blog-content">
                 <h3>Transform Your Living Space with Our Custom-Designed TV Unit</h3>
-                <a href="blog/luxury-tv-unit-design-uae" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/luxury-tv-unit-design-uae/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -691,7 +691,7 @@
             </div>
             <div class="blog-content">
                 <h3>Upgrade Your Space with Custom Wall Panels from Theyyampattil Furniture</h3>
-                <a href="blog/luxury-wall-panels-uae" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/luxury-wall-panels-uae/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -702,7 +702,7 @@
             </div>
             <div class="blog-content">
                 <h3>The Art of TV Walls and Wall Panels, Function Meets Aesthetics</h3>
-                <a href="blog/luxury-tv-wall-panels-dubai" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/luxury-tv-wall-panels-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
 

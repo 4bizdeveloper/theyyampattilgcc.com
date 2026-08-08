@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://theyyampattilgcc.com/showroom/luxury-furniture-dubai" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/showroom/luxury-furniture-dubai/" />
     <meta name="robots" content="index, follow">
     <base href="../../">
     <meta charset="UTF-8" />
@@ -38,8 +38,8 @@
       "@type": "FurnitureStore",
       "name": "Theyyampattil Furniture Dubai",
       "image": "https://theyyampattilgcc.com/assets/images/showrooms/dubai/DUBAI%20SHOWROOM%20DESKTOP.jpeg",
-      "@id": "https://theyyampattilgcc.com/showroom/luxury-furniture-dubai#store",
-      "url": "https://theyyampattilgcc.com/showroom/luxury-furniture-dubai",
+      "@id": "https://theyyampattilgcc.com/showroom/luxury-furniture-dubai/#store",
+      "url": "https://theyyampattilgcc.com/showroom/luxury-furniture-dubai/",
       "telephone": "+971559132200",
       "priceRange": "$$$",
       "address": {
@@ -109,7 +109,7 @@
           "@type": "ListItem",
           "position": 3,
           "name": "Luxury Furniture Dubai",
-          "item": "https://theyyampattilgcc.com/showroom/luxury-furniture-dubai"
+          "item": "https://theyyampattilgcc.com/showroom/luxury-furniture-dubai/"
         }
       ]
     }
@@ -590,8 +590,8 @@
                 Combining elegance, comfort, and craftsmanship, Theyyampattil Furniture offers curated collections and bespoke interior solutions designed to elevate your space. Serving clients across Dubai with world-class solutions tailored to modern UAE lifestyles.
             </p>
             <div class="d-flex justify-content-center gap-3 flex-wrap px-4">
-                <a href="products" class="btn-luxury">View Collections</a>
-                <a href="contact" class="btn-luxury btn-outline-gold">Contact Us Today</a>
+                <a href="products/" class="btn-luxury">View Collections</a>
+                <a href="contact/" class="btn-luxury btn-outline-gold">Contact Us Today</a>
             </div>
         </div>
     </section>

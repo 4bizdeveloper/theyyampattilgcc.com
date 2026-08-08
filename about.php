@@ -3,7 +3,7 @@
 
 <head>
   <base href="../">
-    <link href="https://theyyampattilgcc.com/about" rel="canonical" />
+    <link href="https://theyyampattilgcc.com/about/" rel="canonical" />
     <meta name="robots" content="index, follow">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
@@ -35,8 +35,8 @@
     "@graph": [
       {
         "@type": "AboutPage",
-        "@id": "https://theyyampattilgcc.com/about#webpage",
-        "url": "https://theyyampattilgcc.com/about",
+        "@id": "https://theyyampattilgcc.com/about/#webpage",
+        "url": "https://theyyampattilgcc.com/about/",
         "name": "About Theyyampattil Furniture",
         "description": "Theyyampattil Furniture is a trusted luxury furniture brand in UAE offering custom-made modern interiors, premium designs, and complete home solutions since 1983.",
         "mainEntity": {
@@ -712,7 +712,7 @@ em {
           A furniture heritage born in 1983. Trusted by thousands of UAE families since 2000. Designed, crafted and installed entirely in-house — so every piece is genuinely yours.
         </p>
 
-        <a href="#our-journey" class="hero-cta">
+        <a href="about/#our-journey" class="hero-cta">
           DISCOVER OUR JOURNEY
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="margin-top:1px">
             <path d="M7 1v12M1 7l6 6 6-6" stroke="#b8924a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1009,7 +1009,7 @@ em {
       <div class="showroom-grid">
 
         <!-- Dubai -->
-        <a href="showroom/luxury-furniture-dubai" class="showroom-card">
+        <a href="showroom/luxury-furniture-dubai/" class="showroom-card">
           <div class="showroom-img-wrap">
             <img src="assets/images/backgrounds/DUBAI SHOWROOM DESKTOP.jpg.jpeg" alt="Dubai Showroom">
             <div class="showroom-overlay"></div>
@@ -1028,7 +1028,7 @@ em {
         </a>
 
         <!-- Sharjah -->
-        <a href="showroom/custom-luxury-furniture-sharjah" class="showroom-card" style="transition-delay:0.15s;">
+        <a href="showroom/custom-luxury-furniture-sharjah/" class="showroom-card" style="transition-delay:0.15s;">
           <div class="showroom-img-wrap">
             <img src="assets/images/sharja/SHARJAH SHOWROOM DESKTOP.jpeg" alt="Sharjah Showroom">
             <div class="showroom-overlay"></div>
@@ -1047,7 +1047,7 @@ em {
         </a>
 
         <!-- Abu Dhabi -->
-        <a href="showroom/luxury-furniture-abu-dhabi" class="showroom-card" style="transition-delay:0.3s;">
+        <a href="showroom/luxury-furniture-abu-dhabi/" class="showroom-card" style="transition-delay:0.3s;">
           <div class="showroom-img-wrap">
             <img src="assets/images/abhu-dhabhi/ABU DHABI SHOWROOM DESKTOP.jpeg" alt="Abu Dhabi Showroom">
             <div class="showroom-overlay"></div>

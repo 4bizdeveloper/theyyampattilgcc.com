@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <link rel="canonical" href="https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture/" />
  
     <title>Custom Luxury Walk-in Closets Dubai | Theyyampattil Furniture UAE</title>
     <meta name="keyword" content="luxury closet,luxury closet dubai,wardrobe design,2 door wardrobe,3 door wardrobe,sliding door wardrobe,4 door wardrobe,luxury closets,luxury walk in closet,wardrobe,the luxury closet,wardrobe cabinet,walk in closet">
@@ -16,7 +16,7 @@
     <meta property="og:type" content="product" />
     <meta property="og:title" content="Custom Luxury Walk-in Closets Dubai | Theyyampattil Furniture UAE" />
     <meta property="og:description" content="Discover custom luxury walk-in closets in Dubai by Theyyampattil Furniture. Explore modern wardrobe designs, premium storage solutions, and bespoke luxury closet systems." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture" />
+    <meta property="og:url" content="https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture/" />
     <meta property="og:site_name" content="Theyyampattil Furniture UAE" />
     <meta property="og:image" content="https://theyyampattilgcc.com/product/assets/images/home-page/closet.avif" />
 
@@ -61,13 +61,13 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Products",
-              "item": "https://theyyampattilgcc.com/products"
+              "item": "https://theyyampattilgcc.com/products/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Custom Luxury Walk-in Closets",
-              "item": "https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture"
+              "item": "https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture/"
             }
           ]
         },
@@ -82,7 +82,7 @@
           },
           "offers": {
             "@type": "Offer",
-            "url": "https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture",
+            "url": "https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture/",
             "priceCurrency": "AED",
             "availability": "https://schema.org/InStock",
             "seller": {
@@ -433,7 +433,7 @@
                 </li>
                 <li class="breadcrumb-separator">/</li>
                 <li class="breadcrumb-item">
-                    <a href="https://theyyampattilgcc.com/products">Products</a>
+                    <a href="https://theyyampattilgcc.com/products/">Products</a>
                 </li>
                 <li class="breadcrumb-separator">/</li>
                 <li class="breadcrumb-item active" aria-current="page">Custom Luxury Walk-in Closets</li>
@@ -446,7 +446,7 @@
                 <p>Welcome to the epitome of luxury and functionality. As a leading Italian luxury wardrobe supplier in the UAE, we specialize in Bespoke Sliding and premium custom wardrobe solutions that bring timeless craftsmanship to every home.</p>
                 <div class="btn-wrap">
                     <a href="#gallery" class="btn-primary">Explore Collection</a>
-                    <a href="contact" class="btn-primary" style="background: transparent; color: white; border: 1px solid white;">Book Appointment</a>
+                    <a href="contact/" class="btn-primary" style="background: transparent; color: white; border: 1px solid white;">Book Appointment</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -548,7 +548,7 @@
             <p style="color: var(--text-gray); max-width: 700px; margin: 0 auto;">For Cost and Estimation Please Contact Our Experts Today.</p>
             <a href="tel:+971559132200" class="phone-num">+971 55 913 2200</a>
             <div class="btn-wrap" style="justify-content: center; margin-top: 20px;">
-                <a href="contact" class="btn-primary">Book an Appointment</a>
+                <a href="contact/" class="btn-primary">Book an Appointment</a>
             </div>
         </section>
 

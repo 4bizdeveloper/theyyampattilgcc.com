@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://theyyampattilgcc.com/showroom/luxury-furniture-abu-dhabi" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/showroom/luxury-furniture-abu-dhabi/" />
     <meta name="robots" content="index, follow">
     <base href="../../">
     <meta charset="UTF-8" />
@@ -34,8 +34,8 @@
         "@type": "FurnitureStore",
         "name": "Theyyampattil Furniture - Abu Dhabi",
         "image": "https://theyyampattilgcc.com/assets/images/showrooms/abhu-dhabhi/ABU%20DHABI%20SHOWROOM%20DESKTOP.jpeg",
-        "@id": "https://theyyampattilgcc.com/showroom/luxury-furniture-abu-dhabi",
-        "url": "https://theyyampattilgcc.com/showroom/luxury-furniture-abu-dhabi",
+        "@id": "https://theyyampattilgcc.com/showroom/luxury-furniture-abu-dhabi/",
+        "url": "https://theyyampattilgcc.com/showroom/luxury-furniture-abu-dhabi/",
         "telephone": "+97126268526",
         "priceRange": "$$$",
         "address": {
@@ -71,7 +71,7 @@
           }
         ],
         "sameAs": [
-          "https://theyyampattilgcc.com"
+          "https://theyyampattilgcc.com/"
         ]
       },
       {
@@ -93,7 +93,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Luxury Furniture in Abu Dhabi",
-            "item": "https://theyyampattilgcc.com/showroom/luxury-furniture-abu-dhabi"
+            "item": "https://theyyampattilgcc.com/showroom/luxury-furniture-abu-dhabi/"
           }
         ]
       }
@@ -515,7 +515,7 @@
                     <li class="breadcrumb-separator"><i class="fas fa-chevron-right" aria-hidden="true"></i></li>
                     <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                         <span itemprop="name">Luxury Furniture in Abu Dhabi</span>
-                        <meta itemprop="item" content="https://theyyampattilgcc.com/showroom/luxury-furniture-abu-dhabi" />
+                        <meta itemprop="item" content="https://theyyampattilgcc.com/showroom/luxury-furniture-abu-dhabi/" />
                         <meta itemprop="position" content="3" />
                     </li>
                 </ol>
@@ -527,8 +527,8 @@
                 Combining elegance, comfort, and craftsmanship, Theyyampattil Furniture offers curated collections and bespoke interior solutions designed to elevate your space. Serving clients across Abu Dhabi with world-class solutions tailored to modern UAE lifestyles.
             </p>
             <div class="d-flex justify-content-center gap-3 flex-wrap px-4">
-                <a href="products" class="btn-luxury">View Collections</a>
-                <a href="contact" class="btn-luxury" style="background:transparent; color:var(--gold) !important;">Contact Us Today</a>
+                <a href="products/" class="btn-luxury">View Collections</a>
+                <a href="contact/" class="btn-luxury" style="background:transparent; color:var(--gold) !important;">Contact Us Today</a>
             </div>
         </div>
     </section>

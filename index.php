@@ -12,10 +12,17 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://theyyampattilgcc.com/">
 <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/home-page/hero-banner/hero-slider-1.avif">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bespoke luxury furniture showroom by Theyyampattil Furniture in Dubai UAE">
+<meta property="og:site_name" content="Theyyampattil Furniture Trading LLC">
+<meta property="og:locale" content="en_AE">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Best Luxury Furniture in Dubai | Theyyampattil Furniture">
 <meta name="twitter:description" content="Premium custom-made furniture across UAE. Showrooms in Dubai, Sharjah and Abu Dhabi.">
 <meta name="twitter:image" content="https://theyyampattilgcc.com/assets/images/home-page/hero-banner/hero-slider-1.avif">
+<meta name="twitter:image:alt" content="Bespoke luxury furniture showroom by Theyyampattil Furniture in Dubai UAE">
+<meta name="theme-color" content="#121212">
 <title>Best Luxury Furniture in Dubai | Theyyampattil Furniture</title>
 <meta name="description" content="Theyyampattil Furniture offers premium Italian luxury furniture in Dubai. Explore bespoke sofas, bedroom sets, and modern TV wall units.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -79,12 +86,14 @@
     })(window,document,'script','dataLayer','GTM-NHMN58QX');</script>
 
 <style>
+  /* GTM noscript fallback container (visually hidden, keeps layout unaffected) */
+  .gtm-noscript-frame { position: absolute; width: 0; height: 0; overflow: hidden; }
   /* ===== GLOBAL RESET & BASE ===== */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; font-size: 16px; }
   body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background: #121212;
+    background: #151515;
     color: #e8e0d4;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -112,6 +121,8 @@
 
 </head>
 <body>
+<!-- GTM (noscript) fallback for users/crawlers with JavaScript disabled -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMN58QX" height="0" width="0" class="gtm-noscript-frame" title="Google Tag Manager"></iframe></noscript>
 
 <!-- Header -->
 <?php include 'includes/home-page-header.php'; ?>
@@ -544,7 +555,7 @@
 <!-- about section starts -->
 <section id="about-section" style="background:#121212; padding: clamp(30px, 5vw, 60px) 0; overflow:hidden; contain: content;" aria-label="About Theyyampattil">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 
     :root {
       --gold: #c9a76a;

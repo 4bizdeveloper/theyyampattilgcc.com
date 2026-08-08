@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <base href="../">
-    <link rel="canonical" href="https://theyyampattilgcc.com/products" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/products/" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,14 +35,14 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Products",
-              "item": "https://theyyampattilgcc.com/products"
+              "item": "https://theyyampattilgcc.com/products/"
             }
           ]
         },
         {
           "@type": "CollectionPage",
-          "@id": "https://theyyampattilgcc.com/products#webpage",
-          "url": "https://theyyampattilgcc.com/products",
+          "@id": "https://theyyampattilgcc.com/products/#webpage",
+          "url": "https://theyyampattilgcc.com/products/",
           "name": "Luxury Interior Products in UAE | Theyyampattil Furniture",
           "description": "Explore premium luxury interior products in UAE including custom TV walls, bespoke wall panels, luxury walk-in closets, room partitions, and modern kitchen furniture.",
           "isPartOf": {
@@ -529,7 +529,7 @@
             <div class="services-grid">
                 
                 <!-- TV Wall -->
-                <a href="product/modern-tv-wall-dubai" class="service-card">
+                <a href="product/modern-tv-wall-dubai/" class="service-card">
                     <img src="assets/images/home-page/tv-wall.avif" alt="Luxury Custom TV Wall Unit Dubai UAE" loading="eager" width="1607" height="1828">
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
@@ -539,7 +539,7 @@
                 </a>
 
                 <!-- Bedroom -->
-                <a href="product/luxury-bed-panels" class="service-card">
+                <a href="product/luxury-bed-panels/" class="service-card">
                     <img src="assets/images/home-page/bed-room.avif" alt="Modern Luxury Bedroom Panel Furniture UAE" loading="lazy" width="1607" height="1828">
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
@@ -549,7 +549,7 @@
                 </a>
 
                 <!-- Closets -->
-                <a href="product/custom-luxury-walk-in-closets-dubai" class="service-card">
+                <a href="product/custom-luxury-walk-in-closets-dubai/" class="service-card">
                     <img src="assets/images/home-page/closet.avif" alt="Custom Walk In Luxury Closets Dubai" loading="lazy" width="1607" height="1828">
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
@@ -559,7 +559,7 @@
                 </a>
 
                 <!-- Wall Panel -->
-                <a href="product/premium-wall-panels-dubai" class="service-card">
+                <a href="product/premium-wall-panels-dubai/" class="service-card">
                     <img src="assets/images/home-page/wall-panel.avif" alt="Premium Decorative Wall Panels UAE" loading="lazy" width="1607" height="1828">
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
@@ -569,7 +569,7 @@
                 </a>
 
                 <!-- Welcome Unit -->
-                <a href="product/luxury-living-room-furniture-dubai" class="service-card">
+                <a href="product/luxury-living-room-furniture-dubai/" class="service-card">
                     <img src="assets/images/home-page/welcome-unit.avif" alt="Luxury Living Room Welcome Unit UAE" loading="lazy" width="1607" height="1828">
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
@@ -579,7 +579,7 @@
                 </a>
 
                 <!-- Kitchen -->
-                <a href="product/modern-luxury-kitchen-furniture-dubai" class="service-card">
+                <a href="product/modern-luxury-kitchen-furniture-dubai/" class="service-card">
                     <img src="assets/images/home-page/kitchen.avif" alt="Modern Luxury Kitchen Furniture Design Dubai" loading="lazy" width="1607" height="1828">
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
@@ -589,7 +589,7 @@
                 </a>
 
                 <!-- Modern Door -->
-                <a href="product/modern-doors-uae" class="service-card">
+                <a href="product/modern-doors-uae/" class="service-card">
                     <img src="assets/images/home-page/modern-door.avif" alt="Bespoke Modern Luxury Doors UAE" loading="lazy" width="1607" height="1828">
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
@@ -599,7 +599,7 @@
                 </a>
 
                 <!-- Dressing Room -->
-                <a href="product/luxury-dressing-rooms-dubai" class="service-card">
+                <a href="product/luxury-dressing-rooms-dubai/" class="service-card">
                     <img src="assets/images/home-page/dressing-unit.avif" alt="Luxury Dressing Room Design Dubai" loading="lazy" width="1607" height="1828">
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">
@@ -609,7 +609,7 @@
                 </a>
 
                 <!-- Partition -->
-                <a href="product/premium-wall-partition-dubai" class="service-card">
+                <a href="product/premium-wall-partition-dubai/" class="service-card">
                     <img src="assets/images/services/services-1-7.jpg" alt="Luxury Room Partition Design UAE" loading="lazy" width="1607" height="1828">
                     <div class="service-card-overlay"></div>
                     <div class="service-card-content">

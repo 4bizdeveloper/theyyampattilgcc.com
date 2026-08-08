@@ -34,7 +34,7 @@ $symbol = isset($_SESSION['captcha_operator']) ? $_SESSION['captcha_operator'] :
 <html lang="en">
 <head>
     <base href="../">
-    <link rel="canonical" href="https://theyyampattilgcc.com/contact" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/contact/" />
     <meta name="robots" content="index, follow">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -45,7 +45,7 @@ $symbol = isset($_SESSION['captcha_operator']) ? $_SESSION['captcha_operator'] :
     <meta property="og:type" content="website">
     <meta property="og:title" content="Contact Us | Theyyampattil Furniture GCC">
     <meta property="og:description" content="Get in touch with Theyyampattil Furniture for world-class luxury home and office furniture in the UAE. Showrooms in Dubai, Sharjah, and Abu Dhabi.">
-    <meta property="og:url" content="https://theyyampattilgcc.com/contact">
+    <meta property="og:url" content="https://theyyampattilgcc.com/contact/">
     <meta property="og:site_name" content="Theyyampattil Furniture">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Contact Us | Theyyampattil Furniture GCC">
@@ -183,7 +183,7 @@ $symbol = isset($_SESSION['captcha_operator']) ? $_SESSION['captcha_operator'] :
         {
           "@type": "ContactPage",
           "@id": "https://theyyampattilgcc.com/contact/#webpage",
-          "url": "https://theyyampattilgcc.com/contact",
+          "url": "https://theyyampattilgcc.com/contact/",
           "name": "Contact Us | Theyyampattil Furniture",
           "description": "Reach out to Theyyampattil Furniture Trading LLC or visit our showrooms across Dubai, Sharjah, and Abu Dhabi.",
           "isPartOf": {
