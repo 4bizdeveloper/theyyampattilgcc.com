@@ -3,7 +3,7 @@
 
 <head>
     <base href="../../">
-    <link rel="canonical" href="https://theyyampattilgcc.com/resource/gallery" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/resource/gallery/" />
     <meta name="robots" content="index, follow">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,7 +31,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/resource/gallery#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/resource/gallery/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -53,10 +53,10 @@
         },
         {
           "@type": "ImageGallery",
-          "@id": "https://theyyampattilgcc.com/resource/gallery#gallery",
+          "@id": "https://theyyampattilgcc.com/resource/gallery/#gallery",
           "name": "Theyyampattil Luxury Furniture & Interior Design Gallery",
           "description": "Showcase of bespoke furniture, custom wall paneling, modern kitchens, and luxury interior design projects in UAE.",
-          "url": "https://theyyampattilgcc.com/resource/gallery"
+          "url": "https://theyyampattilgcc.com/resource/gallery/"
         },
         {
           "@type": "FurnitureStore",
@@ -69,7 +69,7 @@
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/resource/gallery#faq",
+          "@id": "https://theyyampattilgcc.com/resource/gallery/#faq",
           "mainEntity": [
             {
               "@type": "Question",

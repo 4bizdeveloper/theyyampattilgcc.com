@@ -3,7 +3,7 @@
 <head>
     <base href="../../">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://theyyampattilgcc.com/store/furniture-solutions" /> 
+    <link rel="canonical" href="https://theyyampattilgcc.com/store/furniture-solutions/" /> 
     <meta name="description" content="Discover luxury bespoke furniture solutions in the UAE by Theyyampattil. From premium modular kitchens to custom walk-in closets, request a factory-direct estimate today.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,11 +21,36 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
+    <!-- SEO Breadcrumb Schema Markup (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://theyyampattilgcc.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Store",
+          "item": "https://theyyampattilgcc.com/store/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Furniture Solutions",
+          "item": "https://theyyampattilgcc.com/store/furniture-solutions/"
+        }
+      ]
+    }
+    </script>
 
 <!-- Coomon <head> include materials like schema markup,social tags,...etc -->
 <?php include '../includes/head-tag-include.php'; ?>
-
-
 
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -175,10 +200,10 @@
                 </div>
 
                 <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 w-full sm:w-auto">
-                    <a href="#products" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#c5a367] text-black px-8 py-4 rounded-xl font-bold text-xs sm:text-sm uppercase tracking-wider hover:bg-[#dfc493] transition-all shadow-2xl">
+                    <a href="https://theyyampattilgcc.com/" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#c5a367] text-black px-8 py-4 rounded-xl font-bold text-xs sm:text-sm uppercase tracking-wider hover:bg-[#dfc493] transition-all shadow-2xl">
                         🏡 Visit Our Company Website
                     </a>
-                    <a href="store/furniture-solutions.php#furniture-form" class="button-normal w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-black/60 backdrop-blur-md border-2 border-[#c5a367]/60 text-white px-8 py-4 rounded-xl font-bold text-xs sm:text-sm uppercase tracking-wider hover:border-[#dfc493] hover:text-[#dfc493] transition-all shadow-xl">
+                    <a href="store/furniture-solutions/#furniture-form" class="button-normal w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-black/60 backdrop-blur-md border-2 border-[#c5a367]/60 text-white px-8 py-4 rounded-xl font-bold text-xs sm:text-sm uppercase tracking-wider hover:border-[#dfc493] hover:text-[#dfc493] transition-all shadow-xl">
                        📝 REQUEST A QUOTE
                     </a>
                 </div>
@@ -456,7 +481,7 @@
                         </div>
                         
                         <div class="pt-4 border-t border-white/5 grid grid-cols-2 gap-3">
-                            <a href="store/furniture-solutions.php#furniture-form" class="button-normal w-full bg-white/5 border border-white/10 py-3 rounded-xl text-[11px] font-bold uppercase text-white hover:bg-white/10 hover:border-white/20 transition-all tracking-wider text-center block">
+                            <a href="store/furniture-solutions/#furniture-form" class="button-normal w-full bg-white/5 border border-white/10 py-3 rounded-xl text-[11px] font-bold uppercase text-white hover:bg-white/10 hover:border-white/20 transition-all tracking-wider text-center block">
                                 📝ENQUIRE
                             </a>
                             <a class="button-call w-full bg-[#c5a367] hover:bg-[#dfc493] text-black py-3 rounded-xl text-[11px] font-extrabold uppercase flex items-center justify-center gap-1 transition-all tracking-wider cursor-pointer">

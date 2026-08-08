@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Theyyampattil Furniture: UAE's Bespoke Luxury Furniture Brand</title>
     <meta name="description" content="Discover Theyyampattil Furniture — a 40+ year heritage brand crafting bespoke luxury furniture across Dubai, Sharjah & Abu Dhabi.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story">
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story/">
     
     <meta name="robots" content="index, follow">
 
@@ -448,7 +448,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -460,22 +460,22 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Brand Story",
-              "item": "https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story"
+              "item": "https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story/"
             }
           ]
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story#article",
+          "@id": "https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story/#article",
           "isPartOf": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story"
+            "@id": "https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story/"
           },
           "headline": "Theyyampattil Furniture: UAE's Bespoke Luxury Furniture Brand",
           "description": "Discover Theyyampattil Furniture — a 40+ year heritage brand crafting bespoke luxury furniture across Dubai, Sharjah & Abu Dhabi.",
@@ -486,7 +486,7 @@
           ],
           "datePublished": "2026-07-13T12:00:00+04:00",
           "dateModified": "2026-08-07T10:00:00+04:00",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story/",
           "author": {
             "@type": "Organization",
             "name": "Theyyampattil Furniture",
@@ -518,7 +518,7 @@
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story#faq",
+          "@id": "https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story/#faq",
           "mainEntity": [
             {
               "@type": "Question",
@@ -579,7 +579,7 @@
                     <ol class="breadcrumb-list">
                         <li class="breadcrumb-item"><a href="https://theyyampattilgcc.com/">Home</a></li>
                         <li class="breadcrumb-separator" aria-hidden="true">&gt;</li>
-                        <li class="breadcrumb-item"><a href="https://theyyampattilgcc.com/blogs">Blogs</a></li>
+                        <li class="breadcrumb-item"><a href="https://theyyampattilgcc.com/blogs/">Blogs</a></li>
                         <li class="breadcrumb-separator" aria-hidden="true">&gt;</li>
                         <li class="breadcrumb-item active" aria-current="page">Brand Story</li>
                     </ol>

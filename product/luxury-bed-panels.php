@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
-    <link rel="canonical" href="https://theyyampattilgcc.com/product/luxury-bed-panels" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/product/luxury-bed-panels/" />
     <title>Luxury Bed Panels in Dubai | Custom Bedroom Wall Panels</title>
     <meta name="description" content="Upgrade your bedroom with luxury bed panels in Dubai. Custom-designed bedroom wall panels with premium materials and professional installation by Theyyampattil Furniture.">
     <meta name="keywords" content="Luxury Bed Panels Dubai, Custom Bedroom Wall Panels, Upholstered Headboard Wall, Furniture Solutions UAE, Theyyampattil Furniture">
@@ -15,7 +15,7 @@
     <meta property="og:type" content="product" />
     <meta property="og:title" content="Luxury Bed Panels in Dubai | Custom Bedroom Wall Panels" />
     <meta property="og:description" content="Custom-designed bedroom wall panels with premium materials and professional installation across Dubai & UAE." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/product/luxury-bed-panels" />
+    <meta property="og:url" content="https://theyyampattilgcc.com/product/luxury-bed-panels/" />
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/home-page/bed-room.avif" />
     <meta property="og:site_name" content="Theyyampattil Furniture" />
 
@@ -37,7 +37,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/product/luxury-bed-panels#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/product/luxury-bed-panels/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -49,19 +49,19 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Products",
-              "item": "https://theyyampattilgcc.com/products"
+              "item": "https://theyyampattilgcc.com/products/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Luxury Bed Panels",
-              "item": "https://theyyampattilgcc.com/product/luxury-bed-panels"
+              "item": "https://theyyampattilgcc.com/product/luxury-bed-panels/"
             }
           ]
         },
         {
           "@type": "Product",
-          "@id": "https://theyyampattilgcc.com/product/luxury-bed-panels#product",
+          "@id": "https://theyyampattilgcc.com/product/luxury-bed-panels/#product",
           "name": "Luxury Bed Panels in Dubai",
           "image": "https://theyyampattilgcc.com/assets/images/home-page/bed-room.avif",
           "description": "Custom-designed luxurious bedroom wall and bed panels crafted from premium wood, veneer, and upholstery by Theyyampattil Furniture UAE.",
@@ -71,7 +71,7 @@
           },
           "offers": {
             "@type": "Offer",
-            "url": "https://theyyampattilgcc.com/product/luxury-bed-panels",
+            "url": "https://theyyampattilgcc.com/product/luxury-bed-panels/",
             "priceCurrency": "AED",
             "availability": "https://schema.org/InStock",
             "seller": {
@@ -439,7 +439,7 @@
                 </li>
                 <li class="breadcrumb-separator">/</li>
                 <li class="breadcrumb-item">
-                    <a href="https://theyyampattilgcc.com/products">Products</a>
+                    <a href="https://theyyampattilgcc.com/products/">Products</a>
                 </li>
                 <li class="breadcrumb-separator">/</li>
                 <li class="breadcrumb-item active" aria-current="page">
@@ -454,7 +454,7 @@
                 <p>Upgrade your bedroom with Luxurious Bed Panels from Theyyampattil Furniture, designed to bring elegance, comfort, and modern style to your space. Our custom-designed bed wall panels combine premium materials with sophisticated craftsmanship across Dubai & UAE.</p>
                 <div class="btn-wrap">
                     <a href="#gallery" class="btn-primary">Explore Collection</a>
-                    <a href="contact" class="btn-primary" style="background: transparent; color: white; border-color: white;">Get a Quote</a>
+                    <a href="contact/" class="btn-primary" style="background: transparent; color: white; border-color: white;">Get a Quote</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -552,7 +552,7 @@
             <a href="tel:+971559132200" class="phone-num">+971 55 913 2200</a>
             <div class="btn-wrap" style="justify-content: center; margin-top: 15px;">
                 <a href="https://www.instagram.com/theyyampattil_furniture_dubai/" target="_blank" rel="noopener" class="btn-primary">Follow on Instagram</a>
-                <a href="contact" class="btn-primary" style="background: white; border-color: white;">Contact Us Today</a>
+                <a href="contact/" class="btn-primary" style="background: white; border-color: white;">Contact Us Today</a>
             </div>
         </section>
 

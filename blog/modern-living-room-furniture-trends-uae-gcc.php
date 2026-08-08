@@ -7,7 +7,7 @@
     <title>Choosing the Right Luxury Furniture for Your Home | Complete 2026 Style Guide</title>
     
     <!-- Preserved Meta Tags -->
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc/" />
     <meta name="robots" content="index, follow">
     <base href="../../">
     <meta name="description" content="Discover top modern living room furniture trends in UAE & GCC for 2026. High-end luxury, organic shapes, modular seating, and sustainable designs by Theyyampattil." />
@@ -31,7 +31,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -43,26 +43,26 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Furniture Trends 2026",
-              "item": "https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc"
+              "item": "https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc/"
             }
           ]
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc#article",
+          "@id": "https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc/#article",
           "isPartOf": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc"
+            "@id": "https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc/"
           },
           "headline": "Top 10 Modern Living Room Furniture Trends in UAE",
           "description": "Discover top modern living room furniture trends in UAE & GCC for 2026. High-end luxury, organic shapes, modular seating, and sustainable designs.",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc/",
           "datePublished": "2026-01-01T08:00:00+04:00",
           "dateModified": "2026-02-01T10:00:00+04:00",
           "author": {
@@ -319,7 +319,7 @@
                             </li>
                             <li class="separator"><i class="fa-solid fa-chevron-right"></i></li>
                             <li>
-                                <a href="https://theyyampattilgcc.com/blogs">Blogs</a>
+                                <a href="https://theyyampattilgcc.com/blogs/">Blogs</a>
                             </li>
                             <li class="separator"><i class="fa-solid fa-chevron-right"></i></li>
                             <li class="active" aria-current="page">Furniture Trends 2026</li>
@@ -446,7 +446,7 @@
                 <div class="col-12 card-animate" style="background: rgba(201, 167, 106, 0.05); padding: 80px 40px; border-radius: 40px;">
                     <h2 class="section-title">Bring 2026 Trends to Life</h2>
                     <p class="text-dim mb-5 mx-auto" style="max-width: 700px;">Our collection is curated to bring global sophistication to your doorstep. Experience the perfect blend of style and durability.</p>
-                    <a href="https://theyyampattilgcc.com" class="btn-brand">Explore the Collection</a>
+                    <a href="https://theyyampattilgcc.com/" class="btn-brand">Explore the Collection</a>
                 </div>
             </div>
 

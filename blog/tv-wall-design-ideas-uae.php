@@ -6,7 +6,7 @@
     <title>Modern TV Wall Design Ideas in UAE | Custom Feature Walls | Theyyampattil</title>
     
     <!-- Preserved Head Tags -->
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/tv-wall-design-ideas-uae" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/tv-wall-design-ideas-uae/" />
     <meta name="robots" content="index, follow">    
     <base href="../../">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -47,13 +47,13 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Blogs",
-          "item": "https://theyyampattilgcc.com/blogs"
+          "item": "https://theyyampattilgcc.com/blogs/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "TV Wall Design Ideas",
-          "item": "https://theyyampattilgcc.com/blog/tv-wall-design-ideas-uae"
+          "item": "https://theyyampattilgcc.com/blog/tv-wall-design-ideas-uae/"
         }
       ]
     }
@@ -66,7 +66,7 @@
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://theyyampattilgcc.com/blog/tv-wall-design-ideas-uae"
+        "@id": "https://theyyampattilgcc.com/blog/tv-wall-design-ideas-uae/"
       },
       "headline": "Modern TV Wall Design Ideas for Luxury Living Rooms in UAE",
       "description": "Explore modern TV wall design ideas in UAE with custom feature walls, panel designs, and space-saving solutions. Upgrade your living room with Theyyampattil GCC.",
@@ -373,7 +373,7 @@
             <nav class="breadcrumb-container" aria-label="Breadcrumb">
                 <ol class="breadcrumb-nav">
                     <li class="breadcrumb-item"><a href="https://theyyampattilgcc.com/">Home</a></li>
-                    <li class="breadcrumb-item"><a href="https://theyyampattilgcc.com/blogs">Blogs</a></li>
+                    <li class="breadcrumb-item"><a href="https://theyyampattilgcc.com/blogs/">Blogs</a></li>
                     <li class="breadcrumb-item active" aria-current="page">TV Wall Design Ideas</li>
                 </ol>
             </nav>

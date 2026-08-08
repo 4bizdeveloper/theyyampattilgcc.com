@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Custom Luxury Furniture in Dubai | Handcrafted Sophistication by Theyyampattil</title>
     
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai/" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <base href="../../">
     
@@ -20,7 +20,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Custom Luxury Furniture in Dubai | Handcrafted Sophistication by Theyyampattil" />
     <meta property="og:description" content="Handcrafted, bespoke designs blending artistry, functionality, and luxury furniture customization in Dubai." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai" />
+    <meta property="og:url" content="https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai/" />
     <meta property="og:site_name" content="Theyyampattil Furniture" />
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/blog/luxury%20furniture.jpg" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -45,7 +45,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -57,22 +57,22 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Custom Furniture Dubai",
-              "item": "https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai"
+              "item": "https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai/"
             }
           ]
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai#article",
+          "@id": "https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai/#article",
           "isPartOf": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai"
+            "@id": "https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai/"
           },
           "headline": "Custom Luxury Furniture in Dubai | Handcrafted Sophistication",
           "description": "Discover custom luxury furniture in Dubai with Theyyampattil. Handcrafted bespoke designs that blend artistry, functionality, and timeless sophistication.",
@@ -80,7 +80,7 @@
             "https://theyyampattilgcc.com/assets/images/blog/luxury%20furniture.jpg"
           ],
           "inLanguage": "en-US",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai/",
           "author": {
             "@type": "Organization",
             "name": "Theyyampattil Furniture",
@@ -331,7 +331,7 @@
             <ol class="custom-breadcrumb">
                 <li><a href="https://theyyampattilgcc.com/">Home</a></li>
                 <li class="separator"><i class="fa-solid fa-chevron-right"></i></li>
-                <li><a href="https://theyyampattilgcc.com/blogs">Blogs</a></li>
+                <li><a href="https://theyyampattilgcc.com/blogs/">Blogs</a></li>
                 <li class="separator"><i class="fa-solid fa-chevron-right"></i></li>
                 <li class="active" aria-current="page">Custom Furniture Dubai</li>
             </ol>
@@ -453,7 +453,7 @@
         <p class="mb-5 mx-auto" style="max-width: 700px;">Your home deserves more than generic furniture—it deserves designs made exclusively for you. At Theyyampattil Furniture, we redefine luxury through craftsmanship.</p>
         <div class="d-flex flex-wrap justify-content-center gap-3">
             <a href="mailto:info@theyyampattilgcc.com" class="btn btn-gold">Request a Quote</a>
-            <a href="https://theyyampattilgcc.com" target="_blank" class="btn btn-outline-white">Visit Website</a>
+            <a href="https://theyyampattilgcc.com/" target="_blank" class="btn btn-outline-white">Visit Website</a>
         </div>
     </div>
 </section>

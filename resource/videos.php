@@ -8,7 +8,7 @@
     <meta name="description" content="Explore our video showcase of custom-made luxury furniture, Italian handcrafted interior solutions, villa fit-outs, and bespoke craftsmanship by Theyyampattil Furniture GCC.">
     
     <!-- SEO & Canonical Tags -->
-    <link rel="canonical" href="https://theyyampattilgcc.com/resource/videos" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/resource/videos/" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 
@@ -32,7 +32,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/resource/videos#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/resource/videos/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -49,7 +49,7 @@
               "@type": "ListItem",
               "position": 3,
               "name": "Videos",
-              "item": "https://theyyampattilgcc.com/resource/videos"
+              "item": "https://theyyampattilgcc.com/resource/videos/"
             }
           ]
         },
@@ -65,7 +65,7 @@
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/resource/videos#faq",
+          "@id": "https://theyyampattilgcc.com/resource/videos/#faq",
           "mainEntity": [
             {
               "@type": "Question",

@@ -7,7 +7,7 @@
     <title>Villa Interior Design in Dubai | Theyyampattil GCC</title>
     <meta name="description" content="Discover premium villa interior design in Dubai by Theyyampattil GCC. Bespoke furniture, elegant layouts, and modern luxury for your dream villa." />
     
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/villa-interior-dubai" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/villa-interior-dubai/" />
     <meta name="robots" content="index, follow">
     <base href="../../">
     
@@ -41,13 +41,13 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Blogs",
-          "item": "https://theyyampattilgcc.com/blogs"
+          "item": "https://theyyampattilgcc.com/blogs/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Villa Interior Dubai",
-          "item": "https://theyyampattilgcc.com/blog/villa-interior-dubai"
+          "item": "https://theyyampattilgcc.com/blog/villa-interior-dubai/"
         }
       ]
     }
@@ -60,10 +60,10 @@
       "@graph": [
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/villa-interior-dubai#article",
+          "@id": "https://theyyampattilgcc.com/blog/villa-interior-dubai/#article",
           "headline": "Villa Interior Design in Dubai – Luxury Living",
           "description": "Discover premium villa interior design in Dubai by Theyyampattil GCC. Bespoke furniture, elegant layouts, and modern luxury for your dream villa.",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/villa-interior-dubai",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/villa-interior-dubai/",
           "inLanguage": "en-US",
           "publisher": {
             "@type": "Organization",
@@ -82,7 +82,7 @@
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/blog/villa-interior-dubai#faq",
+          "@id": "https://theyyampattilgcc.com/blog/villa-interior-dubai/#faq",
           "mainEntity": [
             {
               "@type": "Question",
@@ -334,7 +334,7 @@
                 <ol class="custom-breadcrumb">
                     <li><a href="https://theyyampattilgcc.com/">Home</a></li>
                     <li class="separator"><i class="fa-solid fa-chevron-right"></i></li>
-                    <li><a href="https://theyyampattilgcc.com/blogs">Blogs</a></li>
+                    <li><a href="https://theyyampattilgcc.com/blogs/">Blogs</a></li>
                     <li class="separator"><i class="fa-solid fa-chevron-right"></i></li>
                     <li class="active" aria-current="page">Villa Interior Dubai</li>
                 </ol>

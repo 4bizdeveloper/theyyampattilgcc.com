@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai/" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <base href="../../">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -27,7 +27,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Luxury Furniture for Homes in Dubai | Complete Buying Guide 2025 | Theyyampattil" />
     <meta property="og:description" content="Discover how to choose luxury furniture for your home in Dubai. Explore premium designs, custom options, and expert tips from Theyyampattil." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai" />
+    <meta property="og:url" content="https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai/" />
     <meta property="og:site_name" content="Theyyampattil Furniture GCC" />
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/blog/choose%20the%20right%20img.jpg" />
 
@@ -49,7 +49,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -61,22 +61,22 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Luxury Furniture Guide",
-              "item": "https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai"
+              "item": "https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai/"
             }
           ]
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai#article",
+          "@id": "https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai/#article",
           "isPartOf": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai"
+            "@id": "https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai/"
           },
           "headline": "How to Choose the Right Luxury Furniture for Your Home in Dubai",
           "description": "Discover how to choose luxury furniture for your home in Dubai. Explore premium designs, custom options, and expert tips from Theyyampattil for elegant living spaces.",
@@ -85,7 +85,7 @@
           ],
           "datePublished": "2025-01-15T08:00:00+04:00",
           "dateModified": "2025-02-01T10:00:00+04:00",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai/",
           "author": {
             "@type": "Organization",
             "name": "Theyyampattil Furniture GCC",
@@ -339,7 +339,7 @@
                 <ol class="hero-breadcrumb">
                     <li><a href="https://theyyampattilgcc.com/">Home</a></li>
                     <li class="separator">/</li>
-                    <li><a href="https://theyyampattilgcc.com/blogs">Blogs</a></li>
+                    <li><a href="https://theyyampattilgcc.com/blogs/">Blogs</a></li>
                     <li class="separator">/</li>
                     <li class="active" aria-current="page">Luxury Furniture Guide</li>
                 </ol>

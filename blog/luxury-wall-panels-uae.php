@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best luxury Wall Panels in UAE | Theyyampattil Furniture</title>
     
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/luxury-wall-panels-uae" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/luxury-wall-panels-uae/" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <base href="../../">
     
@@ -39,13 +39,13 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Blogs",
-          "item": "https://theyyampattilgcc.com/blogs"
+          "item": "https://theyyampattilgcc.com/blogs/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Luxury Wall Panels",
-          "item": "https://theyyampattilgcc.com/blog/luxury-wall-panels-uae"
+          "item": "https://theyyampattilgcc.com/blog/luxury-wall-panels-uae/"
         }
       ]
     }
@@ -58,15 +58,15 @@
       "@graph": [
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/luxury-wall-panels-uae#article",
+          "@id": "https://theyyampattilgcc.com/blog/luxury-wall-panels-uae/#article",
           "isPartOf": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blog/luxury-wall-panels-uae"
+            "@id": "https://theyyampattilgcc.com/blog/luxury-wall-panels-uae/"
           },
           "headline": "Best Luxury Wall Panels in UAE | Theyyampattil Furniture",
           "description": "Discover the best luxury wall panels in the UAE at Theyyampattil Furniture. Elegant wooden and fabric wall panel designs for your Bedroom.",
-          "url": "https://theyyampattilgcc.com/blog/luxury-wall-panels-uae",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/luxury-wall-panels-uae",
+          "url": "https://theyyampattilgcc.com/blog/luxury-wall-panels-uae/",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/luxury-wall-panels-uae/",
           "publisher": {
             "@type": "Organization",
             "name": "Theyyampattil Furniture",
@@ -337,7 +337,7 @@
                         <a href="https://theyyampattilgcc.com/">Home</a>
                     </li>
                     <li class="hero-breadcrumb-item">
-                        <a href="https://theyyampattilgcc.com/blogs">Blogs</a>
+                        <a href="https://theyyampattilgcc.com/blogs/">Blogs</a>
                     </li>
                     <li class="hero-breadcrumb-item active" aria-current="page">
                         Luxury Wall Panels

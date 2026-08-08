@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Walk-In Closet Dubai | Bespoke Luxury Wardrobe Design UAE | Theyyampattil</title>
     <meta name="description" content="Looking for a custom walk-in closet in Dubai? Theyyampattil Furniture designs bespoke luxury wardrobes across UAE Dubai, Sharjah & Abu Dhabi. 26+ years experience. Call +971 55 913 2200.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai">
+    <link rel="canonical" href="https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai/">
     
     <base href="../../">  
     <?php include '../includes/head-tag-include.php'; ?>    
@@ -32,28 +32,28 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Custom Walk-In Closet Dubai",
-              "item": "https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai"
+              "item": "https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai/"
             }
           ]
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai#article",
+          "@id": "https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai/#article",
           "isPartOf": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai"
+            "@id": "https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai/"
           },
           "headline": "Custom Walk-In Closet Dubai: The Complete Guide to Bespoke Luxury Wardrobe Design in UAE",
           "description": "Looking for a custom walk-in closet in Dubai? Theyyampattil Furniture designs bespoke luxury wardrobes across UAE Dubai, Sharjah & Abu Dhabi.",
           "image": "https://theyyampattilgcc.com/assets/images/home-page/closet.avif",
           "inLanguage": "en-US",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai/",
           "publisher": {
             "@type": "Organization",
             "name": "Theyyampattil Furniture",
@@ -84,7 +84,7 @@
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai#faq",
+          "@id": "https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai/#faq",
           "mainEntity": [
             {
               "@type": "Question",
@@ -537,7 +537,7 @@
         <nav aria-label="Breadcrumb" class="breadcrumb-nav">
             <ol class="breadcrumb-list">
                 <li><a href="https://theyyampattilgcc.com/">Home</a></li>
-                <li><a href="https://theyyampattilgcc.com/blogs">Blogs</a></li>
+                <li><a href="https://theyyampattilgcc.com/blogs/">Blogs</a></li>
                 <li><span class="current" aria-current="page">Custom Walk-In Closet Dubai</span></li>
             </ol>
         </nav>

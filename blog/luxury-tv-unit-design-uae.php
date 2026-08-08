@@ -3,7 +3,7 @@
 
 <head>
     <!-- Preservation of required tags -->
-    <link href="https://theyyampattilgcc.com/blog/luxury-tv-unit-design-uae" rel="canonical" />
+    <link href="https://theyyampattilgcc.com/blog/luxury-tv-unit-design-uae/" rel="canonical" />
     <meta name="robots" content="index, follow">
     <base href="../../">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -43,13 +43,13 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Blogs",
-          "item": "https://theyyampattilgcc.com/blogs"
+          "item": "https://theyyampattilgcc.com/blogs/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Luxury TV Units",
-          "item": "https://theyyampattilgcc.com/blog/luxury-tv-unit-design-uae"
+          "item": "https://theyyampattilgcc.com/blog/luxury-tv-unit-design-uae/"
         }
       ]
     }
@@ -62,7 +62,7 @@
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://theyyampattilgcc.com/blog/luxury-tv-unit-design-uae"
+        "@id": "https://theyyampattilgcc.com/blog/luxury-tv-unit-design-uae/"
       },
       "headline": "Luxury TV Units & Custom TV Wall Designs in UAE",
       "description": "Explore luxury TV units and TV stands in UAE by Theyyampattil. Custom-designed TV wall units combining elegance, storage, and modern style.",
@@ -407,7 +407,7 @@
                 </li>
                 <li class="breadcrumb-separator" aria-hidden="true">/</li>
                 <li class="breadcrumb-item">
-                    <a href="https://theyyampattilgcc.com/blogs">Blogs</a>
+                    <a href="https://theyyampattilgcc.com/blogs/">Blogs</a>
                 </li>
                 <li class="breadcrumb-separator" aria-hidden="true">/</li>
                 <li class="breadcrumb-item active" aria-current="page">

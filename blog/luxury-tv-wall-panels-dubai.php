@@ -7,7 +7,7 @@
     <meta name="description" content="Explore luxury TV wall panels in Dubai with custom designs and premium finishes. Get modern wall panel ideas from Theyyampattil Furniture UAE." />
     
     <!-- Preserved Meta & Canonical -->
-    <link href="https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai" rel="canonical" />
+    <link href="https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai/" rel="canonical" />
     <meta name="robots" content="index, follow">
     <base href="../../">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -18,7 +18,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Luxury TV Wall Panels in Dubai | Custom Designs UAE – Theyyampattil" />
     <meta property="og:description" content="Explore luxury TV wall panels in Dubai with custom designs and premium finishes. Get modern wall panel ideas from Theyyampattil Furniture UAE." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai" />
+    <meta property="og:url" content="https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai/" />
     <meta property="og:site_name" content="Theyyampattil Furniture" />
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/blog/wall-blog-img-1.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -42,13 +42,13 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Blogs",
-          "item": "https://theyyampattilgcc.com/blogs"
+          "item": "https://theyyampattilgcc.com/blogs/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Luxury TV Panels",
-          "item": "https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai"
+          "item": "https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai/"
         }
       ]
     }
@@ -61,10 +61,10 @@
       "@graph": [
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai#article",
+          "@id": "https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai/#article",
           "isPartOf": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai"
+            "@id": "https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai/"
           },
           "headline": "Luxury TV Walls & Custom Wall Panels in Dubai",
           "description": "Explore luxury TV wall panels in Dubai with custom designs, premium finishes, and space-saving solutions.",
@@ -81,7 +81,7 @@
               "url": "https://theyyampattilgcc.com/assets/images/favicons/favicon-32x32.png"
             }
           },
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai"
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai/"
         },
         {
           "@type": "FurnitureStore",
@@ -381,7 +381,7 @@
                     </li>
                     <li class="breadcrumb-separator" aria-hidden="true">/</li>
                     <li class="breadcrumb-item">
-                        <a href="https://theyyampattilgcc.com/blogs">Blogs</a>
+                        <a href="https://theyyampattilgcc.com/blogs/">Blogs</a>
                     </li>
                     <li class="breadcrumb-separator" aria-hidden="true">/</li>
                     <li class="breadcrumb-item active" aria-current="page">

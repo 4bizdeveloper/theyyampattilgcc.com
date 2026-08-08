@@ -7,7 +7,7 @@
     <title>Customized Luxury Furniture in Dubai | Bespoke Modern Interiors by Theyyampattil</title>
     <meta name="description" content="Shop luxury TV units and TV stands at Theyyampattil Furniture. Custom-designed pieces blending style and function for your living space." />
     
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/customized-furniture-in-dubai" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/customized-furniture-in-dubai/" />
     <meta name="robots" content="index, follow">
     <base href="../../">
     
@@ -35,7 +35,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/blog/customized-furniture-in-dubai#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/blog/customized-furniture-in-dubai/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -47,28 +47,28 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Custom Luxury Furniture",
-              "item": "https://theyyampattilgcc.com/blog/customized-furniture-in-dubai"
+              "item": "https://theyyampattilgcc.com/blog/customized-furniture-in-dubai/"
             }
           ]
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/customized-furniture-in-dubai#article",
+          "@id": "https://theyyampattilgcc.com/blog/customized-furniture-in-dubai/#article",
           "isPartOf": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blog/customized-furniture-in-dubai"
+            "@id": "https://theyyampattilgcc.com/blog/customized-furniture-in-dubai/"
           },
           "headline": "Customized Luxury Furniture in Dubai | Bespoke Modern Interiors",
           "description": "Discover custom luxury furniture in Dubai. Bespoke modern interiors designed to fit your unique lifestyle by Theyyampattil Furniture.",
           "image": "https://theyyampattilgcc.com/assets/images/resources/Bespoke%20Design.jpeg",
           "inLanguage": "en-US",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/customized-furniture-in-dubai",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/customized-furniture-in-dubai/",
           "author": {
             "@type": "Organization",
             "name": "Theyyampattil Furniture",
@@ -296,7 +296,7 @@
                 <ol class="custom-breadcrumb">
                     <li><a href="https://theyyampattilgcc.com/">Home</a></li>
                     <li class="separator"><i class="fa-solid fa-chevron-right"></i></li>
-                    <li><a href="https://theyyampattilgcc.com/blogs">Blogs</a></li>
+                    <li><a href="https://theyyampattilgcc.com/blogs/">Blogs</a></li>
                     <li class="separator"><i class="fa-solid fa-chevron-right"></i></li>
                     <li class="active" aria-current="page">Custom Luxury Furniture</li>
                 </ol>
@@ -417,7 +417,7 @@
             <p class="lead mb-5 mx-auto" style="max-width: 800px;">Redefine luxury through bespoke craftsmanship, personalized design, and superior quality — from concept to installation.</p>
             <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
                 <a href="mailto:info@theyyampattilgcc.com" class="btn-luxury">Request a Quote</a>
-                <a href="https://theyyampattilgcc.com" target="_blank" class="btn-outline-white">Visit Website</a>
+                <a href="https://theyyampattilgcc.com/" target="_blank" class="btn-outline-white">Visit Website</a>
             </div>
         </div>
     </section>

@@ -7,7 +7,7 @@
     <title>Modern Furniture in Dubai | Theyyampattil Furniture</title>
     
     <!-- Preserved Meta Tags -->
-    <link href="https://theyyampattilgcc.com/blog/modern-furniture-in-dubai" rel="canonical" />
+    <link href="https://theyyampattilgcc.com/blog/modern-furniture-in-dubai/" rel="canonical" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <base href="../../">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -19,7 +19,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Modern Furniture in Dubai | Theyyampattil Furniture" />
     <meta property="og:description" content="Shop luxury TV units and TV stands at Theyyampattil Furniture. Custom-designed pieces blending style and function for your living space." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/modern-furniture-in-dubai" />
+    <meta property="og:url" content="https://theyyampattilgcc.com/blog/modern-furniture-in-dubai/" />
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/blog/blog-moderfurniture.jpg" />
     <meta property="og:site_name" content="Theyyampattil Furniture" />
 
@@ -48,7 +48,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/blog/modern-furniture-in-dubai#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/blog/modern-furniture-in-dubai/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -60,22 +60,22 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Modern Furniture",
-              "item": "https://theyyampattilgcc.com/blog/modern-furniture-in-dubai"
+              "item": "https://theyyampattilgcc.com/blog/modern-furniture-in-dubai/"
             }
           ]
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/modern-furniture-in-dubai#primarypost",
+          "@id": "https://theyyampattilgcc.com/blog/modern-furniture-in-dubai/#primarypost",
           "headline": "Modern Furniture in Dubai | Theyyampattil Furniture",
           "description": "Discover custom luxury modern furniture in Dubai by Theyyampattil Furniture. Specializing in bespoke wardrobes, kitchens, TV walls, and interiors.",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/modern-furniture-in-dubai",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/modern-furniture-in-dubai/",
           "image": "https://theyyampattilgcc.com/assets/images/blog/blog-moderfurniture.jpg",
           "publisher": {
             "@type": "Organization",
@@ -94,7 +94,7 @@
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/blog/modern-furniture-in-dubai#faq",
+          "@id": "https://theyyampattilgcc.com/blog/modern-furniture-in-dubai/#faq",
           "mainEntity": [
             {
               "@type": "Question",
@@ -500,7 +500,7 @@
                         </li>
                         <li class="breadcrumb-separator"><i class="fa-solid fa-chevron-right"></i></li>
                         <li class="breadcrumb-item">
-                            <a href="https://theyyampattilgcc.com/blogs">Blogs</a>
+                            <a href="https://theyyampattilgcc.com/blogs/">Blogs</a>
                         </li>
                         <li class="breadcrumb-separator"><i class="fa-solid fa-chevron-right"></i></li>
                         <li class="breadcrumb-item active" aria-current="page">

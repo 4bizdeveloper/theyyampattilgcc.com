@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-    <link rel="canonical" href="https://theyyampattilgcc.com/product/premium-wall-panels-dubai" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/product/premium-wall-panels-dubai/" />
     <title>Premium Wall Panels in Dubai UAE | Theyyampattil Furniture</title>
     <meta name="description" content="Revitalize your space with premium wall panels in the UAE. Discover luxury wood wall panels in Dubai with innovative, custom designs by Theyyampattil Furniture.">
     <meta name="keywords" content="wall panels, pvc wall panels, wood wall panels, 3d wall panels, wall panels dubai">
@@ -15,7 +15,7 @@
     <meta property="og:type" content="product" />
     <meta property="og:title" content="Premium Wall Panels in Dubai UAE | Theyyampattil Furniture" />
     <meta property="og:description" content="Revitalize your space with premium wall panels in the UAE. Discover luxury wood wall panels in Dubai." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/product/premium-wall-panels-dubai" />
+    <meta property="og:url" content="https://theyyampattilgcc.com/product/premium-wall-panels-dubai/" />
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/home-page/wall-panel.avif" />
     <meta property="og:site_name" content="Theyyampattil Furniture" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -63,13 +63,13 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Products",
-              "item": "https://theyyampattilgcc.com/products"
+              "item": "https://theyyampattilgcc.com/products/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Premium Wall Panels Dubai",
-              "item": "https://theyyampattilgcc.com/product/premium-wall-panels-dubai"
+              "item": "https://theyyampattilgcc.com/product/premium-wall-panels-dubai/"
             }
           ]
         },
@@ -81,12 +81,6 @@
           "brand": {
             "@type": "Brand",
             "name": "Theyyampattil Furniture"
-          },
-          "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "AED",
-            "price": "Contact for Quote",
-            "availability": "https://schema.org/InStock"
           }
         },
         {
@@ -406,7 +400,7 @@
         <nav class="breadcrumb-container" aria-label="Breadcrumb">
             <ol class="breadcrumb">
                 <li><a href="https://theyyampattilgcc.com/">Home</a></li>
-                <li><a href="https://theyyampattilgcc.com/products">Products</a></li>
+                <li><a href="https://theyyampattilgcc.com/products/">Products</a></li>
                 <li class="active" aria-current="page">Premium Wall Panels</li>
             </ol>
         </nav>
@@ -417,7 +411,7 @@
                 <p>Elevate your space with our range of luxury wall panels. Discover rustic wooden, modern PVC, and 3D decorative wall paneling designed for sophisticated living rooms, corporate offices, and commercial interiors across Dubai and the UAE.</p>
                 <div class="btn-wrap">
                     <a href="#gallery" class="btn-primary">View Gallery</a>
-                    <a href="contact" class="btn-primary" style="background: transparent; color: white; border: 1px solid white;">Consult Experts</a>
+                    <a href="contact/" class="btn-primary" style="background: transparent; color: white; border: 1px solid white;">Consult Experts</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -505,7 +499,7 @@
             <p style="color: var(--text-gray); max-width: 700px; margin: 0 auto;">Transform your space into a luxury sanctuary with Theyyampattil Furniture. Contact our experts today to schedule a design consultation.</p>
             <a href="tel:+971559132200" class="phone-num">+971 55 913 2200</a>
             <div class="btn-wrap" style="justify-content: center; margin-top: 15px;">
-                <a href="contact" class="btn-primary">Contact Us Today</a>
+                <a href="contact/" class="btn-primary">Contact Us Today</a>
             </div>
         </section>
 

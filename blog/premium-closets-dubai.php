@@ -7,13 +7,13 @@
     <title>Premium Closets in Dubai | Luxury Custom Wardrobe Solutions UAE</title>
     <meta name="description" content="Discover premium closets in Dubai with custom wardrobe designs, luxury finishes, and expert installation by Theyyampattil GCC. Perfect for modern villas and apartments in UAE.">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/premium-closets-dubai" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/premium-closets-dubai/" />
     
     <!-- Open Graph / Social Media Tags -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="Premium Closets in Dubai | Luxury Custom Wardrobe Solutions UAE">
     <meta property="og:description" content="Discover premium closets in Dubai with custom wardrobe designs, luxury finishes, and expert installation by Theyyampattil GCC.">
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/premium-closets-dubai">
+    <meta property="og:url" content="https://theyyampattilgcc.com/blog/premium-closets-dubai/">
     <meta property="og:site_name" content="Theyyampattil GCC">
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/home-page/closet.avif">
     <meta name="twitter:card" content="summary_large_image">
@@ -38,7 +38,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/blog/premium-closets-dubai#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/blog/premium-closets-dubai/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -50,22 +50,22 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Premium Closets in Dubai",
-              "item": "https://theyyampattilgcc.com/blog/premium-closets-dubai"
+              "item": "https://theyyampattilgcc.com/blog/premium-closets-dubai/"
             }
           ]
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/premium-closets-dubai#primaryarticle",
+          "@id": "https://theyyampattilgcc.com/blog/premium-closets-dubai/#primaryarticle",
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blog/premium-closets-dubai"
+            "@id": "https://theyyampattilgcc.com/blog/premium-closets-dubai/"
           },
           "headline": "Premium Closets in Dubai – Luxury Custom Wardrobe Solutions UAE",
           "description": "Discover premium closets in Dubai with custom wardrobe designs, luxury finishes, and expert installation by Theyyampattil GCC. Perfect for modern villas and apartments in UAE.",
@@ -90,7 +90,7 @@
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/blog/premium-closets-dubai#faq",
+          "@id": "https://theyyampattilgcc.com/blog/premium-closets-dubai/#faq",
           "mainEntity": [
             {
               "@type": "Question",
@@ -535,7 +535,7 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="https://theyyampattilgcc.com/">Home</a></li>
                     <span class="breadcrumb-separator">></span>
-                    <li class="breadcrumb-item"><a href="https://theyyampattilgcc.com/blogs">Blogs</a></li>
+                    <li class="breadcrumb-item"><a href="https://theyyampattilgcc.com/blogs/">Blogs</a></li>
                     <span class="breadcrumb-separator">></span>
                     <li class="breadcrumb-item active" aria-current="page">Premium Closets in Dubai</li>
                 </ol>

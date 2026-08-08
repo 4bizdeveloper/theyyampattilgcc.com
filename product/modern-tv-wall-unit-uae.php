@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow">
 
-    <link rel="canonical" href="https://theyyampattilgcc.com/product/modern-tv-wall-unit-uae" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/product/modern-tv-wall-unit-uae/" />
     <title>Modern TV Wall Unit UAE | Custom TV Cabinets – Theyyampattil</title>
     <meta name="description" content="Luxury TV Wall Unit UAE designs by Theyyampattil Furniture. Custom, premium TV cabinets and entertainment units for stylish living rooms. Book a consultation.">
     <meta name="keyword" content="Tv units, main hall modern tv unit design, tv unit design, tv wall design, tv wall mount, tv wall unit, tv unit,tv unit dubai,tv unit uae,tv unit dubai,modern tv unit,tv wall panles, modern tv wall design, Modern TV Wall Unit UAE, Custom TV Cabinets, Luxury TV Unit UAE, Premium TV Unit UAE, Wooden TV Unit UAE, TV Cabinet UAE, Contemporary TV Unit UAE, Custom TV Unit UAE, Living Room TV Unit, Modern Minimalist TV Units, Storage-Rich TV Cabinets, TV Wall Panels, Floating TV Mounts, Customizable Entertainment Units, Custom TV Unit Dubai, Designer TV Unit Dubai, Bespoke TV Unit UAE, Entertainment Unit UAE" />
@@ -90,13 +90,13 @@
         "@type": "ListItem",
         "position": 2,
         "name": "Products",
-        "item": "https://theyyampattilgcc.com/products"
+        "item": "https://theyyampattilgcc.com/products/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Modern TV Wall Unit UAE",
-        "item": "https://theyyampattilgcc.com/product/modern-tv-wall-unit-uae"
+        "item": "https://theyyampattilgcc.com/product/modern-tv-wall-unit-uae/"
       }
     ]
   }
@@ -636,7 +636,7 @@
                 </li>
                 <li class="breadcrumb-separator">&#10095;</li>
                 <li class="breadcrumb-item">
-                    <a href="https://theyyampattilgcc.com/products">Products</a>
+                    <a href="https://theyyampattilgcc.com/products/">Products</a>
                 </li>
                 <li class="breadcrumb-separator">&#10095;</li>
                 <li class="breadcrumb-item active" aria-current="page">
@@ -651,7 +651,7 @@
                 <p>Theyyampattil Furniture designs custom TV wall units in UAE - from Luxury TV Unit UAE styles to everyday Premium TV Unit UAE finishes for the modern living room. Every Wooden TV Unit UAE and TV Cabinet UAE piece we build is tailored to your space, combining minimalist elegance with premium craftsmanship built around how you actually live and entertain at home. Discover the ideal fusion of modern elegance and luxury. Each piece makes an amazing statement in modern beauty, from sleek, minimalistic designs to storage-rich options.</p>
                 <div class="btn-wrap">
                     <a href="#gallery" class="btn-primary">Explore Collection</a>
-                    <a href="contact" class="btn-secondary">Book an Appointment</a>
+                    <a href="contact/" class="btn-secondary">Book an Appointment</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -931,7 +931,7 @@
             <p style="color: var(--text-gray); max-width: 700px; margin: 0 auto;">Theyyampattil Furniture has been designing custom TV units and wall solutions for UAE homes for over two decades. Get in touch with our design team to plan a modern TV wall unit tailored to your living room. Easy solutions to your wall beauty. Homes in Dubai and beyond can benefit from our modern creativity.</p>
             <a href="tel:+971559132200" class="phone-num">+971 55 913 2200</a>
             <div class="btn-wrap" style="justify-content: center; margin-top: 20px;">
-                <a href="contact" class="btn-primary">Contact Us Today</a>
+                <a href="contact/" class="btn-primary">Contact Us Today</a>
             </div>
         </section>
 

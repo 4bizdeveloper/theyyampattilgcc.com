@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Downloads & Furniture Catalogs | Theyyampattil Furniture GCC</title>
     <meta name="description" content="Download the latest corporate portfolio, luxury furniture catalogs, interior design guides, and project brochures from Theyyampattil Furniture GCC.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/resource/downloads" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/resource/downloads/" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
     
@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Downloads & Furniture Catalogs | Theyyampattil Furniture GCC">
     <meta property="og:description" content="Explore and download high-resolution corporate brochures, luxury furniture profiles, and interior design resources from Theyyampattil Furniture.">
-    <meta property="og:url" content="https://theyyampattilgcc.com/resource/downloads">
+    <meta property="og:url" content="https://theyyampattilgcc.com/resource/downloads/">
     <meta property="og:site_name" content="Theyyampattil Furniture GCC">
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/favicons/apple-touch-icon.png">
 
@@ -54,7 +54,7 @@
           "@type": "ListItem",
           "position": 3,
           "name": "Downloads",
-          "item": "https://theyyampattilgcc.com/resource/downloads"
+          "item": "https://theyyampattilgcc.com/resource/downloads/"
         }
       ]
     }
@@ -115,8 +115,8 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://theyyampattilgcc.com/resource/downloads#webpage",
-      "url": "https://theyyampattilgcc.com/resource/downloads",
+      "@id": "https://theyyampattilgcc.com/resource/downloads/#webpage",
+      "url": "https://theyyampattilgcc.com/resource/downloads/",
       "name": "Downloads | Theyyampattil Furniture",
       "description": "Explore and download luxury furniture profiles, brochures, and catalogs.",
       "publisher": {

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-    <link rel="canonical" href="https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai/" />
     <title>Luxury Dressing Rooms in Dubai | Custom Furniture | Theyyampattil Furniture</title>
     <meta name="description" content="Discover custom luxury dressing rooms in Dubai by Theyyampattil Furniture. Premium bespoke walk-in closets, modern dressing tables, integrated smart lighting, and high-end joinery across the UAE.">
     <meta name="keywords" content="Dressing room dubai, luxury dressing room dubai, custom dressing room, dressing room furniture uae, Dressing room design dubai, Modern dressing room, custom wardrobes dubai, luxury joinery uae">
@@ -15,7 +15,7 @@
     <meta property="og:type" content="product">
     <meta property="og:title" content="Luxury Dressing Rooms in Dubai | Theyyampattil Furniture">
     <meta property="og:description" content="Discover custom luxury dressing rooms in Dubai by Theyyampattil Furniture. Premium bespoke walk-in closets and modern dressing tables.">
-    <meta property="og:url" content="https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai">
+    <meta property="og:url" content="https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai/">
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/home-page/dressing-unit.avif">
     <meta property="og:site_name" content="Theyyampattil Furniture UAE">
     
@@ -52,7 +52,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -64,19 +64,19 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Products",
-              "item": "https://theyyampattilgcc.com/products"
+              "item": "https://theyyampattilgcc.com/products/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Luxury Dressing Rooms in Dubai",
-              "item": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai"
+              "item": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai/"
             }
           ]
         },
         {
           "@type": "Product",
-          "@id": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai#product",
+          "@id": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai/#product",
           "name": "Luxury Dressing Rooms in Dubai",
           "image": "https://theyyampattilgcc.com/assets/images/home-page/dressing-unit.avif",
           "description": "Custom luxury dressing rooms, walk-in wardrobes, and bespoke vanity tables designed and crafted in Dubai, UAE.",
@@ -86,14 +86,13 @@
           },
           "offers": {
             "@type": "AggregateOffer",
-            "priceCurrency": "AED",
             "availability": "https://schema.org/InStock",
-            "url": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai"
+            "url": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai/"
           }
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai#faq",
+          "@id": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai/#faq",
           "mainEntity": [
             {
               "@type": "Question",
@@ -127,7 +126,6 @@
           "name": "Theyyampattil Furniture",
           "url": "https://theyyampattilgcc.com/",
           "telephone": "+971559132200",
-          "priceRange": "$$$",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Dubai",
@@ -477,7 +475,7 @@
             <nav class="breadcrumb-nav" aria-label="Breadcrumb">
                 <a href="https://theyyampattilgcc.com/">Home</a>
                 <span class="breadcrumb-separator">/</span>
-                <a href="https://theyyampattilgcc.com/products">Products</a>
+                <a href="https://theyyampattilgcc.com/products/">Products</a>
                 <span class="breadcrumb-separator">/</span>
                 <span class="breadcrumb-active" aria-current="page">Luxury Dressing Rooms in Dubai</span>
             </nav>
@@ -489,7 +487,7 @@
                 <p>Your dressing room is more than a storage area — it’s a private sanctuary that reflects your individual lifestyle, sophistication, and daily convenience. At Theyyampattil Furniture, we create bespoke dressing rooms in Dubai where timeless elegance effortlessly meets modern smart functionality.</p>
                 <div class="btn-wrap">
                     <a href="#gallery" class="btn-primary">View Designs</a>
-                    <a href="contact" class="btn-secondary">Free Quote</a>
+                    <a href="contact/" class="btn-secondary">Free Quote</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -565,7 +563,7 @@
             <p style="color: var(--text-gray); max-width: 700px; margin: 0 auto;">Transform your personal daily space into an extraordinary sanctuary with a custom-built dressing room by Theyyampattil Furniture.</p>
             <a href="tel:+971559132200" class="phone-num">+971 55 913 2200</a>
             <div class="btn-wrap" style="justify-content: center; margin-top: 15px;">
-                <a href="contact" class="btn-primary">Book a Free Consultation</a>
+                <a href="contact/" class="btn-primary">Book a Free Consultation</a>
             </div>
         </section>
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow">
 
-    <link rel="canonical" href="https://theyyampattilgcc.com/product/premium-wall-partition-dubai" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/product/premium-wall-partition-dubai/" />
     <title>Premium Wall Partition Dubai | Luxury Partition Designs UAE</title>
     <meta name="description" content="Discover premium wall partition designs in Dubai by Theyyampattil Furniture. Explore luxury living room partitions, modern divider solutions, and custom interior partition designs for elegant UAE homes.">
     <meta name="keywords" content="partition wall, divider partition, glass partition, wooden partition wall, glass partition wall, wall partition Dubai, luxury room dividers UAE" />  
@@ -18,7 +18,7 @@
     <meta property="og:type" content="product">
     <meta property="og:title" content="Premium Wall Partition Dubai | Luxury Partition Designs UAE">
     <meta property="og:description" content="Transform your space with high-end modern room dividers and partition walls engineered for UAE luxury interiors.">
-    <meta property="og:url" content="https://theyyampattilgcc.com/product/premium-wall-partition-dubai">
+    <meta property="og:url" content="https://theyyampattilgcc.com/product/premium-wall-partition-dubai/">
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/gallery/part-0.jpg">
 
     <?php include '../includes/head-tag-include.php'; ?>    
@@ -73,12 +73,12 @@
         "@type": "ListItem",
         "position": 2,
         "name": "Products",
-        "item": "https://theyyampattilgcc.com/products"
+        "item": "https://theyyampattilgcc.com/products/"
       },{
         "@type": "ListItem",
         "position": 3,
         "name": "Premium Wall Partition Dubai",
-        "item": "https://theyyampattilgcc.com/product/premium-wall-partition-dubai"
+        "item": "https://theyyampattilgcc.com/product/premium-wall-partition-dubai/"
       }]
     }
     </script>
@@ -426,7 +426,7 @@
     <div class="breadcrumb-container">
         <ul class="breadcrumb" aria-label="Breadcrumb">
             <li><a href="https://theyyampattilgcc.com/">Home</a></li>
-            <li><a href="https://theyyampattilgcc.com/products">Products</a></li>
+            <li><a href="https://theyyampattilgcc.com/products/">Products</a></li>
             <li class="active" aria-current="page">Premium Wall Partition Dubai</li>
         </ul>
     </div>
@@ -438,7 +438,7 @@
                 <p>We specialize in crafting unique partition wall systems designed to transform your living or office space. Meticulously designed to elevate aesthetics while providing practical solutions.</p>
                 <div class="btn-wrap">
                     <a href="#gallery" class="btn-primary">View Designs</a>
-                    <a href="contact" class="btn-primary" style="background: transparent; color: white; border: 1px solid white;">Consult Designer</a>
+                    <a href="contact/" class="btn-primary" style="background: transparent; color: white; border: 1px solid white;">Consult Designer</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -501,7 +501,7 @@
             <p style="color: var(--text-gray); max-width: 700px; margin: 0 auto;">Our experts are ready to help you create the perfect partition for your home or office.</p>
             <a href="tel:+971559132200" class="phone-num">+971 55 913 2200</a>
             <div class="btn-wrap" style="justify-content: center; margin-top: 15px;">
-                <a href="contact" class="btn-primary">Get A Free Quote</a>
+                <a href="contact/" class="btn-primary">Get A Free Quote</a>
             </div>
         </section>
 

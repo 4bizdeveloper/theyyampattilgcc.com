@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luxury Kitchen Furniture in UAE | Modern Elegant Homes</title>
     <meta name="description" content="Explore luxury kitchen furniture in UAE with bespoke cabinets, Italian-inspired designs, and premium modern kitchens in Dubai by Theyyampattil GCC.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/luxury-kitchen-furniture-uae" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/luxury-kitchen-furniture-uae/" />
     <meta name="robots" content="index, follow">
     <base href="../../">
     
@@ -21,7 +21,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Luxury Kitchen Furniture in UAE | Modern Elegant Homes" />
     <meta property="og:description" content="Explore luxury kitchen furniture in UAE with bespoke cabinets, Italian-inspired designs, and premium modern kitchens in Dubai by Theyyampattil GCC." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/luxury-kitchen-furniture-uae" />
+    <meta property="og:url" content="https://theyyampattilgcc.com/blog/luxury-kitchen-furniture-uae/" />
     <meta property="og:site_name" content="Theyyampattil GCC" />
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/home-page/kitchen.avif" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -45,13 +45,13 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Blogs",
-          "item": "https://theyyampattilgcc.com/blogs"
+          "item": "https://theyyampattilgcc.com/blogs/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Luxury Kitchen Furniture UAE",
-          "item": "https://theyyampattilgcc.com/blog/luxury-kitchen-furniture-uae"
+          "item": "https://theyyampattilgcc.com/blog/luxury-kitchen-furniture-uae/"
         }
       ]
     }
@@ -64,7 +64,7 @@
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://theyyampattilgcc.com/blog/luxury-kitchen-furniture-uae"
+        "@id": "https://theyyampattilgcc.com/blog/luxury-kitchen-furniture-uae/"
       },
       "headline": "Luxury Kitchen Furniture in UAE for Modern Elegant Homes",
       "description": "Explore luxury kitchen furniture in UAE with bespoke cabinets, Italian-inspired designs, and premium modern kitchens in Dubai by Theyyampattil GCC.",
@@ -557,7 +557,7 @@
                     </li>
                     <li class="breadcrumb-separator" aria-hidden="true">&gt;</li>
                     <li>
-                        <a href="https://theyyampattilgcc.com/blogs">Blogs</a>
+                        <a href="https://theyyampattilgcc.com/blogs/">Blogs</a>
                     </li>
                     <li class="breadcrumb-separator" aria-hidden="true">&gt;</li>
                     <li>

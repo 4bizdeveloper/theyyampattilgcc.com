@@ -8,7 +8,7 @@
     <meta name="description" content="Discover a premium luxury furniture outlet in Dubai with exclusive collections for living rooms, bedrooms, dining spaces, and offices. Experience custom designs by Theyyampattil." />
     
     <!-- Preserved Tags -->
-    <link href="https://theyyampattilgcc.com/blog/luxury-furniture-outlet-in-dubai" rel="canonical" />
+    <link href="https://theyyampattilgcc.com/blog/luxury-furniture-outlet-in-dubai/" rel="canonical" />
     <meta name="robots" content="index, follow">
     <base href="../../">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -48,13 +48,13 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Blogs",
-          "item": "https://theyyampattilgcc.com/blogs"
+          "item": "https://theyyampattilgcc.com/blogs/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Luxury Furniture Outlet in Dubai",
-          "item": "https://theyyampattilgcc.com/blog/luxury-furniture-outlet-in-dubai"
+          "item": "https://theyyampattilgcc.com/blog/luxury-furniture-outlet-in-dubai/"
         }
       ]
     }
@@ -67,7 +67,7 @@
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://theyyampattilgcc.com/blog/luxury-furniture-outlet-in-dubai"
+        "@id": "https://theyyampattilgcc.com/blog/luxury-furniture-outlet-in-dubai/"
       },
       "headline": "Luxury Furniture Outlet in Dubai for Premium Home Interiors",
       "description": "Discover a premium luxury furniture outlet in Dubai with exclusive collections for living rooms, bedrooms, dining spaces, and offices. Experience custom designs by Theyyampattil.",
@@ -375,7 +375,7 @@
                 </li>
                 <li class="breadcrumb-separator">›</li>
                 <li class="breadcrumb-item">
-                    <a href="https://theyyampattilgcc.com/blogs">Blogs</a>
+                    <a href="https://theyyampattilgcc.com/blogs/">Blogs</a>
                 </li>
                 <li class="breadcrumb-separator">›</li>
                 <li class="breadcrumb-item active" aria-current="page">

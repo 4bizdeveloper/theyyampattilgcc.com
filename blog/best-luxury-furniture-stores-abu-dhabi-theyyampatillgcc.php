@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow">
     <title>Best Luxury Furniture Stores in Abu Dhabi | Theyyampatill GCC</title>
     <meta name="description" content="Explore the best luxury furniture stores in Abu Dhabi with Theyyampatill GCC. Discover custom-made, Italian, and premium furniture for modern interiors.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/best-luxury-furniture-stores-abu-dhabi-theyyampatillgcc">
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/best-luxury-furniture-stores-abu-dhabi-theyyampatillgcc/">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,13 +34,13 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Best Luxury Furniture Stores in Abu Dhabi",
-              "item": "https://theyyampattilgcc.com/blog/best-luxury-furniture-stores-abu-dhabi-theyyampatillgcc"
+              "item": "https://theyyampattilgcc.com/blog/best-luxury-furniture-stores-abu-dhabi-theyyampatillgcc/"
             }
           ]
         },
@@ -48,7 +48,7 @@
           "@type": "BlogPosting",
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blog/best-luxury-furniture-stores-abu-dhabi-theyyampatillgcc"
+            "@id": "https://theyyampattilgcc.com/blog/best-luxury-furniture-stores-abu-dhabi-theyyampatillgcc/"
           },
           "headline": "Best Luxury Furniture Stores in Abu Dhabi",
           "description": "Explore the best luxury furniture stores in Abu Dhabi with Theyyampatill GCC. Discover custom-made, Italian, and premium furniture for modern interiors.",
@@ -414,7 +414,7 @@
                     </li>
                     <li class="breadcrumb-separator" aria-hidden="true">›</li>
                     <li class="breadcrumb-item">
-                        <a href="https://theyyampattilgcc.com/blogs">Blogs</a>
+                        <a href="https://theyyampattilgcc.com/blogs/">Blogs</a>
                     </li>
                     <li class="breadcrumb-separator" aria-hidden="true">›</li>
                     <li class="breadcrumb-item active" aria-current="page">

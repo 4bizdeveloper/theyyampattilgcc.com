@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../../">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/premium-bedroom-furniture-uae-theyyampattil-gcc" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/premium-bedroom-furniture-uae-theyyampattil-gcc/" />
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">   
     <title>Premium Bedroom Furniture in UAE | Theyyampattil GCC</title>
     <meta name="description" content="Discover premium bedroom furniture in the UAE — custom bed frames, wardrobes, dressing tables & more. Explore Theyyampattil's luxury collection.">
@@ -36,22 +36,22 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Premium Bedroom Furniture UAE",
-              "item": "https://theyyampattilgcc.com/blog/premium-bedroom-furniture-uae-theyyampattil-gcc"
+              "item": "https://theyyampattilgcc.com/blog/premium-bedroom-furniture-uae-theyyampattil-gcc/"
             }
           ]
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/premium-bedroom-furniture-uae-theyyampattil-gcc#article",
+          "@id": "https://theyyampattilgcc.com/blog/premium-bedroom-furniture-uae-theyyampattil-gcc/#article",
           "isPartOf": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blog/premium-bedroom-furniture-uae-theyyampattil-gcc"
+            "@id": "https://theyyampattilgcc.com/blog/premium-bedroom-furniture-uae-theyyampattil-gcc/"
           },
           "headline": "Premium Bedroom Furniture in UAE",
           "description": "Discover premium bedroom furniture in the UAE — custom bed frames, wardrobes, dressing tables & more. Explore Theyyampattil's luxury collection.",
@@ -70,7 +70,7 @@
               "url": "https://theyyampattilgcc.com/assets/images/favicons/apple-touch-icon.png"
             }
           },
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/premium-bedroom-furniture-uae-theyyampattil-gcc",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/premium-bedroom-furniture-uae-theyyampattil-gcc/",
           "inLanguage": "en"
         },
         {
@@ -542,7 +542,7 @@
                 <ol class="breadcrumb-list">
                     <li class="breadcrumb-item"><a href="https://theyyampattilgcc.com/">Home</a></li>
                     <span class="breadcrumb-separator">/</span>
-                    <li class="breadcrumb-item"><a href="https://theyyampattilgcc.com/blogs">Blogs</a></li>
+                    <li class="breadcrumb-item"><a href="https://theyyampattilgcc.com/blogs/">Blogs</a></li>
                     <span class="breadcrumb-separator">/</span>
                     <li class="breadcrumb-item active" aria-current="page">Premium Bedroom Furniture UAE</li>
                 </ol>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-    <link rel="canonical" href="https://theyyampattilgcc.com/product/modern-luxury-kitchen-furniture-dubai" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/product/modern-luxury-kitchen-furniture-dubai/" />
     <title>Modern Luxury Kitchen Furniture Dubai | Custom Cabinets</title>
     <meta name="description" content="Discover modern luxury kitchen furniture in Dubai with premium cabinets, stylish designs, and custom kitchen solutions for elegant and functional homes.">
     <meta name="keyword" content="luxury funriture, kitchen cabinet, kitchen cabinet design,wood kitchen cabinets, wood kitchen, luxury kitchen furniture, Kitchen Furniture, best custom luxury furniture outlet, best kitchen designs, premium kitchen dubai" />
@@ -14,7 +14,7 @@
     <!-- Open Graph / Social Media Meta Tags -->
     <meta property="og:title" content="Modern Luxury Kitchen Furniture Dubai | Custom Cabinets">
     <meta property="og:description" content="Discover modern luxury kitchen furniture in Dubai with premium cabinets, stylish designs, and custom kitchen solutions for elegant and functional homes.">
-    <meta property="og:url" content="https://theyyampattilgcc.com/product/modern-luxury-kitchen-furniture-dubai">
+    <meta property="og:url" content="https://theyyampattilgcc.com/product/modern-luxury-kitchen-furniture-dubai/">
     <meta property="og:type" content="product">
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/home-page/kitchen.avif">
 
@@ -46,13 +46,13 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Products",
-              "item": "https://theyyampattilgcc.com/products"
+              "item": "https://theyyampattilgcc.com/products/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Modern Luxury Kitchen Furniture Dubai",
-              "item": "https://theyyampattilgcc.com/product/modern-luxury-kitchen-furniture-dubai"
+              "item": "https://theyyampattilgcc.com/product/modern-luxury-kitchen-furniture-dubai/"
             }
           ]
         },
@@ -456,7 +456,7 @@
                     </li>
                     <li class="seo-breadcrumb-separator">&#10095;</li>
                     <li>
-                        <a href="https://theyyampattilgcc.com/products">Products</a>
+                        <a href="https://theyyampattilgcc.com/products/">Products</a>
                     </li>
                     <li class="seo-breadcrumb-separator">&#10095;</li>
                     <li class="active" aria-current="page">
@@ -472,7 +472,7 @@
                 <p>At Theyyampattil, we craft exquisite custom luxury kitchen furniture that transforms your culinary space into a functional yet opulent masterpiece. The ultimate destination for custom kitchen solutions across Dubai and the UAE.</p>
                 <div class="btn-wrap">
                     <a href="#gallery" class="btn-primary">View Masterpieces</a>
-                    <a href="contact" class="btn-primary" style="background: transparent; color: white; border: 1px solid white;">Book Appointment</a>
+                    <a href="contact/" class="btn-primary" style="background: transparent; color: white; border: 1px solid white;">Book Appointment</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -580,7 +580,7 @@
             <p style="color: var(--text-gray); max-width: 700px; margin: 0 auto;">For custom estimations, design consultations, or to visit our luxury showrooms in Sharjah, Dubai, and Abu Dhabi, contact our experts today.</p>
             <a href="tel:+971559132200" class="phone-num">+971 55 913 2200</a>
             <div class="btn-wrap" style="justify-content: center; margin-top: 15px;">
-                <a href="contact" class="btn-primary">Book a Free Consultation</a>
+                <a href="contact/" class="btn-primary">Book a Free Consultation</a>
             </div>
         </section>
 

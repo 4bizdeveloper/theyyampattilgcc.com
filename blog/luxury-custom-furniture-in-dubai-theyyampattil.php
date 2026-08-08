@@ -31,12 +31,12 @@
         "@type": "ListItem",
         "position": 2,
         "name": "Blogs",
-        "item": "https://theyyampattilgcc.com/blogs"
+        "item": "https://theyyampattilgcc.com/blogs/"
       },{
         "@type": "ListItem",
         "position": 3,
         "name": "Luxury Custom Furniture in Dubai: The Complete Buyer's Guide",
-        "item": "https://theyyampattilgcc.com/blogs/luxury-custom-furniture-dubai"
+        "item": "https://theyyampattilgcc.com/blogs/luxury-custom-furniture-dubai/"
       }]
     }
     </script>
@@ -48,7 +48,7 @@
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://theyyampattilgcc.com/blogs/luxury-custom-furniture-dubai"
+        "@id": "https://theyyampattilgcc.com/blogs/luxury-custom-furniture-dubai/"
       },
       "headline": "Luxury Custom Furniture in Dubai: The Complete Buyer's Guide",
       "description": "Custom luxury furniture in Dubai designer sofas, bedrooms, wall panels & more. Premium materials, 2-4 week delivery. Book your consultation today.",
@@ -408,7 +408,7 @@
         <nav class="breadcrumb-nav" aria-label="Breadcrumb">
             <a href="https://theyyampattilgcc.com/">Home</a>
             <span class="separator">&gt;</span>
-            <a href="https://theyyampattilgcc.com/blogs">Blogs</a>
+            <a href="https://theyyampattilgcc.com/blogs/">Blogs</a>
             <span class="separator">&gt;</span>
             <span style="color: #ffffff;">Luxury Custom Furniture in Dubai</span>
         </nav>

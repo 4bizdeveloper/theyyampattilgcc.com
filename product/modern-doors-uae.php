@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-    <link rel="canonical" href="https://theyyampattilgcc.com/product/modern-doors-uae" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/product/modern-doors-uae/" />
     <title>Modern Doors in UAE | Luxury Custom Entryways & Wooden Doors Dubai</title>
     <meta name="description" content="Explore custom modern doors in Dubai & UAE. Expertly engineered luxury interior, exterior, sliding, and pivot doors combining European joinery with premium finishes. Get a free quote today.">
     <meta name="keywords" content="modern doors UAE, luxury doors Dubai, interior doors UAE, custom wooden doors, sliding doors Dubai, pivot doors UAE, premium entryways UAE, luxury furniture UAE" />
@@ -16,7 +16,7 @@
     <meta property="og:type" content="product" />
     <meta property="og:title" content="Modern Doors in UAE | Custom Entryways & Wooden Doors" />
     <meta property="og:description" content="Premium modern doors crafted in Dubai & UAE. Luxury interior, sliding, and pivot entryways with European craftsmanship." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/product/modern-doors-uae" />
+    <meta property="og:url" content="https://theyyampattilgcc.com/product/modern-doors-uae/" />
     <meta property="og:site_name" content="Theyyampattil Furniture" />
     <meta property="og:image" content="https://theyyampattilgcc.com/product/assets/images/home-page/modern-door.avif" />
     <meta property="og:image:width" content="1024" />
@@ -62,7 +62,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/product/modern-doors-uae#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/product/modern-doors-uae/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -74,19 +74,19 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Products",
-              "item": "https://theyyampattilgcc.com/products"
+              "item": "https://theyyampattilgcc.com/products/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Modern Doors UAE",
-              "item": "https://theyyampattilgcc.com/product/modern-doors-uae"
+              "item": "https://theyyampattilgcc.com/product/modern-doors-uae/"
             }
           ]
         },
         {
           "@type": "Product",
-          "@id": "https://theyyampattilgcc.com/product/modern-doors-uae#product",
+          "@id": "https://theyyampattilgcc.com/product/modern-doors-uae/#product",
           "name": "Custom Modern Doors UAE",
           "image": "https://theyyampattilgcc.com/product/assets/images/home-page/modern-door.avif",
           "description": "Custom modern interior and exterior doors engineered for luxury villas and residences across the UAE.",
@@ -96,15 +96,13 @@
           },
           "offers": {
             "@type": "AggregateOffer",
-            "priceCurrency": "AED",
-            "price": "Call for Quote",
             "availability": "https://schema.org/InStock",
             "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "UAE"]
           }
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/product/modern-doors-uae#faq",
+          "@id": "https://theyyampattilgcc.com/product/modern-doors-uae/#faq",
           "mainEntity": [
             {
               "@type": "Question",
@@ -546,7 +544,7 @@
         <div class="seo-breadcrumb">
             <a href="https://theyyampattilgcc.com/">Home</a>
             <span class="separator">&#10095;</span>
-            <a href="https://theyyampattilgcc.com/products">Products</a>
+            <a href="https://theyyampattilgcc.com/products/">Products</a>
             <span class="separator">&#10095;</span>
             <span class="current-page">Modern Doors UAE</span>
         </div>
@@ -559,7 +557,7 @@
                 <p>Elevate your space with premium modern doors in Dubai & UAE. We specialize in crafting stunning interior and exterior entryways that combine European aesthetics with unmatched durability.</p>
                 <div class="btn-wrap">
                     <a href="#gallery" class="btn-primary">Explore Collection</a>
-                    <a href="contact" class="btn-outline">Get a Quote</a>
+                    <a href="contact/" class="btn-outline">Get a Quote</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -631,7 +629,7 @@
             <p style="color: var(--text-gray); max-width: 700px; margin: 0 auto;">Whether renovating or building new, our doors offer the perfect blend of security and sophistication.</p>
             <a href="tel:+971559132200" class="phone-num">+971 55 913 2200</a>
             <div class="btn-wrap" style="justify-content: center; margin-top: 15px;">
-                <a href="contact" class="btn-primary">Contact Us Today</a>
+                <a href="contact/" class="btn-primary">Contact Us Today</a>
             </div>
         </section>
 

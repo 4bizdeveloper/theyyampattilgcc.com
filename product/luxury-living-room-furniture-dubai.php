@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-    <link rel="canonical" href="https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai" />
+    <link rel="canonical" href="https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/" />
     <title>Luxury Living Room Furniture Dubai | Premium Italian Interiors UAE</title>
     <meta name="description" content="Discover luxury living room furniture in Dubai by Theyyampattil. Premium Italian designs, custom-made interiors, and elegant solutions for modern homes.">
     
@@ -21,7 +21,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -33,19 +33,19 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Products",
-              "item": "https://theyyampattilgcc.com/products"
+              "item": "https://theyyampattilgcc.com/products/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Luxury Living Room Furniture Dubai",
-              "item": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai"
+              "item": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/"
             }
           ]
         },
         {
           "@type": "Product",
-          "@id": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai#product",
+          "@id": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/#product",
           "name": "Luxury Living Room Furniture Dubai",
           "image": "https://theyyampattilgcc.com/assets/images/gallery/welcome-unit.JPEG",
           "description": "Discover luxury living room furniture in Dubai by Theyyampattil. Premium Italian designs, custom-made interiors, and elegant solutions for modern homes.",
@@ -55,14 +55,13 @@
           },
           "offers": {
             "@type": "AggregateOffer",
-            "priceCurrency": "AED",
             "availability": "https://schema.org/InStock",
-            "url": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai"
+            "url": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/"
           }
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai#faq",
+          "@id": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/#faq",
           "mainEntity": [
             {
               "@type": "Question",
@@ -473,7 +472,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
             </li>
             <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a href="https://theyyampattilgcc.com/products" itemprop="item">
+                <a href="https://theyyampattilgcc.com/products/" itemprop="item">
                     <span itemprop="name">Products</span>
                 </a>
                 <meta itemprop="position" content="2" />
@@ -483,7 +482,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </li>
             <li class="breadcrumb-item active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <span itemprop="name">Luxury Living Room Furniture Dubai</span>
-                <meta itemprop="item" content="https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai" />
+                <meta itemprop="item" content="https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/" />
                 <meta itemprop="position" content="3" />
             </li>
         </ol>
@@ -496,7 +495,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <p>Indulge in the elegance of our premium luxury living room furniture and welcoming units, curated by Theyyampattil Furniture. Designed to enhance your space, our collection blends sophistication with functionality.</p>
                 <div class="btn-wrap">
                     <a href="#gallery" class="btn-primary">Explore Collection</a>
-                    <a href="contact" class="btn-primary" style="background: transparent; color: white; border: 1px solid white;">Get a Quote</a>
+                    <a href="contact/" class="btn-primary" style="background: transparent; color: white; border: 1px solid white;">Get a Quote</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -571,7 +570,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <a href="tel:+971559132200" class="phone-num">+971 55 913 2200</a>
             <p style="margin-bottom: 20px;">Email us at: <a href="mailto:sales@theyyampattilgcc.com" style="color: var(--brand-color);">sales@theyyampattilgcc.com</a></p>
             <div class="btn-wrap" style="justify-content: center; margin-top: 15px;">
-                <a href="contact" class="btn-primary">Contact Us Today</a>
+                <a href="contact/" class="btn-primary">Contact Us Today</a>
             </div>
         </section>
 

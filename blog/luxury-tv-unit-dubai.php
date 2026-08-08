@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luxury TV Unit Dubai: Modern TV Wall Unit Ideas & Trends</title>
     <meta name="description" content="Explore luxury TV unit designs in Dubai, from modern TV wall units to statement finishes. Get ideas, materials, and pricing tips for 2026.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai">
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai/">
     
     <?php include '../includes/head-tag-include.php'; ?>
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -25,7 +25,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -37,28 +37,28 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Luxury TV Unit Dubai: Modern TV Wall Unit Ideas & Trends",
-              "item": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai"
+              "item": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai/"
             }
           ]
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai#primarypost",
+          "@id": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai/#primarypost",
           "isPartOf": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai",
-            "url": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai",
+            "@id": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai/",
+            "url": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai/",
             "name": "Luxury TV Unit Dubai: Modern TV Wall Unit Ideas & Trends"
           },
           "headline": "Luxury TV Unit Dubai: Modern TV Wall Unit Ideas & Trends for 2026",
           "description": "Explore luxury TV unit designs in Dubai, from modern TV wall units to statement finishes. Get ideas, materials, and pricing tips for 2026.",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai/",
           "datePublished": "2026-01-15T08:00:00+04:00",
           "dateModified": "2026-08-07T10:00:00+04:00",
           "author": {
@@ -86,7 +86,7 @@
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai#faq",
+          "@id": "https://theyyampattilgcc.com/blog/luxury-tv-unit-dubai/#faq",
           "mainEntity": [
             {
               "@type": "Question",
@@ -637,7 +637,7 @@
                     </li>
                     <li class="breadcrumb-separator">›</li>
                     <li class="breadcrumb-item">
-                        <a href="https://theyyampattilgcc.com/blogs">Blogs</a>
+                        <a href="https://theyyampattilgcc.com/blogs/">Blogs</a>
                     </li>
                     <li class="breadcrumb-separator">›</li>
                     <li class="breadcrumb-item active" aria-current="page">Luxury TV Unit Dubai</li>

@@ -8,7 +8,7 @@
     <meta name="description" content="Discover bespoke luxury furniture in UAE with premium Italian-inspired sofas, dining sets, office furniture, and custom interior solutions.">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae">
+    <link rel="canonical" href="https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae/">
     <base href="../../">
     
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -35,7 +35,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -47,26 +47,26 @@
               "@type": "ListItem",
               "position": 2,
               "name": "Blogs",
-              "item": "https://theyyampattilgcc.com/blogs"
+              "item": "https://theyyampattilgcc.com/blogs/"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Luxury Furniture UAE",
-              "item": "https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae"
+              "item": "https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae/"
             }
           ]
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae#article",
+          "@id": "https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae/#article",
           "isPartOf": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae"
+            "@id": "https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae/"
           },
           "headline": "High End Luxury Furniture Outlet UAE – Bespoke Luxury Interiors by Theyyampattil GCC",
           "description": "Discover bespoke luxury furniture in UAE with premium Italian-inspired sofas, dining sets, office furniture, and custom interior solutions.",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae/",
           "publisher": {
             "@type": "Organization",
             "name": "Theyyampattil GCC",
@@ -81,7 +81,7 @@
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae#faq",
+          "@id": "https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae/#faq",
           "mainEntity": [
             {
               "@type": "Question",
@@ -520,7 +520,7 @@
                     </li>
                     <li class="breadcrumb-separator" aria-hidden="true">&#10095;</li>
                     <li class="breadcrumb-item">
-                        <a href="https://theyyampattilgcc.com/blogs">Blogs</a>
+                        <a href="https://theyyampattilgcc.com/blogs/">Blogs</a>
                     </li>
                     <li class="breadcrumb-separator" aria-hidden="true">&#10095;</li>
                     <li class="breadcrumb-item active" aria-current="page">
