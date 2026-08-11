@@ -15,7 +15,7 @@
     <meta property="og:title" content="Modern Luxury Kitchen Furniture Dubai | Custom Cabinets">
     <meta property="og:description" content="Discover modern luxury kitchen furniture in Dubai with premium cabinets, stylish designs, and custom kitchen solutions for elegant and functional homes.">
     <meta property="og:url" content="https://theyyampattilgcc.com/product/modern-luxury-kitchen-furniture-dubai/">
-    <meta property="og:type" content="product">
+    <meta property="og:type" content="website">
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/home-page/kitchen.avif">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
     <!-- Common <head> include materials like schema markup, social tags, etc. -->
     <?php include '../includes/head-tag-include.php'; ?>
 
-    <!-- SEO Schema Markup (BreadcrumbList, Product, LocalBusiness, FAQPage) -->
+    <!-- SEO Schema Markup (BreadcrumbList, Service, LocalBusiness, FAQPage) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -57,19 +57,15 @@
           ]
         },
         {
-          "@type": "Product",
+          "@type": "Service",
           "name": "Modern Luxury Kitchen Furniture Dubai",
           "image": "https://theyyampattilgcc.com/assets/images/home-page/kitchen.avif",
           "description": "Exquisite custom luxury kitchen furniture in Dubai crafted with premium materials, high-end modular designs, and bespoke cabinet solutions.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Theyyampattil Furniture"
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Theyyampattil Furniture LLC"
           },
-          "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "AED",
-            "availability": "https://schema.org/InStock"
-          }
+          "areaServed": ["Dubai", "Sharjah", "Abu Dhabi", "UAE"]
         },
         {
           "@type": "LocalBusiness",

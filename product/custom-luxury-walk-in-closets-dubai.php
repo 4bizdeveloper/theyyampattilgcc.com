@@ -13,7 +13,7 @@
     <meta name="description" content="Discover custom luxury walk-in closets in Dubai by Theyyampattil Furniture. Explore modern wardrobe designs, premium storage solutions, and bespoke luxury closet systems for elegant UAE homes.">
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="product" />
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="Custom Luxury Walk-in Closets Dubai | Theyyampattil Furniture UAE" />
     <meta property="og:description" content="Discover custom luxury walk-in closets in Dubai by Theyyampattil Furniture. Explore modern wardrobe designs, premium storage solutions, and bespoke luxury closet systems." />
     <meta property="og:url" content="https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture/" />
@@ -72,23 +72,26 @@
           ]
         },
         {
-          "@type": "Product",
-          "name": "Custom Luxury Walk-in Closets Dubai",
-          "image": "https://theyyampattilgcc.com/product/assets/images/home-page/closet.avif",
+          "@type": "WebPage",
+          "@id": "https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture/",
+          "url": "https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture/",
+          "name": "Custom Luxury Walk-in Closets Dubai | Theyyampattil Furniture UAE",
           "description": "Bespoke Italian luxury walk-in closets, sliding doors, and custom wardrobe solutions for homes in Dubai, Abu Dhabi, and Sharjah.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Theyyampattil Furniture"
+          "breadcrumb": {
+            "@id": "https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture/#breadcrumb"
           },
-          "offers": {
-            "@type": "Offer",
-            "url": "https://theyyampattilgcc.com/product/custom-luxury-walk-in-closet-by-theyyampattil-furniture/",
-            "priceCurrency": "AED",
-            "availability": "https://schema.org/InStock",
-            "seller": {
+          "mainEntity": {
+            "@type": "Service",
+            "name": "Custom Luxury Walk-in Closet Design & Installation",
+            "serviceType": "Custom Wardrobe & Furniture Solutions",
+            "provider": {
               "@type": "Organization",
-              "name": "Theyyampattil Furniture UAE"
-            }
+              "name": "Theyyampattil Furniture UAE",
+              "url": "https://theyyampattilgcc.com/"
+            },
+            "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "UAE"],
+            "image": "https://theyyampattilgcc.com/product/assets/images/home-page/closet.avif",
+            "description": "Bespoke Italian luxury walk-in closets, sliding doors, and custom wardrobe solutions for homes in Dubai, Abu Dhabi, and Sharjah."
           }
         },
         {

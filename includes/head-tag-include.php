@@ -1,4 +1,3 @@
-
 <?php
 // 1. Unify current page URL detection cleanly (Calculated once, used everywhere)
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
@@ -18,12 +17,17 @@ $social_img = isset($page_image) ? $page_image : $default_hero_img;
 
 // Detect if current page is the root homepage to avoid bloating inner pages with Local Business details
 $is_homepage = ($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '');
+
+// Flag to prevent duplicating <title>, <meta description>, and <link rel="canonical"> if already set on the page
+$disable_default_head_tags = isset($disable_head_tags) && $disable_head_tags === true;
 ?>
 
+<?php if (!$disable_default_head_tags): ?>
 <!-- Essential SEO Tags -->
 <title><?php echo htmlspecialchars($meta_title, ENT_QUOTES, 'UTF-8'); ?></title>
 <meta name="description" content="<?php echo htmlspecialchars($meta_desc, ENT_QUOTES, 'UTF-8'); ?>">
 <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url, ENT_QUOTES, 'UTF-8'); ?>">
+<?php endif; ?>
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="<?php echo $is_homepage ? 'website' : 'article'; ?>">

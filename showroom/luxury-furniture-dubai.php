@@ -29,7 +29,7 @@
 <!-- Common <head> include materials like schema markup, social tags, etc. -->
 <?php include '../includes/head-tag-include.php'; ?> 
 
-<!-- SEO & AI Level Schema Markup (FurnitureStore, LocalBusiness & BreadcrumbList) -->
+<!-- SEO & AI Level Schema Markup (FurnitureStore & Validated BreadcrumbList) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -103,7 +103,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Showrooms"
+          "name": "Showrooms",
+          "item": "https://theyyampattilgcc.com/"
         },
         {
           "@type": "ListItem",

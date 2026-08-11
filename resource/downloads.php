@@ -48,7 +48,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Resources"
+          "name": "Resources",
+          "item": "https://theyyampattilgcc.com/"
         },
         {
           "@type": "ListItem",
@@ -110,21 +111,15 @@
     }
     </script>
 
-    <!-- Structured Data (JSON-LD) for Organization & WebPage -->
+    <!-- Structured Data (JSON-LD) for WebPage -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "@id": "https://theyyampattilgcc.com/resource/downloads/#webpage",
       "url": "https://theyyampattilgcc.com/resource/downloads/",
-      "name": "Downloads | Theyyampattil Furniture",
-      "description": "Explore and download luxury furniture profiles, brochures, and catalogs.",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Theyyampattil Furniture",
-        "url": "https://theyyampattilgcc.com/",
-        "logo": "https://theyyampattilgcc.com/assets/images/favicons/apple-touch-icon.png"
-      }
+      "name": "Downloads & Furniture Catalogs | Theyyampattil Furniture GCC",
+      "description": "Download the latest corporate portfolio, luxury furniture catalogs, interior design guides, and project brochures from Theyyampattil Furniture GCC."
     }
     </script>
 

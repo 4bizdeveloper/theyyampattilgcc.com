@@ -475,6 +475,19 @@
     <!-- Main Blog Grid -->
     <main class="blog-container">
 
+
+        <!-- Article 1 -->
+        <article class="blog-card" data-aos="fade-up">
+            <div class="blog-img-wrapper">
+                <img src="assets/images/tv-wall/tv-wall-4.jpeg" alt="Custom Luxury Furniture in Sharjah | Theyyampattil Furniture" width="400" height="250" loading="eager">
+            </div>
+            <div class="blog-content">
+                <h3>Custom Luxury Furniture in Sharjah | Theyyampattil Furniture </h3>
+                <a href="blog/custom-luxury-furniture-in-sharjah-theyyampattil-furniture/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+
         <!-- Article 1 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">

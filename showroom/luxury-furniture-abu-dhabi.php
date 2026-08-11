@@ -87,7 +87,8 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Showrooms"
+            "name": "Showrooms",
+            "item": "https://theyyampattilgcc.com/"
           },
           {
             "@type": "ListItem",
@@ -499,24 +500,20 @@
             
             <!-- SEO OPTIMIZED BREADCRUMB -->
             <nav aria-label="breadcrumb" class="hero-breadcrumb-wrapper">
-                <ol class="custom-breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
-                    <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                        <a itemprop="item" href="https://theyyampattilgcc.com/">
+                <ol class="custom-breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="https://theyyampattilgcc.com/">
                             <i class="fas fa-home" aria-hidden="true"></i>
-                            <span itemprop="name">Home</span>
+                            <span>Home</span>
                         </a>
-                        <meta itemprop="position" content="1" />
                     </li>
                     <li class="breadcrumb-separator"><i class="fas fa-chevron-right" aria-hidden="true"></i></li>
-                    <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                        <span itemprop="name">Showrooms</span>
-                        <meta itemprop="position" content="2" />
+                    <li class="breadcrumb-item">                   
+                            <span>Showrooms</span>
                     </li>
                     <li class="breadcrumb-separator"><i class="fas fa-chevron-right" aria-hidden="true"></i></li>
-                    <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                        <span itemprop="name">Luxury Furniture in Abu Dhabi</span>
-                        <meta itemprop="item" content="https://theyyampattilgcc.com/showroom/luxury-furniture-abu-dhabi/" />
-                        <meta itemprop="position" content="3" />
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <span>Luxury Furniture in Abu Dhabi</span>
                     </li>
                 </ol>
             </nav>

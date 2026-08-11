@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
     <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:type" content="product">
+    <meta property="og:type" content="website">
     <meta property="og:title" content="Premium Wall Partition Dubai | Luxury Partition Designs UAE">
     <meta property="og:description" content="Transform your space with high-end modern room dividers and partition walls engineered for UAE luxury interiors.">
     <meta property="og:url" content="https://theyyampattilgcc.com/product/premium-wall-partition-dubai/">
@@ -41,22 +41,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Schema Markup: Product & BreadcrumbList -->
+    <!-- Schema Markup: Service, BreadcrumbList, & FAQPage -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org/",
-      "@type": "Product",
-      "name": "Premium Wall Partition Dubai",
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Premium Wall Partition Solutions Dubai",
+      "serviceType": "Custom Wall Partition Design & Installation",
       "image": "https://theyyampattilgcc.com/assets/images/gallery/part-0.jpg",
       "description": "Custom high-end interior partition walls, wooden dividers, and glass partition solutions designed for modern luxury UAE homes and offices.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Theyyampattil Furniture"
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Theyyampattil Furniture",
+        "url": "https://theyyampattilgcc.com/"
       },
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "AED",
-        "availability": "https://schema.org/InStock"
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Arab Emirates"
       }
     }
     </script>

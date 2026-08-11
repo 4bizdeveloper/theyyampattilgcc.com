@@ -12,7 +12,7 @@
     <meta name="keywords" content="wall panels, pvc wall panels, wood wall panels, 3d wall panels, wall panels dubai">
     
     <!-- Open Graph / Social Media Meta -->
-    <meta property="og:type" content="product" />
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="Premium Wall Panels in Dubai UAE | Theyyampattil Furniture" />
     <meta property="og:description" content="Revitalize your space with premium wall panels in the UAE. Discover luxury wood wall panels in Dubai." />
     <meta property="og:url" content="https://theyyampattilgcc.com/product/premium-wall-panels-dubai/" />
@@ -51,7 +51,15 @@
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "WebPage",
+          "@id": "https://theyyampattilgcc.com/product/premium-wall-panels-dubai/#webpage",
+          "url": "https://theyyampattilgcc.com/product/premium-wall-panels-dubai/",
+          "name": "Premium Wall Panels in Dubai UAE | Theyyampattil Furniture",
+          "description": "Revitalize your space with premium wall panels in the UAE. Discover luxury wood wall panels in Dubai with innovative, custom designs by Theyyampattil Furniture."
+        },
+        {
           "@type": "BreadcrumbList",
+          "@id": "https://theyyampattilgcc.com/product/premium-wall-panels-dubai/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -74,17 +82,8 @@
           ]
         },
         {
-          "@type": "Product",
-          "name": "Premium Wall Panels",
-          "image": "https://theyyampattilgcc.com/assets/images/home-page/wall-panel.avif",
-          "description": "Revitalize your space with premium wall panels in the UAE. Discover luxury wood, PVC, and 3D wall panels in Dubai.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Theyyampattil Furniture"
-          }
-        },
-        {
-          "@type": "LocalBusiness",
+          "@type": "FurnitureStore",
+          "@id": "https://theyyampattilgcc.com/#organization",
           "name": "Theyyampattil Furniture Dubai",
           "url": "https://theyyampattilgcc.com/",
           "telephone": "+971559132200",

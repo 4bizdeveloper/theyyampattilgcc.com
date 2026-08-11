@@ -12,7 +12,7 @@
     <meta name="keywords" content="Dressing room dubai, luxury dressing room dubai, custom dressing room, dressing room furniture uae, Dressing room design dubai, Modern dressing room, custom wardrobes dubai, luxury joinery uae">
     
     <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:type" content="product">
+    <meta property="og:type" content="website">
     <meta property="og:title" content="Luxury Dressing Rooms in Dubai | Theyyampattil Furniture">
     <meta property="og:description" content="Discover custom luxury dressing rooms in Dubai by Theyyampattil Furniture. Premium bespoke walk-in closets and modern dressing tables.">
     <meta property="og:url" content="https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai/">
@@ -40,12 +40,12 @@
         gtag('config', 'G-WQCL6SX9EV');
     </script>
 
-    <!-- Preconnect & Font Optimization for Performance (GTmetrix Grade A) -->
+    <!-- Preconnect & Font Optimization for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- SEO JSON-LD Schema Markup (Search Engine, AI, and Rich Snippets Level) -->
+    <!-- Service-Based Schema Markup (No Product Schema, No Price, No Review Errors) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -75,19 +75,18 @@
           ]
         },
         {
-          "@type": "Product",
-          "@id": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai/#product",
+          "@type": "Service",
+          "@id": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai/#service",
           "name": "Luxury Dressing Rooms in Dubai",
           "image": "https://theyyampattilgcc.com/assets/images/home-page/dressing-unit.avif",
           "description": "Custom luxury dressing rooms, walk-in wardrobes, and bespoke vanity tables designed and crafted in Dubai, UAE.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Theyyampattil Furniture"
+          "provider": {
+            "@type": "LocalBusiness",
+            "@id": "https://theyyampattilgcc.com/#organization"
           },
-          "offers": {
-            "@type": "AggregateOffer",
-            "availability": "https://schema.org/InStock",
-            "url": "https://theyyampattilgcc.com/product/luxury-dressing-rooms-dubai/"
+          "areaServed": {
+            "@type": "City",
+            "name": "Dubai"
           }
         },
         {
@@ -179,7 +178,6 @@
 
         section { padding: 40px 0; }
 
-        /* SEO Optimized Centered Breadcrumb */
         .breadcrumb-container {
             margin-top: 25px;
             padding: 20px 0 10px 0;
@@ -223,7 +221,6 @@
             font-weight: 600;
         }
 
-        /* Hero Section Structure */
         .hero {
             display: flex;
             align-items: center;
@@ -333,7 +330,6 @@
         .feature-item h3 { color: var(--brand-color); margin-bottom: 12px; font-size: 1.2rem; }
         .feature-item p { color: var(--text-gray); font-size: 0.95rem; line-height: 1.6; }
 
-        /* Additional High-SEO Content Block Grid */
         .seo-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -360,7 +356,6 @@
             line-height: 1.6;
         }
 
-        /* Gallery Structure */
         .gallery-head { text-align: center; margin-bottom: 35px; }
         .gallery-grid {
             display: grid;
@@ -386,7 +381,6 @@
 
         .gallery-item:hover img { transform: scale(1.08); }
 
-        /* FAQ Section */
         .faq-section { max-width: 900px; margin: 0 auto; }
         .faq-item {
             margin-bottom: 12px;
@@ -442,7 +436,6 @@
             color: var(--brand-color);
         }
 
-        /* Responsive Breakpoints */
         @media (max-width: 1024px) {
             .hero { flex-direction: column; text-align: center; padding-top: 10px; min-height: auto; }
             .hero h1 { font-size: 2.8rem; }
@@ -470,7 +463,6 @@
     <?php include '../includes/header.php'; ?>
 
     <div class="wrapper">
-        <!-- SEO Centered Breadcrumbs -->
         <div class="breadcrumb-container">
             <nav class="breadcrumb-nav" aria-label="Breadcrumb">
                 <a href="https://theyyampattilgcc.com/">Home</a>
@@ -518,7 +510,6 @@
                 </div>
             </div>
 
-            <!-- SEO Content Expansion Block for AI and Search Engines -->
             <div class="seo-grid">
                 <div class="seo-card">
                     <h3>Custom Walk-In Closets & Wardrobes</h3>
@@ -590,7 +581,6 @@
     <?php include '../includes/fixed-floating-buttons.php'; ?>
 
     <script>
-        // Smooth FAQ Toggle Logic
         document.querySelectorAll('.faq-question').forEach(item => {
             item.addEventListener('click', () => {
                 const answer = item.nextElementSibling;

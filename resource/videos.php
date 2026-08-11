@@ -43,7 +43,8 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Resources"
+              "name": "Resources",
+              "item": "https://theyyampattilgcc.com/"
             },
             {
               "@type": "ListItem",
@@ -414,7 +415,7 @@
             </li>
             <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item">
-                <span>Resources</span>
+                Resources
             </li>
             <li class="breadcrumb-separator">/</li>
             <li class="breadcrumb-item active" aria-current="page">

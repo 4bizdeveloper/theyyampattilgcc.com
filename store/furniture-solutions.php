@@ -37,7 +37,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Store",
-          "item": "https://theyyampattilgcc.com/store/"
+          "item": "https://theyyampattilgcc.com/"
         },
         {
           "@type": "ListItem",

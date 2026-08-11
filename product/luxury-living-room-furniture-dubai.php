@@ -14,11 +14,31 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
-    <!-- Schema.org JSON-LD Markup for Search & AI Optimization -->
+    <!-- Schema.org JSON-LD Markup for Search & AI Optimization (Validated for Non-Ecommerce Custom Solutions) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/",
+          "url": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/",
+          "name": "Luxury Living Room Furniture Dubai | Premium Italian Interiors UAE",
+          "description": "Discover luxury living room furniture in Dubai by Theyyampattil. Premium Italian designs, custom-made interiors, and elegant solutions for modern homes.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://theyyampattilgcc.com/#website",
+            "url": "https://theyyampattilgcc.com/",
+            "name": "Theyyampattil Furniture"
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://theyyampattilgcc.com/assets/images/gallery/welcome-unit.JPEG"
+          },
+          "breadcrumb": {
+            "@id": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/#breadcrumb"
+          }
+        },
         {
           "@type": "BreadcrumbList",
           "@id": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/#breadcrumb",
@@ -44,19 +64,19 @@
           ]
         },
         {
-          "@type": "Product",
-          "@id": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/#product",
-          "name": "Luxury Living Room Furniture Dubai",
-          "image": "https://theyyampattilgcc.com/assets/images/gallery/welcome-unit.JPEG",
-          "description": "Discover luxury living room furniture in Dubai by Theyyampattil. Premium Italian designs, custom-made interiors, and elegant solutions for modern homes.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Theyyampattil Furniture"
+          "@type": "Service",
+          "@id": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/#service",
+          "name": "Luxury Living Room Furniture Solutions",
+          "description": "Custom-made Italian living room furniture and interior solutions in Dubai.",
+          "provider": {
+            "@type": "HomeGoodsStore",
+            "name": "Theyyampattil Furniture",
+            "url": "https://theyyampattilgcc.com/",
+            "telephone": "+971559132200"
           },
-          "offers": {
-            "@type": "AggregateOffer",
-            "availability": "https://schema.org/InStock",
-            "url": "https://theyyampattilgcc.com/product/luxury-living-room-furniture-dubai/"
+          "areaServed": {
+            "@type": "City",
+            "name": "Dubai"
           }
         },
         {

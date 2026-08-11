@@ -12,7 +12,7 @@
     <meta name="keywords" content="Luxury Bed Panels Dubai, Custom Bedroom Wall Panels, Upholstered Headboard Wall, Furniture Solutions UAE, Theyyampattil Furniture">
     
     <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:type" content="product" />
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="Luxury Bed Panels in Dubai | Custom Bedroom Wall Panels" />
     <meta property="og:description" content="Custom-designed bedroom wall panels with premium materials and professional installation across Dubai & UAE." />
     <meta property="og:url" content="https://theyyampattilgcc.com/product/luxury-bed-panels/" />
@@ -30,7 +30,7 @@
     <!-- Common <head> include materials -->
     <?php include '../includes/head-tag-include.php'; ?>    
 
-    <!-- Dynamic SEO Schema Markup (Breadcrumb, Product, FAQ, Local Business) -->
+    <!-- Validated Dynamic SEO Schema Markup (Breadcrumb, Service, FAQ, Local Business) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -60,34 +60,32 @@
           ]
         },
         {
-          "@type": "Product",
-          "@id": "https://theyyampattilgcc.com/product/luxury-bed-panels/#product",
-          "name": "Luxury Bed Panels in Dubai",
-          "image": "https://theyyampattilgcc.com/assets/images/home-page/bed-room.avif",
+          "@type": "Service",
+          "@id": "https://theyyampattilgcc.com/product/luxury-bed-panels/#service",
+          "name": "Custom Luxury Bed Panels & Bedroom Wall Paneling",
+          "serviceType": "Custom Furniture & Wall Paneling Solutions",
           "description": "Custom-designed luxurious bedroom wall and bed panels crafted from premium wood, veneer, and upholstery by Theyyampattil Furniture UAE.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Theyyampattil Furniture"
-          },
-          "offers": {
-            "@type": "Offer",
-            "url": "https://theyyampattilgcc.com/product/luxury-bed-panels/",
-            "priceCurrency": "AED",
-            "availability": "https://schema.org/InStock",
-            "seller": {
-              "@type": "LocalBusiness",
-              "name": "Theyyampattil Furniture Dubai",
-              "telephone": "+971559132200",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Dubai",
-                "addressCountry": "AE"
-              }
+          "image": "https://theyyampattilgcc.com/assets/images/home-page/bed-room.avif",
+          "provider": {
+            "@type": "LocalBusiness",
+            "@id": "https://theyyampattilgcc.com/#organization",
+            "name": "Theyyampattil Furniture Dubai",
+            "telephone": "+971559132200",
+            "url": "https://theyyampattilgcc.com/",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Dubai",
+              "addressCountry": "AE"
             }
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "United Arab Emirates"
           }
         },
         {
           "@type": "FAQPage",
+          "@id": "https://theyyampattilgcc.com/product/luxury-bed-panels/#faq",
           "mainEntity": [
             {
               "@type": "Question",

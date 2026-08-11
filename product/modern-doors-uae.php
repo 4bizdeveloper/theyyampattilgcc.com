@@ -13,7 +13,7 @@
     
     <!-- Open Graph Tags (AI & Social SEO) -->
     <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="product" />
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="Modern Doors in UAE | Custom Entryways & Wooden Doors" />
     <meta property="og:description" content="Premium modern doors crafted in Dubai & UAE. Luxury interior, sliding, and pivot entryways with European craftsmanship." />
     <meta property="og:url" content="https://theyyampattilgcc.com/product/modern-doors-uae/" />
@@ -55,11 +55,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- Structured Data (JSON-LD Schemas) for Search Engine & AI Level Optimization -->
+    <!-- Valid JSON-LD Schema (Services & Custom Furniture Solutions Focus) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://theyyampattilgcc.com/product/modern-doors-uae/",
+          "url": "https://theyyampattilgcc.com/product/modern-doors-uae/",
+          "name": "Modern Doors in UAE | Custom Entryways & Wooden Doors Dubai",
+          "description": "Custom modern interior and exterior doors engineered for luxury villas and residences across the UAE.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://theyyampattilgcc.com/#website",
+            "url": "https://theyyampattilgcc.com/",
+            "name": "Theyyampattil Furniture"
+          }
+        },
         {
           "@type": "BreadcrumbList",
           "@id": "https://theyyampattilgcc.com/product/modern-doors-uae/#breadcrumb",
@@ -85,20 +98,33 @@
           ]
         },
         {
-          "@type": "Product",
-          "@id": "https://theyyampattilgcc.com/product/modern-doors-uae/#product",
-          "name": "Custom Modern Doors UAE",
-          "image": "https://theyyampattilgcc.com/product/assets/images/home-page/modern-door.avif",
-          "description": "Custom modern interior and exterior doors engineered for luxury villas and residences across the UAE.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Theyyampattil Furniture"
+          "@type": "Service",
+          "@id": "https://theyyampattilgcc.com/product/modern-doors-uae/#service",
+          "name": "Custom Modern Doors Manufacturing & Installation",
+          "provider": {
+            "@type": "Organization",
+            "name": "Theyyampattil Furniture",
+            "url": "https://theyyampattilgcc.com/"
           },
-          "offers": {
-            "@type": "AggregateOffer",
-            "availability": "https://schema.org/InStock",
-            "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "UAE"]
-          }
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "Dubai"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Abu Dhabi"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Sharjah"
+            },
+            {
+              "@type": "Country",
+              "name": "United Arab Emirates"
+            }
+          ],
+          "description": "Custom modern interior and exterior doors engineered with European joinery for luxury villas and residences across the UAE."
         },
         {
           "@type": "FAQPage",
@@ -179,7 +205,6 @@
             color: var(--text-white);
             line-height: 1.6;
             overflow-x: hidden;
-            content-visibility: auto;
         }
 
         header a, .main-menu a { text-decoration: none !important; }
@@ -672,7 +697,6 @@
                         <p>We serve clients throughout Dubai, Abu Dhabi, Sharjah, and all other Emirates in the UAE.</p>
                     </div>
                 </div>
-                <!-- Added Additional FAQ Item -->
                 <div class="faq-item">
                     <button class="faq-question" aria-expanded="false">
                         <span>How long does custom door design and installation take in the UAE?</span>

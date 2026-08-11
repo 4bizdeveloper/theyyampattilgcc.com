@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- SEO BreadcrumbList Schema Markup -->
+    <!-- SEO BreadcrumbList Schema Markup (Fixed missing item field) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -37,7 +37,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Showrooms"
+          "name": "Showrooms",
+          "item": "https://theyyampattilgcc.com/"
         },
         {
           "@type": "ListItem",
@@ -155,14 +156,15 @@
 <style>
     :root {
         --bg-page: #0a0a0c;
-        --bg-card: rgba(22, 22, 26, 0.7);
-        --bg-card-hover: rgba(30, 30, 36, 0.9);
-        --brand-gold: #c9a76a;
-        --brand-gold-glow: rgba(201, 167, 106, 0.25);
+        --bg-card: rgba(22, 22, 26, 0.85);
+        --bg-card-hover: rgba(32, 32, 40, 0.95);
+        --brand-gold: #e5be7a; /* Brightened Gold for higher visibility */
+        --brand-gold-glow: rgba(229, 190, 122, 0.35);
         --white: #ffffff;
-        --text-muted: #a0a0ab;
-        --border-glass: rgba(255, 255, 255, 0.08);
-        --border-gold-glass: rgba(201, 167, 106, 0.3);
+        --text-muted: #e2e2e8; /* Brightened muted text from #a0a0ab */
+        --text-subtle: #d0d0da; /* Brightened secondary text */
+        --border-glass: rgba(255, 255, 255, 0.15);
+        --border-gold-glass: rgba(229, 190, 122, 0.45);
         --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
@@ -191,6 +193,16 @@
         text-decoration: none !important;
     }
 
+    /* Global Text Contrast Enhancements */
+    .text-secondary {
+        color: var(--text-subtle) !important;
+    }
+
+    .small, small {
+        font-size: 0.95rem !important; /* Increased small text size from default */
+        color: var(--text-subtle) !important;
+    }
+
     .text-gold { color: var(--brand-gold) !important; }
     
     /* Buttons Styling */
@@ -200,11 +212,11 @@
         justify-content: center;
         gap: 10px;
         padding: 16px 36px;
-        background: linear-gradient(135deg, #c9a76a 0%, #b08d4f 100%);
+        background: linear-gradient(135deg, #e5be7a 0%, #c99e52 100%);
         color: #0d0d0f !important;
-        font-weight: 700;
+        font-weight: 800;
         text-transform: uppercase;
-        font-size: 13px;
+        font-size: 14px; /* Scaled up from 13px */
         letter-spacing: 2px;
         border-radius: 100px;
         transition: var(--transition);
@@ -217,11 +229,11 @@
         background: transparent;
         color: var(--brand-gold) !important;
         transform: translateY(-4px);
-        box-shadow: 0 8px 30px rgba(201, 167, 106, 0.35);
+        box-shadow: 0 8px 30px rgba(229, 190, 122, 0.45);
     }
 
     .btn-luxury-outline {
-        background: rgba(255, 255, 255, 0.03);
+        background: rgba(255, 255, 255, 0.05);
         color: var(--brand-gold) !important;
         border: 1px solid var(--border-gold-glass);
         backdrop-filter: blur(10px);
@@ -232,11 +244,11 @@
         color: #0d0d0f !important;
     }
 
-    /* Hero Section Preserved Unchanged Background Frame */
+    /* Hero Section Contrast Enhancements */
     .main-hero h1, 
     .main-hero h5, 
     .main-hero p {
-        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8), 0 0 2px rgba(0, 0, 0, 1);
+        text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9), 0 0 4px rgba(0, 0, 0, 1);
     }
 
     .main-hero {
@@ -254,7 +266,7 @@
         padding-bottom: 50px;
         position: relative;
         aspect-ratio: 6000 / 3375; 
-        background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.45)), 
+        background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.65)), 
                           url('assets/images/showrooms/sharja/SHARJAH SHOWROOM DESKTOP.jpeg'); 
     }
 
@@ -266,27 +278,27 @@
     }
 
     .hero-breadcrumb {
-        background: rgba(10, 10, 12, 0.65);
+        background: rgba(10, 10, 12, 0.85);
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
         border: 1px solid var(--border-gold-glass);
         border-radius: 50px;
-        padding: 8px 24px;
+        padding: 10px 28px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
     }
 
     .hero-breadcrumb .breadcrumb-item {
-        font-size: 13px;
-        font-weight: 600;
+        font-size: 14px; /* Increased from 13px */
+        font-weight: 700;
         letter-spacing: 0.5px;
     }
 
     .hero-breadcrumb .breadcrumb-item a {
-        color: #d1d1d6 !important;
+        color: #ffffff !important; /* Brightened from #d1d1d6 */
         transition: var(--transition);
     }
 
@@ -302,14 +314,15 @@
         content: "\f105";
         font-family: "Font Awesome 6 Free";
         font-weight: 900;
-        color: rgba(201, 167, 106, 0.6);
+        color: var(--brand-gold);
         padding: 0 10px;
     }
 
     .main-hero p.lead {
-        font-weight: 500;
+        font-weight: 600;
         color: var(--white) !important;
         opacity: 1 !important;
+        font-size: 1.3rem; /* Scaled up for readability */
     }
 
     /* Modern Ultra Card System */
@@ -328,22 +341,22 @@
         background: var(--bg-card-hover);
         border-color: var(--brand-gold);
         transform: translateY(-8px);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(201, 167, 106, 0.15);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(229, 190, 122, 0.2);
     }
 
-    /* Modernized Section Layouts & Compact Spacing */
+    /* Section Badge Legibility Upgrade */
     .section-badge {
         display: inline-block;
-        padding: 6px 16px;
-        background: rgba(201, 167, 106, 0.1);
+        padding: 8px 18px;
+        background: rgba(229, 190, 122, 0.18); /* Brighter background */
         border: 1px solid var(--border-gold-glass);
         border-radius: 50px;
         color: var(--brand-gold);
-        font-size: 12px;
-        font-weight: 700;
+        font-size: 13px; /* Increased from 12px */
+        font-weight: 800;
         letter-spacing: 3px;
         text-transform: uppercase;
-        margin-bottom: 12px;
+        margin-bottom: 14px;
     }
 
     /* Modern Card Item (Collections) */
@@ -406,15 +419,15 @@
     }
 
     .community-icon {
-        width: 64px;
-        height: 64px;
-        background: linear-gradient(135deg, rgba(201, 167, 106, 0.2), rgba(201, 167, 106, 0.05));
+        width: 68px;
+        height: 68px;
+        background: linear-gradient(135deg, rgba(229, 190, 122, 0.25), rgba(229, 190, 122, 0.1));
         border: 1px solid var(--brand-gold);
         border-radius: 18px;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         color: var(--brand-gold);
         margin-bottom: 20px;
     }
@@ -436,12 +449,17 @@
     }
 
     .process-number {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
         font-weight: 800;
-        background: linear-gradient(135deg, #c9a76a 0%, #ffffff 100%);
+        background: linear-gradient(135deg, #e5be7a 0%, #ffffff 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-bottom: 8px;
+    }
+
+    .process-card p {
+        font-size: 1.05rem; /* Enhanced text size for process items */
+        font-weight: 700 !important;
     }
 
     /* Hours & Location Cards */
@@ -460,9 +478,10 @@
     }
 
     .hours-table td {
-        padding: 10px 0;
-        color: #d1d1d6 !important;
-        border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+        padding: 12px 0;
+        color: #ffffff !important; /* Brightened from #d1d1d6 */
+        font-size: 1.05rem; /* Increased size */
+        border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
     }
 
     .hours-table tr:last-child td {
@@ -492,13 +511,13 @@
 
     .stars {
         color: var(--brand-gold);
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .carousel-control-prev, .carousel-control-next {
         width: 50px;
         height: 50px;
-        background: rgba(201, 167, 106, 0.12);
+        background: rgba(229, 190, 122, 0.2);
         border: 1px solid var(--brand-gold);
         border-radius: 50%;
         top: 50%;
@@ -543,9 +562,9 @@
     .accordion-button {
         background: transparent !important;
         box-shadow: none !important;
-        padding: 20px 24px;
-        font-weight: 600;
-        font-size: 1.05rem;
+        padding: 22px 26px;
+        font-weight: 700;
+        font-size: 1.15rem; /* Scaled up for readable questions */
     }
 
     .accordion-button:not(.collapsed) { 
@@ -559,8 +578,9 @@
 
     .accordion-body { 
         color: var(--text-muted) !important; 
-        padding: 0 24px 20px 24px;
-        font-size: 1rem;
+        padding: 0 26px 24px 26px;
+        font-size: 1.05rem; /* Scaled up answer body text */
+        line-height: 1.7;
     }
 
     /* Map Box */
@@ -595,7 +615,7 @@
     @media (max-width: 1024px) {
         .main-hero {
             aspect-ratio: 4000 / 2250;
-            background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.45)), 
+            background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.65)), 
                               url('assets/images/showrooms/sharja/SHARJAH SHOWROOM TABLET.jpeg');
             padding-top: 100px;
         }
@@ -609,22 +629,22 @@
         
         .main-hero {
             aspect-ratio: 2500 / 3750; 
-            background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.45)), 
+            background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.65)), 
                               url('assets/images/showrooms/sharja/SHARJAH SHOWROOM PHONE.jpeg');
             padding-top: 120px !important;
             padding-bottom: 40px !important;
         }
 
         .hero-breadcrumb {
-            padding: 6px 16px;
+            padding: 8px 18px;
         }
         
         .hero-breadcrumb .breadcrumb-item {
-            font-size: 11px;
+            font-size: 12px;
         }
         
-        .display-1 { font-size: clamp(2rem, 5.5vw, 3.2rem) !important; }
-        .display-5 { font-size: clamp(1.6rem, 4.5vw, 2.5rem) !important; }
+        .display-1 { font-size: clamp(2.2rem, 6vw, 3.4rem) !important; }
+        .display-5 { font-size: clamp(1.8rem, 5vw, 2.7rem) !important; }
         .btn-luxury { width: 100%; }
         
         .testimonial-wrapper {
@@ -684,14 +704,14 @@
                 <meta itemprop="position" content="2" />
             </li>
             <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name">Custom Luxury Furniture Sharjah</span>
+                <a itemprop="item" href="https://theyyampattilgcc.com/showroom/custom-luxury-furniture-sharjah/"><span itemprop="name">Custom Luxury Furniture Sharjah</span></a>
                 <meta itemprop="position" content="3" />
             </li>
         </ol>
     </nav>
 
     <div class="container my-auto">
-        <h5 class="text-gold mb-3" style="letter-spacing: 5px;">THEYYAMPATTIL FURNITURE</h5>
+        <h5 class="text-gold mb-3 fw-bold" style="letter-spacing: 5px; font-size: 1.1rem;">THEYYAMPATTIL FURNITURE</h5>
         <h1 class="display-1 fw-bold mb-4">Custom Luxury Furniture in Sharjah</h1>
         <p class="lead mb-4 mx-auto" style="max-width: 800px;">Bespoke Designer Furniture for Villas, Apartments & Commercial Spaces. Tailored to your space, style, and functional needs.</p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
@@ -714,11 +734,11 @@
                     <p class="fs-5 text-secondary mb-3">We specialize in custom luxury furniture, delivering bespoke solutions that enhance comfort and elegance across the UAE. Located at <strong>Warehouses Land - Sharjah - United Arab Emirates</strong>, our expert design and installation teams serve clients in Dubai, Sharjah, and Abu Dhabi.</p>
                     
                     <div class="p-3 glass-card border-0 bg-transparent ps-0">
-                        <h5 class="text-gold mb-2"><i class="fas fa-map-marker-alt me-2"></i> We Serve in Sharjah and all over UAE</h5>
-                        <h6 class="text-gold mt-2 mb-2">Our Presence Beyond Sharjah:</h6>
+                        <h5 class="text-gold mb-2 fw-bold"><i class="fas fa-map-marker-alt me-2"></i> We Serve in Sharjah and all over UAE</h5>
+                        <h6 class="text-gold mt-2 mb-2 fw-semibold">Our Presence Beyond Sharjah:</h6>
                         <ul class="list-unstyled row g-2">
-                            <li class="col-sm-6"><i class="fas fa-city text-gold me-2"></i> <strong>Dubai:</strong> Near Marhaba Mall</li>
-                            <li class="col-sm-6"><i class="fas fa-city text-gold me-2"></i> <strong>Abu Dhabi:</strong> Bani Yas</li>
+                            <li class="col-sm-6 fs-6"><i class="fas fa-city text-gold me-2"></i> <strong>Dubai:</strong> Near Marhaba Mall</li>
+                            <li class="col-sm-6 fs-6"><i class="fas fa-city text-gold me-2"></i> <strong>Abu Dhabi:</strong> Bani Yas</li>
                         </ul>
                     </div>
                 </div>
@@ -959,14 +979,14 @@
                                 <i class="fas fa-map-marked-alt text-gold fs-2 me-3"></i>
                                 <h3 class="fw-bold mb-0 h4">Location & Direct Contact</h3>
                             </div>
-                            <h5 class="text-gold mb-2">Sharjah Showroom & Factory</h5>
+                            <h5 class="text-gold mb-2 fw-bold">Sharjah Showroom & Factory</h5>
                             <address class="mb-3 text-light fs-5 fst-normal">
                                 Warehouses Land - Sharjah - United Arab Emirates
                             </address>
-                            <hr style="border-color: rgba(255,255,255,0.1);">
-                            <p class="mb-2"><i class="fas fa-phone-alt text-gold me-2"></i> <strong>Showroom Direct:</strong> <a href="tel:067676297" class="text-gold">06 767 6297</a></p>
-                            <p class="mb-2"><i class="fas fa-mobile-alt text-gold me-2"></i> <strong>Mobile / WhatsApp:</strong> +971 55 913 2200</p>
-                            <p class="mb-0"><i class="fas fa-envelope text-gold me-2"></i> <strong>Email:</strong> sales@theyyampattilgcc.com</p>
+                            <hr style="border-color: rgba(255,255,255,0.2);">
+                            <p class="mb-2 fs-6"><i class="fas fa-phone-alt text-gold me-2"></i> <strong>Showroom Direct:</strong> <a href="tel:067676297" class="text-gold fw-bold">06 767 6297</a></p>
+                            <p class="mb-2 fs-6"><i class="fas fa-mobile-alt text-gold me-2"></i> <strong>Mobile / WhatsApp:</strong> <span class="text-light">+971 55 913 2200</span></p>
+                            <p class="mb-0 fs-6"><i class="fas fa-envelope text-gold me-2"></i> <strong>Email:</strong> <span class="text-light">sales@theyyampattilgcc.com</span></p>
                         </div>
                     </div>
                 </div>

@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gallery | Luxury Custom Furniture & Interiors | Theyyampattil</title>   
+    <title>Gallery | Luxury Custom Furniture & Interior Design | Theyyampattil</title>   
     <meta name="description" content="Explore Theyyampattil Furniture gallery showcasing luxury interiors, custom-made furniture, modern kitchens, wardrobes, and premium home designs across UAE.">
 
     <!-- Plus Jakarta Sans -->
@@ -21,10 +21,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
-    <!-- Common <head> include materials like schema markup, social tags, etc. -->
+    <!-- Common <head> include materials like social tags, etc. -->
     <?php include '../includes/head-tag-include.php'; ?>     
 
-    <!-- SEO Schema Markup Integration (BreadcrumbList, ImageGallery, FAQPage, FurnitureStore) -->
+    <!-- Validated SEO Schema Markup Integration -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -42,12 +42,14 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Resources"
+              "name": "Resources",
+              "item": "https://theyyampattilgcc.com/"
             },
             {
               "@type": "ListItem",
               "position": 3,
-              "name": "Gallery"
+              "name": "Gallery",
+              "item": "https://theyyampattilgcc.com/resource/gallery/"
             }
           ]
         },
@@ -64,7 +66,6 @@
           "name": "Theyyampattil Furniture",
           "url": "https://theyyampattilgcc.com/",
           "logo": "https://theyyampattilgcc.com/assets/images/favicons/apple-touch-icon.png",
-          "areaServed": "GCC",
           "description": "Premier luxury bespoke furniture and custom interior design solutions across UAE and GCC."
         },
         {
@@ -643,7 +644,7 @@
     <?php include '../includes/footer.php'; ?>
     <?php include '../includes/fixed-floating-buttons.php'; ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/ghlightbox/dist/js/glightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <script>
         // Lightbox Initializer
         const lightbox = GLightbox({

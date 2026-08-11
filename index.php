@@ -79,6 +79,11 @@
 <!-- Common <head> include materials like schema markup,social tags,...etc -->
 <?php include 'includes/head-tag-include.php'; ?>
 
+
+<meta name="google-site-verification" content="XTjY3Qv4nQ_GyvHDCV4jIVC4kk-4ErQbpYiw8E_dm2A" />
+
+
+
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=

@@ -32,6 +32,24 @@
 [
   {
     "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Custom Modern TV Wall Unit & Design",
+    "serviceType": "Custom Furniture Design and Installation",
+    "description": "Tailored, custom-built TV wall units, entertainment cabinets, floating mounts, and living room wall panels designed and installed across UAE.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Theyyampattil Furniture",
+      "image": "https://theyyampattilgcc.com/assets/images/home-page/tv-wall.avif",
+      "telephone": "+971559132200",
+      "url": "https://theyyampattilgcc.com/"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "United Arab Emirates"
+    }
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
       {
