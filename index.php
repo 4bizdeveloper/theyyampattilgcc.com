@@ -27,7 +27,10 @@
 <meta name="description" content="Theyyampattil Furniture offers premium Italian luxury furniture in Dubai. Explore bespoke sofas, bedroom sets, and modern TV wall units.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<!-- Async font load (preload + swap on load) removes render-blocking CSS request for GTmetrix/PageSpeed -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" media="print" onload="this.media='all';this.onload=null;">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"></noscript>
 <link rel="apple-touch-icon" sizes="180x180" href="https://theyyampattilgcc.com/assets/images/favicons/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="https://theyyampattilgcc.com/assets/images/favicons/favicon-32x32.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="https://theyyampattilgcc.com/assets/images/favicons/favicon-16x16.png" />
@@ -76,15 +79,105 @@
 }
 </script>
 
+<!-- Breadcrumb Schema (AEO/GEO fix: site hierarchy signal for search + AI answer engines) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://theyyampattilgcc.com/"
+    }
+  ]
+}
+</script>
+
+<!-- HowTo Schema (AEO fix: structured answer support for "how we build your furniture" process) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How Theyyampattil Furniture Builds Custom Furniture",
+  "description": "The step-by-step, in-house process used to design, manufacture, and deliver custom luxury furniture in Dubai, Sharjah and Abu Dhabi.",
+  "totalTime": "P8W",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Consultation & measurement",
+      "text": "Our design team visits or meets you in-showroom to record exact room dimensions and material preferences."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Design & material sign-off",
+      "text": "You approve a 3D layout and physical material/fabric swatches before production starts."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "In-house manufacturing",
+      "text": "Pieces are hand-built and quality-checked at our own production facilities, not outsourced."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Delivery & installation",
+      "text": "Our team delivers and installs on-site across Dubai, Sharjah and Abu Dhabi, typically within 4-8 weeks of order confirmation."
+    }
+  ]
+}
+</script>
+
+<!-- Service/OfferCatalog Schema (GEO fix: entity disambiguation - product/service schema) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Custom Luxury Furniture Design & Manufacturing",
+  "provider": {
+    "@type": "FurnitureStore",
+    "name": "Theyyampattil Furniture Trading LLC",
+    "url": "https://theyyampattilgcc.com/"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Dubai" },
+    { "@type": "City", "name": "Sharjah" },
+    { "@type": "City", "name": "Abu Dhabi" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Custom Furniture Categories",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Custom Sofas & Living Room Furniture"
+      },
+      {
+        "@type": "Offer",
+        "name": "Bedroom Sets & Wardrobes"
+      },
+      {
+        "@type": "Offer",
+        "name": "TV Units & Wall Cladding"
+      },
+      {
+        "@type": "Offer",
+        "name": "Walk-in Closets"
+      }
+    ]
+  }
+}
+</script>
 <!-- Common <head> include materials like schema markup,social tags,...etc -->
 <?php include 'includes/head-tag-include.php'; ?>
 
-
 <meta name="google-site-verification" content="XTjY3Qv4nQ_GyvHDCV4jIVC4kk-4ErQbpYiw8E_dm2A" />
 
-
-
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -95,14 +188,31 @@
   .gtm-noscript-frame { position: absolute; width: 0; height: 0; overflow: hidden; }
   /* ===== GLOBAL RESET & BASE ===== */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; font-size: 16px; }
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+    overscroll-behavior-y: auto;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
   body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     background: #151515;
     color: #e8e0d4;
     overflow-x: hidden;
+    overscroll-behavior-y: auto;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y pinch-zoom;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+  /* Respect reduced-motion users AND stop scroll-behavior:smooth from
+     fighting with anchor/JS-triggered scrolls (a common cause of a
+     screen feeling "stuck" mid-scroll on mobile Safari/Chrome) */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
   }
   a { text-decoration: none; color: inherit; }
   img { max-width: 100%; display: block; }
@@ -553,16 +663,14 @@
 <!-- hero section ends -->
 <!-- END: HERO SLIDER -->
 
-
 <!-- ============================================================
      COMPONENT: ABOUT / LUXURY HOME FURNITURE INTRO
      ============================================================ -->
 <!-- about section starts -->
-<section id="about-section" style="background:#121212; padding: clamp(30px, 5vw, 60px) 0; overflow:hidden; contain: content;" aria-label="About Theyyampattil">
+<section id="about-section" style="background:#121212; padding: clamp(24px, 4vw, 46px) 0; overflow:hidden; contain: content;" aria-label="About Theyyampattil">
   <style>
 
-
-    :root {
+:root {
       --gold: #c9a76a;
       --gold-dark: #b08d55;
       --white: #ffffff;
@@ -575,7 +683,7 @@
     #about-section {
       font-family: var(--font-main);
       content-visibility: auto;
-      contain-intrinsic-size: 1px 500px;
+      contain-intrinsic-size: auto 500px;
     }
 
     .about-container {
@@ -588,15 +696,15 @@
       align-items: center;
     }
 
-    .section-label {
+    .about-label {
       display: inline-flex;
       padding: 4px 10px;
       background: var(--glass);
       border-left: 3px solid var(--gold);
-      margin-bottom: 12px;
+      margin-bottom: 14px;
     }
 
-    .section-label span {
+    .about-label span {
       font-size: 0.7rem;
       font-weight: 800;
       letter-spacing: 0.15em;
@@ -604,16 +712,16 @@
       color: var(--gold);
     }
 
-    .section-title {
+    .about-title {
       font-size: clamp(2rem, 4.5vw, 3.2rem);
       font-weight: 800;
       color: var(--white);
-      line-height: 1.1;
-      margin-bottom: 16px;
+      line-height: 1.15;
+      margin-bottom: 20px;
       letter-spacing: -0.02em;
     }
 
-    .section-title em {
+    .about-title em {
       color: var(--gold);
       font-style: normal;
     }
@@ -781,17 +889,54 @@
       background: #1a1a1a;
     }
 
+    .quick-answer-box {
+      background: var(--glass);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--gold);
+      border-radius: 8px;
+      padding: 18px 22px;
+      margin: 18px 0 24px 0;
+    }
+    .qa-lead {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #f2ede4;
+      margin-bottom: 10px;
+    }
+    .qa-lead strong { color: var(--gold); }
+    .qa-list { margin: 0; padding: 0; list-style: none; }
+    .qa-list li {
+      font-size: 0.92rem;
+      line-height: 1.55;
+      color: var(--cream-muted, #cfcfcf);
+      padding-left: 18px;
+      position: relative;
+      margin-bottom: 6px;
+    }
+    .qa-list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.55em;
+      width: 6px;
+      height: 6px;
+      background: var(--gold);
+      border-radius: 50%;
+    }
+    .qa-list li strong { color: #ffffff; }
+
     @media (max-width: 991px) {
       .about-container {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 30px;
       }
-      .section-label, .about-badges, .about-stats, .about-cta {
+      .about-label, .about-badges, .about-stats, .about-cta {
         justify-content: center;
       }
       .about-text { margin: 0 auto 14px auto; }
       .about-images { order: -1; } 
+      .quick-answer-box { text-align: left; }
     }
 
     @media (max-width: 480px) {
@@ -803,12 +948,21 @@
 
   <div class="about-container">
     <div class="about-content">
-      <div class="section-label">
+      <div class="about-label">
         <span>About Company</span>
       </div>
       
-      <h1 class="section-title">Luxury <em>Home</em> Furniture</h1>
-      
+      <h1 class="about-title">Best Luxury Furniture in <em>Dubai</em> for Modern UAE Homes</h1>
+
+      <div class="quick-answer-box" aria-label="Quick answer summary">
+        <p class="qa-lead"><strong>In short:</strong> Theyyampattil Furniture is a Dubai-based luxury furniture maker that designs and builds custom sofas, bedroom sets, wardrobes and TV units for homeowners, interior designers and hospitality projects across Dubai, Sharjah and Abu Dhabi.</p>
+        <ul class="qa-list">
+          <li><strong>Best for:</strong> Villa &amp; apartment owners, renovation projects and interior designers who want bespoke, made-to-measure furniture instead of off-the-shelf pieces.</li>
+          <li><strong>Track record:</strong> 26+ years in business, 300+ in-house artisans, 3 UAE showrooms.</li>
+          <li><strong>Typical timeline:</strong> Most custom furniture orders are completed in 4–8 weeks depending on scope.</li>
+        </ul>
+      </div>
+
       <div class="about-badges">
         <div class="about-badge">
           <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
@@ -820,9 +974,7 @@
         </div>
       </div>
 
-      <p class="about-text">With over two decades of excellence, Theyyampattil Furniture has become a trusted name in the world of premium custom-made furniture across the UAE. Established in 2000, our journey has been built on a foundation of craftsmanship, quality, and customer trust.</p>
-      
-      <p class="about-text">We operate 3 elegant showrooms in Dubai, Sharjah, and Abu Dhabi, supported by two production facilities and 300+ skilled professionals.</p>
+      <p class="about-text">With over two decades of excellence, Theyyampattil Furniture has become a trusted name in premium custom-made furniture across the UAE. Established in 2000 and built on a foundation of craftsmanship, quality and customer trust, our showrooms and two production facilities bring every design from concept to finished piece under one roof.</p>
 
       <div class="about-stats">
         <div class="about-stat">
@@ -876,13 +1028,12 @@
 <!-- about section ends -->
 <!-- END: ABOUT SECTION -->
 
-
 <!-- ============================================================
      COMPONENT: ENHANCE YOUR LIVING SPACE (STATIC FADE IMAGES + CONTENT)
      ============================================================ -->
 
 <!-- enhance section starts -->
-<section id="enhance-section" style="background:#121212; padding: 40px 0 50px 0; overflow:hidden; contain: content;" aria-label="Enhance Your Living Space">
+<section id="enhance-section" style="background:#121212; padding: 30px 0 38px 0; overflow:hidden; contain: content;" aria-label="Enhance Your Living Space">
   <style>
     .enhance-wrap {
       max-width: 1200px;
@@ -945,6 +1096,33 @@
       pointer-events: none;
     }
 
+    .enhance-label {
+      display: inline-flex;
+      padding: 4px 10px;
+      background: rgba(255,255,255,0.03);
+      border-left: 3px solid var(--gold);
+      margin-bottom: 14px;
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    .enhance-title {
+      font-size: clamp(1.9rem, 4vw, 2.9rem);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 22px;
+      letter-spacing: -0.02em;
+    }
+
+    .enhance-title em {
+      color: var(--gold);
+      font-style: normal;
+    }
+
     .enhance-lead {
       font-size: 0.98rem;
       line-height: 1.7;
@@ -995,6 +1173,70 @@
       margin: 0;
     }
 
+    .enhance-subsection p strong { color: var(--gold); }
+
+    .enhance-mini-list {
+      list-style: none;
+      margin: 10px 0 0 0;
+      padding-left: 24px;
+    }
+    .enhance-mini-list li {
+      font-size: 0.85rem;
+      line-height: 1.55;
+      color: var(--cream-muted);
+      position: relative;
+      padding-left: 16px;
+      margin-bottom: 5px;
+    }
+    .enhance-mini-list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.55em;
+      width: 5px;
+      height: 5px;
+      background: var(--gold);
+      border-radius: 50%;
+    }
+
+    .enhance-compare-wrap { margin-top: 22px; }
+    .enhance-compare-caption {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+    .enhance-compare-table {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .ect-row {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1fr;
+      gap: 8px;
+    }
+    .ect-row > span {
+      padding: 10px 12px;
+      font-size: 0.78rem;
+      line-height: 1.4;
+      color: var(--cream-muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .ect-row:last-child > span { border-bottom: none; }
+    .ect-head { background: var(--glass); }
+    .ect-head > span { color: var(--gold); font-weight: 700; text-transform: uppercase; font-size: 0.68rem; letter-spacing: 0.05em; }
+    .ect-yes { color: #d8c48f; }
+    .ect-no { color: var(--cream-muted); }
+
+    @media (max-width: 480px) {
+      .ect-row { grid-template-columns: 1fr 1fr; }
+      .ect-row > span:first-child { grid-column: 1 / -1; font-weight: 600; color: #fff; padding-bottom: 2px; border-bottom: none; }
+      .ect-row:not(.ect-head) > span:nth-child(2) { border-bottom: none; }
+    }
+
     @media (max-width: 991px) {
       #enhance-section { padding: 30px 0 40px 0 !important; }
       .enhance-wrap { grid-template-columns: 1fr; gap: 30px; }
@@ -1022,27 +1264,32 @@
     </div>
 
     <div class="enhance-content">
-      <div class="section-label">
+      <div class="enhance-label">
         <span>Our Collection</span>
       </div>
       
-      <h2 class="section-title">Enhance Your Living Space with <em>Style</em> &amp; Customization</h2>
+      <h2 class="enhance-title">Enhance Your Living Space with <em>Style</em> &amp; Customization</h2>
       
       <p class="enhance-lead">At Theyyampattil Furniture, we redefine your home with our curated selection of home furniture in Dubai. From modern and custom pieces to Italian-inspired designs, our collection seamlessly blends with your interior style.</p>
 
       <div class="enhance-subsection">
-        <h3>Custom Made Furniture Solutions in Dubai</h3>
-        <p>Revel in the luxury of customization with our range of custom furniture in Dubai. Tailored to your preferences, our furniture adds a personal touch to every corner of your home.</p>
+        <h3>What Is Custom-Made Furniture and Why Choose It in Dubai?</h3>
+        <p><strong>Short answer:</strong> Custom-made furniture is built to your exact measurements, material and style preferences instead of being mass-produced, so it fits your space and taste precisely. Revel in the luxury of customization with our range of custom furniture in Dubai — tailored to your preferences, it adds a personal touch to every corner of your home.</p>
+        <ul class="enhance-mini-list">
+          <li>Made-to-measure sizing for awkward or unique room layouts.</li>
+          <li>Choice of fabric, finish, wood and hardware.</li>
+          <li>Ideal for villas, apartments, offices and hospitality fit-outs.</li>
+        </ul>
       </div>
 
       <div class="enhance-subsection">
-        <h3>Discover the Finest Luxury Furniture in Dubai</h3>
-        <p>Theyyampattil Furniture stands among the elite luxury furniture outlets in the UAE, offering a wide selection of high-quality, Italian home furniture.</p>
+        <h3>Where Can I Find the Finest Luxury Furniture in Dubai?</h3>
+        <p><strong>Short answer:</strong> Theyyampattil Furniture stands among the elite luxury furniture outlets in the UAE, with showrooms in Dubai, Sharjah and Abu Dhabi offering a wide selection of high-quality, Italian-inspired home furniture you can view and order in person.</p>
       </div>
 
       <div class="enhance-subsection">
-        <h3>Interior Design Excellence in Dubai</h3>
-        <p>As a leading luxury furniture store in Dubai, we combine creativity and functionality to ensure a harmonious blend of aesthetics and comfort.</p>
+        <h3>How Does Theyyampattil Approach Interior Design in Dubai?</h3>
+        <p><strong>Short answer:</strong> As a leading luxury furniture store in Dubai, we combine creativity and functionality — our in-house designers plan layout, furniture and finishes together so the result is both beautiful and practical for everyday living.</p>
       </div>
     </div>
   </div>
@@ -1050,12 +1297,11 @@
 <!-- enhance section ends -->
 <!-- END: ENHANCE SECTION -->
 
-
 <!-- ============================================================
      COMPONENT: CTA BANNER (Wall Beauty / Contact)
      ============================================================ -->
 <!-- contact cta starts -->
-<section id="cta-banner" style="background-color: #121212; padding: 45px 20px;" aria-label="Contact for Wall Beauty Solutions">
+<section id="cta-banner" style="background-color: #121212; padding: 34px 20px;" aria-label="Contact for Wall Beauty Solutions">
   <style>
     :root {
       --gold: #c9a76a;
@@ -1255,12 +1501,11 @@
 <!-- contact cta ends -->
 <!-- END: CTA BANNER -->
 
-
 <!-- ============================================================
      COMPONENT: SERVICES GRID
      ============================================================ -->
 <!-- services section starts -->
-<section id="services-section" style="background: #121212; padding: clamp(40px, 6vw, 80px) 0; overflow: hidden; font-family: 'Plus Jakarta Sans', sans-serif;" aria-label="Our Services">
+<section id="services-section" style="background: #121212; padding: clamp(30px, 4.5vw, 60px) 0; overflow: hidden; font-family: 'Plus Jakarta Sans', sans-serif;" aria-label="Our Services">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;700&display=swap&text=Premium%20Solutions%20Services%20We%27re%20Offering%20Explore%20View%20All');
 
@@ -1286,7 +1531,7 @@
       text-align: center;
     }
 
-    .section-label {
+    .services-label {
       display: inline-flex;
       align-items: center;
       color: var(--gold);
@@ -1294,14 +1539,14 @@
       letter-spacing: 0.25em;
       font-size: 0.75rem;
       font-weight: 500;
-      margin-bottom: 10px;
+      margin-bottom: 14px;
     }
 
-    .section-title {
+    .services-title {
       color: var(--white);
       font-size: clamp(2rem, 5vw, 3.2rem);
       margin: 0;
-      line-height: 1.1;
+      line-height: 1.15;
       font-weight: 700;
       letter-spacing: -0.02em;
     }
@@ -1366,7 +1611,7 @@
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: var(--card-gap);
-      margin-bottom: 35px;
+      margin-bottom: 26px;
     }
 
     .service-card {
@@ -1458,15 +1703,15 @@
 
     @media (max-width: 480px) {
       .services-grid { grid-template-columns: 1fr; gap: 15px; }
-      .section-title { font-size: 2rem; }
+      .services-title { font-size: 2rem; }
       .btn-outline { width: 100%; }
     }
   </style>
 
   <div class="services-wrap">
     <div class="services-header">
-      <div class="section-label">Premium Solutions</div>
-      <h2 class="section-title">Services We're <span style="color:var(--gold);">Offering</span></h2>
+      <div class="services-label">Premium Solutions</div>
+      <h2 class="services-title">Services We're <span style="color:var(--gold);">Offering</span></h2>
     </div>
 
     <div class="services-grid">
@@ -1556,11 +1801,10 @@
 <!-- services section ends -->
 <!-- END: SERVICES SECTION -->
 
-
 <!-- ============================================================
      COMPONENT: VALUE PROPOSITIONS (Features / USPs)
      ============================================================ -->
-<section id="features-section" style="background:#121212; padding:50px 0; overflow:hidden; contain:content;" aria-label="Our Values">
+<section id="features-section" style="background:#121212; padding:36px 0; overflow:hidden; contain:content;" aria-label="Our Values">
   <style>
     :root {
       --accent-gold: #c9a76a;
@@ -1572,21 +1816,21 @@
     .features-wrap {
       max-width: 1300px; margin: 0 auto; padding: 0 20px;
       content-visibility: auto;
-      contain-intrinsic-size: 1px 400px;
+      contain-intrinsic-size: auto 400px;
     }
 
-    .features-header { text-align: center; margin-bottom: 35px; }
+    .features-header { text-align: center; margin-bottom: 26px; }
     
-    .section-label {
+    .features-label {
       text-transform: uppercase; letter-spacing: 0.3em; font-size: 0.7rem;
-      color: var(--accent-gold); margin-bottom: 8px; display: block;
+      color: var(--accent-gold); margin-bottom: 12px; display: block;
     }
 
-    .section-title { 
+    .features-title { 
       font-size: clamp(1.8rem, 4vw, 2.5rem);
       font-weight: 300; color: #fff; letter-spacing: -0.02em; margin: 0;
     }
-    .section-title em { font-style: normal; font-weight: 600; color: var(--accent-gold); }
+    .features-title em { font-style: normal; font-weight: 600; color: var(--accent-gold); }
 
     .features-grid {
       display: grid; 
@@ -1652,8 +1896,8 @@
 
   <div class="features-wrap">
     <div class="features-header">
-      <span class="section-label">Why Choose Us</span>
-      <h2 class="section-title">Our Core <em>Values</em></h2>
+      <span class="features-label">Why Choose Us</span>
+      <h2 class="features-title">Our Core <em>Values</em></h2>
     </div>
 
     <div class="features-grid">
@@ -1691,11 +1935,10 @@
 </section>
 <!-- END: FEATURES SECTION -->
 
-
 <!-- ============================================================
      COMPONENT: MISSION & VISION
      ============================================================ -->
-<section id="mission-vision-modern" style="background:#121212; padding: 40px 0 60px 0; overflow: hidden; contain: content;" aria-label="Mission and Vision">
+<section id="mission-vision-modern" style="background:#121212; padding: 30px 0 44px 0; overflow: hidden; contain: content;" aria-label="Mission and Vision">
   <style>
     :root {
       --glass-bg: rgba(255, 255, 255, 0.03);
@@ -1839,7 +2082,6 @@
 </section>
 <!-- END: MISSION & VISION -->
 
-
 <!-- ============================================================
      COMPONENT: WHY THEYYAMPATTIL (EXPERIENCE & TRUST)
      ============================================================ -->
@@ -1936,7 +2178,7 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   overflow: hidden;
   content-visibility: auto;
-  contain-intrinsic-size: 1px 400px;
+  contain-intrinsic-size: auto 400px;
 }
 
 .tp-container {
@@ -1948,7 +2190,7 @@
   color: var(--tp-text);
   font-size: clamp(1.8rem, 4.5vw, 3rem);
   font-weight: 300;
-  margin-bottom: 45px;
+  margin-bottom: 32px;
   text-align: center;
   line-height: 1.2;
 }
@@ -2053,7 +2295,7 @@
     height: 200px; 
     flex: 0 0 200px; 
   }
-  .tp-title { margin-bottom: 30px; }
+  .tp-title { margin-bottom: 24px; }
   .tp-circle-item:nth-child(even) { transform: none; } 
 }
 
@@ -2070,13 +2312,201 @@
 </style>
 <!-- why theyyampattil ends -->
 
-
 <!-- faq section starts -->
-<section id="faq-section" style="background: #121212; padding: 40px 0 60px 0; font-family: 'Plus Jakarta Sans', sans-serif; content-visibility: auto; contain-intrinsic-size: 1px 400px;">
+<!-- ============================================================
+     COMPONENT: CUSTOM VS READY-MADE COMPARISON + OUR PROCESS
+     (Adds structured comparison table + first-hand process/data
+     -> targets AEO "structured answer support" and GEO "original
+     experience" recommendations)
+     ============================================================ -->
+<section id="compare-process-section" style="background:#121212; padding: 30px 0 44px 0; font-family:'Plus Jakarta Sans', sans-serif; content-visibility:auto; contain-intrinsic-size: auto 600px;" aria-label="Custom vs ready-made furniture comparison and our process">
+  <style>
+    #compare-process-section, #compare-process-section *, #compare-process-section *::before, #compare-process-section *::after { box-sizing: border-box; }
+    .cp-container { max-width: 1100px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 20px); width: 100%; }
+    .cp-header { text-align: center; margin-bottom: 24px; }
+    .cp-pre-title { display:block; font-size:0.7rem; font-weight:800; text-transform:uppercase; letter-spacing:0.3em; color:#cfa34e; margin-bottom:10px; opacity:0.9; }
+    .cp-main-title { font-size: clamp(1.6rem, 5.5vw, 2.5rem); font-weight:300; color:#fff; letter-spacing:-0.02em; margin:0 0 12px 0; line-height:1.2; overflow-wrap:break-word; }
+    .cp-main-title em { font-style:normal; color:#cfa34e; }
+    .cp-sub { max-width: 700px; margin: 0 auto; color: rgba(255,255,255,0.78); font-size: clamp(0.9rem, 2.2vw, 0.95rem); line-height:1.65; }
+
+    .cp-grid { display:grid; grid-template-columns: 1fr 1fr; gap: clamp(20px, 4vw, 40px); margin-top: clamp(28px, 4vw, 40px); align-items: start; width: 100%; }
+
+    /* Card that groups the title + table together as one visual unit */
+    .cp-table-card { width: 100%; max-width: 100%; border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; overflow: hidden; }
+
+    /* Table title: a plain block-level element (not a <caption>) so its
+       font-size is fully controlled by us on every breakpoint, instead of
+       depending on browser default <caption> rendering. */
+    .cp-table-title {
+      display: block;
+      width: 100%;
+      margin: 0;
+      padding: 14px 16px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.95rem !important;
+      line-height: 1.4;
+      font-weight: 700;
+      color: #fff;
+      background: rgba(255,255,255,0.04);
+      text-align: left;
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+
+    /* Base table: fluid width, never overflows its own column */
+    .cp-table-wrap { width: 100%; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    table.cp-table { width: 100%; min-width: 480px; border-collapse: collapse; font-size: 0.88rem; }
+    table.cp-table th, table.cp-table td { padding: 12px 16px; text-align:left; border-top:1px solid rgba(255,255,255,0.08); color: rgba(255,255,255,0.82); vertical-align: top; line-height: 1.5; overflow-wrap: break-word; }
+    table.cp-table thead th { background: rgba(207,163,78,0.14); color:#e0b563; font-weight:700; text-transform:uppercase; font-size:0.72rem; letter-spacing:0.05em; }
+    table.cp-table tbody th[scope="row"] { color:#fff; font-weight:700; }
+
+    .cp-process { border:1px solid rgba(255,255,255,0.08); border-radius:10px; padding: clamp(18px, 3vw, 22px); background: rgba(255,255,255,0.02); width: 100%; }
+    .cp-process h3 { color:#fff; font-size: clamp(1rem, 2.6vw, 1.1rem); font-weight:700; margin-bottom:4px; overflow-wrap:break-word; }
+    .cp-process p.cp-process-note { color: rgba(255,255,255,0.68); font-size:0.85rem; line-height:1.55; margin-bottom: 16px; }
+    ol.cp-steps { list-style:none; margin:0; padding:0; counter-reset: cp-step; }
+    ol.cp-steps li { counter-increment: cp-step; position:relative; padding: 0 0 16px 40px; }
+    ol.cp-steps li:last-child { padding-bottom: 0; }
+    ol.cp-steps li::before {
+      content: counter(cp-step);
+      position:absolute; left:0; top:0; width:26px; height:26px;
+      border:1px solid #cfa34e; color:#cfa34e; border-radius:50%;
+      display:flex; align-items:center; justify-content:center;
+      font-size:0.78rem; font-weight:700;
+      flex-shrink: 0;
+    }
+    ol.cp-steps li strong { color:#fff; display:block; font-size:0.92rem; margin-bottom:2px; }
+    ol.cp-steps li span { color: rgba(255,255,255,0.72); font-size:0.85rem; line-height:1.55; overflow-wrap: break-word; }
+
+    /* ===== Large desktop (safety cap so the grid never gets absurdly wide) ===== */
+    @media (min-width: 1400px) {
+      .cp-container { max-width: 1200px; }
+    }
+
+    /* ===== Tablet: stack the two columns, table stays a real table (still readable at this width) ===== */
+    @media (max-width: 991px) {
+      .cp-grid { grid-template-columns: 1fr; gap: 28px; }
+    }
+
+    /* ===== Small tablet / large phone ===== */
+    @media (max-width: 640px) {
+      .cp-header { margin-bottom: 20px; }
+      .cp-table-title { font-size: 0.9rem !important; padding: 12px 14px; }
+    }
+
+    /* ===== Phone: turn the comparison table into accessible stacked cards instead of
+       forcing horizontal scroll on a cramped viewport ===== */
+    @media (max-width: 560px) {
+      .cp-table-wrap { overflow-x: visible; }
+      table.cp-table { min-width: 0; width: 100%; }
+      table.cp-table thead {
+        position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+        overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+      }
+      table.cp-table, table.cp-table tbody, table.cp-table tr, table.cp-table th, table.cp-table td { display: block; width: 100%; }
+      table.cp-table tbody tr {
+        border-top: 1px solid rgba(255,255,255,0.08);
+        background: rgba(255,255,255,0.015);
+      }
+      table.cp-table tbody th[scope="row"] {
+        background: rgba(207,163,78,0.12);
+        color: #e0b563;
+        font-size: 0.78rem !important;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        padding: 10px 14px;
+        border-top: none;
+      }
+      table.cp-table tbody td { padding: 10px 14px; border-top: 1px solid rgba(255,255,255,0.07); font-size: 0.85rem !important; }
+      table.cp-table tbody td::before {
+        content: attr(data-label);
+        display: block;
+        font-size: 0.68rem !important;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: rgba(255,255,255,0.45);
+        margin-bottom: 4px;
+      }
+    }
+
+    /* ===== Very small phones ===== */
+    @media (max-width: 400px) {
+      .cp-main-title { font-size: 1.45rem; }
+      .cp-table-title { font-size: 0.85rem !important; padding-left: 12px; padding-right: 12px; }
+      table.cp-table tbody th[scope="row"], table.cp-table tbody td { padding-left: 12px; padding-right: 12px; }
+    }
+  </style>
+
+  <div class="cp-container">
+    <header class="cp-header">
+      <span class="cp-pre-title">Make an informed choice</span>
+      <h2 class="cp-main-title">Custom-Made vs <em>Ready-Made</em> Furniture</h2>
+      <p class="cp-sub">A side-by-side breakdown to help Dubai homeowners and interior designers decide which route fits their space, budget, and timeline — based on 26+ years of in-house manufacturing at Theyyampattil Furniture.</p>
+    </header>
+
+    <div class="cp-grid">
+      <div class="cp-table-card">
+        <p id="cp-table-title" class="cp-table-title">Custom-Made vs Ready-Made: Quick Comparison</p>
+        <div class="cp-table-wrap">
+          <table class="cp-table" aria-labelledby="cp-table-title">
+            <thead>
+              <tr>
+                <th scope="col">Factor</th>
+                <th scope="col">Custom-Made (Us)</th>
+                <th scope="col">Ready-Made</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Fit &amp; sizing</th>
+                <td data-label="Custom-Made (Us)">Made to your room's exact measurements</td>
+                <td data-label="Ready-Made">Fixed standard sizes only</td>
+              </tr>
+              <tr>
+                <th scope="row">Materials</th>
+                <td data-label="Custom-Made (Us)">Choice of Italian-inspired fabrics, woods &amp; finishes</td>
+                <td data-label="Ready-Made">Limited to in-stock options</td>
+              </tr>
+              <tr>
+                <th scope="row">Lead time</th>
+                <td data-label="Custom-Made (Us)">Typically 4–8 weeks, built to order</td>
+                <td data-label="Ready-Made">Often available same week</td>
+              </tr>
+              <tr>
+                <th scope="row">Design uniqueness</th>
+                <td data-label="Custom-Made (Us)">One-of-a-kind, no two pieces alike</td>
+                <td data-label="Ready-Made">Mass-produced, widely duplicated</td>
+              </tr>
+              <tr>
+                <th scope="row">Best for</th>
+                <td data-label="Custom-Made (Us)">Villas, renovations, hospitality &amp; design projects</td>
+                <td data-label="Ready-Made">Quick furnishing on a tight deadline</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="cp-process">
+        <h3>How We Build Your Furniture</h3>
+        <p class="cp-process-note">Our real, first-hand production process — from our Dubai &amp; Sharjah facilities, run by 300+ in-house artisans.</p>
+        <ol class="cp-steps">
+          <li><strong>Consultation &amp; measurement</strong><span>Our design team visits or meets you in-showroom to record exact room dimensions and material preferences.</span></li>
+          <li><strong>Design &amp; material sign-off</strong><span>You approve a 3D layout and physical material/fabric swatches before production starts.</span></li>
+          <li><strong>In-house manufacturing</strong><span>Pieces are hand-built and quality-checked at our own production facilities, not outsourced.</span></li>
+          <li><strong>Delivery &amp; installation</strong><span>Our team delivers and installs on-site across Dubai, Sharjah and Abu Dhabi, typically within 4–8 weeks of order confirmation.</span></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- COMPONENT: CUSTOM VS READY-MADE COMPARISON + OUR PROCESS ends -->
+
+<section id="faq-section" style="background: #121212; padding: 30px 0 44px 0; font-family: 'Plus Jakarta Sans', sans-serif; content-visibility: auto; contain-intrinsic-size: auto 400px;">
   <style>
     .faq-container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
     
-    .faq-header { text-align: center; margin-bottom: 35px; }
+    .faq-header { text-align: center; margin-bottom: 26px; }
     .faq-pre-title {
       display: block; font-size: 0.7rem; font-weight: 800; text-transform: uppercase;
       letter-spacing: 0.3em; color: #cfa34e; margin-bottom: 10px; opacity: 0.9;
@@ -2241,11 +2671,10 @@
 </section>
 <!-- faq section ends -->
 
-
 <!-- ============================================================
      COMPONENT: TESTIMONIALS
      ============================================================ -->
-<section id="testimonials-section" style="background:#121212; padding:50px 0 60px 0;" aria-label="Customer Testimonials">
+<section id="testimonials-section" style="background:#121212; padding:36px 0 46px 0;" aria-label="Customer Testimonials">
   <style>
     :root {
       --dark: #121212;
@@ -2264,7 +2693,18 @@
       position: relative;
     }
 
-    .testimonials-header { text-align: center; margin-bottom: 35px; }
+    .testimonials-header { text-align: center; margin-bottom: 26px; }
+
+    .testimonials-title {
+      color: var(--white);
+      text-align: center;
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      margin: 0;
+    }
+    .testimonials-title em { font-style: normal; color: var(--gold); }
 
     .testimonials-overflow {
       overflow: hidden;
@@ -2377,7 +2817,7 @@
 
   <div class="testimonials-wrap">
     <div class="testimonials-header">
-      <h2 class="section-title" style="color:var(--white);text-align:center;">What Our <em>Customers</em> Say</h2>
+      <h2 class="testimonials-title">What Our <em>Customers</em> Say</h2>
     </div>
 
     <button class="tst-arrow prev" id="tstPrev" aria-label="Previous Page">&#10094;</button>
@@ -2475,7 +2915,7 @@
   </div>
 
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
+    function initTestimonialSlider() {
       const track = document.getElementById('testimonialsTrack');
       const prevBtn = document.getElementById('tstPrev');
       const nextBtn = document.getElementById('tstNext');
@@ -2535,6 +2975,27 @@
 
       window.addEventListener('resize', updateSlider, { passive: true });
       updateSlider();
+    }
+
+    // Defer slider init until the testimonials section is actually near the viewport,
+    // instead of running it eagerly during initial page load (reduces Total Blocking Time).
+    document.addEventListener('DOMContentLoaded', () => {
+      const section = document.getElementById('testimonials-section');
+      if (!section) return;
+
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              initTestimonialSlider();
+              obs.disconnect();
+            }
+          });
+        }, { rootMargin: '300px 0px' });
+        observer.observe(section);
+      } else {
+        initTestimonialSlider();
+      }
     });
   </script>
 </section>

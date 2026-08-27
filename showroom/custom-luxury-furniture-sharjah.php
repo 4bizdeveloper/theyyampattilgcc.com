@@ -23,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- SEO BreadcrumbList Schema Markup (Fixed missing item field) -->
-    <script type="application/ld+json">
+<script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -700,7 +700,7 @@
                 <meta itemprop="position" content="1" />
             </li>
             <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name">Showrooms</span>
+                <a itemprop="item" href="https://theyyampattilgcc.com/"><span itemprop="name">Showrooms</span></a>
                 <meta itemprop="position" content="2" />
             </li>
             <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">

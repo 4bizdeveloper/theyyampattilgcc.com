@@ -28,7 +28,7 @@
     <!-- Common <head> include materials like schema markup, social tags, etc. -->
     <?php include 'includes/head-tag-include.php'; ?>
 
-    <!-- JSON-LD Structured Data (Breadcrumb, Blog, & FAQ Schema) -->
+    <!-- JSON-LD Structured Data (Breadcrumb, Blog, FAQ & ItemList Schema for AEO/SEO) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -119,7 +119,8 @@
             --brand-color: #c9a76a;
             --brand-hover: #e0be82;
             --text-main: #ffffff;
-            --text-muted: #a0a0a0;
+            --text-muted: #b5b5b5; /* Increased contrast for readability */
+            --meta-text: #d1d5db;
             --card-bg: #1e1e1e;
             --card-border: rgba(255, 255, 255, 0.08);
             --font-family: 'Plus Jakarta Sans', sans-serif;
@@ -127,6 +128,9 @@
         }
 
         /* Essential Reset & Base Styling */
+        html {
+            scroll-behavior: smooth;
+        }
         * { margin: 0; padding: 0; box-sizing: border-box; text-decoration: none !important; }
         img { display: block; max-width: 100%; height: auto; }
         
@@ -137,6 +141,7 @@
             line-height: 1.6;
             overflow-x: hidden;
             -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
         }
 
         /* --- Hero Section & Breadcrumb --- */
@@ -194,7 +199,7 @@
 
         .breadcrumb-separator {
             font-size: 0.75rem;
-            color: rgba(255, 255, 255, 0.3);
+            color: rgba(255, 255, 255, 0.4);
         }
 
         .hero-title {
@@ -231,6 +236,8 @@
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
             gap: 30px;
+            content-visibility: auto;
+            contain-intrinsic-size: 1000px;
         }
 
         /* --- Modern Blog Card --- */
@@ -270,10 +277,46 @@
         .blog-card:hover img { transform: scale(1.08); }
 
         .blog-content {
-            padding: 28px 24px;
+            padding: 24px 22px 28px;
             display: flex;
             flex-direction: column;
             flex-grow: 1;
+        }
+
+        /* Card Meta Information */
+        .blog-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 0.82rem;
+            color: var(--meta-text);
+            margin-bottom: 14px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .blog-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .blog-meta-item i {
+            color: var(--brand-color);
+            font-size: 0.8rem;
+        }
+
+        .author-link {
+            color: var(--brand-color);
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .author-link:hover {
+            color: var(--brand-hover);
+            text-decoration: underline !important;
         }
 
         .blog-card h3 {
@@ -329,7 +372,7 @@
 
         .seo-content-section p {
             color: var(--text-muted);
-            font-size: 1rem;
+            font-size: 1.02rem;
             line-height: 1.8;
             margin-bottom: 16px;
         }
@@ -444,6 +487,7 @@
             .seo-content-section { padding: 30px 20px; }
             .faq-question { padding: 18px 20px; font-size: 0.98rem; }
             .faq-item.active .faq-answer { padding: 0 20px 18px; }
+            .blog-meta { font-size: 0.78rem; gap: 6px; }
         }
 
         header, footer { width: 100%; }
@@ -476,14 +520,19 @@
     <main class="blog-container">
 
 
+
         <!-- Article 1 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/tv-wall/tv-wall-4.jpeg" alt="Custom Luxury Furniture in Sharjah | Theyyampattil Furniture" width="400" height="250" loading="eager">
+                <img src="assets/images/services/services-1-7.jpg" alt="Visiting Theyyampattil Furniture's Abu Dhabi Showroom" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>Custom Luxury Furniture in Sharjah | Theyyampattil Furniture </h3>
-                <a href="blog/custom-luxury-furniture-in-sharjah-theyyampattil-furniture/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-08-14">August 27, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Villa vs Apartment Furniture Dubai | Design Differences Guide</h3>
+                <a href="/blog/villa-vs-apartment-furniture-uae/" class="read-btn" aria-label="Read Visiting Theyyampattil Furniture's Abu Dhabi Showroom">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
@@ -491,231 +540,345 @@
         <!-- Article 1 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/home-page/bed-room.avif" alt="Luxury Custom Furniture in Dubai | Theyyampattil" width="400" height="250" loading="eager">
+                <img src="assets/images/showrooms/abhu-dhabhi/ABU DHABI SHOWROOM DESKTOP.jpeg" alt="Visiting Theyyampattil Furniture's Abu Dhabi Showroom" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>Luxury Custom Furniture in Dubai | Theyyampattil</h3>
-                <a href="blog/luxury-custom-furniture-in-dubai-theyyampattil/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-08-14">August 14, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Visiting Theyyampattil Furniture's Abu Dhabi Showroom: What to Expect</h3>
+                <a href="blog/abu-dhabi-showroom-guide/" class="read-btn" aria-label="Read Visiting Theyyampattil Furniture's Abu Dhabi Showroom">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 2 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/home-page/tv-wall.avif" alt="Luxury TV Unit Dubai: Modern TV Wall Unit Ideas & Trends" width="400" height="250" loading="eager">
+                <img src="assets/images/tv-wall/tv-wall-4.jpeg" alt="Custom Luxury Furniture in Sharjah | Theyyampattil Furniture" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>Luxury TV Unit Dubai: Modern TV Wall Unit Ideas & Trends</h3>
-                <a href="blog/luxury-tv-unit-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-08-12">August 12, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Custom Luxury Furniture in Sharjah | Theyyampattil Furniture</h3>
+                <a href="blog/custom-luxury-furniture-in-sharjah-theyyampattil-furniture/" class="read-btn" aria-label="Read Custom Luxury Furniture in Sharjah">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 3 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/home-page/hero-banner/hero-slider-1.avif" alt="Theyyampattil Furniture: UAE's Bespoke Luxury Furniture Brand" width="400" height="250" loading="eager">
+                <img src="assets/images/home-page/bed-room.avif" alt="Luxury Custom Furniture in Dubai | Theyyampattil" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>Theyyampattil Furniture: UAE's Bespoke Luxury Furniture Brand</h3>
-                <a href="blog/theyyampattil-furniture-brand-story/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-07-28">July 28, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Luxury Custom Furniture in Dubai | Theyyampattil</h3>
+                <a href="blog/luxury-custom-furniture-in-dubai-theyyampattil/" class="read-btn" aria-label="Read Luxury Custom Furniture in Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 4 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/gallery/IMG_8187.JPG" alt="Custom Walk-In Closet Dubai" width="400" height="250" loading="eager">
+                <img src="assets/images/home-page/tv-wall.avif" alt="Luxury TV Unit Dubai: Modern TV Wall Unit Ideas & Trends" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>Custom Walk-In Closet Dubai | Bespoke Luxury Wardrobe Design UAE | Theyyampattil</h3>
-                <a href="blog/custom-walk-in-closet-dubai-bespoke-luxury-wardrobe-design-uae/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-07-15">July 15, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Luxury TV Unit Dubai: Modern TV Wall Unit Ideas & Trends</h3>
+                <a href="blog/luxury-tv-unit-dubai/" class="read-btn" aria-label="Read Luxury TV Unit Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 5 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/home-page/closet.avif" alt="Walk In Closet Dubai Design & Tips" width="400" height="250" loading="eager">
+                <img src="assets/images/home-page/hero-banner/hero-slider-1.avif" alt="Theyyampattil Furniture: UAE's Bespoke Luxury Furniture Brand" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>Walk In Closet Dubai: Design, Ideas & Tips | Theyyampattil</h3>
-                <a href="blog/walk-in-closet-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-06-30">June 30, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Theyyampattil Furniture: UAE's Bespoke Luxury Furniture Brand</h3>
+                <a href="blog/theyyampattil-furniture-brand-story/" class="read-btn" aria-label="Read Theyyampattil Furniture Brand Story">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 6 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/bed/bed-1.jpeg" alt="Premium Bedroom Furniture UAE" width="400" height="250" loading="eager">
+                <img src="assets/images/gallery/IMG_8187.JPG" alt="Custom Walk-In Closet Dubai" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>Premium Bedroom Furniture in UAE | Theyyampattil GCC</h3>
-                <a href="blog/premium-bedroom-furniture-uae-theyyampattil-gcc/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-06-18">June 18, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Custom Walk-In Closet Dubai | Bespoke Luxury Wardrobe Design UAE | Theyyampattil</h3>
+                <a href="blog/custom-walk-in-closet-dubai-bespoke-luxury-wardrobe-design-uae/" class="read-btn" aria-label="Read Custom Walk-In Closet Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 7 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/home-page/wall-panel.avif" alt="High End Luxury Furniture Outlet UAE" width="400" height="250" loading="eager">
+                <img src="assets/images/home-page/closet.avif" alt="Walk In Closet Dubai Design & Tips" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>High End Luxury Furniture Outlet UAE | Custom Luxury Designs</h3>
-                <a href="blog/high-end-luxury-furniture-outlet-uae/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-05-25">May 25, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Walk In Closet Dubai: Design, Ideas & Tips | Theyyampattil</h3>
+                <a href="blog/walk-in-closet-dubai/" class="read-btn" aria-label="Read Walk In Closet Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 8 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/home-page/kitchen.avif" alt="Luxury Kitchen Furniture in UAE" width="400" height="250" loading="eager">
+                <img src="assets/images/bed/bed-1.jpeg" alt="Premium Bedroom Furniture UAE" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>Luxury Kitchen Furniture in UAE | Modern Elegant Homes</h3>
-                <a href="blog/luxury-kitchen-furniture-uae/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-05-10">May 10, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Premium Bedroom Furniture in UAE | Theyyampattil GCC</h3>
+                <a href="blog/premium-bedroom-furniture-uae-theyyampattil-gcc/" class="read-btn" aria-label="Read Premium Bedroom Furniture UAE">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 9 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/home-page/tv-wall.avif" alt="Best Luxury Furniture Stores Abu Dhabi" width="400" height="250" loading="eager">
+                <img src="assets/images/home-page/wall-panel.avif" alt="High End Luxury Furniture Outlet UAE" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>Best Luxury Furniture Stores in Abu Dhabi | Theyyampatill GCC</h3>
-                <a href="blog/best-luxury-furniture-stores-abu-dhabi-theyyampatillgcc/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-04-22">April 22, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>High End Luxury Furniture Outlet UAE | Custom Luxury Designs</h3>
+                <a href="blog/high-end-luxury-furniture-outlet-uae/" class="read-btn" aria-label="Read High End Luxury Furniture Outlet UAE">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 10 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/home-page/3rd-section-desktop.avif" alt="Villa Interior Dubai" width="400" height="250" loading="eager">
+                <img src="assets/images/home-page/kitchen.avif" alt="Luxury Kitchen Furniture in UAE" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>Villa Interior Design in Dubai | Luxury Interiors by Theyyampattil GCC</h3>
-                <a href="blog/villa-interior-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-04-05">April 05, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Luxury Kitchen Furniture in UAE | Modern Elegant Homes</h3>
+                <a href="blog/luxury-kitchen-furniture-uae/" class="read-btn" aria-label="Read Luxury Kitchen Furniture in UAE">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 11 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/home-page/hero-banner/hero-slider-1.avif" alt="Premium Closets Dubai" width="400" height="250" loading="lazy">
+                <img src="assets/images/home-page/tv-wall.avif" alt="Best Luxury Furniture Stores Abu Dhabi" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>Premium Closets in Dubai | Theyyampattil GCC Design & Installation</h3>
-                <a href="blog/premium-closets-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-03-18">March 18, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Best Luxury Furniture Stores in Abu Dhabi | Theyyampatill GCC</h3>
+                <a href="blog/best-luxury-furniture-stores-abu-dhabi-theyyampatillgcc/" class="read-btn" aria-label="Read Best Luxury Furniture Stores in Abu Dhabi">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 12 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/services/kitchen-1.jpeg" alt="Modern Living Room Trends" width="400" height="250" loading="lazy">
+                <img src="assets/images/home-page/3rd-section-desktop.avif" alt="Villa Interior Dubai" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
-                <h3>Top 10 Modern Living Room Furniture Trends in the UAE & GCC</h3>
-                <a href="blog/modern-living-room-furniture-trends-uae-gcc/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-02-27">February 27, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Villa Interior Design in Dubai | Luxury Interiors by Theyyampattil GCC</h3>
+                <a href="blog/villa-interior-dubai/" class="read-btn" aria-label="Read Villa Interior Design in Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 13 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/blog/blog-thumb-choose-right.jpg" alt="Luxury Furniture Style Guide" width="400" height="250" loading="lazy">
+                <img src="assets/images/home-page/hero-banner/hero-slider-1.avif" alt="Premium Closets Dubai" width="400" height="250" loading="lazy">
             </div>
             <div class="blog-content">
-                <h3>Choosing the Right Luxury Furniture – Your Complete Style Guide</h3>
-                <a href="blog/choose-luxury-furniture-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-01-14">January 14, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Premium Closets in Dubai | Theyyampattil GCC Design & Installation</h3>
+                <a href="blog/premium-closets-dubai/" class="read-btn" aria-label="Read Premium Closets in Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 14 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/blog/blog-thumb-best in dubai.jpg" alt="Handcrafted Custom Luxury Furniture" width="400" height="250" loading="lazy">
+                <img src="assets/images/services/kitchen-1.jpeg" alt="Modern Living Room Trends" width="400" height="250" loading="lazy">
             </div>
             <div class="blog-content">
-                <h3>Custom Luxury Furniture in Dubai – Handcrafted for Lasting Sophistication</h3>
-                <a href="blog/custom-luxury-furniture-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2025-12-05">December 05, 2025</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Top 10 Modern Living Room Furniture Trends in the UAE & GCC</h3>
+                <a href="blog/modern-living-room-furniture-trends-uae-gcc/" class="read-btn" aria-label="Read Top 10 Modern Living Room Furniture Trends">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 15 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/blog/Customized furniture-thumb.jpg" alt="Customized Furniture Dubai" width="400" height="250" loading="lazy">
+                <img src="assets/images/blog/blog-thumb-choose-right.jpg" alt="Luxury Furniture Style Guide" width="400" height="250" loading="lazy">
             </div>
             <div class="blog-content">
-                <h3>Customized Luxury Furniture in Dubai | Bespoke Modern Interiors by Theyyampattil</h3>
-                <a href="blog/customized-furniture-in-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2025-11-19">November 19, 2025</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Choosing the Right Luxury Furniture – Your Complete Style Guide</h3>
+                <a href="blog/choose-luxury-furniture-dubai/" class="read-btn" aria-label="Read Choosing the Right Luxury Furniture">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 16 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/blog/blog-thumb moder furniture.jpg" alt="Modern Furniture Dubai" width="400" height="250" loading="lazy">
+                <img src="assets/images/blog/blog-thumb-best in dubai.jpg" alt="Handcrafted Custom Luxury Furniture" width="400" height="250" loading="lazy">
             </div>
             <div class="blog-content">
-                <h3>Modern Furniture in Dubai – Redefining Luxury with Theyyampattil</h3>
-                <a href="blog/modern-furniture-in-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2025-10-12">October 12, 2025</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Custom Luxury Furniture in Dubai – Handcrafted for Lasting Sophistication</h3>
+                <a href="blog/custom-luxury-furniture-dubai/" class="read-btn" aria-label="Read Custom Luxury Furniture in Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 17 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/blog/blog-thumbnail.jpg" alt="Luxury Furniture Outlet Dubai" width="400" height="250" loading="lazy">
+                <img src="assets/images/blog/Customized furniture-thumb.jpg" alt="Customized Furniture Dubai" width="400" height="250" loading="lazy">
             </div>
             <div class="blog-content">
-                <h3>Luxury Furniture Outlet in Dubai - Redefining Elegance</h3>
-                <a href="blog/luxury-furniture-outlet-in-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2025-09-08">September 08, 2025</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Customized Luxury Furniture in Dubai | Bespoke Modern Interiors by Theyyampattil</h3>
+                <a href="blog/customized-furniture-in-dubai/" class="read-btn" aria-label="Read Customized Luxury Furniture in Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 18 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/blog/blog img-5.jpg" alt="TV Wall Solutions UAE" width="400" height="250" loading="lazy">
+                <img src="assets/images/blog/blog-thumb moder furniture.jpg" alt="Modern Furniture Dubai" width="400" height="250" loading="lazy">
             </div>
             <div class="blog-content">
-                <h3>Upgrade Your Home with Sleek TV Wall Solutions by Theyyampattil GCC</h3>
-                <a href="blog/tv-wall-design-ideas-uae/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2025-08-01">August 01, 2025</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Modern Furniture in Dubai – Redefining Luxury with Theyyampattil</h3>
+                <a href="blog/modern-furniture-in-dubai/" class="read-btn" aria-label="Read Modern Furniture in Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 19 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/blog/blog-1-1.jpg" alt="Custom TV Unit Design" width="400" height="250" loading="lazy">
+                <img src="assets/images/blog/blog-thumbnail.jpg" alt="Luxury Furniture Outlet Dubai" width="400" height="250" loading="lazy">
             </div>
             <div class="blog-content">
-                <h3>Transform Your Living Space with Our Custom-Designed TV Unit</h3>
-                <a href="blog/luxury-tv-unit-design-uae/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2025-06-20">June 20, 2025</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Luxury Furniture Outlet in Dubai - Redefining Elegance</h3>
+                <a href="blog/luxury-furniture-outlet-in-dubai/" class="read-btn" aria-label="Read Luxury Furniture Outlet in Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 20 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/blog/blog-1-2.jpg" alt="Custom Wall Panels UAE" width="400" height="250" loading="lazy">
+                <img src="assets/images/blog/blog img-5.jpg" alt="TV Wall Solutions UAE" width="400" height="250" loading="lazy">
             </div>
             <div class="blog-content">
-                <h3>Upgrade Your Space with Custom Wall Panels from Theyyampattil Furniture</h3>
-                <a href="blog/luxury-wall-panels-uae/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2025-05-14">May 14, 2025</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Upgrade Your Home with Sleek TV Wall Solutions by Theyyampattil GCC</h3>
+                <a href="blog/tv-wall-design-ideas-uae/" class="read-btn" aria-label="Read Upgrade Your Home with Sleek TV Wall Solutions">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
         <!-- Article 21 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
+                <img src="assets/images/blog/blog-1-1.jpg" alt="Custom TV Unit Design" width="400" height="250" loading="lazy">
+            </div>
+            <div class="blog-content">
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2025-04-10">April 10, 2025</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Transform Your Living Space with Our Custom-Designed TV Unit</h3>
+                <a href="blog/luxury-tv-unit-design-uae/" class="read-btn" aria-label="Read Transform Your Living Space with Our Custom-Designed TV Unit">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </article>
+
+        <!-- Article 22 -->
+        <article class="blog-card" data-aos="fade-up">
+            <div class="blog-img-wrapper">
+                <img src="assets/images/blog/blog-1-2.jpg" alt="Custom Wall Panels UAE" width="400" height="250" loading="lazy">
+            </div>
+            <div class="blog-content">
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2025-03-02">March 02, 2025</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Upgrade Your Space with Custom Wall Panels from Theyyampattil Furniture</h3>
+                <a href="blog/luxury-wall-panels-uae/" class="read-btn" aria-label="Read Upgrade Your Space with Custom Wall Panels">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </article>
+
+        <!-- Article 23 -->
+        <article class="blog-card" data-aos="fade-up">
+            <div class="blog-img-wrapper">
                 <img src="assets/images/blog/blog-1-3.jpg" alt="Art of TV Walls and Wall Panels" width="400" height="250" loading="lazy">
             </div>
             <div class="blog-content">
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2025-01-22">January 22, 2025</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
                 <h3>The Art of TV Walls and Wall Panels, Function Meets Aesthetics</h3>
-                <a href="blog/luxury-tv-wall-panels-dubai/" class="read-btn">Read Article <i class="fas fa-arrow-right"></i></a>
+                <a href="blog/luxury-tv-wall-panels-dubai/" class="read-btn" aria-label="Read The Art of TV Walls and Wall Panels">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
@@ -739,7 +902,7 @@
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
                     <span>Does Theyyampattil offer custom furniture manufacturing in Dubai and the UAE?</span>
-                    <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    <span class="faq-icon"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
                 </button>
                 <div class="faq-answer">
                     <p>Yes, Theyyampattil specializes in 100% custom-built luxury furniture for villas, luxury apartments, and commercial spaces across Dubai, Abu Dhabi, and the wider GCC region.</p>
@@ -749,7 +912,7 @@
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
                     <span>What custom interior services do you cover in your blog guides?</span>
-                    <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    <span class="faq-icon"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
                 </button>
                 <div class="faq-answer">
                     <p>Our blog guides cover bespoke walk-in closets, modern TV wall units, luxury bedroom furniture, custom kitchens, premium wall paneling, and overall villa interior solutions.</p>
@@ -759,7 +922,7 @@
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
                     <span>Can I visit a Theyyampattil showroom in the UAE?</span>
-                    <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    <span class="faq-icon"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
                 </button>
                 <div class="faq-answer">
                     <p>Yes, we have state-of-the-art showrooms across key locations in the UAE including Dubai and Abu Dhabi. You can schedule a consultation directly with our interior specialists.</p>
@@ -769,7 +932,7 @@
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
                     <span>How long does a custom furniture project take from design to installation?</span>
-                    <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    <span class="faq-icon"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
                 </button>
                 <div class="faq-answer">
                     <p>Timeline depends on the complexity and scope of design. Typically, bespoke furniture and wall paneling projects range between 3 to 6 weeks from approval to site installation.</p>
@@ -779,7 +942,7 @@
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">
                     <span>How do I choose the right materials for luxury furniture in the Gulf climate?</span>
-                    <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    <span class="faq-icon"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
                 </button>
                 <div class="faq-answer">
                     <p>Our blogs provide detailed material guides, focusing on climate-resistant premium hardwoods, treated veneers, moisture-resistant MDF, and high-performance upholstery fabrics suited for the UAE environment.</p>
