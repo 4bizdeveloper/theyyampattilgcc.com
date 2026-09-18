@@ -270,7 +270,7 @@
             <a href="product/luxury-dressing-rooms-dubai/" role="menuitem">Dressing Room</a>
             <a href="product/luxury-bed-panels/" role="menuitem">Bed Panels</a>
             <a href="product/premium-wall-panels-dubai/" role="menuitem">Wall Panels</a>
-            <a href="product/luxury-living-room-furniture-dubai/" role="menuitem">Welcome Unit</a>
+            <a href="product/luxury-living-room-furniture-uae/" role="menuitem">Welcome Unit</a>
           </div>
         </div>
       </div>
@@ -323,7 +323,7 @@
       <a href="product/luxury-dressing-rooms-dubai/">Dressing Room</a>
       <a href="product/luxury-bed-panels/">Bed Panels</a>
       <a href="product/premium-wall-panels-dubai/">Wall Panels</a>
-      <a href="product/luxury-living-room-furniture-dubai/">Welcome Unit</a>
+      <a href="product/luxury-living-room-furniture-uae/">Welcome Unit</a>
     </div>
     <div class="mobile-section-label" aria-hidden="true">Resources</div>
     <div class="mobile-sub">
