@@ -519,7 +519,7 @@
                 <strong>Quick Answer:</strong> The Theyyampattil Furniture flagship showroom is located in Baniyas East, Abu Dhabi, serving communities across the capital including Saadiyat, Yas Island, and Al Reem.
             </div>
             <p>Our flagship Abu Dhabi showroom is located at 8 Al Qadah St, Bani Yas – Baniyas East, Abu Dhabi, United Arab Emirates. You can easily view our exact location on <a href="https://maps.google.com/?q=Theyyampattil+Furniture+Abu+Dhabi" target="_blank" rel="noopener noreferrer" title="View Theyyampattil Showroom Location on Google Maps">Google Maps</a>. The showroom is easily accessible for residents across the capital, and our team regularly welcomes clients from Al Raha Beach, Al Reem Island, Saadiyat Island, Khalifa City, MBZ City, Yas Island, and communities all over the UAE.</p>
-            <p>You can view our complete <a href="https://theyyampattilgcc.com/blogs/" title="Explore Theyyampattil Furniture Blogs and Guides">furniture blogs and design guides</a>, or <a href="https://theyyampattilgcc.com/contact-us/" title="Contact Theyyampattil Furniture Team">contact our customer design team</a> directly at 02 626 8526 before your visit.</p>
+            <p>You can view our complete <a href="https://theyyampattilgcc.com/blogs/" title="Explore Theyyampattil Furniture Blogs and Guides">furniture blogs and design guides</a>, or <a href="https://theyyampattilgcc.com/contact/" title="Contact Theyyampattil Furniture Team">contact our customer design team</a> directly at 02 626 8526 before your visit.</p>
         </div>
     </div>
 
@@ -588,7 +588,7 @@
                 <li>See real materials — solid hardwood, engineered wood, imported marble, genuine leather, and high-density foam samples are all on display</li>
                 <li>Get accurate sizing — our team can help you visualize how a piece will actually fit your villa, apartment, or office</li>
                 <li>Speak with a designer directly — get tailored advice instead of generic product descriptions</li>
-                <li>Understand full customization options — explore our <a href="https://theyyampattilgcc.com/custom-furniture/" title="Bespoke and Custom Furniture Solutions">custom luxury furniture solutions</a> from made-to-measure sofas to space-saving apartment layouts</li>
+                <li>Understand full customization options — explore our <a href="https://theyyampattilgcc.com/" title="Bespoke and Custom Furniture Solutions">custom luxury furniture solutions</a> from made-to-measure sofas to space-saving apartment layouts</li>
             </ul>
         </div>
     </div>
@@ -756,7 +756,7 @@
     <!-- Section 8 -->
     <section class="section-block">
         <h2>Plan Your Visit</h2>
-        <p>Ready to see our collections in person? Contact us today or call 02 626 8526 to book a consultation, or head straight to our <a href="https://theyyampattilgcc.com/contact-us/" title="Book an Abu Dhabi Showroom Consultation">Abu Dhabi showroom consultation booking page</a> for full location details and appointments.</p>
+        <p>Ready to see our collections in person? Contact us today or call 02 626 8526 to book a consultation, or head straight to our <a href="https://theyyampattilgcc.com/contact/" title="Book an Abu Dhabi Showroom Consultation">Abu Dhabi showroom consultation booking page</a> for full location details and appointments.</p>
     </section>
 
 </main>

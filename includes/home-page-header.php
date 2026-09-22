@@ -264,12 +264,12 @@
             <a href="products/" role="menuitem">All Products</a>
             <a href="product/modern-doors-uae/" role="menuitem">Modern Door</a>
             <a href="product/modern-tv-wall-unit-uae/" role="menuitem">TV Wall</a>
-            <a href="product/modern-luxury-kitchen-furniture-dubai/" role="menuitem">Kitchen</a>
-            <a href="product/custom-luxury-walk-in-closets-dubai/" role="menuitem">Closets</a>
-            <a href="product/premium-wall-partition-dubai/" role="menuitem">Wall Partition</a>
-            <a href="product/luxury-dressing-rooms-dubai/" role="menuitem">Dressing Room</a>
-            <a href="product/luxury-bed-panels/" role="menuitem">Bed Panels</a>
-            <a href="product/premium-wall-panels-dubai/" role="menuitem">Wall Panels</a>
+            <a href="product/modern-luxury-kitchen-furniture-uae/" role="menuitem">Kitchen</a>
+            <a href="product/walk-in-closets-wardrobes-uae/" role="menuitem">Closets</a>
+            <a href="product/premium-wall-partition-uae/" role="menuitem">Wall Partition</a>
+            <a href="product/luxury-dressing-rooms-uae/" role="menuitem">Dressing Room</a>
+            <a href="product/luxury-bed-panels-uae/" role="menuitem">Bed Panels</a>
+            <a href="product/luxury-wall-panels-uae/" role="menuitem">Wall Panels</a>
             <a href="product/luxury-living-room-furniture-uae/" role="menuitem">Welcome Unit</a>
           </div>
         </div>
@@ -317,12 +317,12 @@
       <a href="products/">All Products</a>
       <a href="product/modern-doors-uae/">Modern Door</a>
       <a href="product/modern-tv-wall-unit-uae/">TV Wall</a>
-      <a href="product/modern-luxury-kitchen-furniture-dubai/">Kitchen</a>
-      <a href="product/custom-luxury-walk-in-closets-dubai/">Closets</a>
-      <a href="product/premium-wall-partition-dubai/">Wall Partition</a>
-      <a href="product/luxury-dressing-rooms-dubai/">Dressing Room</a>
-      <a href="product/luxury-bed-panels/">Bed Panels</a>
-      <a href="product/premium-wall-panels-dubai/">Wall Panels</a>
+      <a href="product/modern-luxury-kitchen-furniture-uae/">Kitchen</a>
+      <a href="product/walk-in-closets-wardrobes-uae/">Closets</a>
+      <a href="product/premium-wall-partition-uae/">Wall Partition</a>
+      <a href="product/luxury-dressing-rooms-uae/">Dressing Room</a>
+      <a href="product/luxury-bed-panels-uae/">Bed Panels</a>
+      <a href="product/luxury-wall-panels-uae/">Wall Panels</a>
       <a href="product/luxury-living-room-furniture-uae/">Welcome Unit</a>
     </div>
     <div class="mobile-section-label" aria-hidden="true">Resources</div>

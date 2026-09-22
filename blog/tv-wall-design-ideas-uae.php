@@ -450,7 +450,7 @@
 
                 <div style="text-align: center; margin-top: 40px;">
                     <p style="margin-bottom: 10px;">Call Us: <a href="tel:+971559132200" style="color:var(--brand-color); font-weight:800; text-decoration:none;">+971 55 913 2200</a></p>
-                    <a href="contact.html" class="btn-main">Book an Appointment</a>
+                    <a href="https://theyyampattilgcc.com/contact/" class="btn-main">Book an Appointment</a>
                 </div>
             </div>
         </div>
@@ -460,7 +460,7 @@
         <div class="cta-box">
             <h3>Get Started Today</h3>
             <p>Ready to transform your space with a stunning TV wall installation? Contact Theyyampattil GCC today to schedule a consultation. Let us help you create the perfect entertainment hub.</p>
-            <p>Visit <a href="index.html">www.theyyampattilgcc.com</a></p>
+            <p>Visit <a href="https://theyyampattilgcc.com/">www.theyyampattilgcc.com</a></p>
         </div>
     </section>
 

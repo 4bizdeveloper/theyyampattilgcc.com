@@ -290,13 +290,13 @@
       <nav class="footer-links" aria-label="Collections links">
         <a href="product/modern-doors-uae/">Modern Door</a>
         <a href="product/modern-tv-wall-unit-uae/">TV Wall</a>
-        <a href="product/modern-luxury-kitchen-furniture-dubai/">Kitchen</a>
-        <a href="product/custom-luxury-walk-in-closets-dubai/">Closets</a>
-        <a href="product/premium-wall-partition-dubai/">Partition</a>
-        <a href="product/luxury-dressing-rooms-dubai/">Dressing Room</a>
-        <a href="product/luxury-bed-panels/">Bed Panels</a>
-        <a href="product/premium-wall-panels-dubai/">Wall Panels</a>
-        <a href="product/luxury-living-room-furniture-dubai/">Welcome Unit</a>
+        <a href="product/modern-luxury-kitchen-furniture-uae/">Kitchen</a>
+        <a href="product/walk-in-closets-wardrobes-uae/">Closets</a>
+        <a href="product/premium-wall-partition-uae/">Partition</a>
+        <a href="product/luxury-dressing-rooms-uae/">Dressing Room</a>
+        <a href="product/luxury-bed-panels-uae/">Bed Panels</a>
+        <a href="product/luxury-wall-panels-uae/">Wall Panels</a>
+        <a href="product/luxury-living-room-furniture-uae/">Welcome Unit</a>
       </nav>
     </div>
 

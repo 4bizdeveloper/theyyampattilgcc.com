@@ -493,7 +493,7 @@
         <!-- AEO / GEO Top Summary Box -->
         <div class="summary-box">
             <h3>Key Takeaway: Villa vs Apartment Furniture Strategy</h3>
-            <p><strong>Quick Summary:</strong> Villa furniture in the UAE emphasizes grand scale, custom built-in joinery, and heavy natural materials for permanent multi-zone layouts. Apartment furniture prioritizes space-saving modular design, multi-functional utility, vertical storage, and lightweight silhouettes to navigate HOA building rules and compact footprints. Learn more about our <a href="https://theyyampattilgcc.com/services/custom-furniture" class="content-link">custom furniture manufacturing services</a> or explore our <a href="https://theyyampattilgcc.com/portfolio/" class="content-link">UAE interior portfolio</a>.</p>
+            <p><strong>Quick Summary:</strong> Villa furniture in the UAE emphasizes grand scale, custom built-in joinery, and heavy natural materials for permanent multi-zone layouts. Apartment furniture prioritizes space-saving modular design, multi-functional utility, vertical storage, and lightweight silhouettes to navigate HOA building rules and compact footprints. Learn more about our custom furniture manufacturing services or explore our UAE interior portfolio.</p>
         </div>
 
         <!-- Intro Paragraphs -->

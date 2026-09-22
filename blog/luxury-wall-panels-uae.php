@@ -365,7 +365,7 @@
                     </div>
                     <div class="card-body-custom">
                         <h2 class="card-title-custom">
-                            <a href="blog-details.html">Upgrade Your Space with Custom Wall Panels from Theyyampattil Furniture</a>
+                            Upgrade Your Space with Custom Wall Panels from Theyyampattil Furniture
                         </h2>
                         <p class="text-normal">
                             At Theyyampattil Furniture, we understand that every detail in your home counts. That’s why we offer a stunning range of wall panels that combine luxury and functionality to elevate any room. Whether you’re looking for a sleek, modern design or something more classic, our wall panel designs are crafted to perfection, giving your space an air of sophistication.

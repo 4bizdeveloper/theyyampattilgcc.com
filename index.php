@@ -1724,7 +1724,7 @@
         </div>
       </a>
 
-      <a href="product/luxury-bed-panels/" class="service-card" aria-label="Luxury custom bedroom furniture and bed wall panels">
+      <a href="product/luxury-bed-panels-uae/" class="service-card" aria-label="Luxury custom bedroom furniture and bed wall panels">
         <img src="assets/images/home-page/bed-room.avif" alt="Luxury master bedroom furniture set with custom padded headboard panel" width="960" height="1280" loading="lazy" decoding="async">
         <div class="service-card-overlay"></div>
         <div class="service-card-content">
@@ -1733,7 +1733,7 @@
         </div>
       </a>
 
-      <a href="product/modern-luxury-kitchen-furniture-dubai/" class="service-card" aria-label="Bespoke Italian kitchen furniture design in Dubai">
+      <a href="product/modern-luxury-kitchen-furniture-uae/" class="service-card" aria-label="Bespoke Italian kitchen furniture design in Dubai">
         <img src="assets/images/home-page/kitchen.avif" alt="Modern Italian style luxury kitchen cabinets design in UAE" width="960" height="1280" loading="lazy" decoding="async">
         <div class="service-card-overlay"></div>
         <div class="service-card-content">
@@ -1742,7 +1742,7 @@
         </div>
       </a>
 
-      <a href="product/custom-luxury-walk-in-closets-dubai/" class="service-card" aria-label="Custom luxury walk in closets and wardrobe cabinets">
+      <a href="product/walk-in-closets-wardrobes-uae/" class="service-card" aria-label="Custom luxury walk in closets and wardrobe cabinets">
         <img src="assets/images/home-page/closet.avif" alt="Custom luxury walk in closet wardrobe with LED lighting in Dubai" width="960" height="1280" loading="lazy" decoding="async">
         <div class="service-card-overlay"></div>
         <div class="service-card-content">
@@ -1751,7 +1751,7 @@
         </div>
       </a>
 
-      <a href="product/premium-wall-panels-dubai/" class="service-card" aria-label="3D wall cladding and premium decorative wall panels">
+      <a href="product/luxury-wall-panels-uae/" class="service-card" aria-label="3D wall cladding and premium decorative wall panels">
         <img src="assets/images/home-page/wall-panel.avif" alt="Modern 3D acoustic decorative wall cladding panels for luxury interior design" width="960" height="1280" loading="lazy" decoding="async">
         <div class="service-card-overlay"></div>
         <div class="service-card-content">
@@ -1760,7 +1760,7 @@
         </div>
       </a>
 
-      <a href="product/luxury-living-room-furniture-dubai/" class="service-card" aria-label="Luxury living room furniture and entrance welcome units">
+      <a href="product/luxury-living-room-furniture-uae/" class="service-card" aria-label="Luxury living room furniture and entrance welcome units">
         <img src="assets/images/home-page/welcome-unit.avif" alt="Custom welcome foyer console unit and luxury living room furniture" width="960" height="1280" loading="lazy" decoding="async">
         <div class="service-card-overlay"></div>
         <div class="service-card-content">
@@ -1769,7 +1769,7 @@
         </div>
       </a>
       
-      <a href="product/luxury-dressing-rooms-dubai/" class="service-card" aria-label="Modern luxury dressing rooms and vanity units">
+      <a href="product/luxury-dressing-rooms-uae/" class="service-card" aria-label="Modern luxury dressing rooms and vanity units">
         <img src="assets/images/home-page/dressing-unit.avif" alt="Luxury dressing room vanity table with illuminated custom mirror" width="960" height="1280" loading="lazy" decoding="async">
         <div class="service-card-overlay"></div>
         <div class="service-card-content">

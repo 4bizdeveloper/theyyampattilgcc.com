@@ -485,7 +485,7 @@
                     <p style="color: #000; opacity: 0.8; margin-bottom: 5px;">Call Us</p>
                     <a href="tel:+971559132200">+971 55 913 2200</a>
                     <div style="margin-top: 30px;">
-                        <a href="contact.html" class="btn-brand" style="background: #000; color: #fff;">Book Appointment</a>
+                        <a href="https://theyyampattilgcc.com/contact/" class="btn-brand" style="background: #000; color: #fff;">Book Appointment</a>
                     </div>
                 </div>
             </div>

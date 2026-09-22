@@ -588,7 +588,7 @@
                     <p>Call Us Today</p>
                     <a href="tel:+971559132200" class="phone-link">+971 55 913 2200</a>
                     <br>
-                    <a href="contact.html" class="cta-btn">Book an Appointment</a>
+                    <a href="https://theyyampattilgcc.com/contact/" class="cta-btn">Book an Appointment</a>
                 </div>
             </section>
 
