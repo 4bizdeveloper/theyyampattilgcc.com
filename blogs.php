@@ -520,6 +520,23 @@
     <main class="blog-container">
 
 
+        <!-- Article 1 -->
+        <article class="blog-card" data-aos="fade-up">
+            <div class="blog-img-wrapper">
+                <img src="assets/images/home-page/tv-wall.avif" alt="How to Choose a Custom Furniture Maker in Dubai | 7 Questions" width="400" height="250" loading="eager">
+            </div>
+            <div class="blog-content">
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-08-14">September 25, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>How to Choose a Custom Furniture Maker in Dubai | 7 Questions</h3>
+                <a href="/blog/how-to-choose-custom-furniture-maker-dubai/" class="read-btn" aria-label="Read Visiting Theyyampattil Furniture's Abu Dhabi Showroom">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </article>
+
+
+
 
         <!-- Article 1 -->
         <article class="blog-card" data-aos="fade-up">

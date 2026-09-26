@@ -2,9 +2,24 @@ User-agent: *
 Allow: /
 Allow: /*/
 
-# Block non-slash URLs from crawling to prevent duplicate canonical loops
-Disallow: /*?[^/]$
-Disallow: /*[^/]$
+# Block URL parameters missing trailing slashes
+Disallow: /*?*
+
+# Block URLs ending without a trailing slash (standard extensions excluded)
+Disallow: /*$
+
+# Allow essential static resources that end without trailing slashes
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.ico$
+Allow: /*.pdf$
+Allow: /*.xml$
 
 # Block specific backend scripts and forms
 Disallow: /send-mail.php
