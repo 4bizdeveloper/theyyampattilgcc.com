@@ -1,25 +1,9 @@
 User-agent: *
 Allow: /
-Allow: /*/
 
-# Block URL parameters missing trailing slashes
-Disallow: /*?*
-
-# Block URLs ending without a trailing slash (standard extensions excluded)
-Disallow: /*$
-
-# Allow essential static resources that end without trailing slashes
-Allow: /*.css$
-Allow: /*.js$
-Allow: /*.png$
-Allow: /*.jpg$
-Allow: /*.jpeg$
-Allow: /*.gif$
-Allow: /*.svg$
-Allow: /*.webp$
-Allow: /*.ico$
-Allow: /*.pdf$
-Allow: /*.xml$
+# Allow Google Ads Crawler full access to inspect landing pages with tracking tags
+User-agent: Mediapartners-Google
+Allow: /
 
 # Block specific backend scripts and forms
 Disallow: /send-mail.php
