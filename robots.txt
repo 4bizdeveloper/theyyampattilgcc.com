@@ -1,19 +1,62 @@
 User-agent: *
 Allow: /
 
-# Allow Google Ads Crawler full access to inspect landing pages with tracking tags
+# Google Ad & Search Crawlers
 User-agent: Mediapartners-Google
 Allow: /
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: AdsBot-Google
+Allow: /
+User-agent: AdsBot-Google-Mobile
+Allow: /
 
-# Block specific backend scripts and forms
-Disallow: /send-mail.php
+# Meta (Facebook & Instagram Ads)
+User-agent: facebookexternalhit
+Allow: /
+User-agent: Facebot
+Allow: /
 
-# Block sensitive directories and system files
+# OpenAI Crawlers
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# TikTok Ads
+User-agent: TikTokBot
+Allow: /
+User-agent: ByteSpider
+Allow: /
+
+# Microsoft / Bing Ads
+User-agent: bingbot
+Allow: /
+User-agent: msnbot
+Allow: /
+User-agent: AdIdxBot
+Allow: /
+
+# Pinterest Ads
+User-agent: Pinterestbot
+Allow: /
+
+# LinkedIn Ads
+User-agent: LinkedInBot
+Allow: /
+
+# X (Twitter) Ads
+User-agent: Twitterbot
+Allow: /
+
+# Block sensitive directories only (do not block public CSS/JS assets like /styles/ or /scripts/)
 Disallow: /config/
 Disallow: /includes/
 Disallow: /private/
-Disallow: /scripts/
-Disallow: /styles/
 Disallow: /temp/
 Disallow: /tmp/
 Disallow: /vendor/
@@ -22,5 +65,6 @@ Disallow: /backend/
 Disallow: *.inc$
 Disallow: *.log$
 Disallow: *.sql$
+Disallow: /send-mail.php
 
 Sitemap: https://theyyampattilgcc.com/sitemap.xml

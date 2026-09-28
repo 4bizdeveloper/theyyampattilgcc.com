@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You | Theyyampattil Furniture</title>
-    <meta http-equiv="refresh" content="5;url=store/furniture-solutions">
+    <!-- FIXED: Set absolute path for redirect to prevent infinite loop errors -->
+    <meta http-equiv="refresh" content="5;url=/store/furniture-solutions.php">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -102,7 +103,8 @@
 
             <!-- Enhanced Responsive Button -->
             <div class="mt-8 px-2 sm:px-4">
-                <a href="store/furniture-solutions.php" 
+                <!-- FIXED: Set absolute path for redirect link -->
+                <a href="/store/furniture-solutions.php" 
                    class="inline-block w-full sm:w-auto px-6 py-3.5 text-sm md:text-base font-medium normal-case text-white rounded-xl border border-[#c9a76a] bg-[#c9a76a]/10 hover:bg-[#c9a76a] hover:text-black transition-all duration-300 ease-in-out shadow-lg shadow-[#c9a76a]/5 hover:shadow-[#c9a76a]/20 transform hover:-translate-y-0.5 active:translate-y-0">
                     Click here if you are not redirected automatically
                 </a>

@@ -4,6 +4,9 @@ session_start();
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+// Load sensitive configuration settings
+$config = require __DIR__ . '/includes/config.php';
+
 // 1. Path Management: Ensure these files exist in your /PHPMailer/src/ directory
 require __DIR__ . '/PHPMailer/src/Exception.php';
 require __DIR__ . '/PHPMailer/src/PHPMailer.php';
@@ -25,15 +28,15 @@ $mail = new PHPMailer(true);
 try {
     // --- Server Settings ---
     $mail->isSMTP();
-    $mail->Host       = 'smtp.gmail.com';
-    $mail->SMTPAuth   = true;
+    $mail->Host       = $config['smtp']['host'];
+    $mail->SMTPAuth   = $config['smtp']['auth'];
     
-    // SECURITY NOTE: In production, move these to environment variables
-    $mail->Username   = '4bizdeveloper@gmail.com';
-    $mail->Password   = 'ruln cyfp riyf zibz'; 
+    // SECURITY NOTE: Credentials loaded from includes/config.php
+    $mail->Username   = $config['smtp']['username'];
+    $mail->Password   = $config['smtp']['password']; 
     
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; 
-    $mail->Port       = 465;
+    $mail->Port       = $config['smtp']['port'];
 
     // --- SSL Configuration ---
     // Keep this only for local testing (XAMPP). 
@@ -47,9 +50,9 @@ try {
     );
 
     // --- Recipients ---
-    $mail->setFrom('4bizdeveloper@gmail.com', 'Website Contact');
-    $mail->addAddress('sales@theyyampattilgcc.com'); 
-    // $mail->addCC('4bizdeveloper@gmail.com');
+    $mail->setFrom($config['mail']['from_email'], $config['mail']['from_name']);
+    $mail->addAddress($config['mail']['to_email']); 
+    // $mail->addCC($config['mail']['from_email']);
     
     // --- Data Sanitization (Fixing XSS & Injection) ---
     // Mandatory Fields (Name, Email, Phone, Subject)

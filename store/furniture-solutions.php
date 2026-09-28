@@ -257,7 +257,8 @@
                         <h3 class="text-xl font-extrabold mb-2 text-[#c5a367] tracking-tight">Request Customized Furniture Quote</h3>
                         <p class="text-gray-400 text-xs mb-6">Enter your specifications below to receive an official layout quotation.</p>
                         
-                        <form id="furniture-form" action="store/send-mail.php" method="POST" class="space-y-4">
+                        <!-- FIXED: Action URL updated to absolute path -->
+                        <form id="furniture-form" action="/store/send-mail.php" method="POST" class="space-y-4">
                             <input type="hidden" name="country" id="country_code" value="AE">
                             <div>
                                 <input type="text" name="name" placeholder="Your Full Name" class="w-full bg-white/5 border border-[#c9a76a] focus:border-[#dfc493] text-white p-3.5 rounded-xl outline-none transition text-sm font-medium" required>
@@ -272,9 +273,10 @@
                                 <textarea name="message" rows="3" placeholder="Describe your customized furniture project specs (dimensions, materials, rooms)..." class="w-full bg-white/5 border border-[#c9a76a] focus:border-[#dfc493] text-white p-3.5 rounded-xl outline-none transition text-sm font-medium"></textarea>
                             </div>
                             
-                            <button type="submit" class="w-full bg-[#c5a367] hover:bg-[#dfc493] text-black font-extrabold py-4 rounded-xl uppercase tracking-wider transition-all shadow-lg text-xs">
+                            <button type="submit" id="submit-btn" class="w-full bg-[#c5a367] hover:bg-[#dfc493] text-black font-extrabold py-4 rounded-xl uppercase tracking-wider transition-all shadow-lg text-xs">
                                 Submit Request
                             </button>
+                            <div id="form-response-msg" class="text-xs text-center font-bold mt-2 hidden"></div>
                         </form>
                     </div>
                 </div>
@@ -514,28 +516,90 @@
         const phoneInput = document.querySelector("#phone");
         const countryHidden = document.querySelector("#country_code");
         const form = document.querySelector("#furniture-form");
+        const submitBtn = document.querySelector("#submit-btn");
+        const responseMsg = document.querySelector("#form-response-msg");
         
-        if (window.intlTelInput) {
-            const iti = window.intlTelInput(phoneInput, {
+        let iti = null;
+        if (window.intlTelInput && phoneInput) {
+            iti = window.intlTelInput(phoneInput, {
                 initialCountry: "auto",
                 geoIpLookup: function(success, failure) {
                     fetch('https://ipinfo.io/json').then(res => res.json()).then(data => {
                         success(data.country);
-                        countryHidden.value = data.country.toUpperCase();
+                        if (countryHidden) countryHidden.value = data.country.toUpperCase();
                     }).catch(() => {
                         success("ae");
-                        countryHidden.value = "AE";
+                        if (countryHidden) countryHidden.value = "AE";
                     });
                 },
                 utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
             });
-
-            if(form) {
-                form.addEventListener('submit', (e) => {
-                    phoneInput.value = iti.getNumber(); 
-                });
-            }
         }
+
+        if(form) {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                if (iti && phoneInput) {
+                    phoneInput.value = iti.getNumber(); 
+                }
+
+                if (submitBtn) {
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = 'Sending...';
+                }
+
+                if (responseMsg) {
+                    responseMsg.classList.add('hidden');
+                    responseMsg.innerText = '';
+                }
+
+                const formData = new FormData(form);
+
+                fetch(form.getAttribute('action'), {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(res => {
+                    if (res.redirected) {
+                        window.location.href = res.url;
+                        return null; // FIXED: Kill the promise chain if we are redirecting
+                    }
+                    return res.text();
+                })
+                .then(data => {
+                    if (data === null) return; // FIXED: Prevent `undefined` error if redirected
+
+                    if (submitBtn) {
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = 'Submit Request';
+                    }
+                    if (responseMsg) {
+                        responseMsg.classList.remove('hidden');
+                        if (data && data.toLowerCase().includes('success')) {
+                            responseMsg.className = 'text-xs text-center font-bold mt-2 text-emerald-400';
+                            responseMsg.innerText = 'Thank you! Your request has been sent successfully.';
+                            form.reset();
+                        } else {
+                            // FIXED: Added absolute path to prevent recursive folder stacking
+                            window.location.href = '/store/thank-you.php';
+                        }
+                    }
+                })
+                .catch(err => {
+                    if (submitBtn) {
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = 'Submit Request';
+                    }
+                    if (responseMsg) {
+                        responseMsg.classList.remove('hidden');
+                        responseMsg.className = 'text-xs text-center font-bold mt-2 text-rose-400';
+                        responseMsg.innerText = 'Network error. Please try again.';
+                    }
+                });
+            });
+        }
+
         if (window.gsap && window.ScrollTrigger) {
             gsap.registerPlugin(ScrollTrigger);
             gsap.from(".bg-[#1e1e1e]", {
