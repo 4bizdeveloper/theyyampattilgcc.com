@@ -251,6 +251,7 @@
             flex-direction: column;
             height: 100%;
             will-change: transform;
+            position: relative; /* Essential for stretched link coverage */
         }
 
         .blog-card:hover {
@@ -312,6 +313,8 @@
             color: var(--brand-color);
             font-weight: 600;
             transition: var(--transition);
+            position: relative;
+            z-index: 2; /* Sits above card link overlay so author URL preview works correctly */
         }
 
         .author-link:hover {
@@ -344,6 +347,14 @@
             align-items: center;
             gap: 10px;
             transition: var(--transition);
+        }
+
+        /* Stretched Link: Makes the entire blog card act as a clickable link with URL preview */
+        .read-btn::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: 1;
         }
 
         .read-btn:hover { 
@@ -519,8 +530,52 @@
     <!-- Main Blog Grid -->
     <main class="blog-container">
 
-
         <!-- Article 1 -->
+        <article class="blog-card" data-aos="fade-up">
+            <div class="blog-img-wrapper">
+                <img src="assets/images/bed/bed-5.jpeg" alt="Luxury Bed Panels UAE | Theyyampattil" width="400" height="250" loading="eager">
+            </div>
+            <div class="blog-content">
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-10-24">October 24, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Luxury bed panels buyer's guide for the UAE — headboard walls, materials, lighting & layouts compared before you buy.</h3>
+                <a href="blog/luxury-bed-panels-uae-buyers-guide/" class="read-btn" aria-label="Luxury bed panels buyer's guide for the UAE">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="blog-card" data-aos="fade-up">
+            <div class="blog-img-wrapper">
+                <img src="assets/images/home-page/bed-room.avif" alt="Home office furniture buyer's guide for the UAE — desks, chairs, storage & layouts compared for villas and apartments." width="400" height="250" loading="eager">
+            </div>
+            <div class="blog-content">
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-10-20">October 20, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Home office furniture buyer's guide for the UAE — desks, chairs, storage & layouts compared for villas and apartments.</h3>
+                <a href="blog/home-office-furniture-uae-buyers-guide/" class="read-btn" aria-label="Home office furniture buyer's guide for the UAE">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="blog-card" data-aos="fade-up">
+            <div class="blog-img-wrapper">
+                <img src="assets/images/gallery/welcome-unit.JPEG" alt="Luxury Home Furniture Dubai | Villa Room-by-Room Guide" width="400" height="250" loading="eager">
+            </div>
+            <div class="blog-content">
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-10-05">October 16, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Luxury Home Furniture Dubai | Villa Room-by-Room Guide</h3>
+                <a href="blog/luxury-home-furniture-dubai-villas/" class="read-btn" aria-label="Luxury Home Furniture Dubai | Villa Room-by-Room Guide">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </article>
+
+        <!-- Article 4 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/dressing-unit.avif" alt="Italian Luxury Furniture Dubai | Italian-Inspired Design Guide" width="400" height="250" loading="eager">
@@ -531,12 +586,11 @@
                     <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
                 </div>
                 <h3>Italian-Inspired Luxury Furniture in Dubai | A Complete Guide</h3>
-                <a href="blog/italian-inspired-luxury-furniture-dubai/" class="read-btn" aria-label="Italian-Inspired Luxury Furniture in Dubai"">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                <a href="blog/italian-inspired-luxury-furniture-dubai/" class="read-btn" aria-label="Italian-Inspired Luxury Furniture in Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
-
-        <!-- Article 1 -->
+        <!-- Article 5 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/closet.avif" alt="Wood Furniture Care Guide for UAE Homes | Humidity & Heat" width="400" height="250" loading="eager">
@@ -547,13 +601,11 @@
                     <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
                 </div>
                 <h3>Wood Furniture Care Guide for UAE Homes | Humidity & Heat</h3>
-                <a href="/blog/wood-furniture-care-guide-uae/" class="read-btn" aria-label="Wood Furniture Care Guide: UAE"">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                <a href="/blog/wood-furniture-care-guide-uae/" class="read-btn" aria-label="Wood Furniture Care Guide: UAE">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
-
-
-        <!-- Article 1 -->
+        <!-- Article 6 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/kitchen.avif" alt="Luxury Furniture Dubai: What Actually Makes It Luxury" width="400" height="250" loading="eager">
@@ -568,8 +620,7 @@
             </div>
         </article>
 
-
-        <!-- Article 1 -->
+        <!-- Article 7 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/3rd-section-desktop.avif" alt="2026 Interior Design Trends in Dubai | UAE Homeowners Guide" width="400" height="250" loading="eager">
@@ -584,9 +635,7 @@
             </div>
         </article>
 
-
-
-        <!-- Article 1 -->
+        <!-- Article 8 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/tv-wall.avif" alt="How to Choose a Custom Furniture Maker in Dubai | 7 Questions" width="400" height="250" loading="eager">
@@ -597,17 +646,14 @@
                     <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
                 </div>
                 <h3>How to Choose a Custom Furniture Maker in Dubai | 7 Questions</h3>
-                <a href="/blog/how-to-choose-custom-furniture-maker-dubai/" class="read-btn" aria-label="Read Visiting Theyyampattil Furniture's Abu Dhabi Showroom">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                <a href="/blog/how-to-choose-custom-furniture-maker-dubai/" class="read-btn" aria-label="How to Choose a Custom Furniture Maker in Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
-
-
-
-        <!-- Article 1 -->
+        <!-- Article 9 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
-                <img src="assets/images/services/services-1-7.jpg" alt="Visiting Theyyampattil Furniture's Abu Dhabi Showroom" width="400" height="250" loading="eager">
+                <img src="assets/images/services/services-1-7.jpg" alt="Villa vs Apartment Furniture Dubai | Design Differences Guide" width="400" height="250" loading="eager">
             </div>
             <div class="blog-content">
                 <div class="blog-meta">
@@ -615,12 +661,11 @@
                     <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
                 </div>
                 <h3>Villa vs Apartment Furniture Dubai | Design Differences Guide</h3>
-                <a href="/blog/villa-vs-apartment-furniture-uae/" class="read-btn" aria-label="Read Visiting Theyyampattil Furniture's Abu Dhabi Showroom">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                <a href="/blog/villa-vs-apartment-furniture-uae/" class="read-btn" aria-label="Villa vs Apartment Furniture Dubai">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </article>
 
-
-        <!-- Article 1 -->
+        <!-- Article 10 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/showrooms/abhu-dhabhi/ABU DHABI SHOWROOM DESKTOP.jpeg" alt="Visiting Theyyampattil Furniture's Abu Dhabi Showroom" width="400" height="250" loading="eager">
@@ -635,7 +680,7 @@
             </div>
         </article>
 
-        <!-- Article 2 -->
+        <!-- Article 11 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/tv-wall/tv-wall-4.jpeg" alt="Custom Luxury Furniture in Sharjah | Theyyampattil Furniture" width="400" height="250" loading="eager">
@@ -650,7 +695,7 @@
             </div>
         </article>
 
-        <!-- Article 3 -->
+        <!-- Article 12 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/bed-room.avif" alt="Luxury Custom Furniture in Dubai | Theyyampattil" width="400" height="250" loading="eager">
@@ -665,7 +710,7 @@
             </div>
         </article>
 
-        <!-- Article 4 -->
+        <!-- Article 13 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/tv-wall.avif" alt="Luxury TV Unit Dubai: Modern TV Wall Unit Ideas & Trends" width="400" height="250" loading="eager">
@@ -680,7 +725,7 @@
             </div>
         </article>
 
-        <!-- Article 5 -->
+        <!-- Article 14 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/hero-banner/hero-slider-1.avif" alt="Theyyampattil Furniture: UAE's Bespoke Luxury Furniture Brand" width="400" height="250" loading="eager">
@@ -695,7 +740,7 @@
             </div>
         </article>
 
-        <!-- Article 6 -->
+        <!-- Article 15 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/gallery/IMG_8187.JPG" alt="Custom Walk-In Closet Dubai" width="400" height="250" loading="eager">
@@ -710,7 +755,7 @@
             </div>
         </article>
 
-        <!-- Article 7 -->
+        <!-- Article 16 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/closet.avif" alt="Walk In Closet Dubai Design & Tips" width="400" height="250" loading="eager">
@@ -725,7 +770,7 @@
             </div>
         </article>
 
-        <!-- Article 8 -->
+        <!-- Article 17 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/bed/bed-1.jpeg" alt="Premium Bedroom Furniture UAE" width="400" height="250" loading="eager">
@@ -740,7 +785,7 @@
             </div>
         </article>
 
-        <!-- Article 9 -->
+        <!-- Article 18 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/wall-panel.avif" alt="High End Luxury Furniture Outlet UAE" width="400" height="250" loading="eager">
@@ -755,7 +800,7 @@
             </div>
         </article>
 
-        <!-- Article 10 -->
+        <!-- Article 19 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/kitchen.avif" alt="Luxury Kitchen Furniture in UAE" width="400" height="250" loading="eager">
@@ -770,7 +815,7 @@
             </div>
         </article>
 
-        <!-- Article 11 -->
+        <!-- Article 20 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/tv-wall.avif" alt="Best Luxury Furniture Stores Abu Dhabi" width="400" height="250" loading="eager">
@@ -785,7 +830,7 @@
             </div>
         </article>
 
-        <!-- Article 12 -->
+        <!-- Article 21 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/3rd-section-desktop.avif" alt="Villa Interior Dubai" width="400" height="250" loading="eager">
@@ -800,7 +845,7 @@
             </div>
         </article>
 
-        <!-- Article 13 -->
+        <!-- Article 22 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/home-page/hero-banner/hero-slider-1.avif" alt="Premium Closets Dubai" width="400" height="250" loading="lazy">
@@ -815,7 +860,7 @@
             </div>
         </article>
 
-        <!-- Article 14 -->
+        <!-- Article 23 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/services/kitchen-1.jpeg" alt="Modern Living Room Trends" width="400" height="250" loading="lazy">
@@ -830,7 +875,7 @@
             </div>
         </article>
 
-        <!-- Article 15 -->
+        <!-- Article 24 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/blog/blog-thumb-choose-right.jpg" alt="Luxury Furniture Style Guide" width="400" height="250" loading="lazy">
@@ -845,7 +890,7 @@
             </div>
         </article>
 
-        <!-- Article 16 -->
+        <!-- Article 25 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/blog/blog-thumb-best in dubai.jpg" alt="Handcrafted Custom Luxury Furniture" width="400" height="250" loading="lazy">
@@ -860,7 +905,7 @@
             </div>
         </article>
 
-        <!-- Article 17 -->
+        <!-- Article 26 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/blog/Customized furniture-thumb.jpg" alt="Customized Furniture Dubai" width="400" height="250" loading="lazy">
@@ -875,7 +920,7 @@
             </div>
         </article>
 
-        <!-- Article 18 -->
+        <!-- Article 27 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/blog/blog-thumb moder furniture.jpg" alt="Modern Furniture Dubai" width="400" height="250" loading="lazy">
@@ -890,7 +935,7 @@
             </div>
         </article>
 
-        <!-- Article 19 -->
+        <!-- Article 28 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/blog/blog-thumbnail.jpg" alt="Luxury Furniture Outlet Dubai" width="400" height="250" loading="lazy">
@@ -905,7 +950,7 @@
             </div>
         </article>
 
-        <!-- Article 20 -->
+        <!-- Article 29 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/blog/blog img-5.jpg" alt="TV Wall Solutions UAE" width="400" height="250" loading="lazy">
@@ -920,7 +965,7 @@
             </div>
         </article>
 
-        <!-- Article 21 -->
+        <!-- Article 30 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/blog/blog-1-1.jpg" alt="Custom TV Unit Design" width="400" height="250" loading="lazy">
@@ -935,7 +980,7 @@
             </div>
         </article>
 
-        <!-- Article 22 -->
+        <!-- Article 31 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/blog/blog-1-2.jpg" alt="Custom Wall Panels UAE" width="400" height="250" loading="lazy">
@@ -950,7 +995,7 @@
             </div>
         </article>
 
-        <!-- Article 23 -->
+        <!-- Article 32 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
                 <img src="assets/images/blog/blog-1-3.jpg" alt="Art of TV Walls and Wall Panels" width="400" height="250" loading="lazy">

@@ -3003,7 +3003,7 @@
 
 <!-- Fixed Floating WhatsApp / Call Buttons Include -->
 <?php include 'includes/fixed-floating-buttons.php'; ?>
-
+<?php include 'includes/home-popup.php'; ?>
 <!-- Footer Include -->
 <?php include 'includes/footer.php'; ?>
 
