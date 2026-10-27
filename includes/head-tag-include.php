@@ -1,22 +1,29 @@
 <?php
 // 1. Unify current page URL detection cleanly (Calculated once, used everywhere)
-$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
 $full_url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
 // Strip query parameters for a perfectly clean Canonical URL mapping
 $canonical_url = strtok($full_url, '?');
 
-// 2. Unify Fallback Meta Info for Titles and Descriptions
-$meta_title = isset($page_title) ? $page_title : "Best Luxury Furniture in Dubai | Theyyampattil Furniture";
-$meta_desc  = isset($page_description) ? $page_description : "Theyyampattil Furniture offers premium Italian luxury furniture in Dubai. Explore our bespoke collections of sofas, bedroom sets, and modern TV wall units.";
+// 2. Dynamic Meta Info (Page-specific variables take priority; global defaults restricted to homepage)
+$meta_title = isset($page_title) ? $page_title : null;
+$meta_desc  = isset($page_description) ? $page_description : null;
 
 // 3. Image Paths Configuration (Allows overriding per page, falls back gracefully)
 $social_base_url = "https://theyyampattilgcc.com/";
 $default_hero_img = $social_base_url . "assets/images/home-page/hero-banner/hero-slider-1.avif";
 $social_img = isset($page_image) ? $page_image : $default_hero_img;
 
-// Detect if current page is the root homepage to avoid bloating inner pages with Local Business details
-$is_homepage = ($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '');
+// Detect if current page is the root homepage
+$request_uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$is_homepage = ($request_uri == '/' || $request_uri == '/index.php' || $request_uri == '');
+
+// Apply homepage defaults only when on the homepage and variables are unset
+if ($is_homepage) {
+    if (!$meta_title) $meta_title = "Best Luxury Furniture in Dubai | Theyyampattil Furniture";
+    if (!$meta_desc)  $meta_desc  = "Theyyampattil Furniture offers premium Italian luxury furniture in Dubai. Explore our bespoke collections of sofas, bedroom sets, and modern TV wall units.";
+}
 
 // Flag to prevent duplicating <title>, <meta description>, and <link rel="canonical"> if already set on the page
 $disable_default_head_tags = isset($disable_head_tags) && $disable_head_tags === true;
@@ -24,16 +31,16 @@ $disable_default_head_tags = isset($disable_head_tags) && $disable_head_tags ===
 
 <?php if (!$disable_default_head_tags): ?>
 <!-- Essential SEO Tags -->
-<title><?php echo htmlspecialchars($meta_title, ENT_QUOTES, 'UTF-8'); ?></title>
-<meta name="description" content="<?php echo htmlspecialchars($meta_desc, ENT_QUOTES, 'UTF-8'); ?>">
+<?php if ($meta_title): ?><title><?php echo htmlspecialchars($meta_title, ENT_QUOTES, 'UTF-8'); ?></title><?php endif; ?>
+<?php if ($meta_desc): ?><meta name="description" content="<?php echo htmlspecialchars($meta_desc, ENT_QUOTES, 'UTF-8'); ?>"><?php endif; ?>
 <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url, ENT_QUOTES, 'UTF-8'); ?>">
 <?php endif; ?>
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="<?php echo $is_homepage ? 'website' : 'article'; ?>">
 <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url, ENT_QUOTES, 'UTF-8'); ?>">
-<meta property="og:title" content="<?php echo htmlspecialchars($meta_title, ENT_QUOTES, 'UTF-8'); ?>">
-<meta property="og:description" content="<?php echo htmlspecialchars($meta_desc, ENT_QUOTES, 'UTF-8'); ?>">
+<?php if ($meta_title): ?><meta property="og:title" content="<?php echo htmlspecialchars($meta_title, ENT_QUOTES, 'UTF-8'); ?>"><?php endif; ?>
+<?php if ($meta_desc): ?><meta property="og:description" content="<?php echo htmlspecialchars($meta_desc, ENT_QUOTES, 'UTF-8'); ?>"><?php endif; ?>
 <meta property="og:image" content="<?php echo htmlspecialchars($social_img, ENT_QUOTES, 'UTF-8'); ?>">
 <meta property="og:image:secure_url" content="<?php echo htmlspecialchars($social_img, ENT_QUOTES, 'UTF-8'); ?>">
 <meta property="og:site_name" content="Theyyampattil Furniture">
@@ -41,22 +48,21 @@ $disable_default_head_tags = isset($disable_head_tags) && $disable_head_tags ===
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="<?php echo htmlspecialchars($canonical_url, ENT_QUOTES, 'UTF-8'); ?>">
-<meta name="twitter:title" content="<?php echo htmlspecialchars($meta_title, ENT_QUOTES, 'UTF-8'); ?>">
-<meta name="twitter:description" content="<?php echo htmlspecialchars($meta_desc, ENT_QUOTES, 'UTF-8'); ?>">
+<?php if ($meta_title): ?><meta name="twitter:title" content="<?php echo htmlspecialchars($meta_title, ENT_QUOTES, 'UTF-8'); ?>"><?php endif; ?>
+<?php if ($meta_desc): ?><meta name="twitter:description" content="<?php echo htmlspecialchars($meta_desc, ENT_QUOTES, 'UTF-8'); ?>"><?php endif; ?>
 <meta name="twitter:image" content="<?php echo htmlspecialchars($social_img, ENT_QUOTES, 'UTF-8'); ?>">
 
-<!-- Structured Data (JSON-LD) -->
+<!-- Structured Data (JSON-LD) - Fixed Schema Graph & Validated References -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
-    <?php if ($is_homepage): ?>
     {
       "@type": "FurnitureStore",
       "@id": "https://theyyampattilgcc.com/#organization",
       "name": "Theyyampattil GCC",
       "url": "https://theyyampattilgcc.com/",
-      "logo": "https://theyyampattilgcc.com/images/logo.png",
+      "logo": "https://theyyampattilgcc.com/assets/images/favicons/apple-touch-icon.png",
       "image": "<?php echo htmlspecialchars($default_hero_img, ENT_QUOTES, 'UTF-8'); ?>",
       "description": "Premium luxury furniture solutions, custom closets, wardrobes, and interior design wall cladding panels in Dubai, Sharjah and Abu Dhabi.",
       "telephone": "+971559132200",
@@ -81,13 +87,12 @@ $disable_default_head_tags = isset($disable_head_tags) && $disable_head_tags ===
         "https://www.instagram.com/theyyampattilgcc"
       ]
     },
-    <?php endif; ?>
     {
       "@type": "WebPage",
       "@id": "<?php echo htmlspecialchars($canonical_url, ENT_QUOTES, 'UTF-8'); ?>#webpage",
       "url": "<?php echo htmlspecialchars($canonical_url, ENT_QUOTES, 'UTF-8'); ?>",
-      "name": "<?php echo htmlspecialchars($meta_title, ENT_QUOTES, 'UTF-8'); ?>",
-      "description": "<?php echo htmlspecialchars($meta_desc, ENT_QUOTES, 'UTF-8'); ?>",
+      <?php if ($meta_title): ?>"name": "<?php echo htmlspecialchars($meta_title, ENT_QUOTES, 'UTF-8'); ?>",<?php endif; ?>
+      <?php if ($meta_desc): ?>"description": "<?php echo htmlspecialchars($meta_desc, ENT_QUOTES, 'UTF-8'); ?>",<?php endif; ?>
       "isPartOf": {
         "@id": "https://theyyampattilgcc.com/#organization"
       }

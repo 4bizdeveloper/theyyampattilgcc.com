@@ -1,8 +1,9 @@
 <?php
 /**
  * Home Page Popup Component
- * Displays a popup 5 seconds after page load with a 3D flip animation.
- * Responsive images: desktop, tablet, mobile with exact aspect ratios.
+ * Displays a popup 3 seconds after page load with a 3D flip animation.
+ * Responsive images locked to exact aspect ratios with zero blank areas.
+ * Non-blurring background for website visibility.
  */
 ?>
 <div id="homePromoPopup"
@@ -20,11 +21,11 @@
         <!-- Responsive Image Frame -->
         <div class="home-popup-img-wrapper">
             <picture>
-                <!-- Desktop (991px and up) - 1536 x 1024 -->
-                <source media="(min-width: 991px)" srcset="assets/images/popup/popup-1-deskto p.png">
-                <!-- Tablet (577px to 990px) - 1254 x 1254 -->
-                <source media="(min-width: 577px)" srcset="assets/images/popup/popup-1-tablet.png">
-                <!-- Mobile (576px and down) - 1122 x 1402 (Fallback) -->
+                <!-- Desktop (1025px and up) - 1536 x 1024 -->
+                <source media="(min-width: 1025px)" srcset="assets/images/popup/popup-1-dekstop.png">
+                <!-- Tablet (768px to 1024px) - 1254 x 1254 -->
+                <source media="(min-width: 768px)" srcset="assets/images/popup/popup-1-tablet.png">
+                <!-- Mobile (767px and down) - 1122 x 1402 (Fallback) -->
                 <img src="assets/images/popup/popup-1-mobile.png"
                      alt="We're Expanding Across the UAE"
                      class="home-popup-image"
@@ -43,19 +44,16 @@
         width: 100vw;
         height: 100vh;
         height: 100dvh; 
-        background: rgba(8, 8, 8, 0.85);
-        backdrop-filter: blur(8px);
-        -webkit-backdrop-filter: blur(8px);
+        background: rgba(0, 0, 0, 0.6); 
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: clamp(12px, 3vw, 32px);
+        padding: 20px;
         z-index: 999999;
         opacity: 0;
         visibility: hidden;
         transition: opacity 0.4s ease, visibility 0.4s ease;
         overscroll-behavior: contain;
-        /* Perspective for the 3D flip effect */
         perspective: 1500px; 
     }
     .home-popup-overlay.active {
@@ -66,10 +64,12 @@
     /* ============ POPUP BOX ============ */
     .home-popup-box {
         position: relative;
-        /* Default to Mobile Width */
-        width: min(92vw, 400px);
-        max-height: 92vh;
-        max-height: 92dvh;
+        /* width: auto + max-width ensures it shrinks to fit the screen height, preventing overflow */
+        width: auto;
+        height: auto;
+        max-width: 95vw;
+        max-height: 90vh;
+        max-height: 90dvh;
         border-radius: 16px;
         overflow: hidden;
         background: #0f0f0f;
@@ -80,7 +80,6 @@
             0 0 40px rgba(201, 167, 106, 0.15);
         display: flex;
         flex-direction: column;
-        /* Initial state for CSS fallback */
         transform: rotateY(90deg) scale(0.9);
         opacity: 0;
         will-change: transform, opacity;
@@ -98,21 +97,24 @@
     .home-popup-img-wrapper {
         position: relative;
         width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         /* Mobile Aspect Ratio: 1122 / 1402 */
         aspect-ratio: 1122 / 1402;
+        max-width: 450px;
         max-height: 90vh;
         max-height: 90dvh;
         overflow: hidden;
         background: #111;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .home-popup-image {
         width: 100%;
         height: 100%;
-        object-fit: cover; /* Fits perfectly without blank areas now that aspect ratios match */
+        /* cover fills the container entirely, ensuring no blank areas */
+        object-fit: cover; 
         display: block;
         user-select: none;
         -webkit-user-drag: none;
@@ -154,7 +156,7 @@
     }
 
     /* ============ RESPONSIVE TWEAKS ============ */
-    @media (max-width: 576px) {
+    @media (max-width: 767px) {
         .home-popup-close {
             width: 32px;
             height: 32px;
@@ -164,25 +166,19 @@
         }
     }
 
-    @media (min-width: 577px) {
-        .home-popup-box {
-            /* Tablet Width */
-            width: min(90vw, 650px); 
-        }
+    @media (min-width: 768px) {
         .home-popup-img-wrapper {
-            /* Tablet Aspect Ratio: 1254 x 1254 (Square) */
-            aspect-ratio: 1 / 1;
+            /* Tablet Aspect Ratio: 1254 / 1254 (Square) */
+            aspect-ratio: 1254 / 1254;
+            max-width: 650px; 
         }
     }
 
-    @media (min-width: 991px) {
-        .home-popup-box {
-            /* Desktop Width */
-            width: min(95vw, 850px); 
-        }
+    @media (min-width: 1025px) {
         .home-popup-img-wrapper {
-            /* Desktop Aspect Ratio: 1536 x 1024 (3:2) */
-            aspect-ratio: 3 / 2;
+            /* Desktop Aspect Ratio: 1536 x 1024 */
+            aspect-ratio: 1536 / 1024;
+            max-width: 900px; 
         }
     }
 
@@ -237,11 +233,10 @@
                         opacity: 1, 
                         duration: 1.2, 
                         ease: 'expo.out',
-                        clearProps: 'transform' // Cleanup inline styles after animation
+                        clearProps: 'transform'
                     }
                 );
             } else {
-                // CSS fallback
                 setTimeout(function () {
                     popup.classList.add('active');
                     popup.setAttribute('aria-hidden', 'false');
@@ -271,7 +266,6 @@
                     ease: 'power2.in',
                     onComplete: function () {
                         popup.style.display = 'none';
-                        // Reset rotation for next open
                         gsap.set(box, { rotationY: 0, scale: 1 }); 
                     }
                 });
@@ -298,7 +292,7 @@
             if (e.key === 'Escape') closePopup();
         }
 
-        // ---------- Kick off (5 Second Delay) ----------
+        // ---------- Kick off (3 Second Delay) ----------
         setTimeout(function() {
             if (hasGSAP) {
                 openPopup();
@@ -312,11 +306,11 @@
                         openPopup();
                     } else if (waited >= 600) {
                         clearInterval(timer);
-                        openPopup(); // CSS fallback
+                        openPopup();
                     }
                 }, 50);
             }
-        }, 5000);
+        }, 3000);
     }
 
     if (document.readyState === 'loading') {

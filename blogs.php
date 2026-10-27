@@ -530,6 +530,23 @@
     <!-- Main Blog Grid -->
     <main class="blog-container">
 
+
+        <!-- Article 1 -->
+        <article class="blog-card" data-aos="fade-up">
+            <div class="blog-img-wrapper">
+                <img src="assets/images/home-page/modern-door.avif" alt="Luxury Modern Doors UAE | Theyyampattil" width="400" height="250" loading="eager">
+            </div>
+            <div class="blog-content">
+                <div class="blog-meta">
+                    <span class="blog-meta-item"><i class="far fa-calendar-alt" aria-hidden="true"></i> <time datetime="2026-10-27">October 27, 2026</time></span>
+                    <span class="blog-meta-item"><i class="far fa-user" aria-hidden="true"></i> <a href="https://theyyampattilgcc.com/" class="author-link" rel="author">Theyyampattil GCC</a></span>
+                </div>
+                <h3>Luxury modern doors buyer's guide for the UAE — styles, materials, hardware & finishes compared before you buy.</h3>
+                <a href="blog/luxury-modern-doors-uae-buyers-guide/" class="read-btn" aria-label="Luxury Modern Doors UAE | Theyyampattil">Read Article <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </article>
+
+
         <!-- Article 1 -->
         <article class="blog-card" data-aos="fade-up">
             <div class="blog-img-wrapper">
