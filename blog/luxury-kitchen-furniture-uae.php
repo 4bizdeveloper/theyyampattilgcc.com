@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxury Kitchen Furniture in UAE | Modern Elegant Homes</title>
-    <meta name="description" content="Explore luxury kitchen furniture in UAE with bespoke cabinets, Italian-inspired designs, and premium modern kitchens in Dubai by Theyyampattil GCC.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/luxury-kitchen-furniture-uae/" />
+    
+    
+    
     <meta name="robots" content="index, follow">
     <base href="../../">
     
@@ -18,16 +18,16 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
     <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Luxury Kitchen Furniture in UAE | Modern Elegant Homes" />
-    <meta property="og:description" content="Explore luxury kitchen furniture in UAE with bespoke cabinets, Italian-inspired designs, and premium modern kitchens in Dubai by Theyyampattil GCC." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/luxury-kitchen-furniture-uae/" />
-    <meta property="og:site_name" content="Theyyampattil GCC" />
-    <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/home-page/kitchen.avif" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Luxury Kitchen Furniture in UAE | Modern Elegant Homes" />
-    <meta name="twitter:description" content="Explore luxury kitchen furniture in UAE with bespoke cabinets, Italian-inspired designs, and premium modern kitchens in Dubai by Theyyampattil GCC." />
-    <meta name="twitter:image" content="https://theyyampattilgcc.com/assets/images/home-page/kitchen.avif" />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     <!-- 1. Breadcrumb Schema Markup -->
     <script type="application/ld+json">
@@ -129,6 +129,10 @@
     </script>
 
 <!-- Common <head> include materials like schema markup,social tags,...etc -->
+<?php
+$page_title = "Luxury Kitchen Furniture in UAE | Modern Elegant Homes";
+$page_description = "Explore luxury kitchen furniture in UAE with bespoke cabinets, Italian-inspired designs, and premium modern kitchens in Dubai by Theyyampattil GCC.";
+?>
 <?php include '../includes/head-tag-include.php'; ?> 
 
     <style>
