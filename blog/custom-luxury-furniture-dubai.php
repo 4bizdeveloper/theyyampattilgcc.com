@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Custom Luxury Furniture in Dubai | Handcrafted Sophistication by Theyyampattil</title>
     
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai/" />
+    
+    
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <base href="../../">
     
@@ -14,15 +14,15 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     
-    <meta name="description" content="Discover custom luxury furniture in Dubai with Theyyampattil. Our handcrafted, bespoke designs blend artistry, functionality, and timeless sophistication to transform your home into a masterpiece of comfort and style." />
+    
 
     <!-- Open Graph / AI / Social Media Optimization Meta Tags -->
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Custom Luxury Furniture in Dubai | Handcrafted Sophistication by Theyyampattil" />
-    <meta property="og:description" content="Handcrafted, bespoke designs blending artistry, functionality, and luxury furniture customization in Dubai." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/custom-luxury-furniture-dubai/" />
-    <meta property="og:site_name" content="Theyyampattil Furniture" />
-    <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/blog/luxury%20furniture.jpg" />
+    
+    
+    
+    
+    
+    
     <meta property="twitter:card" content="summary_large_image" />
 
     <!-- Preconnect for performance optimization (GTmetrix A-Grade) -->
@@ -31,7 +31,11 @@
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
     <!-- Common <head> include materials -->
-    <?php include '../includes/head-tag-include.php'; ?> 
+    <?php
+$page_title = "Custom Luxury Furniture in Dubai | Handcrafted Sophistication by Theyyampattil";
+$page_description = "Discover custom luxury furniture in Dubai with Theyyampattil. Our handcrafted, bespoke designs blend artistry, functionality, and timeless sophistication to transform your home into a masterpiece of comfort and style.";
+?>
+<?php include '../includes/head-tag-include.php'; ?> 
 
     <!-- Modern Libraries -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
