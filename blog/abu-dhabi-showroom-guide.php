@@ -2,20 +2,24 @@
 <html lang="en">
 <head>
     <base href="../../">
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Visiting Theyyampattil Furniture's Abu Dhabi Showroom: What to Expect";
+$page_description = "Plan your visit to Theyyampattil Furniture's Abu Dhabi showroom. Location, hours, custom luxury furniture options & what to expect. Book a consultation today.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visiting Theyyampattil Furniture's Abu Dhabi Showroom: What to Expect</title>
-    <meta name="description" content="Plan your visit to Theyyampattil Furniture's Abu Dhabi showroom. Location, hours, custom luxury furniture options & what to expect. Book a consultation today.">
+    
+    
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blogs/abu-dhabi-showroom-guide/">
+    
     
     <!-- Open Graph Metadata -->
-    <meta property="og:title" content="Visiting Theyyampattil Furniture's Abu Dhabi Showroom: What to Expect">
-    <meta property="og:description" content="Plan your visit to Theyyampattil Furniture's Abu Dhabi showroom. Location, hours, custom luxury furniture options & what to expect. Book a consultation today.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://theyyampattilgcc.com/blogs/abu-dhabi-showroom-guide/">
+    
+    
+    
+    
+    
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -50,7 +54,7 @@
               "@type": "ListItem",
               "position": 3,
               "name": "Visiting Theyyampattil Furniture's Abu Dhabi Showroom: What to Expect",
-              "item": "https://theyyampattilgcc.com/blogs/abu-dhabi-showroom-guide/"
+              "item": "https://theyyampattilgcc.com/blog/abu-dhabi-showroom-guide//"
             }
           ]
         },
@@ -83,7 +87,7 @@
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blogs/abu-dhabi-showroom-guide/#article",
+          "@id": "https://theyyampattilgcc.com/blog/abu-dhabi-showroom-guide//#article",
           "headline": "Visiting Theyyampattil Furniture's Abu Dhabi Showroom: What to Expect",
           "description": "Comprehensive guide to visiting Theyyampattil Furniture's Abu Dhabi showroom in Baniyas East. Learn about opening hours, custom design consultations, materials, and UAE-wide delivery.",
           "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
@@ -95,7 +99,7 @@
           },
           "datePublished": "2026-08-14",
           "dateModified": "2026-08-14",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blogs/abu-dhabi-showroom-guide/",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/abu-dhabi-showroom-guide//",
           "audience": {
             "@type": "Audience",
             "audienceType": "Homeowners, Interior Designers, and Villa/Apartment Owners seeking luxury bespoke furniture in Abu Dhabi."
