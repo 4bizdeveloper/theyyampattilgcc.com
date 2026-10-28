@@ -1,30 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="canonical" href="https://theyyampattilgcc.com/" />  
 <meta name="robots" content="index, follow">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="luxury furniture outlet, luxury home furniture, modern furniture dubai, interior design companies, custom furniture, italian furniture, luxury closet dubai, walk in closets, wardrobe cabinet, tv unit design, modern tv wall, wall cladding, 3d wall panels, bedroom sets, kids bedroom furniture, partition wall, home decor, luxury furniture abu dhabi, living room furniture, furniture shop sharjah, furniture sale dubai, custom closet, كاف للخزائن" />
 <meta name="author" content="Theyyampattil Furniture Trading LLC">
-<meta property="og:title" content="Best Luxury Furniture in Dubai | Theyyampattil Furniture">
-<meta property="og:description" content="Premium custom-made furniture across UAE. Showrooms in Dubai, Sharjah and Abu Dhabi.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://theyyampattilgcc.com/">
-<meta property="og:image" content="https://theyyampattilgcc.com/assets/images/home-page/hero-banner/hero-slider-1.avif">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Bespoke luxury furniture showroom by Theyyampattil Furniture in Dubai UAE">
-<meta property="og:site_name" content="Theyyampattil Furniture Trading LLC">
-<meta property="og:locale" content="en_AE">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Best Luxury Furniture in Dubai | Theyyampattil Furniture">
-<meta name="twitter:description" content="Premium custom-made furniture across UAE. Showrooms in Dubai, Sharjah and Abu Dhabi.">
-<meta name="twitter:image" content="https://theyyampattilgcc.com/assets/images/home-page/hero-banner/hero-slider-1.avif">
-<meta name="twitter:image:alt" content="Bespoke luxury furniture showroom by Theyyampattil Furniture in Dubai UAE">
 <meta name="theme-color" content="#121212">
-<title>Best Luxury Furniture in Dubai | Theyyampattil Furniture</title>
-<meta name="description" content="Theyyampattil Furniture offers premium Italian luxury furniture in Dubai. Explore bespoke sofas, bedroom sets, and modern TV wall units.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <!-- Async font load (preload + swap on load) removes render-blocking CSS request for GTmetrix/PageSpeed -->
