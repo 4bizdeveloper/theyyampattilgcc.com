@@ -66,22 +66,10 @@ $disable_default_head_tags = isset($disable_head_tags) && $disable_head_tags ===
       "image": "<?php echo htmlspecialchars($default_hero_img, ENT_QUOTES, 'UTF-8'); ?>",
       "description": "Premium luxury furniture solutions, custom closets, wardrobes, and interior design wall cladding panels in Dubai, Sharjah and Abu Dhabi.",
       "telephone": "+971559132200",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Al Quoz Industrial Area 3, Umm Suqeim St", 
-        "addressLocality": "Dubai",
-        "addressRegion": "Dubai",
-        "addressCountry": "AE"
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Arab Emirates"
       },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-          "opens": "09:00",
-          "closes": "22:00"
-        }
-      ],
       "sameAs": [
         "https://www.facebook.com/theyyampattilgcc",
         "https://www.instagram.com/theyyampattilgcc"
