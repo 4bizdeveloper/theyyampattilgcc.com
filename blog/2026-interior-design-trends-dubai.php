@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <base href="../../">
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "2026 Interior Design Trends in Dubai | UAE Homeowners Guide";
+$page_description = "Discover the top 2026 interior design trends UAE homeowners are choosing from warm minimalism to custom wall panels. Expert insights.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     <meta name="robots" content="index, follow">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -10,9 +14,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026 Interior Design Trends in Dubai | UAE Homeowners Guide</title>
-    <meta name="description" content="Discover the top 2026 interior design trends UAE homeowners are choosing from warm minimalism to custom wall panels. Expert insights.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blogs/2026-interior-design-trends-dubai" />
+    
+    
+    
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +30,7 @@
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://theyyampattilgcc.com/blogs/2026-interior-design-trends-dubai"
+        "@id": "https://theyyampattilgcc.com/blog/2026-interior-design-trends-dubai/"
       },
       "headline": "2026 Interior Design Trends in Dubai: What UAE Homeowners Are Choosing",
       "description": "Discover the top 2026 interior design trends UAE homeowners are choosing from warm minimalism to custom wall panels. Expert insights.",
@@ -71,7 +75,7 @@
           "@type": "ListItem",
           "position": 3,
           "name": "2026 Interior Design Trends in Dubai: What UAE Homeowners Are Choosing",
-          "item": "https://theyyampattilgcc.com/blogs/2026-interior-design-trends-dubai"
+          "item": "https://theyyampattilgcc.com/blog/2026-interior-design-trends-dubai/"
         }
       ]
     }
