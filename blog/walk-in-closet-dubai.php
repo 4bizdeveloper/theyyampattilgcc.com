@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <base href="../../">
     <!-- Common <head> include materials like schema markup, social tags, etc. -->
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Walk-In Closet Dubai: Custom Designs & Layout Guide";
+$page_description = "Planning a walk-in closet in Dubai? Explore custom layouts, materials, and expert design tips from Theyyampattil Furniture's luxury closet specialists.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Walk-In Closet Dubai: Custom Designs & Layout Guide</title>
-    <meta name="description" content="Planning a walk-in closet in Dubai? Explore custom layouts, materials, and expert design tips from Theyyampattil Furniture's luxury closet specialists.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blogs/walk-in-closet-dubai/">
+    
+    
+    
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +28,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/blogs/walk-in-closet-dubai/#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/blog/walk-in-closet-dubai//#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -42,16 +46,16 @@
               "@type": "ListItem",
               "position": 3,
               "name": "Walk-In Closet Dubai",
-              "item": "https://theyyampattilgcc.com/blogs/walk-in-closet-dubai/"
+              "item": "https://theyyampattilgcc.com/blog/walk-in-closet-dubai//"
             }
           ]
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blogs/walk-in-closet-dubai/#primarypost",
+          "@id": "https://theyyampattilgcc.com/blog/walk-in-closet-dubai//#primarypost",
           "headline": "Walk In Closet Dubai: Custom Designs, Layout Guide & Expert Tips for Your Home",
           "description": "Planning a walk-in closet in Dubai? Explore custom layouts, materials, and expert design tips from Theyyampattil Furniture's luxury closet specialists.",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blogs/walk-in-closet-dubai/",
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/walk-in-closet-dubai//",
           "image": "https://theyyampattilgcc.com/assets/images/home-page/closet.avif",
           "publisher": {
             "@type": "Organization",
@@ -70,7 +74,7 @@
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/blogs/walk-in-closet-dubai/#faq",
+          "@id": "https://theyyampattilgcc.com/blog/walk-in-closet-dubai//#faq",
           "mainEntity": [
             {
               "@type": "Question",
