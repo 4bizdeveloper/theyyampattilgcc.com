@@ -3,11 +3,8 @@
 <head>
     <base href="../../">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://theyyampattilgcc.com/store/furniture-solutions/" /> 
-    <meta name="description" content="Discover luxury bespoke furniture solutions in the UAE by Theyyampattil. From premium modular kitchens to custom walk-in closets, request a factory-direct estimate today.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theyyampattil Furniture Store | Luxury Custom Interiors UAE</title>
     
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=300;400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght=300;400;500;600;700;800&display=swap"></noscript>
@@ -50,6 +47,10 @@
     </script>
 
 <!-- Coomon <head> include materials like schema markup,social tags,...etc -->
+<?php
+$page_title = "Theyyampattil Furniture Store | Luxury Custom Interiors UAE";
+$page_description = "Discover bespoke furniture solutions across the UAE by Theyyampattil, from premium modular kitchens and TV walls to custom walk-in closets. Request a consultation.";
+?>
 <?php include '../includes/head-tag-include.php'; ?>
 
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
