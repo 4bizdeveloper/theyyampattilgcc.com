@@ -23,40 +23,21 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FurnitureStore",
-  "name": "Theyyampattil Furniture Trading LLC",
-  "image": "https://theyyampattilgcc.com/assets/images/home-page/hero-banner/hero-slider-1.avif",
-  "@id": "https://theyyampattilgcc.com/",
+  "@type": "Organization",
+  "@id": "https://theyyampattilgcc.com/#organization",
+  "name": "Theyyampattil Furniture",
   "url": "https://theyyampattilgcc.com/",
+  "logo": "https://theyyampattilgcc.com/assets/images/favicons/apple-touch-icon.png",
+  "image": "https://theyyampattilgcc.com/assets/images/home-page/hero-banner/hero-slider-1.avif",
+  "foundingDate": "1983",
   "telephone": "+971559132200",
-  "priceRange": "$$$",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Showrooms in Dubai, Sharjah, Abu Dhabi",
-    "addressLocality": "Dubai",
-    "addressCountry": "AE"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 25.2048,
-    "longitude": 55.2708
-  },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-      "Sunday"
-    ],
-    "opens": "09:00",
-    "closes": "22:00"
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Arab Emirates"
   },
   "sameAs": [
-    "https://theyyampattilgcc.com/"
+    "https://www.facebook.com/theyyampattilgcc",
+    "https://www.instagram.com/theyyampattilgcc"
   ]
 }
 </script>
