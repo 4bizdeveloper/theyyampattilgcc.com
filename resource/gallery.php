@@ -3,12 +3,9 @@
 
 <head>
     <base href="../../">
-    <link rel="canonical" href="https://theyyampattilgcc.com/resource/gallery/" />
     <meta name="robots" content="index, follow">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gallery | Luxury Custom Furniture & Interior Design | Theyyampattil</title>   
-    <meta name="description" content="Explore Theyyampattil Furniture gallery showcasing luxury interiors, custom-made furniture, modern kitchens, wardrobes, and premium home designs across UAE.">
 
     <!-- Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +19,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
     <!-- Common <head> include materials like social tags, etc. -->
-    <?php include '../includes/head-tag-include.php'; ?>     
+    <?php
+$page_title = "Gallery | Luxury Custom Furniture & Interior Design | Theyyampattil";
+$page_description = "Explore Theyyampattil Furniture gallery showcasing luxury interiors, custom-made furniture, modern kitchens, wardrobes, and premium home designs across UAE.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>     
 
     <!-- Validated SEO Schema Markup Integration -->
     <script type="application/ld+json">
