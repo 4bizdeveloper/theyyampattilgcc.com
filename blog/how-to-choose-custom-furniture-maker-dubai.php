@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <base href="../../">
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "How to Choose a Custom Furniture Maker in Dubai | 7 Questions";
+$page_description = "Choosing a custom furniture maker in Dubai? Ask these 7 questions on craftsmanship, timelines & materials before you commit. Expert guide.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     <meta name="robots" content="index, follow">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -10,9 +14,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Choose a Custom Furniture Maker in Dubai | 7 Questions</title>
-    <meta name="description" content="Choosing a custom furniture maker in Dubai? Ask these 7 questions on craftsmanship, timelines & materials before you commit. Expert guide.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blogs/how-to-choose-custom-furniture-maker-dubai" />
+    
+    
+    
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +45,7 @@
           "@type": "ListItem",
           "position": 3,
           "name": "How to Choose a Custom Furniture Maker in Dubai: 7 Questions to Ask",
-          "item": "https://theyyampattilgcc.com/blogs/how-to-choose-custom-furniture-maker-dubai"
+          "item": "https://theyyampattilgcc.com/blog/how-to-choose-custom-furniture-maker-dubai/"
         }
       ]
     }
@@ -54,7 +58,7 @@
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://theyyampattilgcc.com/blogs/how-to-choose-custom-furniture-maker-dubai"
+        "@id": "https://theyyampattilgcc.com/blog/how-to-choose-custom-furniture-maker-dubai/"
       },
       "headline": "How to Choose a Custom Furniture Maker in Dubai: 7 Questions to Ask",
       "description": "Choosing a custom furniture maker in Dubai? Ask these 7 questions on craftsmanship, timelines & materials before you commit. Expert guide.",
