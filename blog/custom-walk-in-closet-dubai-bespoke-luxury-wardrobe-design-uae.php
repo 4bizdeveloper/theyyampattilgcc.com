@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Walk-In Closet Dubai | Bespoke Luxury Wardrobe Design UAE | Theyyampattil</title>
-    <meta name="description" content="Looking for a custom walk-in closet in Dubai? Theyyampattil Furniture designs bespoke luxury wardrobes across UAE Dubai, Sharjah & Abu Dhabi. 26+ years experience. Call +971 55 913 2200.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blogs/custom-walk-in-closet-dubai/">
+    
+    
+    
     
     <base href="../../">  
-    <?php include '../includes/head-tag-include.php'; ?>    
+    <?php
+$page_title = "Custom Walk-In Closet Dubai | Bespoke Luxury Wardrobe Design UAE | Theyyampattil";
+$page_description = "Looking for a custom walk-in closet in Dubai? Theyyampattil Furniture designs bespoke luxury wardrobes across UAE Dubai, Sharjah & Abu Dhabi. 26+ years experience. Call +971 55 913 2200.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>    
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" /> 
