@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modern TV Wall Design Ideas in UAE | Custom Feature Walls | Theyyampattil</title>
+    
     
     <!-- Preserved Head Tags -->
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/tv-wall-design-ideas-uae/" />
+    
     <meta name="robots" content="index, follow">    
     <base href="../../">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />   
-    <meta name="description" content="Explore modern TV wall design ideas in UAE with custom feature walls, panel designs, and space-saving solutions. Upgrade your living room with Theyyampattil GCC." />
+    
 
     <!-- Common <head> include materials like schema markup, social tags, etc -->
-    <?php include '../includes/head-tag-include.php'; ?> 
+    <?php
+$page_title = "Modern TV Wall Design Ideas in UAE | Custom Feature Walls | Theyyampattil";
+$page_description = "Explore modern TV wall design ideas in UAE with custom feature walls, panel designs, and space-saving solutions. Upgrade your living room with Theyyampattil GCC.";
+?>
+<?php include '../includes/head-tag-include.php'; ?> 
 
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
