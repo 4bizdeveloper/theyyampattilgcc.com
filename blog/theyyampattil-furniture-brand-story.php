@@ -4,9 +4,9 @@
     <base href="../../">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theyyampattil Furniture: UAE's Bespoke Luxury Furniture Brand</title>
-    <meta name="description" content="Discover Theyyampattil Furniture — a 40+ year heritage brand crafting bespoke luxury furniture across Dubai, Sharjah & Abu Dhabi.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/theyyampattil-furniture-brand-story/">
+    
+    
+    
     
     <meta name="robots" content="index, follow">
 
@@ -21,7 +21,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
     <!-- Common <head> include materials like social tags, additional schema, etc. -->
-    <?php include '../includes/head-tag-include.php'; ?> 
+    <?php
+$page_title = "Theyyampattil Furniture: UAE's Bespoke Luxury Furniture Brand";
+$page_description = "Discover Theyyampattil Furniture — a 40+ year heritage brand crafting bespoke luxury furniture across Dubai, Sharjah & Abu Dhabi.";
+?>
+<?php include '../includes/head-tag-include.php'; ?> 
 
     <!-- High-Performance Ultra-Modern CSS Styling -->
     <style>
