@@ -4,10 +4,7 @@
     <base href="../">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blogs & Interior Design Insights | Theyyampattil Furniture GCC</title>
-    <link rel="canonical" href="https://theyyampattilgcc.com/blogs/" />
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Explore expert luxury furniture tips, bespoke interior design ideas, TV wall units, custom walk-in closets, and home décor trends across Dubai, Abu Dhabi, and the UAE." />
     
     <!-- Preconnect & Preload Critical Assets -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +23,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
     <!-- Common <head> include materials like schema markup, social tags, etc. -->
-    <?php include 'includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Blogs & Interior Design Insights | Theyyampattil Furniture GCC";
+$page_description = "Explore expert luxury furniture tips, bespoke interior design ideas, TV wall units, custom walk-in closets and home décor trends across Dubai, Abu Dhabi and the UAE.";
+?>
+<?php include 'includes/head-tag-include.php'; ?>
 
     <!-- JSON-LD Structured Data (Breadcrumb, Blog, FAQ & ItemList Schema for AEO/SEO) -->
     <script type="application/ld+json">
