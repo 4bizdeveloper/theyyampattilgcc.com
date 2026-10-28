@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Luxury Furniture in Sharjah | Theyyampattil Furniture</title>
-    <meta name="description" content="Bespoke luxury furniture in Sharjah for villas, apartments & commercial spaces. European materials, 35-50 day production, UAE-wide delivery.">
+    
+    
     
     <base href="../../">
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Custom Luxury Furniture in Sharjah | Theyyampattil Furniture";
+$page_description = "Bespoke luxury furniture in Sharjah for villas, apartments & commercial spaces. European materials, 35-50 day production, UAE-wide delivery.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     <meta name="robots" content="index, follow">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
