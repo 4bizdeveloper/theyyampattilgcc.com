@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <base href="../../">
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Wood Furniture Care Guide for UAE Homes | Humidity & Heat";
+$page_description = "Protect wood furniture from UAE heat, AC dryness & humidity swings. Practical care tips from Theyyampattil Furniture's in-house experts.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     <meta name="robots" content="index, follow">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -10,8 +14,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wood Furniture Care Guide for UAE Homes | Humidity & Heat</title>
-    <meta name="description" content="Protect wood furniture from UAE heat, AC dryness &amp; humidity swings. Practical care tips from Theyyampattil Furniture's in-house experts.">
+    
+    
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +44,7 @@
           "@type": "ListItem",
           "position": 3,
           "name": "Wood Furniture Care Guide for UAE Homes: Humidity, Heat & AC Damage",
-          "item": "https://theyyampattilgcc.com/blogs/wood-furniture-care-guide-uae"
+          "item": "https://theyyampattilgcc.com/blog/wood-furniture-care-guide-uae/"
         }
       ]
     }
@@ -53,7 +57,7 @@
       "@graph": [
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blogs/wood-furniture-care-guide-uae#article",
+          "@id": "https://theyyampattilgcc.com/blog/wood-furniture-care-guide-uae/#article",
           "headline": "Wood Furniture Care Guide for UAE Homes: Humidity, Heat & AC Damage",
           "description": "Protect wood furniture from UAE heat, AC dryness & humidity swings. Practical care tips from Theyyampattil Furniture's in-house experts.",
           "author": {
@@ -68,7 +72,7 @@
           },
           "datePublished": "2026-10-05",
           "dateModified": "2026-10-05",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blogs/wood-furniture-care-guide-uae"
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/wood-furniture-care-guide-uae/"
         },
         {
           "@type": "FAQPage",
