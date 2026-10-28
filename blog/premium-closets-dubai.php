@@ -4,19 +4,19 @@
     <base href="../../">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Closets in Dubai | Luxury Custom Wardrobe Solutions UAE</title>
-    <meta name="description" content="Discover premium closets in Dubai with custom wardrobe designs, luxury finishes, and expert installation by Theyyampattil GCC. Perfect for modern villas and apartments in UAE.">
+    
+    
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/premium-closets-dubai/" />
+    
     
     <!-- Open Graph / Social Media Tags -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Premium Closets in Dubai | Luxury Custom Wardrobe Solutions UAE">
-    <meta property="og:description" content="Discover premium closets in Dubai with custom wardrobe designs, luxury finishes, and expert installation by Theyyampattil GCC.">
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/premium-closets-dubai/">
-    <meta property="og:site_name" content="Theyyampattil GCC">
-    <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/home-page/closet.avif">
-    <meta name="twitter:card" content="summary_large_image">
+    
+    
+    
+    
+    
+    
+    
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -29,6 +29,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <!-- Common <head> include materials like schema markup,social tags,...etc -->
+<?php
+$page_title = "Premium Closets in Dubai | Luxury Custom Wardrobe Solutions UAE";
+$page_description = "Discover premium closets in Dubai with custom wardrobe designs, luxury finishes, and expert installation by Theyyampattil GCC. Perfect for modern villas and apartments in UAE.";
+?>
 <?php include '../includes/head-tag-include.php'; ?> 
 
     <!-- JSON-LD Structured Data Schemas -->
