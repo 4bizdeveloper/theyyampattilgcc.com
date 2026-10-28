@@ -4,19 +4,10 @@
     <base href="../../">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <title>Downloads & Furniture Catalogs | Theyyampattil Furniture GCC</title>
-    <meta name="description" content="Download the latest corporate portfolio, luxury furniture catalogs, interior design guides, and project brochures from Theyyampattil Furniture GCC.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/resource/downloads/" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
     
     <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Downloads & Furniture Catalogs | Theyyampattil Furniture GCC">
-    <meta property="og:description" content="Explore and download high-resolution corporate brochures, luxury furniture profiles, and interior design resources from Theyyampattil Furniture.">
-    <meta property="og:url" content="https://theyyampattilgcc.com/resource/downloads/">
-    <meta property="og:site_name" content="Theyyampattil Furniture GCC">
-    <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/favicons/apple-touch-icon.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +22,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
     <!-- Common <head> include materials -->
-    <?php include '../includes/head-tag-include.php'; ?>     
+    <?php
+$page_title = "Downloads & Furniture Catalogs | Theyyampattil Furniture GCC";
+$page_description = "Download the latest corporate portfolio, luxury furniture catalogs, interior design guides, and project brochures from Theyyampattil Furniture GCC.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>     
 
     <!-- Structured Data (JSON-LD) for BreadcrumbList -->
     <script type="application/ld+json">
