@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../../">
     <meta name="robots" content="index, follow">
-    <title>Best Luxury Furniture Stores in Abu Dhabi | Theyyampatill GCC</title>
-    <meta name="description" content="Explore the best luxury furniture stores in Abu Dhabi with Theyyampatill GCC. Discover custom-made, Italian, and premium furniture for modern interiors.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/best-luxury-furniture-stores-abu-dhabi-theyyampatillgcc/">
+    
+    
+    
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -109,7 +109,11 @@
     </script>
 
     <!-- Common <head> include materials like schema markup,social tags,...etc -->
-    <?php include '../includes/head-tag-include.php'; ?> 
+    <?php
+$page_title = "Best Luxury Furniture Stores in Abu Dhabi | Theyyampatill GCC";
+$page_description = "Explore the best luxury furniture stores in Abu Dhabi with Theyyampatill GCC. Discover custom-made, Italian, and premium furniture for modern interiors.";
+?>
+<?php include '../includes/head-tag-include.php'; ?> 
 
     <style>
         :root {
