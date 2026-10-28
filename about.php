@@ -3,7 +3,7 @@
 
 <head>
   <base href="../">
-    <link href="https://theyyampattilgcc.com/about/" rel="canonical" />
+    
     <meta name="robots" content="index, follow">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
@@ -16,12 +16,12 @@
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About | Theyyampattil Furniture | www.theyyampattilgcc.com</title>
+  
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
   <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-  <meta name="description" content="Theyyampattil Furniture is a trusted luxury furniture brand in UAE offering custom-made modern interiors, premium designs, and complete home solutions since 1983." />
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
@@ -108,6 +108,10 @@
   </script>
 
 <!-- Common <head> include materials like schema markup,social tags,...etc -->
+<?php
+$page_title = "About Theyyampattil Furniture | UAE Luxury Interiors";
+$page_description = "Learn about Theyyampattil Furniture, a family-founded furniture and interiors brand established in 1983, serving UAE customers with bespoke designs and custom-made solutions.";
+?>
 <?php include 'includes/head-tag-include.php'; ?>
 
 
