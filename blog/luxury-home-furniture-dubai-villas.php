@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
 <base href="../../">
+<?php
+$page_title = "Luxury Home Furniture Dubai | Villa Room-by-Room Guide";
+$page_description = "Furnishing a Dubai villa? Our room-by-room luxury home furniture guide covers living, bedroom, closet, kitchen, dining and more. By Theyyampattil.";
+?>
 <?php include '../includes/head-tag-include.php'; ?>
 <meta name="robots" content="index, follow">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -10,9 +14,9 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Luxury Home Furniture Dubai | Villa Room-by-Room Guide</title>
-<meta name="description" content="Furnishing a Dubai villa? Our room-by-room luxury home furniture guide covers living, bedroom, closet, kitchen, dining and more. By Theyyampattil.">
-<link rel="canonical" href="https://theyyampattilgcc.com/blog/luxury-home-furniture-dubai-villas">
+
+
+
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -359,7 +363,7 @@
       "@type": "ListItem",
       "position": 3,
       "name": "Luxury Home Furniture Dubai | Villa Room-by-Room Guide",
-      "item": "https://theyyampattilgcc.com/blogs/luxury-home-furniture-dubai-villas"
+      "item": "https://theyyampattilgcc.com/blog/luxury-home-furniture-dubai-villas/"
     }
   ]
 }
@@ -383,7 +387,7 @@
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://theyyampattilgcc.com/blogs/luxury-home-furniture-dubai-villas"
+    "@id": "https://theyyampattilgcc.com/blog/luxury-home-furniture-dubai-villas/"
   }
 }
 </script>
