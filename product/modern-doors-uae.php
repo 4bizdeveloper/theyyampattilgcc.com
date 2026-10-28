@@ -6,35 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-    <link rel="canonical" href="https://theyyampattilgcc.com/product/modern-doors-uae/" />
-    <title>Modern Doors in UAE | Luxury Custom Entryways & Wooden Doors Dubai</title>
-    <meta name="description" content="Explore custom modern doors in Dubai & UAE. Expertly engineered luxury interior, exterior, sliding, and pivot doors combining European joinery with premium finishes. Get a free quote today.">
     <meta name="keywords" content="modern doors UAE, luxury doors Dubai, interior doors UAE, custom wooden doors, sliding doors Dubai, pivot doors UAE, premium entryways UAE, luxury furniture UAE" />
     
     <!-- Open Graph Tags (AI & Social SEO) -->
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Modern Doors in UAE | Custom Entryways & Wooden Doors" />
-    <meta property="og:description" content="Premium modern doors crafted in Dubai & UAE. Luxury interior, sliding, and pivot entryways with European craftsmanship." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/product/modern-doors-uae/" />
-    <meta property="og:site_name" content="Theyyampattil Furniture" />
-    <meta property="og:image" content="https://theyyampattilgcc.com/product/assets/images/home-page/modern-door.avif" />
-    <meta property="og:image:width" content="1024" />
-    <meta property="og:image:height" content="1280" />
-    <meta property="og:image:type" content="image/avif" />
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Modern Doors in UAE | Theyyampattil Furniture" />
-    <meta name="twitter:description" content="Custom luxury entryways and modern doors crafted for villas and apartments across Dubai and the UAE." />
-    <meta name="twitter:image" content="https://theyyampattilgcc.com/product/assets/images/home-page/modern-door.avif" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
     <!-- Common <head> include materials -->
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Modern Doors in UAE | Luxury Custom Entryways & Wooden Doors Dubai";
+$page_description = "Explore custom modern doors in Dubai & UAE. Expertly engineered luxury interior, exterior, sliding, and pivot doors combining European joinery with premium finishes. Get a free quote today.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
     <script>
