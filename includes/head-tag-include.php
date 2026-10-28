@@ -57,7 +57,7 @@ $disable_default_head_tags = isset($disable_head_tags) && $disable_head_tags ===
     {
       "@type": "FurnitureStore",
       "@id": "https://theyyampattilgcc.com/#organization",
-      "name": "Theyyampattil GCC",
+      "name": "Theyyampattil Furniture",
       "url": "https://theyyampattilgcc.com/",
       "logo": "https://theyyampattilgcc.com/assets/images/favicons/apple-touch-icon.png",
       "image": "<?php echo htmlspecialchars($default_hero_img, ENT_QUOTES, 'UTF-8'); ?>",
@@ -73,13 +73,23 @@ $disable_default_head_tags = isset($disable_head_tags) && $disable_head_tags ===
       ]
     },
     {
+      "@type": "WebSite",
+      "@id": "https://theyyampattilgcc.com/#website",
+      "url": "https://theyyampattilgcc.com/",
+      "name": "Theyyampattil Furniture",
+      "inLanguage": "en-AE",
+      "publisher": {
+        "@id": "https://theyyampattilgcc.com/#organization"
+      }
+    },
+    {
       "@type": "WebPage",
       "@id": "<?php echo htmlspecialchars($canonical_url, ENT_QUOTES, 'UTF-8'); ?>#webpage",
       "url": "<?php echo htmlspecialchars($canonical_url, ENT_QUOTES, 'UTF-8'); ?>",
       <?php if ($meta_title): ?>"name": "<?php echo htmlspecialchars($meta_title, ENT_QUOTES, 'UTF-8'); ?>",<?php endif; ?>
       <?php if ($meta_desc): ?>"description": "<?php echo htmlspecialchars($meta_desc, ENT_QUOTES, 'UTF-8'); ?>",<?php endif; ?>
       "isPartOf": {
-        "@id": "https://theyyampattilgcc.com/#organization"
+        "@id": "https://theyyampattilgcc.com/#website"
       }
     }
   ]
