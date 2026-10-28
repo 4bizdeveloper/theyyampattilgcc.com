@@ -33,12 +33,6 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Store",
-          "item": "https://theyyampattilgcc.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Furniture Solutions",
           "item": "https://theyyampattilgcc.com/store/furniture-solutions/"
         }
