@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="canonical" href="https://theyyampattilgcc.com/showroom/custom-luxury-furniture-sharjah/" />
     <meta name="robots" content="index, follow">
 
     <base href="../../">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-    <title>Custom Luxury Furniture in Sharjah | Theyyampattil</title>
     
-    <meta name="description" content="Custom luxury furniture in Sharjah — bespoke sofas, bedrooms & dining sets crafted with premium materials and expert installation.">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     
@@ -151,6 +148,10 @@
     </script>
 
 <!-- Common <head> include materials -->
+<?php
+$page_title = "Custom Luxury Furniture in Sharjah | Theyyampattil";
+$page_description = "Custom luxury furniture in Sharjah — bespoke sofas, bedrooms & dining sets crafted with premium materials and expert installation.";
+?>
 <?php include '../includes/head-tag-include.php'; ?> 
 
 <style>
