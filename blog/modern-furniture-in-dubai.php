@@ -4,27 +4,31 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modern Furniture in Dubai | Theyyampattil Furniture</title>
+    
     
     <!-- Preserved Meta Tags -->
-    <link href="https://theyyampattilgcc.com/blog/modern-furniture-in-dubai/" rel="canonical" />
+    
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <base href="../../">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
-    <meta name="description" content="Shop luxury TV units and TV stands at Theyyampattil Furniture. Custom-designed pieces blending style and function for your living space." />
+    
 
     <!-- Open Graph / Social Meta Tags -->
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Modern Furniture in Dubai | Theyyampattil Furniture" />
-    <meta property="og:description" content="Shop luxury TV units and TV stands at Theyyampattil Furniture. Custom-designed pieces blending style and function for your living space." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/modern-furniture-in-dubai/" />
-    <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/blog/blog-moderfurniture.jpg" />
-    <meta property="og:site_name" content="Theyyampattil Furniture" />
+    
+    
+    
+    
+    
+    
 
     <!-- Common <head> include materials -->
-    <?php include '../includes/head-tag-include.php'; ?> 
+    <?php
+$page_title = "Modern Furniture in Dubai | Theyyampattil Furniture";
+$page_description = "Explore modern furniture in Dubai from Theyyampattil, including contemporary living-room pieces and custom interior solutions for elegant, functional homes.";
+?>
+<?php include '../includes/head-tag-include.php'; ?> 
 
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
