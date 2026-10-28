@@ -1,12 +1,13 @@
-<?php
-$page_title = "Premium Bedroom Furniture in UAE | Theyyampattil GCC";
-$page_description = "Discover premium bedroom furniture in the UAE — custom bed frames, wardrobes, dressing tables & more. Explore Theyyampattil's luxury collection.";
-?>
-<?php include '../includes/head-tag-include.php'; ?> 
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <?php
+$page_title = "Premium Bedroom Furniture in UAE | Theyyampattil GCC";
+$page_description = "Discover premium bedroom furniture in the UAE — custom bed frames, wardrobes, dressing tables & more. Explore Theyyampattil's luxury collection.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../../">
     
