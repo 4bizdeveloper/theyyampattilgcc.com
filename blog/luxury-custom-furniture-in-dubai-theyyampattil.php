@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
     <base href="../../">
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Luxury Custom Furniture in Dubai | Theyyampattil";
+$page_description = "Custom luxury furniture in Dubai designer sofas, bedrooms, wall panels & more. Premium materials, 2-4 week delivery. Book your consultation today.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxury Custom Furniture in Dubai | Theyyampattil</title>
-    <meta name="description" content="Custom luxury furniture in Dubai designer sofas, bedrooms, wall panels & more. Premium materials, 2-4 week delivery. Book your consultation today.">
+    
+    
     <meta name="robots" content="index, follow">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
