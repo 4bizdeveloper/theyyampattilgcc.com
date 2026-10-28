@@ -34,22 +34,10 @@ $symbol = isset($_SESSION['captcha_operator']) ? $_SESSION['captcha_operator'] :
 <html lang="en">
 <head>
     <base href="../">
-    <link rel="canonical" href="https://theyyampattilgcc.com/contact/" />
     <meta name="robots" content="index, follow">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us | Theyyampattil Furniture Stores in Dubai, Sharjah & Abu Dhabi</title>
-    <meta name="description" content="Contact Theyyampattil Furniture Trading LLC. Visit our luxury furniture showrooms in Dubai, Sharjah, and Abu Dhabi or call us at 800 8733 / +971 55 913 2200." />
     
-    <!-- Open Graph / Social Media Metas -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Contact Us | Theyyampattil Furniture GCC">
-    <meta property="og:description" content="Get in touch with Theyyampattil Furniture for world-class luxury home and office furniture in the UAE. Showrooms in Dubai, Sharjah, and Abu Dhabi.">
-    <meta property="og:url" content="https://theyyampattilgcc.com/contact/">
-    <meta property="og:site_name" content="Theyyampattil Furniture">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Contact Us | Theyyampattil Furniture GCC">
-    <meta name="twitter:description" content="Reach out to Theyyampattil Furniture for world-class luxury furniture across Dubai, Sharjah, and Abu Dhabi.">
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -59,7 +47,11 @@ $symbol = isset($_SESSION['captcha_operator']) ? $_SESSION['captcha_operator'] :
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
 
     <!-- Common <head> include materials like schema markup,social tags,...etc -->
-    <?php include 'includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Contact Theyyampattil Furniture | Dubai, Sharjah & Abu Dhabi";
+$page_description = "Contact Theyyampattil Furniture for luxury furniture and custom interiors in the UAE. Visit our Dubai, Sharjah and Abu Dhabi showrooms or call 800 8733 / +971 55 913 2200.";
+?>
+<?php include 'includes/head-tag-include.php'; ?>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
     <script>
