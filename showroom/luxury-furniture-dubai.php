@@ -2,13 +2,10 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://theyyampattilgcc.com/showroom/luxury-furniture-dubai/" />
     <meta name="robots" content="index, follow">
     <base href="../../">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-    <title>Luxury Furniture in Dubai | Theyyampattil Furniture UAE</title>
-    <meta name="description" content="Discover premium luxury furniture in Dubai — designer sofas, dining sets & bespoke bedroom furniture with Italian-inspired craftsmanship.">
     
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
@@ -27,6 +24,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 
 <!-- Common <head> include materials like schema markup, social tags, etc. -->
+<?php
+$page_title = "Luxury Furniture in Dubai | Theyyampattil Furniture UAE";
+$page_description = "Discover premium luxury furniture in Dubai — designer sofas, dining sets & bespoke bedroom furniture with Italian-inspired craftsmanship.";
+?>
 <?php include '../includes/head-tag-include.php'; ?> 
 
 <!-- SEO & AI Level Schema Markup (FurnitureStore & Validated BreadcrumbList) -->
