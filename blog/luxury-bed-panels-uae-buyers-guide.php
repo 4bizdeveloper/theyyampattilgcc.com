@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <base href="../../">
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Luxury Bed Panels UAE | Theyyampattil";
+$page_description = "Luxury bed panels buyer's guide for the UAE - headboard walls, materials, lighting & layouts compared before you buy.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     <meta name="robots" content="index, follow">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -10,9 +14,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxury Bed Panels UAE | Theyyampattil</title>
-    <meta name="description" content="Luxury bed panels buyer's guide for the UAE - headboard walls, materials, lighting & layouts compared before you buy.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blogs/luxury-bed-panels-uae-buyers-guide">
+    
+    
+    
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +45,7 @@
           "@type": "ListItem",
           "position": 3,
           "name": "How to Design a Headboard Wall That Makes Your Bedroom Feel Like a Suite",
-          "item": "https://theyyampattilgcc.com/blogs/luxury-bed-panels-uae-buyers-guide"
+          "item": "https://theyyampattilgcc.com/blog/luxury-bed-panels-uae-buyers-guide/"
         }
       ]
     }
@@ -66,7 +70,7 @@
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://theyyampattilgcc.com/blogs/luxury-bed-panels-uae-buyers-guide"
+        "@id": "https://theyyampattilgcc.com/blog/luxury-bed-panels-uae-buyers-guide/"
       }
     }
     </script>
