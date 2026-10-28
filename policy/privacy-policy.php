@@ -4,6 +4,8 @@
     <base href="../../">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read Theyyampattil Furniture's privacy policy to understand how personal information is handled when you browse our website or contact our team.">
+    <link rel="canonical" href="https://theyyampattilgcc.com/policy/privacy-policy/">
     <title>Privacy Policy | Theyyampattil Furniture</title>
             <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
