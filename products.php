@@ -2,12 +2,9 @@
 <html lang="en">
 <head>
     <base href="../">
-    <link rel="canonical" href="https://theyyampattilgcc.com/products/" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luxury Interior Products in UAE | TV Walls, Wall Panels, Closets | Theyyampattil</title>
-    <meta name="description" content="Explore premium luxury interior products in UAE including custom TV walls, bespoke wall panels, luxury walk-in closets, room partitions, and modern kitchen furniture.">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />    
@@ -15,7 +12,11 @@
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NHMN58QX');</script>
 
     <!-- Common <head> include materials like social tags,...etc -->
-    <?php include 'includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Luxury Interior Products in UAE | TV Walls, Wall Panels, Closets | Theyyampattil";
+$page_description = "Explore premium luxury interior products in the UAE, including custom TV walls, bespoke wall panels, walk-in closets, partitions and modern kitchen furniture.";
+?>
+<?php include 'includes/head-tag-include.php'; ?>
 
     <!-- SEO SCHEMA MARKUP (BreadcrumbList, CollectionPage, FAQPage) -->
     <script type="application/ld+json">
