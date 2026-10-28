@@ -4,11 +4,8 @@
     <base href="../../">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Gallery | Luxury Furniture & Custom Interior Designs | Theyyampattil</title>
-    <meta name="description" content="Explore our video showcase of custom-made luxury furniture, Italian handcrafted interior solutions, villa fit-outs, and bespoke craftsmanship by Theyyampattil Furniture GCC.">
     
     <!-- SEO & Canonical Tags -->
-    <link rel="canonical" href="https://theyyampattilgcc.com/resource/videos/" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 
@@ -23,7 +20,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Common <head> include materials -->
-    <?php include '../includes/head-tag-include.php'; ?> 
+    <?php
+$page_title = "Video Gallery | Luxury Furniture & Custom Interior Designs | Theyyampattil";
+$page_description = "Explore our video showcase of custom-made luxury furniture, Italian handcrafted interior solutions, villa fit-outs, and bespoke craftsmanship by Theyyampattil Furniture GCC.";
+?>
+<?php include '../includes/head-tag-include.php'; ?> 
 
     <!-- SEO Schema Markup -->
     <script type="application/ld+json">
