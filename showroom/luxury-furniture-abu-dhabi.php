@@ -2,14 +2,11 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://theyyampattilgcc.com/showroom/luxury-furniture-abu-dhabi/" />
     <meta name="robots" content="index, follow">
     <base href="../../">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-    <title>Luxury Furniture in Abu Dhabi | Theyyampattil Furniture UAE</title>
     
-    <meta name="description" content="Discover premium luxury furniture in Abu Dhabi — designer sofas, dining sets & bespoke bedroom furniture with Italian-inspired craftsmanship.">
     
     <!-- Modern Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +21,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 
     <!-- Common <head> include materials like schema markup, social tags, etc. -->
-    <?php include '../includes/head-tag-include.php'; ?>     
+    <?php
+$page_title = "Luxury Furniture in Abu Dhabi | Theyyampattil Furniture UAE";
+$page_description = "Discover premium luxury furniture in Abu Dhabi — designer sofas, dining sets & bespoke bedroom furniture with Italian-inspired craftsmanship.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>     
 
     <!-- SEO Schema Markup (JSON-LD) - FurnitureStore & BreadcrumbList -->
     <script type="application/ld+json">
