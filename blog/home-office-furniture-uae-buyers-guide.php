@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Office Furniture UAE | Theyyampattil</title>
-    <meta name="description" content="Home office furniture buyer's guide for the UAE - desks, chairs, storage & layouts compared for villas and apartments.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/home-office-furniture-uae-buyers-guide/" />
+    
+    
+    
     
     <base href="../../">
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Home Office Furniture UAE | Theyyampattil";
+$page_description = "Home office furniture buyer's guide for the UAE - desks, chairs, storage & layouts compared for villas and apartments.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     <meta name="robots" content="index, follow">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -41,7 +45,7 @@
           "@type": "ListItem",
           "position": 3,
           "name": "How to Plan a Home Office That Actually Works in a UAE Home",
-          "item": "https://theyyampattilgcc.com/blogs/home-office-furniture-uae-buyers-guide"
+          "item": "https://theyyampattilgcc.com/blog/home-office-furniture-uae-buyers-guide/"
         }
       ]
     }
@@ -53,7 +57,7 @@
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://theyyampattilgcc.com/blogs/home-office-furniture-uae-buyers-guide"
+        "@id": "https://theyyampattilgcc.com/blog/home-office-furniture-uae-buyers-guide/"
       },
       "headline": "How to Plan a Home Office That Actually Works in a UAE Home",
       "description": "Home office furniture buyer's guide for the UAE - desks, chairs, storage & layouts compared for villas and apartments.",
