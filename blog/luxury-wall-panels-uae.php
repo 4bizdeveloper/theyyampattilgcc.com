@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Best luxury Wall Panels in UAE | Theyyampattil Furniture</title>
     
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/luxury-wall-panels-uae/" />
+    
+    
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <base href="../../">
     
@@ -21,7 +21,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     
-    <meta name="description" content="Discover the best luxury wall panels in the UAE at Theyyampattil Furniture. Elegant wooden and fabric wall panel designs for your Bedroom" />
+    
 
     <!-- Schema.org Markup for Breadcrumbs (SEO & AI Optimization) -->
     <script type="application/ld+json">
@@ -97,7 +97,11 @@
     </script>
 
     <!-- Common <head> include materials like schema markup, social tags, etc -->
-    <?php include '../includes/head-tag-include.php'; ?> 
+    <?php
+$page_title = "Luxury Wall Panels in UAE | Custom Interior Wall Designs | Theyyampattil";
+$page_description = "Discover the best luxury wall panels in the UAE at Theyyampattil Furniture. Elegant wooden and fabric wall panel designs for your Bedroom";
+?>
+<?php include '../includes/head-tag-include.php'; ?> 
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
