@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luxury Furniture Outlet in Dubai | Premium Home Furniture | Theyyampattil</title>
-    <meta name="description" content="Discover a premium luxury furniture outlet in Dubai with exclusive collections for living rooms, bedrooms, dining spaces, and offices. Experience custom designs by Theyyampattil." />
+    
+    
     
     <!-- Preserved Tags -->
-    <link href="https://theyyampattilgcc.com/blog/luxury-furniture-outlet-in-dubai/" rel="canonical" />
+    
     <meta name="robots" content="index, follow">
     <base href="../../">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -16,7 +16,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
     <!-- Common <head> include materials like schema markup,social tags,...etc -->
-    <?php include '../includes/head-tag-include.php'; ?> 
+    <?php
+$page_title = "Luxury Furniture Outlet in Dubai | Premium Home Furniture | Theyyampattil";
+$page_description = "Discover a premium luxury furniture outlet in Dubai with exclusive collections for living rooms, bedrooms, dining spaces, and offices. Experience custom designs by Theyyampattil.";
+?>
+<?php include '../includes/head-tag-include.php'; ?> 
 
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
