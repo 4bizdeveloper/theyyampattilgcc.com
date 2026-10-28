@@ -1,10 +1,7 @@
 <?php
-// 1. Unify current page URL detection cleanly (Calculated once, used everywhere)
-$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-$full_url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-
-// Strip query parameters for a perfectly clean Canonical URL mapping
-$canonical_url = strtok($full_url, '?');
+// 1. Build canonical URLs on the preferred HTTPS host and exclude query parameters.
+$request_path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
+$canonical_url = 'https://theyyampattilgcc.com' . (strpos($request_path, '/') === 0 ? $request_path : '/' . $request_path);
 
 // 2. Dynamic Meta Info (Page-specific variables take priority; global defaults restricted to homepage)
 $meta_title = isset($page_title) ? $page_title : null;
