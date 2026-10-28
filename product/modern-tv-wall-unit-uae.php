@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow">
 
-    <link rel="canonical" href="https://theyyampattilgcc.com/product/modern-tv-wall-unit-uae/" />
-    <title>Modern TV Wall Unit UAE | Custom TV Cabinets – Theyyampattil</title>
-    <meta name="description" content="Luxury TV Wall Unit UAE designs by Theyyampattil Furniture. Custom, premium TV cabinets and entertainment units for stylish living rooms. Book a consultation.">
     <meta name="keyword" content="Tv units, main hall modern tv unit design, tv unit design, tv wall design, tv wall mount, tv wall unit, tv unit,tv unit dubai,tv unit uae,tv unit dubai,modern tv unit,tv wall panles, modern tv wall design, Modern TV Wall Unit UAE, Custom TV Cabinets, Luxury TV Unit UAE, Premium TV Unit UAE, Wooden TV Unit UAE, TV Cabinet UAE, Contemporary TV Unit UAE, Custom TV Unit UAE, Living Room TV Unit, Modern Minimalist TV Units, Storage-Rich TV Cabinets, TV Wall Panels, Floating TV Mounts, Customizable Entertainment Units, Custom TV Unit Dubai, Designer TV Unit Dubai, Bespoke TV Unit UAE, Entertainment Unit UAE" />
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
 
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Modern TV Wall Unit UAE | Custom TV Cabinets – Theyyampattil";
+$page_description = "Luxury TV Wall Unit UAE designs by Theyyampattil Furniture. Custom, premium TV cabinets and entertainment units for stylish living rooms. Book a consultation.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
 
     <script>
         window.dataLayer = window.dataLayer || [];
