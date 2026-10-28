@@ -1,3 +1,7 @@
+<?php
+$page_title = "Premium Bedroom Furniture in UAE | Theyyampattil GCC";
+$page_description = "Discover premium bedroom furniture in the UAE — custom bed frames, wardrobes, dressing tables & more. Explore Theyyampattil's luxury collection.";
+?>
 <?php include '../includes/head-tag-include.php'; ?> 
 <!DOCTYPE html>
 <html lang="en">
@@ -5,10 +9,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../../">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/premium-bedroom-furniture-uae-theyyampattil-gcc/" />
+    
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">   
-    <title>Premium Bedroom Furniture in UAE | Theyyampattil GCC</title>
-    <meta name="description" content="Discover premium bedroom furniture in the UAE — custom bed frames, wardrobes, dressing tables & more. Explore Theyyampattil's luxury collection.">
+    
+    
  
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
