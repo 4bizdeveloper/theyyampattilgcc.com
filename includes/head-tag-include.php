@@ -37,7 +37,7 @@ $disable_default_head_tags = isset($disable_head_tags) && $disable_head_tags ===
 <?php endif; ?>
 
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content="<?php echo $is_homepage ? 'website' : 'article'; ?>">
+<meta property="og:type" content="website">
 <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url, ENT_QUOTES, 'UTF-8'); ?>">
 <?php if ($meta_title): ?><meta property="og:title" content="<?php echo htmlspecialchars($meta_title, ENT_QUOTES, 'UTF-8'); ?>"><?php endif; ?>
 <?php if ($meta_desc): ?><meta property="og:description" content="<?php echo htmlspecialchars($meta_desc, ENT_QUOTES, 'UTF-8'); ?>"><?php endif; ?>
