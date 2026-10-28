@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>High End Luxury Furniture Outlet UAE | Custom Luxury Designs</title>
-    <meta name="description" content="Discover bespoke luxury furniture in UAE with premium Italian-inspired sofas, dining sets, office furniture, and custom interior solutions.">
+    
+    
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae/">
+    
     <base href="../../">
     
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="High End Luxury Furniture Outlet UAE | Custom Luxury Designs">
-    <meta property="og:description" content="Discover bespoke luxury furniture in UAE with premium Italian-inspired sofas, dining sets, office furniture, and custom interior solutions.">
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/high-end-luxury-furniture-outlet-uae/">
-    <meta property="og:site_name" content="Theyyampattil GCC">
     
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="High End Luxury Furniture Outlet UAE | Custom Luxury Designs">
-    <meta name="twitter:description" content="Discover bespoke luxury furniture in UAE with premium Italian-inspired sofas, dining sets, office furniture, and custom interior solutions.">
+    
+    
+    
+    
+    
+    
+    
+    
 
 <!-- Common <head> include materials like schema markup,social tags,...etc -->
+<?php
+$page_title = "High End Luxury Furniture Outlet UAE | Custom Luxury Designs";
+$page_description = "Discover bespoke luxury furniture in UAE with premium Italian-inspired sofas, dining sets, office furniture, and custom interior solutions.";
+?>
 <?php include '../includes/head-tag-include.php'; ?>     
 
     <!-- SEO Schema Markup (BreadcrumbList, BlogPosting, FAQPage) -->
