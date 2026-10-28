@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Customized Luxury Furniture in Dubai | Bespoke Modern Interiors by Theyyampattil</title>
-    <meta name="description" content="Shop luxury TV units and TV stands at Theyyampattil Furniture. Custom-designed pieces blending style and function for your living space." />
     
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/customized-furniture-in-dubai/" />
+    
+    
+    
     <meta name="robots" content="index, follow">
     <base href="../../">
     
@@ -26,7 +26,11 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Common <head> include materials like schema markup,social tags,...etc -->
-    <?php include '../includes/head-tag-include.php'; ?> 
+    <?php
+$page_title = "Customized Luxury Furniture in Dubai | Bespoke Modern Interiors by Theyyampattil";
+$page_description = "Explore customized luxury furniture in Dubai by Theyyampattil, with bespoke designs tailored to your space, materials and interior style.";
+?>
+<?php include '../includes/head-tag-include.php'; ?> 
 
     <!-- SEO & Search Engine / AI Level Schema Markup -->
     <script type="application/ld+json">
