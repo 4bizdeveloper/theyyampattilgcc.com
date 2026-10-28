@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <base href="../../">
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Luxury Furniture Dubai: What Actually Makes It Luxury";
+$page_description = "What defines luxury furniture in Dubai? Craftsmanship, materials, and design standards explained by Theyyampattil Furniture.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     <meta name="robots" content="index, follow">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -10,9 +14,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxury Furniture Dubai: What Actually Makes It Luxury</title>
-    <meta name="description" content="What defines luxury furniture in Dubai? Craftsmanship, materials, and design standards explained by Theyyampattil Furniture.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blogs/what-makes-furniture-luxury-dubai">
+    
+    
+    
 
     <!-- Fonts & CSS Performance Optimizations -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -336,7 +340,7 @@
           "@type": "ListItem",
           "position": 3,
           "name": "Luxury Furniture Dubai: What Actually Makes It Luxury",
-          "item": "https://theyyampattilgcc.com/blogs/what-makes-furniture-luxury-dubai"
+          "item": "https://theyyampattilgcc.com/blog/what-makes-furniture-luxury-dubai/"
         }
       ]
     }
@@ -363,7 +367,7 @@
           },
           "datePublished": "2026-10-03",
           "dateModified": "2026-10-03",
-          "mainEntityOfPage": "https://theyyampattilgcc.com/blogs/what-makes-furniture-luxury-dubai"
+          "mainEntityOfPage": "https://theyyampattilgcc.com/blog/what-makes-furniture-luxury-dubai/"
         },
         {
           "@type": "FAQPage",
