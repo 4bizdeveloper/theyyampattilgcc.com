@@ -3,7 +3,7 @@
 
 <head>
     <!-- Preservation of required tags -->
-    <link href="https://theyyampattilgcc.com/blog/luxury-tv-unit-design-uae/" rel="canonical" />
+    
     <meta name="robots" content="index, follow">
     <base href="../../">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -12,11 +12,15 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luxury TV Units & TV Stands in UAE | Custom Designs | Theyyampattil</title>
-    <meta name="description" content="Explore luxury TV units and TV stands in UAE by Theyyampattil. Custom-designed TV wall units that combine elegance, storage, and modern style for your living room" />
+    
+    
 
     <!-- Common <head> include materials like schema markup,social tags,...etc -->
-    <?php include '../includes/head-tag-include.php'; ?> 
+    <?php
+$page_title = "Luxury TV Units & TV Stands in UAE | Custom Designs | Theyyampattil";
+$page_description = "Explore luxury TV units and TV stands in UAE by Theyyampattil. Custom-designed TV wall units that combine elegance, storage, and modern style for your living room";
+?>
+<?php include '../includes/head-tag-include.php'; ?> 
     
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
