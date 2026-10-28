@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <base href="../../">
+    
+    <meta charset="UTF-8">
     <?php
 $page_title = "Visiting Theyyampattil Furniture's Abu Dhabi Showroom: What to Expect";
 $page_description = "Plan your visit to Theyyampattil Furniture's Abu Dhabi showroom. Location, hours, custom luxury furniture options & what to expect. Book a consultation today.";
 ?>
 <?php include '../includes/head-tag-include.php'; ?>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
