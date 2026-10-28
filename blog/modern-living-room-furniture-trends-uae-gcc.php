@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Choosing the Right Luxury Furniture for Your Home | Complete 2026 Style Guide</title>
+    
     
     <!-- Preserved Meta Tags -->
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/modern-living-room-furniture-trends-uae-gcc/" />
+    
     <meta name="robots" content="index, follow">
     <base href="../../">
-    <meta name="description" content="Discover top modern living room furniture trends in UAE & GCC for 2026. High-end luxury, organic shapes, modular seating, and sustainable designs by Theyyampattil." />
+    
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -87,6 +87,10 @@
     </script>
 
 <!-- Common <head> include materials like schema markup,social tags,...etc -->
+<?php
+$page_title = "Choosing the Right Luxury Furniture for Your Home | Complete 2026 Style Guide";
+$page_description = "Discover top modern living room furniture trends in UAE & GCC for 2026. High-end luxury, organic shapes, modular seating, and sustainable designs by Theyyampattil.";
+?>
 <?php include '../includes/head-tag-include.php'; ?> 
 
     <style>
