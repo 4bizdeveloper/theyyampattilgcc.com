@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luxury TV Wall Panels in Dubai | Custom Designs UAE – Theyyampattil</title>
-    <meta name="description" content="Explore luxury TV wall panels in Dubai with custom designs and premium finishes. Get modern wall panel ideas from Theyyampattil Furniture UAE." />
+    
+    
     
     <!-- Preserved Meta & Canonical -->
-    <link href="https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai/" rel="canonical" />
+    
     <meta name="robots" content="index, follow">
     <base href="../../">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -15,16 +15,16 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
     <!-- SEO & Search Engine / AI / Social Media Optimization -->
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Luxury TV Wall Panels in Dubai | Custom Designs UAE – Theyyampattil" />
-    <meta property="og:description" content="Explore luxury TV wall panels in Dubai with custom designs and premium finishes. Get modern wall panel ideas from Theyyampattil Furniture UAE." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/luxury-tv-wall-panels-dubai/" />
-    <meta property="og:site_name" content="Theyyampattil Furniture" />
-    <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/blog/wall-blog-img-1.jpg" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Luxury TV Wall Panels in Dubai | Custom Designs UAE – Theyyampattil" />
-    <meta name="twitter:description" content="Explore luxury TV wall panels in Dubai with custom designs and premium finishes." />
-    <meta name="twitter:image" content="https://theyyampattilgcc.com/assets/images/blog/wall-blog-img-1.jpg" />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     <!-- Schema Markup 1: BreadcrumbList Schema -->
     <script type="application/ld+json">
@@ -99,7 +99,11 @@
     </script>
 
     <!-- Common <head> include materials like schema markup,social tags,...etc -->
-    <?php include '../includes/head-tag-include.php'; ?> 
+    <?php
+$page_title = "Luxury TV Wall Panels in Dubai | Custom Designs UAE – Theyyampattil";
+$page_description = "Explore luxury TV wall panels in Dubai with custom designs and premium finishes. Get modern wall panel ideas from Theyyampattil Furniture UAE.";
+?>
+<?php include '../includes/head-tag-include.php'; ?> 
 
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
