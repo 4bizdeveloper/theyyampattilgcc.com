@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai/" />
+    
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <base href="../../">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -20,16 +20,16 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luxury Furniture for Homes in Dubai | Complete Buying Guide 2025 | Theyyampattil</title>
-    <meta name="description" content="Discover how to choose luxury furniture for your home in Dubai. Explore premium designs, custom options, and expert tips from Theyyampattil for elegant living spaces." />
+    
+    
 
     <!-- Open Graph / Social Media Meta -->
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Luxury Furniture for Homes in Dubai | Complete Buying Guide 2025 | Theyyampattil" />
-    <meta property="og:description" content="Discover how to choose luxury furniture for your home in Dubai. Explore premium designs, custom options, and expert tips from Theyyampattil." />
-    <meta property="og:url" content="https://theyyampattilgcc.com/blog/choose-luxury-furniture-dubai/" />
-    <meta property="og:site_name" content="Theyyampattil Furniture GCC" />
-    <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/blog/choose%20the%20right%20img.jpg" />
+    
+    
+    
+    
+    
+    
 
     <!-- Plus Jakarta Sans Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,6 +40,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Common <head> include materials like schema markup,social tags,...etc -->
+<?php
+$page_title = "How to Choose Luxury Furniture in Dubai | Buying Guide | Theyyampattil";
+$page_description = "Discover how to choose luxury furniture for your home in Dubai. Explore premium designs, custom options, and expert tips from Theyyampattil for elegant living spaces.";
+?>
 <?php include '../includes/head-tag-include.php'; ?> 
 
     <!-- Dynamic Modern SEO & Breadcrumb Schema Markup (JSON-LD) -->
