@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Italian Luxury Furniture Dubai | Italian-Inspired Design Guide</title>
-    <meta name="description" content="Explore Italian-inspired luxury furniture in Dubai: key design features, materials and styles, plus how to bring them home. By Theyyampattil.">
+    
+    
     <meta name="robots" content="index, follow">
     <base href="../../">
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Italian Luxury Furniture Dubai | Italian-Inspired Design Guide";
+$page_description = "Explore Italian-inspired luxury furniture in Dubai: key design features, materials and styles, plus how to bring them home. By Theyyampattil.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
@@ -686,7 +690,7 @@
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Italian-Inspired Luxury Furniture in Dubai: Design Features, Materials & Styles",
-                "item": "https://theyyampattilgcc.com/blogs/italian-inspired-luxury-furniture-dubai"
+                "item": "https://theyyampattilgcc.com/blog/italian-inspired-luxury-furniture-dubai/"
             }
         ]
     }
@@ -717,7 +721,7 @@
         "dateModified": "2026-10-08",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blogs/italian-inspired-luxury-furniture-dubai"
+            "@id": "https://theyyampattilgcc.com/blog/italian-inspired-luxury-furniture-dubai/"
         }
     }
     </script>
