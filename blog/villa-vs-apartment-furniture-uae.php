@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <base href="../../">
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php
+$page_title = "Villa vs Apartment Furniture Guide: UAE Design & Joinery Differences";
+$page_description = "Villa vs apartment furniture in the UAE - scale, built-ins vs modular, storage & materials compared. Expert guide by Theyyampattil Furniture.";
+?>
+<?php include '../includes/head-tag-include.php'; ?>
     
     <!-- Meta Standards & Mobile Responsiveness -->
     <meta charset="UTF-8">
@@ -10,16 +14,16 @@
     <meta name="robots" content="index, follow">
     
     <!-- Title & SEO Meta Tags (Optimized Title-H1 Alignment) -->
-    <title>Villa vs Apartment Furniture Guide: UAE Design & Joinery Differences</title>
-    <meta name="description" content="Villa vs apartment furniture in the UAE - scale, built-ins vs modular, storage & materials compared. Expert guide by Theyyampattil Furniture.">
-    <link rel="canonical" href="https://theyyampattilgcc.com/blogs/villa-vs-apartment-furniture-uae">
+    
+    
+    
 
     <!-- Open Graph / Social Media Metadata -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Villa vs Apartment Furniture Guide: UAE Design & Joinery Differences">
-    <meta property="og:description" content="Villa vs apartment furniture in the UAE - scale, built-ins vs modular, storage & materials compared. Expert guide by Theyyampattil Furniture.">
-    <meta property="og:url" content="https://theyyampattilgcc.com/blogs/villa-vs-apartment-furniture-uae">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80">
+    
+    
+    
+    
+    
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
@@ -38,7 +42,7 @@
       "@graph": [
         {
           "@type": "BreadcrumbList",
-          "@id": "https://theyyampattilgcc.com/blogs/villa-vs-apartment-furniture-uae#breadcrumb",
+          "@id": "https://theyyampattilgcc.com/blog/villa-vs-apartment-furniture-uae/#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -56,7 +60,7 @@
               "@type": "ListItem",
               "position": 3,
               "name": "Villa vs Apartment Furniture: Key Design Differences for UAE Homes",
-              "item": "https://theyyampattilgcc.com/blogs/villa-vs-apartment-furniture-uae"
+              "item": "https://theyyampattilgcc.com/blog/villa-vs-apartment-furniture-uae/"
             }
           ]
         },
@@ -84,10 +88,10 @@
         },
         {
           "@type": "BlogPosting",
-          "@id": "https://theyyampattilgcc.com/blogs/villa-vs-apartment-furniture-uae#article",
+          "@id": "https://theyyampattilgcc.com/blog/villa-vs-apartment-furniture-uae/#article",
           "isPartOf": {
             "@type": "WebPage",
-            "@id": "https://theyyampattilgcc.com/blogs/villa-vs-apartment-furniture-uae"
+            "@id": "https://theyyampattilgcc.com/blog/villa-vs-apartment-furniture-uae/"
           },
           "headline": "Villa vs Apartment Furniture: Key Design Differences for UAE Homes",
           "description": "Villa vs apartment furniture in the UAE - scale, built-ins vs modular, storage & materials compared. Expert guide by Theyyampattil Furniture.",
@@ -105,7 +109,7 @@
         },
         {
           "@type": "FAQPage",
-          "@id": "https://theyyampattilgcc.com/blogs/villa-vs-apartment-furniture-uae#faq",
+          "@id": "https://theyyampattilgcc.com/blog/villa-vs-apartment-furniture-uae/#faq",
           "mainEntity": [
             {
               "@type": "Question",
