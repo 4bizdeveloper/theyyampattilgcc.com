@@ -13,7 +13,7 @@
 $page_title = "Wood Furniture Care Guide for UAE Homes | Humidity & Heat";
 $page_description = "Protect wood furniture from UAE heat, AC dryness & humidity swings. Practical care tips from Theyyampattil Furniture's in-house experts.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
@@ -407,7 +407,7 @@ $page_description = "Protect wood furniture from UAE heat, AC dryness & humidity
     </style>
 </head>
 <body>
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- Hero Section -->
     <section class="hero-section">
@@ -618,7 +618,7 @@ $page_description = "Protect wood furniture from UAE heat, AC dryness & humidity
         });
     </script>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 </body>
 </html>

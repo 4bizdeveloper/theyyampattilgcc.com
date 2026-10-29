@@ -133,7 +133,7 @@
 $page_title = "Luxury Kitchen Furniture in UAE | Modern Elegant Homes";
 $page_description = "Explore luxury kitchen furniture in UAE with bespoke cabinets, Italian-inspired designs, and premium modern kitchens in Dubai by Theyyampattil GCC.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <style>
         :root {
@@ -547,7 +547,7 @@ $page_description = "Explore luxury kitchen furniture in UAE with bespoke cabine
 </head>
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <main>
     <!-- Hero Section -->
@@ -780,8 +780,8 @@ $page_description = "Explore luxury kitchen furniture in UAE with bespoke cabine
     </section>
 </main>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 <!-- Interactive Clickable Accordion Script -->
 <script>

@@ -324,7 +324,7 @@
 </head>
 
 <body>
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- Hero Section -->
     <section class="hero-modern">
@@ -520,8 +520,8 @@
         </div>
     </section>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -32,7 +32,7 @@
 
 
 <!-- Header -->
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 
 
@@ -59,11 +59,11 @@
     </div>
 
 <!-- Footer -->
-<?php include '../includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
 
 
 <!-- Floating Buttons -->
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 
 

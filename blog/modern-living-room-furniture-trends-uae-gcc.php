@@ -91,7 +91,7 @@
 $page_title = "Choosing the Right Luxury Furniture for Your Home | Complete 2026 Style Guide";
 $page_description = "Discover top modern living room furniture trends in UAE & GCC for 2026. High-end luxury, organic shapes, modular seating, and sustainable designs by Theyyampattil.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <style>
         :root {
@@ -307,7 +307,7 @@ $page_description = "Discover top modern living room furniture trends in UAE & G
 <body>
 
     <!-- Dynamic Header -->
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- Ultra Modern Hero Section -->
     <section class="hero-clean">
@@ -458,8 +458,8 @@ $page_description = "Discover top modern living room furniture trends in UAE & G
     </main>
 
     <!-- Dynamic Footer -->
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <!-- Modern JS Stack optimized for High GTmetrix Performance & Zero Layout Shifts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>

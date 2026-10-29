@@ -12,7 +12,7 @@
 $page_title = "Custom Walk-In Closet Dubai | Bespoke Luxury Wardrobe Design UAE | Theyyampattil";
 $page_description = "Looking for a custom walk-in closet in Dubai? Theyyampattil Furniture designs bespoke luxury wardrobes across UAE Dubai, Sharjah & Abu Dhabi. 26+ years experience. Call +971 55 913 2200.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>    
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>    
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" /> 
@@ -534,7 +534,7 @@ $page_description = "Looking for a custom walk-in closet in Dubai? Theyyampattil
 </head>
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <section class="hero">
     <div class="hero-content">
@@ -794,8 +794,8 @@ $page_description = "Looking for a custom walk-in closet in Dubai? Theyyampattil
 
 </div>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>

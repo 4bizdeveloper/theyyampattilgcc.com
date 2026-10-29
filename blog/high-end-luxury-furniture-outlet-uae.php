@@ -30,7 +30,7 @@
 $page_title = "High End Luxury Furniture Outlet UAE | Custom Luxury Designs";
 $page_description = "Discover bespoke luxury furniture in UAE with premium Italian-inspired sofas, dining sets, office furniture, and custom interior solutions.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>     
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>     
 
     <!-- SEO Schema Markup (BreadcrumbList, BlogPosting, FAQPage) -->
     <script type="application/ld+json">
@@ -512,7 +512,7 @@ $page_description = "Discover bespoke luxury furniture in UAE with premium Itali
 </head>
 <body>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <main class="hero-section">
         <div class="container">
@@ -801,8 +801,8 @@ $page_description = "Discover bespoke luxury furniture in UAE with premium Itali
         </div>
     </section>
 
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
-    <?php include '../includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
 
 </body>
 </html>

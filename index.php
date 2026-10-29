@@ -1,3 +1,52 @@
+<?php
+// Define absolute root path for clean includes everywhere
+define('SITE_ROOT', __DIR__);
+
+// Get the clean request path
+$request = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+$request = strtok($request, '?');
+
+if (!empty($request)) {
+    // Sanitize multi-level paths properly
+    $segments = explode('/', $request);
+    $safeSegments = array_map(function($seg) {
+        return preg_replace('/[^a-zA-Z0-9\-_]/', '', $seg);
+    }, $segments);
+    
+    $path = implode('/', $safeSegments);
+    
+    $targetPhp = SITE_ROOT . '/' . $path . '.php';
+
+    // Exclude operational files
+    if ($path === 'send-mail.php') {
+        if (file_exists(SITE_ROOT . '/send-mail.php')) {
+            include SITE_ROOT . '/send-mail.php';
+            exit;
+        }
+    }
+
+    // If the corresponding .php file exists (e.g. resource/videos.php)
+    if (file_exists($targetPhp)) {
+        // Enforce trailing slash canonical redirection if missing
+        if (substr($_SERVER['REQUEST_URI'], -1) !== '/' && $_SERVER['REQUEST_METHOD'] === 'GET') {
+            header("Location: /" . $path . "/", true, 301);
+            exit;
+        }
+        include $targetPhp;
+        exit;
+    }
+}
+
+// Fallback: If no custom route matched, load your normal home page content
+// (Or put your home page code directly below this file if index.php is your homepage)
+?>
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -136,7 +185,7 @@
 }
 </script>
 <!-- Common <head> include materials like schema markup,social tags,...etc -->
-<?php include 'includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
 
 <meta name="google-site-verification" content="XTjY3Qv4nQ_GyvHDCV4jIVC4kk-4ErQbpYiw8E_dm2A" />
 
@@ -203,7 +252,7 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMN58QX" height="0" width="0" class="gtm-noscript-frame" title="Google Tag Manager"></iframe></noscript>
 
 <!-- Header -->
-<?php include 'includes/home-page-header.php'; ?>
+<?php include SITE_ROOT . '/includes/home-page-header.php'; ?>
 
 <!-- ============================================================
      COMPONENT: HERO SLIDER
@@ -2965,10 +3014,10 @@
 <!-- testimonials section ends -->
 
 <!-- Fixed Floating WhatsApp / Call Buttons Include -->
-<?php include 'includes/fixed-floating-buttons.php'; ?>
-<?php include 'includes/home-popup.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/home-popup.php'; ?>
 <!-- Footer Include -->
-<?php include 'includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
 
 </body>
 </html>

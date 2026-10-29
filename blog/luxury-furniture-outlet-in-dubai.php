@@ -20,7 +20,7 @@
 $page_title = "Luxury Furniture Outlet in Dubai | Premium Home Furniture | Theyyampattil";
 $page_description = "Discover a premium luxury furniture outlet in Dubai with exclusive collections for living rooms, bedrooms, dining spaces, and offices. Experience custom designs by Theyyampattil.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
@@ -367,7 +367,7 @@ $page_description = "Discover a premium luxury furniture outlet in Dubai with ex
 
 <body>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- Hero Section (No Image) -->
     <section class="hero-section">
@@ -483,8 +483,8 @@ $page_description = "Discover a premium luxury furniture outlet in Dubai with ex
         </div>
     </main>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>

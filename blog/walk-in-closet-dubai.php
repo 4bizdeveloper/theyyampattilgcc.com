@@ -8,7 +8,7 @@
 $page_title = "Walk-In Closet Dubai: Custom Designs & Layout Guide";
 $page_description = "Planning a walk-in closet in Dubai? Explore custom layouts, materials, and expert design tips from Theyyampattil Furniture's luxury closet specialists.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
@@ -616,7 +616,7 @@ $page_description = "Planning a walk-in closet in Dubai? Explore custom layouts,
 </head>
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <section class="hero">
         <div class="container">
@@ -894,8 +894,8 @@ $page_description = "Planning a walk-in closet in Dubai? Explore custom layouts,
         </div>
     </section>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>

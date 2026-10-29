@@ -26,7 +26,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
 
     <!-- Common <head> include materials like schema markup, social tags, etc. -->
-    <?php include '../includes/head-tag-include.php'; ?>
+    <?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
 
     <!-- SEO Schema Markup (BreadcrumbList, Service, LocalBusiness, FAQPage) -->
     <script type="application/ld+json">
@@ -490,7 +490,7 @@
 </head>
 
 <body>
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <main class="wrapper">
         <!-- SEO Optimized Breadcrumb Navigation -->
@@ -785,8 +785,8 @@
         </section>
     </main>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <script>
         // FAQ Toggle Logic

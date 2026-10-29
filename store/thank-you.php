@@ -77,7 +77,7 @@
 <body>
 
     <!-- PHP Header Included Safely -->
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- Main Dynamic Section to preserve layout logic across screens -->
     <main class="main-content">
@@ -113,10 +113,10 @@
     </main>
 
     <!-- PHP Fixed Floating Buttons Included Safely -->
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <!-- PHP Footer Included Safely -->
-    <?php include '../includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
 
     <script>
         // Animations

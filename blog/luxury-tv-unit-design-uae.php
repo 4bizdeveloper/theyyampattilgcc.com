@@ -20,7 +20,7 @@
 $page_title = "Luxury TV Units & TV Stands in UAE | Custom Designs | Theyyampattil";
 $page_description = "Explore luxury TV units and TV stands in UAE by Theyyampattil. Custom-designed TV wall units that combine elegance, storage, and modern style for your living room";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
     
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
@@ -400,7 +400,7 @@ $page_description = "Explore luxury TV units and TV stands in UAE by Theyyampatt
 
 <body>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <header class="hero">
         <!-- SEO Responsive Breadcrumbs Section -->
@@ -508,8 +508,8 @@ $page_description = "Explore luxury TV units and TV stands in UAE by Theyyampatt
 
     </main>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>

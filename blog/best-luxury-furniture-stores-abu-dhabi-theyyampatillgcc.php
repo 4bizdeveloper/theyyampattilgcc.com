@@ -113,7 +113,7 @@
 $page_title = "Best Luxury Furniture Stores in Abu Dhabi | Theyyampatill GCC";
 $page_description = "Explore the best luxury furniture stores in Abu Dhabi with Theyyampatill GCC. Discover custom-made, Italian, and premium furniture for modern interiors.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <style>
         :root {
@@ -404,7 +404,7 @@ $page_description = "Explore the best luxury furniture stores in Abu Dhabi with 
 </head>
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <main>
     <!-- Hero Section -->
@@ -602,8 +602,8 @@ $page_description = "Explore the best luxury furniture stores in Abu Dhabi with 
     </section>
 </main>
 
-<?php include '../includes/fixed-floating-buttons.php'; ?>
-<?php include '../includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
 
 </body>
 </html>

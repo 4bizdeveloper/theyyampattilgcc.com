@@ -16,7 +16,7 @@
 $page_title = "Luxury Interior Products in UAE | TV Walls, Wall Panels, Closets | Theyyampattil";
 $page_description = "Explore premium luxury interior products in the UAE, including custom TV walls, bespoke wall panels, walk-in closets, partitions and modern kitchen furniture.";
 ?>
-<?php include 'includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
 
     <!-- SEO SCHEMA MARKUP (BreadcrumbList, CollectionPage, FAQPage) -->
     <script type="application/ld+json">
@@ -500,7 +500,7 @@ $page_description = "Explore premium luxury interior products in the UAE, includ
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMN58QX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-    <?php include 'includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- SEO OPTIMIZED BREADCRUMB CONTAINER -->
     <nav class="breadcrumb-wrapper" aria-label="Breadcrumb">
@@ -685,8 +685,8 @@ $page_description = "Explore premium luxury interior products in the UAE, includ
         </div>
     </section>
 
-    <?php include 'includes/footer.php'; ?>
-    <?php include 'includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <!-- FAQ CLICK TOGGLE INTERACTION SCRIPT -->
     <script>

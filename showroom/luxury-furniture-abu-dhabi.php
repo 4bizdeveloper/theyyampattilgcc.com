@@ -25,7 +25,7 @@
 $page_title = "Luxury Furniture in Abu Dhabi | Theyyampattil Furniture UAE";
 $page_description = "Discover premium luxury furniture in Abu Dhabi — designer sofas, dining sets & bespoke bedroom furniture with Italian-inspired craftsmanship.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>     
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>     
 
     <!-- SEO Schema Markup (JSON-LD) - FurnitureStore & BreadcrumbList -->
     <script type="application/ld+json">
@@ -493,7 +493,7 @@ $page_description = "Discover premium luxury furniture in Abu Dhabi — designer
 
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- HERO SECTION -->
     <section class="main-hero">
@@ -902,8 +902,8 @@ $page_description = "Discover premium luxury furniture in Abu Dhabi — designer
         </div>
     </div>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <!-- Latest Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

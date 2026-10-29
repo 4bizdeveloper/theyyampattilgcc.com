@@ -45,7 +45,7 @@
 $page_title = "Theyyampattil Furniture Store | Luxury Custom Interiors UAE";
 $page_description = "Discover bespoke furniture solutions across the UAE by Theyyampattil, from premium modular kitchens and TV walls to custom walk-in closets. Request a consultation.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
 
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -150,7 +150,7 @@ $page_description = "Discover bespoke furniture solutions across the UAE by They
 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2RFQ7QR"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <?php include '../includes/home-page-header.php'; ?>
+    <?php include SITE_ROOT . '/includes/home-page-header.php'; ?>
 
     <div id="lightbox" class="fixed inset-0 bg-black/95 z-[2000] hidden flex-col items-center justify-center p-4" style="display: none;"></div>
 
@@ -496,11 +496,11 @@ $page_description = "Discover bespoke furniture solutions across the UAE by They
             startMasterSyncSlide();
         });
     </script>
-    <?php include '../store/button-submit/button-click-normal-popup-form.php'; ?>
-    <?php include '../store/button-submit/button-click-call-popup-form.php'; ?>
-    <?php include '../store/button-submit/button-click-whatsapp-popup-form.php'; ?>
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../store/includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/store/button-submit/button-click-normal-popup-form.php'; ?>
+    <?php include SITE_ROOT . '/store/button-submit/button-click-call-popup-form.php'; ?>
+    <?php include SITE_ROOT . '/store/button-submit/button-click-whatsapp-popup-form.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/store/includes/fixed-floating-buttons.php'; ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>

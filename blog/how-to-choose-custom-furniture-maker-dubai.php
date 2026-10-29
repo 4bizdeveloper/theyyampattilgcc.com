@@ -13,7 +13,7 @@
 $page_title = "How to Choose a Custom Furniture Maker in Dubai | 7 Questions";
 $page_description = "Choosing a custom furniture maker in Dubai? Ask these 7 questions on craftsmanship, timelines & materials before you commit. Expert guide.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
@@ -406,7 +406,7 @@ $page_description = "Choosing a custom furniture maker in Dubai? Ask these 7 que
 </head>
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <!-- Hero Section -->
 <section class="hero-section">
@@ -613,8 +613,8 @@ $page_description = "Choosing a custom furniture maker in Dubai? Ask these 7 que
     });
 </script>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>

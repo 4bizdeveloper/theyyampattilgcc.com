@@ -35,7 +35,7 @@
 $page_title = "Custom Luxury Furniture in Dubai | Handcrafted Sophistication by Theyyampattil";
 $page_description = "Discover custom luxury furniture in Dubai with Theyyampattil. Our handcrafted, bespoke designs blend artistry, functionality, and timeless sophistication to transform your home into a masterpiece of comfort and style.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <!-- Modern Libraries -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -325,7 +325,7 @@ $page_description = "Discover custom luxury furniture in Dubai with Theyyampatti
 
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <!-- Hero Section with BreadcrumbList -->
 <section class="hero-minimal">
@@ -462,8 +462,8 @@ $page_description = "Discover custom luxury furniture in Dubai with Theyyampatti
     </div>
 </section>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 <!-- Modern JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

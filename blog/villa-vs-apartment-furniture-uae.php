@@ -10,7 +10,7 @@
 $page_title = "Villa vs Apartment Furniture Guide: UAE Design & Joinery Differences";
 $page_description = "Villa vs apartment furniture in the UAE - scale, built-ins vs modular, storage & materials compared. Expert guide by Theyyampattil Furniture.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     
@@ -479,7 +479,7 @@ $page_description = "Villa vs apartment furniture in the UAE - scale, built-ins 
     </style>
 </head>
 <body>
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <!-- Hero Section -->
 <section class="hero-section">
@@ -694,7 +694,7 @@ $page_description = "Villa vs apartment furniture in the UAE - scale, built-ins 
     });
 </script>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 </body>
 </html>

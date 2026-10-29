@@ -28,7 +28,7 @@
 $page_title = "Modern Furniture in Dubai | Theyyampattil Furniture";
 $page_description = "Explore modern furniture in Dubai from Theyyampattil, including contemporary living-room pieces and custom interior solutions for elegant, functional homes.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
@@ -490,7 +490,7 @@ $page_description = "Explore modern furniture in Dubai from Theyyampattil, inclu
 
 <body>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <main>
         <!-- Hero Section with Modern Breadcrumb Bar -->
@@ -614,8 +614,8 @@ $page_description = "Explore modern furniture in Dubai from Theyyampattil, inclu
         </section>
     </main>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <script>
         // Smooth Responsive Accordion Logic

@@ -101,7 +101,7 @@
 $page_title = "Luxury Wall Panels in UAE | Custom Interior Wall Designs | Theyyampattil";
 $page_description = "Discover the best luxury wall panels in the UAE at Theyyampattil Furniture. Elegant wooden and fabric wall panel designs for your Bedroom";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -329,7 +329,7 @@ $page_description = "Discover the best luxury wall panels in the UAE at Theyyamp
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- Header Include -->
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- Ultra Modern Hero -->
     <section class="hero-minimal" data-aos="fade-up">
@@ -435,8 +435,8 @@ $page_description = "Discover the best luxury wall panels in the UAE at Theyyamp
     </main>
 
     <!-- Footer & Scripts -->
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

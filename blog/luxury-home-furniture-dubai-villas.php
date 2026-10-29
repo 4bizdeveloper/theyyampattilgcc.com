@@ -13,7 +13,7 @@
 $page_title = "Luxury Home Furniture Dubai | Villa Room-by-Room Guide";
 $page_description = "Furnishing a Dubai villa? Our room-by-room luxury home furniture guide covers living, bedroom, closet, kitchen, dining and more. By Theyyampattil.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -394,7 +394,7 @@ $page_description = "Furnishing a Dubai villa? Our room-by-room luxury home furn
 </script>
 </head>
 <body>
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <header class="blog-hero">
     <div class="breadcrumb-container">
@@ -650,8 +650,8 @@ $page_description = "Furnishing a Dubai villa? Our room-by-room luxury home furn
 
 </main>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 <script>
     // FAQ Interactive Accordion

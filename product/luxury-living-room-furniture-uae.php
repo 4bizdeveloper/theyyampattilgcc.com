@@ -139,7 +139,7 @@
     }
     </script>
 
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
     <script>
@@ -611,7 +611,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMN58QX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- SEO Optimized Breadcrumb Section -->
     <nav class="breadcrumb-container" aria-label="Breadcrumb">
@@ -875,8 +875,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </section>
     </div>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <script>
         // FAQ Toggle with smooth interaction

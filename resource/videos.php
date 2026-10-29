@@ -24,7 +24,7 @@
 $page_title = "Video Gallery | Luxury Furniture & Custom Interior Designs | Theyyampattil";
 $page_description = "Explore our video showcase of custom-made luxury furniture, Italian handcrafted interior solutions, villa fit-outs, and bespoke craftsmanship by Theyyampattil Furniture GCC.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <!-- SEO Schema Markup -->
     <script type="application/ld+json">
@@ -404,7 +404,9 @@ $page_description = "Explore our video showcase of custom-made luxury furniture,
 </head>
 <body>
 
-<?php include '../includes/header.php'; ?>
+
+
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <main class="container">
 
@@ -564,8 +566,8 @@ $page_description = "Explore our video showcase of custom-made luxury furniture,
 
 </main>
 
-<?php include '../includes/fixed-floating-buttons.php'; ?>
-<?php include '../includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
 
 <script>
     // FAQ Accordion Toggle JS

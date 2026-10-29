@@ -112,7 +112,7 @@
 $page_title = "About Theyyampattil Furniture | UAE Luxury Interiors";
 $page_description = "Learn about Theyyampattil Furniture, a family-founded furniture and interiors brand established in 1983, serving UAE customers with bespoke designs and custom-made solutions.";
 ?>
-<?php include 'includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
 
 
   <!-- Google Tag Manager -->
@@ -693,7 +693,7 @@ em {
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMN58QX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- Header -->
-  <?php include 'includes/header.php'; ?>
+  <?php include SITE_ROOT . '/includes/header.php'; ?>
 
 
   <!-- ============================================================
@@ -1093,10 +1093,10 @@ em {
 
 
   <!-- Footer -->
-  <?php include 'includes/footer.php'; ?>
+  <?php include SITE_ROOT . '/includes/footer.php'; ?>
 
   <!-- Floating Buttons -->
-  <?php include 'includes/fixed-floating-buttons.php'; ?>
+  <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>

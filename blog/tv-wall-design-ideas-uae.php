@@ -19,7 +19,7 @@
 $page_title = "Modern TV Wall Design Ideas in UAE | Custom Feature Walls | Theyyampattil";
 $page_description = "Explore modern TV wall design ideas in UAE with custom feature walls, panel designs, and space-saving solutions. Upgrade your living room with Theyyampattil GCC.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
@@ -369,7 +369,7 @@ $page_description = "Explore modern TV wall design ideas in UAE with custom feat
 
 <body>
     <!-- Header -->
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <header class="hero">
         <div class="container">
@@ -469,10 +469,10 @@ $page_description = "Explore modern TV wall design ideas in UAE with custom feat
     </section>
 
     <!-- Footer -->
-    <?php include '../includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
 
     <!-- Floating Buttons -->
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <!-- Clean JS - Optimized Execution -->
     <script>

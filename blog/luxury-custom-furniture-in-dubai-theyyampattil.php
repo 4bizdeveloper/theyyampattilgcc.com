@@ -8,7 +8,7 @@
 $page_title = "Luxury Custom Furniture in Dubai | Theyyampattil";
 $page_description = "Custom luxury furniture in Dubai designer sofas, bedrooms, wall panels & more. Premium materials, 2-4 week delivery. Book your consultation today.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
@@ -404,7 +404,7 @@ $page_description = "Custom luxury furniture in Dubai designer sofas, bedrooms, 
 </head>
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <!-- HERO SECTION -->
 <section class="hero-section">
@@ -652,8 +652,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>

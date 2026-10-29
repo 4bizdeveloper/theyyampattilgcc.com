@@ -8,7 +8,7 @@
 $page_title = "Visiting Theyyampattil Furniture's Abu Dhabi Showroom: What to Expect";
 $page_description = "Plan your visit to Theyyampattil Furniture's Abu Dhabi showroom. Location, hours, custom luxury furniture options & what to expect. Book a consultation today.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
@@ -485,7 +485,7 @@ $page_description = "Plan your visit to Theyyampattil Furniture's Abu Dhabi show
 </head>
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <!-- Hero Section with Strict H1 Tag for SEO -->
 <section class="hero-section">
@@ -787,8 +787,8 @@ $page_description = "Plan your visit to Theyyampattil Furniture's Abu Dhabi show
     }
 </script>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>

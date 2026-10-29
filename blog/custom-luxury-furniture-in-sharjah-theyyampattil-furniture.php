@@ -11,7 +11,7 @@
 $page_title = "Custom Luxury Furniture in Sharjah | Theyyampattil Furniture";
 $page_description = "Bespoke luxury furniture in Sharjah for villas, apartments & commercial spaces. European materials, 35-50 day production, UAE-wide delivery.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
     <meta name="robots" content="index, follow">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -448,7 +448,7 @@ $page_description = "Bespoke luxury furniture in Sharjah for villas, apartments 
 </head>
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <!-- Hero Section -->
 <section class="hero">
@@ -669,8 +669,8 @@ $page_description = "Bespoke luxury furniture in Sharjah for villas, apartments 
     });
 </script>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>

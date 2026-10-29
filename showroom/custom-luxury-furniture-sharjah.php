@@ -152,7 +152,7 @@
 $page_title = "Custom Luxury Furniture in Sharjah | Theyyampattil";
 $page_description = "Custom luxury furniture in Sharjah — bespoke sofas, bedrooms & dining sets crafted with premium materials and expert installation.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
 <style>
     :root {
@@ -689,7 +689,7 @@ $page_description = "Custom luxury furniture in Sharjah — bespoke sofas, bedro
 <body>
 
 <!-- Header -->
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <!-- Hero Section Preserved Unchanged with Centered Breadcrumb Overlay -->
 <section class="main-hero text-center">
@@ -1184,10 +1184,10 @@ $page_description = "Custom luxury furniture in Sharjah — bespoke sofas, bedro
 </main>
 
 <!-- Footer -->
-<?php include '../includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
 
 <!-- Floating Buttons -->
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 </body>

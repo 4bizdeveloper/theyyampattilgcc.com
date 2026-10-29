@@ -30,7 +30,7 @@
 $page_title = "Customized Luxury Furniture in Dubai | Bespoke Modern Interiors by Theyyampattil";
 $page_description = "Explore customized luxury furniture in Dubai by Theyyampattil, with bespoke designs tailored to your space, materials and interior style.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <!-- SEO & Search Engine / AI Level Schema Markup -->
     <script type="application/ld+json">
@@ -290,7 +290,7 @@ $page_description = "Explore customized luxury furniture in Dubai by Theyyampatt
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMN58QX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- Header -->
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- Hero Section with Breadcrumb -->
     <section class="hero-modern">
@@ -427,8 +427,8 @@ $page_description = "Explore customized luxury furniture in Dubai by Theyyampatt
     </section>
 
     <!-- Footer & Scripts -->
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

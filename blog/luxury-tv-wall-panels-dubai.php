@@ -25,6 +25,7 @@
     
     
     
+    
 
     <!-- Schema Markup 1: BreadcrumbList Schema -->
     <script type="application/ld+json">
@@ -103,7 +104,7 @@
 $page_title = "Luxury TV Wall Panels in Dubai | Custom Designs UAE – Theyyampattil";
 $page_description = "Explore luxury TV wall panels in Dubai with custom designs and premium finishes. Get modern wall panel ideas from Theyyampattil Furniture UAE.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
@@ -149,7 +150,11 @@ $page_description = "Explore luxury TV wall panels in Dubai with custom designs 
             font-family: var(--font-family);
             line-height: 1.6;
             overflow-x: hidden;
-            contain: content;
+            /* 
+               FIX APPLIED: Removed 'contain: content;' 
+               The 'contain' property breaks 'position: fixed' for the header 
+               and floating buttons by restricting their containing block. 
+            */
         }
 
         a { 
@@ -371,7 +376,7 @@ $page_description = "Explore luxury TV wall panels in Dubai with custom designs 
 <body>
 
 <!-- Header -->
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <main>
     <!-- Modern Hero -->
@@ -457,10 +462,10 @@ $page_description = "Explore luxury TV wall panels in Dubai with custom designs 
 </main>
 
 <!-- Footer -->
-<?php include '../includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
 
 <!-- Floating Buttons -->
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 <!-- Minimal Modern JS for smooth scrolling/interactions -->
 <script>

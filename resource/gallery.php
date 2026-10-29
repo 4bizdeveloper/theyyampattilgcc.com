@@ -23,7 +23,7 @@
 $page_title = "Gallery | Luxury Custom Furniture & Interior Design | Theyyampattil";
 $page_description = "Explore Theyyampattil Furniture gallery showcasing luxury interiors, custom-made furniture, modern kitchens, wardrobes, and premium home designs across UAE.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>     
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>     
 
     <!-- Validated SEO Schema Markup Integration -->
     <script type="application/ld+json">
@@ -469,7 +469,7 @@ $page_description = "Explore Theyyampattil Furniture gallery showcasing luxury i
 
 <body>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- Breadcrumb Nav Section (Centered format: Home/Resources/Gallery) -->
     <div class="breadcrumb-container">
@@ -642,8 +642,8 @@ $page_description = "Explore Theyyampattil Furniture gallery showcasing luxury i
         </div>
     </section>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <script>

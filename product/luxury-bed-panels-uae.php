@@ -28,7 +28,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
  
     <!-- Common <head> include materials -->
-    <?php include '../includes/head-tag-include.php'; ?>    
+    <?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>    
 
     <!-- Validated Dynamic SEO, AEO, GEO Schema Markup -->
     <script type="application/ld+json">
@@ -580,7 +580,7 @@
 </head>
 
 <body>
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <div class="wrapper">
         <!-- SEO Optimized Breadcrumb Container -->
@@ -879,8 +879,8 @@
         </section>
     </div>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <script>
         // Interactive Accordion for FAQs

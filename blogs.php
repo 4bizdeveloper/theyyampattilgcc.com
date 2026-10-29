@@ -27,7 +27,7 @@
 $page_title = "Blogs & Interior Design Insights | Theyyampattil Furniture GCC";
 $page_description = "Explore expert luxury furniture tips, bespoke interior design ideas, TV wall units, custom walk-in closets and home décor trends across Dubai, Abu Dhabi and the UAE.";
 ?>
-<?php include 'includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
 
     <!-- JSON-LD Structured Data (Breadcrumb, Blog, FAQ & ItemList Schema for AEO/SEO) -->
     <script type="application/ld+json">
@@ -508,7 +508,7 @@ $page_description = "Explore expert luxury furniture tips, bespoke interior desi
 
 <body>
 
-    <?php include 'includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- Hero Section with Breadcrumbs -->
     <section class="hero-section">
@@ -1098,8 +1098,8 @@ $page_description = "Explore expert luxury furniture tips, bespoke interior desi
         </div>
     </section>
 
-    <?php include 'includes/footer.php'; ?>
-    <?php include 'includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <!-- Deferred Scripts for Maximum Page Speed and GTmetrix Performance -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>

@@ -16,7 +16,7 @@
 $page_title = "Modern TV Wall Unit UAE | Custom TV Cabinets – Theyyampattil";
 $page_description = "Luxury TV Wall Unit UAE designs by Theyyampattil Furniture. Custom, premium TV cabinets and entertainment units for stylish living rooms. Book a consultation.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
 
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -643,7 +643,7 @@ $page_description = "Luxury TV Wall Unit UAE designs by Theyyampattil Furniture.
 </head>
 
 <body>
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <div class="wrapper">
 
@@ -956,8 +956,8 @@ $page_description = "Luxury TV Wall Unit UAE designs by Theyyampattil Furniture.
 
     </div>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <script>
         document.querySelectorAll('.faq-question').forEach(item => {

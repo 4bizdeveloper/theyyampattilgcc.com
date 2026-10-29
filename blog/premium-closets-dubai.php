@@ -33,7 +33,7 @@
 $page_title = "Premium Closets in Dubai | Luxury Custom Wardrobe Solutions UAE";
 $page_description = "Discover premium closets in Dubai with custom wardrobe designs, luxury finishes, and expert installation by Theyyampattil GCC. Perfect for modern villas and apartments in UAE.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <!-- JSON-LD Structured Data Schemas -->
     <script type="application/ld+json">
@@ -529,7 +529,7 @@ $page_description = "Discover premium closets in Dubai with custom wardrobe desi
 </head>
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <header class="hero">
     <div class="container">
@@ -725,8 +725,8 @@ $page_description = "Discover premium closets in Dubai with custom wardrobe desi
 
 </main>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>

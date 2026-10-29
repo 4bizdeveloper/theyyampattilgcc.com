@@ -44,7 +44,7 @@
 $page_title = "How to Choose Luxury Furniture in Dubai | Buying Guide | Theyyampattil";
 $page_description = "Discover how to choose luxury furniture for your home in Dubai. Explore premium designs, custom options, and expert tips from Theyyampattil for elegant living spaces.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <!-- Dynamic Modern SEO & Breadcrumb Schema Markup (JSON-LD) -->
     <script type="application/ld+json">
@@ -333,7 +333,7 @@ $page_description = "Discover how to choose luxury furniture for your home in Du
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMN58QX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- Ultra Modern Hero -->
     <header class="hero-minimal">
@@ -478,8 +478,8 @@ $page_description = "Discover how to choose luxury furniture for your home in Du
         </div>
     </main>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <!-- New Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

@@ -21,7 +21,7 @@
     <meta property="og:url" content="https://theyyampattilgcc.com/product/premium-wall-partition-uae/">
     <meta property="og:image" content="https://theyyampattilgcc.com/assets/images/gallery/part-0.jpg">
 
-    <?php include '../includes/head-tag-include.php'; ?>    
+    <?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>    
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
     <script>
@@ -546,7 +546,7 @@
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMN58QX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <div class="breadcrumb-container">
         <ul class="breadcrumb" aria-label="Breadcrumb">
@@ -812,8 +812,8 @@
         </section>
     </div>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <script>
         // FAQ Accordion

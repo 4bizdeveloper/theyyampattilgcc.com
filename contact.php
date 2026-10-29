@@ -51,7 +51,7 @@ $symbol = isset($_SESSION['captcha_operator']) ? $_SESSION['captcha_operator'] :
 $page_title = "Contact Theyyampattil Furniture | Dubai, Sharjah & Abu Dhabi";
 $page_description = "Contact Theyyampattil Furniture for luxury furniture and custom interiors in the UAE. Visit our Dubai, Sharjah and Abu Dhabi showrooms or call 800 8733 / +971 55 913 2200.";
 ?>
-<?php include 'includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
     <script>
@@ -241,7 +241,7 @@ $page_description = "Contact Theyyampattil Furniture for luxury furniture and cu
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMN58QX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="page-wrapper">
-        <?php include 'includes/header.php'; ?>
+        <?php include SITE_ROOT . '/includes/header.php'; ?>
 
         <section class="pt-32 pb-12 px-4 text-center">
             <h1 class="text-4xl md:text-7xl font-extrabold mb-4 tracking-tight">Contact <span class="text-brand">Us</span></h1>
@@ -381,8 +381,8 @@ $page_description = "Contact Theyyampattil Furniture for luxury furniture and cu
             </div>
         </section>
 
-        <?php include 'includes/footer.php'; ?>
-        <?php include 'includes/fixed-floating-buttons.php'; ?>
+        <?php include SITE_ROOT . '/includes/footer.php'; ?>
+        <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

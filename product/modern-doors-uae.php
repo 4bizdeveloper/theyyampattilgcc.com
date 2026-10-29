@@ -21,7 +21,7 @@
 $page_title = "Modern Doors in UAE | Luxury Custom Entryways & Wooden Doors Dubai";
 $page_description = "Explore custom modern doors in Dubai & UAE. Expertly engineered luxury interior, exterior, sliding, and pivot doors combining European joinery with premium finishes. Get a free quote today.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQCL6SX9EV"></script>
     <script>
@@ -549,7 +549,7 @@ $page_description = "Explore custom modern doors in Dubai & UAE. Expertly engine
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMN58QX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- SEO Optimized Breadcrumb Navigation at Top Center -->
     <nav class="seo-breadcrumb-container" aria-label="Breadcrumb">
@@ -697,8 +697,8 @@ $page_description = "Explore custom modern doors in Dubai & UAE. Expertly engine
         </section>
     </div>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
     <script>
         // High Performance Non-Jumping FAQ Accordion

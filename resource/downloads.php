@@ -26,7 +26,7 @@
 $page_title = "Downloads & Furniture Catalogs | Theyyampattil Furniture GCC";
 $page_description = "Download the latest corporate portfolio, luxury furniture catalogs, interior design guides, and project brochures from Theyyampattil Furniture GCC.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>     
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>     
 
     <!-- Structured Data (JSON-LD) for BreadcrumbList -->
     <script type="application/ld+json">
@@ -455,7 +455,7 @@ $page_description = "Download the latest corporate portfolio, luxury furniture c
 </head>
 <body>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <section class="hero-section">
         <div class="container">
@@ -632,8 +632,8 @@ $page_description = "Download the latest corporate portfolio, luxury furniture c
         </div>
     </div>
 
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
-    <?php include '../includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script>

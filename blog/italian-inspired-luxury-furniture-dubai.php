@@ -11,7 +11,7 @@
 $page_title = "Italian Luxury Furniture Dubai | Italian-Inspired Design Guide";
 $page_description = "Explore Italian-inspired luxury furniture in Dubai: key design features, materials and styles, plus how to bring them home. By Theyyampattil.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
@@ -466,7 +466,7 @@ $page_description = "Explore Italian-inspired luxury furniture in Dubai: key des
     </style>
 </head>
 <body>
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- ===== HERO SECTION ===== -->
     <section class="hero" aria-label="Italian Luxury Furniture Dubai hero">
@@ -810,7 +810,7 @@ $page_description = "Explore Italian-inspired luxury furniture in Dubai: key des
         })();
     </script>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 </body>
 </html>

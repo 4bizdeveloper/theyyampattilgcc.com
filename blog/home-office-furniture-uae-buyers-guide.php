@@ -411,7 +411,7 @@ $page_description = "Home office furniture buyer's guide for the UAE - desks, ch
 </head>
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
 <!-- Hero Section -->
 <section class="hero-section">
@@ -646,8 +646,8 @@ $page_description = "Home office furniture buyer's guide for the UAE - desks, ch
     });
 </script>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>

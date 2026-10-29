@@ -25,7 +25,7 @@
 $page_title = "Theyyampattil Furniture: UAE's Bespoke Luxury Furniture Brand";
 $page_description = "Discover Theyyampattil Furniture — a 40+ year heritage brand crafting bespoke luxury furniture across Dubai, Sharjah & Abu Dhabi.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?> 
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?> 
 
     <!-- High-Performance Ultra-Modern CSS Styling -->
     <style>
@@ -572,7 +572,7 @@ $page_description = "Discover Theyyampattil Furniture — a 40+ year heritage br
 </head>
 <body>
 
-<?php include '../includes/header.php'; ?>
+<?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- Hero Section -->
     <header class="hero">
@@ -789,8 +789,8 @@ $page_description = "Discover Theyyampattil Furniture — a 40+ year heritage br
         </div>
     </main>
 
-<?php include '../includes/footer.php'; ?>
-<?php include '../includes/fixed-floating-buttons.php'; ?>
+<?php include SITE_ROOT . '/includes/footer.php'; ?>
+<?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>

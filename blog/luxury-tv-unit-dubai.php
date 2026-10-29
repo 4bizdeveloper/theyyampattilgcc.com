@@ -12,7 +12,7 @@
 $page_title = "Luxury TV Unit Dubai: Modern TV Wall Unit Ideas & Trends";
 $page_description = "Explore luxury TV unit designs in Dubai, from modern TV wall units to statement finishes. Get ideas, materials, and pricing tips for 2026.";
 ?>
-<?php include '../includes/head-tag-include.php'; ?>
+<?php include SITE_ROOT . '/includes/head-tag-include.php'; ?>
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -628,7 +628,7 @@ $page_description = "Explore luxury TV unit designs in Dubai, from modern TV wal
 </head>
 <body>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include SITE_ROOT . '/includes/header.php'; ?>
 
     <!-- Hero Section with Breadcrumbs -->
     <header class="hero">
@@ -901,8 +901,8 @@ $page_description = "Explore luxury TV unit designs in Dubai, from modern TV wal
         });
     </script>
 
-    <?php include '../includes/footer.php'; ?>
-    <?php include '../includes/fixed-floating-buttons.php'; ?>
+    <?php include SITE_ROOT . '/includes/footer.php'; ?>
+    <?php include SITE_ROOT . '/includes/fixed-floating-buttons.php'; ?>
 
 </body>
 </html>
