@@ -256,6 +256,11 @@ $page_description = "Explore the best luxury furniture stores in Abu Dhabi with 
             background: var(--brand-gold);
             border-radius: 2px;
         }
+        /* Fix for the FAQ Section Title Underline */
+section[style*="background: #080808;"] .section-title::after {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
 
         /* Responsive Symmetric Grid Layouts */
         .grid-2 {
@@ -548,7 +553,7 @@ $page_description = "Explore the best luxury furniture stores in Abu Dhabi with 
     <!-- Interactive FAQ Section -->
     <section style="background: #080808;">
         <div class="container">
-            <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">FAQs About Luxury Furniture in Abu Dhabi</h2>
+            <h2 class="section-title" style="text-align: center; margin-bottom: 40px; display: block; width: fit-content; margin-left: auto; margin-right: auto;">FAQs About Luxury Furniture in Abu Dhabi</h2>
             <div class="faq-wrapper">
                 <details class="faq-item">
                     <summary class="faq-title">
