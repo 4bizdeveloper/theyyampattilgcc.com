@@ -1,44 +1,79 @@
 <?php
-// Define absolute root path for clean includes everywhere
+// Define absolute root path
 define('SITE_ROOT', __DIR__);
 
-// Get the clean request path
-$request = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
-$request = strtok($request, '?');
+$requestUri = $_SERVER['REQUEST_URI'];
+$basePath = parse_url($requestUri, PHP_URL_PATH);
 
-if (!empty($request)) {
-    // Sanitize multi-level paths properly
-    $segments = explode('/', $request);
-    $safeSegments = array_map(function($seg) {
-        return preg_replace('/[^a-zA-Z0-9\-_]/', '', $seg);
-    }, $segments);
-    
-    $path = implode('/', $safeSegments);
-    
-    $targetPhp = SITE_ROOT . '/' . $path . '.php';
-
-    // Exclude operational files
-    if ($path === 'send-mail.php') {
-        if (file_exists(SITE_ROOT . '/send-mail.php')) {
-            include SITE_ROOT . '/send-mail.php';
-            exit;
-        }
-    }
-
-    // If the corresponding .php file exists (e.g. resource/videos.php)
-    if (file_exists($targetPhp)) {
-        // Enforce trailing slash canonical redirection if missing
-        if (substr($_SERVER['REQUEST_URI'], -1) !== '/' && $_SERVER['REQUEST_METHOD'] === 'GET') {
-            header("Location: /" . $path . "/", true, 301);
-            exit;
-        }
-        include $targetPhp;
+// 1. If accessing index.php directly, redirect to root
+if ($basePath === '/index.php') {
+    if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+        header("Location: /", true, 301);
         exit;
     }
 }
 
-// Fallback: If no custom route matched, load your normal home page content
-// (Or put your home page code directly below this file if index.php is your homepage)
+// 2. If someone types /about.php, redirect to /about/
+if (preg_match('/\.php$/i', $basePath)) {
+    $cleanPath = preg_replace('/\.php$/i', '', $basePath);
+    if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+        $queryString = !empty($_SERVER['QUERY_STRING']) ? '?' . $_SERVER['QUERY_STRING'] : '';
+        header("Location: " . $cleanPath . "/" . $queryString, true, 301);
+        exit;
+    }
+}
+
+$route = trim($basePath, '/');
+
+// 3. Handle Homepage
+if ($route === '') {
+    // Falls through to render homepage below
+} else {
+    // Sanitize path
+    $route = filter_var($route, FILTER_SANITIZE_URL);
+    $route = preg_replace('/[^a-zA-Z0-9\-_[\/]/', '', $route);
+    
+    // Handle special operational scripts like send-mail.php
+    if ($route === 'send-mail' && file_exists(SITE_ROOT . '/send-mail.php')) {
+        include SITE_ROOT . '/send-mail.php';
+        exit;
+    }
+
+    $targetFile = SITE_ROOT . '/' . $route . '.php';
+
+    // Check if the file exists
+    if (file_exists($targetFile) && !is_dir($targetFile)) {
+        // Enforce trailing slash on clean URLs (e.g. /about -> /about/)
+        if (substr($basePath, -1) !== '/' && $_SERVER['REQUEST_METHOD'] === 'GET') {
+            $queryString = !empty($_SERVER['QUERY_STRING']) ? '?' . $_SERVER['QUERY_STRING'] : '';
+            header("Location: " . $basePath . "/" . $queryString, true, 301);
+            exit;
+        }
+
+        include $targetFile;
+        exit;
+    } else {
+        // Proper SEO 404 Header and page
+        header("HTTP/1.0 404 Not Found");
+        header("Status: 404 Not Found");
+        
+        $custom404 = SITE_ROOT . '/404.php';
+        if (file_exists($custom404)) {
+            include $custom404;
+        } else {
+            echo "<div style='text-align:center; padding: 100px 20px; font-family: sans-serif;'>";
+            echo "<h1 style='font-size: 48px; margin-bottom: 10px;'>404</h1>";
+            echo "<p style='font-size: 18px; color: #666;'>The page you are looking for does not exist.</p>";
+            echo "<a href='/' style='color: #a47c68; text-decoration: underline;'>Return to Homepage</a>";
+            echo "</div>";
+        }
+        exit;
+    }
+}
+
+// ==========================================
+// YOUR HOMEPAGE CONTENT STARTS BELOW THIS
+// ==========================================
 ?>
 
 

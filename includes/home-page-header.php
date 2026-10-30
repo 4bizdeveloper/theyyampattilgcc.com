@@ -244,8 +244,8 @@
   </div>
 
   <nav class="nav-main" role="navigation" aria-label="Main Navigation">
-    <a href="https://theyyampattilgcc.com/" class="nav-logo" aria-label="Theyyampattil Furniture Home">
-      <img src="assets/images/home-page/logo/theyyampattil-header-logo.avif"
+    <a href="/" class="nav-logo" aria-label="Theyyampattil Furniture Home">
+      <img src="/assets/images/home-page/logo/theyyampattil-header-logo.avif"
            alt="Theyyampattil Luxury Furniture"
            width="180" height="80"
            loading="eager"
@@ -254,7 +254,7 @@
     </a>
 
     <div class="nav-links" role="menubar">
-      <div class="nav-item" role="none"><a href="https://theyyampattilgcc.com/" class="active" role="menuitem">Home</a></div>
+      <div class="nav-item" role="none"><a href="/" class="active" role="menuitem">Home</a></div>
       <div class="nav-item" role="none"><a href="about/" role="menuitem">About</a></div>
 
       <div class="nav-item" role="none">
@@ -310,7 +310,7 @@
 
   <div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile Navigation">
     <div class="mobile-section-label" aria-hidden="true">Menu</div>
-    <a href="https://theyyampattilgcc.com/">Home</a>
+    <a href="/">Home</a>
     <a href="about/">About</a>
     <div class="mobile-section-label" aria-hidden="true">Products</div>
     <div class="mobile-sub">

@@ -248,10 +248,10 @@
 
     <!-- Brand -->
     <div class="footer-brand">
-      <a href="https://theyyampattilgcc.com/" class="footer-logo" aria-label="Theyyampattil Furniture — Home">
+      <a href="/" class="footer-logo" aria-label="Theyyampattil Furniture — Home">
         <!-- width/height attributes prevent layout shift (CLS) -->
         <img
-          src="assets/images/home-page/logo/footer-logo.svg"
+          src="/assets/images/home-page/logo/footer-logo.svg"
           alt="Theyyampattil Furniture"
           width="240"
           height="120"
